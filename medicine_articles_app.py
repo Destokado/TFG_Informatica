@@ -21,8 +21,8 @@ def safePercent(number, total):
     if (number > total): raise ValueError('number cannot be greater than total')
     return number/total*100
 
-site = pywikibot.Site('en', 'wikipedia')
-pages = pywikibot.Page(site, 'Pablo Picasso').linkedPages(namespaces=0,total=100)  # Get the outlinks of the namespace 0 (Article)
+site = pywikibot.Site('ca', 'wikipedia')
+pages = pywikibot.Page(site, 'Francisco_de_Goya_y_Lucientes').linkedPages(namespaces=0)  # Get the outlinks of the namespace 0 (Article)
 repo = site.data_repository()
 maleCount = 0;
 femaleCount = 0;
@@ -32,9 +32,9 @@ for page in pages:
 
     try:
         qualifier = page.data_item().getID()
-        print(qualifier)
+        #qualifier = qualifier.getID()
+       # print(qualifier)
     except:
-        print('x')
         continue
 
     item = pywikibot.ItemPage(repo, qualifier)

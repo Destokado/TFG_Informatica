@@ -7,6 +7,8 @@ __pycache__/
 
 # C extensions
 *.so
+#Pywikibot
+/apicache-py3
 
 # Distribution / packaging
 .Python
