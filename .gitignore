@@ -9,6 +9,8 @@ __pycache__/
 *.so
 #Pywikibot
 /apicache-py3/
+pywkibot.lwp
+throttle.ctrl
 
 # Distribution / packaging
 .Python
