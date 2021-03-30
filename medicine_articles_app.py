@@ -31,15 +31,11 @@ othersCount = 0;
 for page in pages:
 
     try:
-
-        qualifier = page.data_item()
-        qualifier = qualifier.getID()
+        qualifier = page.data_item().getID()
         print(qualifier)
     except:
         print('x')
         continue
-
-    #newSite = pywikibot.Site("wikidata", "wikidata")
 
     item = pywikibot.ItemPage(repo, qualifier)
     dict_claims = item.get()['claims']
@@ -48,18 +44,16 @@ for page in pages:
     if dict_claims:
         try:
             p = dict_claims['P31'][0].getTarget()  # Target page of the property P31
-            p.get()
             value = p.title()  # Value of the property 'P31'
-
-            if value == 'Q5':
+            if value == 'Q5': #Is a human
                 print('The item ' + qualifier + ' is a human and is a')
                 gender = dict_claims['P21'][0].getTarget().title()
-                #  gender = gender.title()
+
                 if (gender):
-                    if 'Q6581097' in gender:
+                    if 'Q6581097' == gender:
                         maleCount += 1  # Is a male
                         print('************is a male')
-                    elif ('Q6581072' in gender):
+                    elif ('Q6581072' == gender):
                         femaleCount += 1  # Is a female
                         print('***************is a female')
 
