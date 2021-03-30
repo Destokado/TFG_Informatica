@@ -7,7 +7,7 @@ __pycache__/
 
 # C extensions
 *.so
-#Pywikibot
+# Pywikibot
 /apicache-py3/
 pywkibot.lwp
 throttle.ctrl
