@@ -38,16 +38,14 @@ def count_by_lang(lang: str, page: str,
     maleCount = 0;
     femaleCount = 0;
     othersCount = 0;
-    qualifiers = list()
+    print(linkedPages)
     for linkedpage in linkedPages:
 
         try:
             qualifier = linkedpage.data_item().getID()
-            if qualifier in qualifiers: continue
-            qualifiers.append(qualifier)
         except:
-            continue
 
+            continue
         item = pywikibot.ItemPage(repo, qualifier)
         dict_claims = item.get()['claims']
 
@@ -55,22 +53,24 @@ def count_by_lang(lang: str, page: str,
             p = dict_claims['P31'][0].getTarget()  # Target page of the property P31
             value = p.title()  # Value of the property 'P31'
             if value == 'Q5':  # Is a human
-                # print('The item ' + qualifier + ' is a human and is a')
+
                 gender = dict_claims['P21'][0].getTarget().title()
                 print(f'The qualifier {qualifier} represents the person {linkedpage.title()} and')
                 if 'Q6581097' == gender:
                     maleCount += 1  # Is a male
-                    print('************is a male')
+                    print('************************************************is a male')
                 elif ('Q6581072' == gender):
                     femaleCount += 1  # Is a female
-                    print('***************is a female')
+                    print('****************************************************is a female')
                 else:
                     othersCount += 1  # Is other gender
-                    print('**************is other')
+                    print('*******************************************is other')
         except KeyError as err:
-
             # print('Keyerror, continuing the loop', err)
             continue
+
+
+
     totalCount = maleCount + femaleCount + othersCount
     dict_count = {'language': lang, 'page': workingPage.title(), 'qualifier': workingPage.data_item().getID(),
                   'sister_project': sister_project,
@@ -78,6 +78,8 @@ def count_by_lang(lang: str, page: str,
                   'percentage': {'males': safePercent(maleCount, totalCount),
                                  'females': safePercent(femaleCount, totalCount),
                                  'others': safePercent(othersCount, totalCount)}, 'timestamp': timestamp}
+
+
     return dict_count
 
 
@@ -97,6 +99,17 @@ if __name__ == '__main__':
     main()
 
 
+query="""SELECT DISTINCT ?person ?personLabel  ?genderLabel 
+WHERE
+{
+  ?person ?transcluded wd:Q5296.
+  ?person wdt:P31 wd:Q5.
+  ?person wdt:P21 ?gender.
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+}
+
+
+"""
 def synchronized_add(dict):
     with self._lock:
         # Add dict to the general dict
@@ -106,3 +119,4 @@ def synchronized_add(dict):
 
 # Previous time 0:04:31.471516
 #0:04:21.906243 without restricting list
+#0:04:24.934458 with restricting list
