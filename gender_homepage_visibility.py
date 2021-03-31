@@ -1,6 +1,9 @@
 import datetime
 import time
 
+import self as self
+from multiprocessing.sharedctypes import synchronized
+import threading
 import dash
 import pandas as pd
 import plotly as px
@@ -41,29 +44,27 @@ for page in pages:
     dict_claims = item.get()['claims']
 
     # print(property_dict)
-    if dict_claims:
-        try:
-            p = dict_claims['P31'][0].getTarget()  # Target page of the property P31
-            value = p.title()  # Value of the property 'P31'
-            if value == 'Q5': #Is a human
-                #print('The item ' + qualifier + ' is a human and is a')
-                gender = dict_claims['P21'][0].getTarget().title()
 
-                if (gender):
-                    if 'Q6581097' == gender:
-                        maleCount += 1  # Is a male
-                     #   print('************is a male')
-                    elif ('Q6581072' == gender):
-                        femaleCount += 1  # Is a female
-                      #  print('***************is a female')
+    try:
+        p = dict_claims['P31'][0].getTarget()  # Target page of the property P31
+        value = p.title()  # Value of the property 'P31'
+        if value == 'Q5': #Is a human
+            #print('The item ' + qualifier + ' is a human and is a')
+            gender = dict_claims['P21'][0].getTarget().title()
 
-                    else:
-                        othersCount += 1  # Is other
-                      #  print('**************is other')
-        except KeyError as err:
+            if 'Q6581097' == gender:
+                maleCount += 1  # Is a male
+             #   print('************is a male')
+            elif ('Q6581072' == gender):
+                femaleCount += 1  # Is a female
+              #  print('***************is a female')
+            else:
+                    othersCount += 1  # Is other
+                  #  print('**************is other')
+    except KeyError as err:
 
-            #print('Keyerror, continuing the loop', err)
-            continue
+        #print('Keyerror, continuing the loop', err)
+        continue
 
 print('The gender count is as follows:')
 print('Males: ', maleCount)
@@ -76,5 +77,13 @@ print(f'Males: {safePercent(maleCount,totalCount)} Females: {safePercent(femaleC
 
 print(f'Script ended in { datetime.timedelta(seconds=finishTIme-startTime)}')
 
+
+def synchronizedAdd(dict):
+
+    with self._lock:
+        #Add dict to the general dict
+        #OR
+        #Include dict to the database
+        print('')
 
 #Previous time 0:04:31.471516
