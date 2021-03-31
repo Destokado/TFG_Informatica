@@ -2,8 +2,8 @@ import datetime
 import time
 import self as self
 import pywikibot
-
-
+from pywikibot import pagegenerators as pg
+from pywikibot.data.sparql import SparqlQuery
 # Libraries
 # pip install wptools https://github.com/siznax/wptools easy to get info page= wptools.page('Ghandi') --> Page.get_wikidata(), etc.
 
@@ -13,10 +13,42 @@ import pywikibot
 def main():
     startTime = time.time()
 
-    dict_count = count_by_lang(lang='ca', page='Pablo Picasso', sister_project='wikipedia')
+    query = """SELECT DISTINCT ?person ?personLabel  ?genderLabel 
+    WHERE
+    {
+      ?person ?transcluded wd:Q20875537.
+      ?person wdt:P31 wd:Q5.
+      ?person wdt:P21 ?gender.
+      SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+    }"""
 
-    show_results(startTime, dict_count)
+    queryCounter= """SELECT ?gender ?genderLabel (count(distinct ?person) as ?number) 
+    WHERE
+    {
+      ?person ?transcluded wd:qualifier.
+      ?person wdt:P31 wd:Q5.
+      ?person wdt:P21 ?gender.
+      SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en".
+    ?gender rdfs:label ?genderLabel.}
+    }
+    GROUP BY  ?gender ?genderLabel """
 
+    retrieve_from_wikidata(queryCounter,'ca','Eudald Calvo i Català')
+    #dict_count = count_by_lang(lang='ca', page='Pablo Picasso', sister_project='wikipedia')
+
+#    show_results(startTime, dict_count)
+
+def retrieve_from_wikidata(query:str,lang:str,page:str):
+    timestamp = time.time()
+    site = pywikibot.Site(lang)
+
+    workingPage = pywikibot.Page(site, page).data_item().getID()
+    print(workingPage)
+    query = query.replace('qualifier',workingPage)
+    print(query)
+    wikiquery = SparqlQuery()
+    result = wikiquery.select(query)
+    print(result)
 
 def safePercent(number, total):
     if (number == 0 or total == 0): return 0
@@ -28,6 +60,7 @@ def count_by_lang(lang: str, page: str,
                   sister_project: str):
     timestamp = time.time()
     site = pywikibot.Site(lang, sister_project)
+
 
     workingPage = pywikibot.Page(site, page)
     print(f'The working page is{workingPage}')
@@ -99,17 +132,6 @@ if __name__ == '__main__':
     main()
 
 
-query="""SELECT DISTINCT ?person ?personLabel  ?genderLabel 
-WHERE
-{
-  ?person ?transcluded wd:Q5296.
-  ?person wdt:P31 wd:Q5.
-  ?person wdt:P21 ?gender.
-  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
-}
-
-
-"""
 def synchronized_add(dict):
     with self._lock:
         # Add dict to the general dict
