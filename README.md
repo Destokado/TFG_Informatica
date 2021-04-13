@@ -7,5 +7,32 @@ Extra: Triar una llengua i veure evolucio en el temps
 Extra Extra: Fer-ho per als projectes germans
 
 
-Triga molt, per tant haurem de fer threading.
-Fer que cada thread corri una versió linguistica diferent, i anar iterant a mesura que van acabant amb el patró consumer/producer.
+Queries:
+- Trobar els titols i els page_id de cada outlink d'una pàgina (Per fer més d'una pàgina, usar la clausula "IN" en comptes de "=")
+"SELECT pagelinks.pl_title, page.page_id 
+FROM pagelinks 
+INNER JOIN page ON pagelinks.pl_title = page.page_title
+WHERE pagelinks.pl_from = 1378 AND pagelinks.pl_from_namespace = 0 AND pagelinks.pl_namespace = 0"
+
+- Count gender outlinks of a given article
+ """SELECT ?gender ?genderLabel (count(distinct ?person) as ?number) 
+   WHERE
+   {
+     ?person ?transcluded wd:qualifier.
+     ?person wdt:P31 wd:Q5.
+     ?person wdt:P21 ?gender.
+     SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en".
+   ?gender rdfs:label ?genderLabel.}
+   }
+   GROUP BY  ?gender ?genderLabel """
+   
+
+- Show gender outlinks and Q of a given article
+"""SELECT DISTINCT ?person ?personLabel  ?genderLabel 
+   WHERE
+   {
+     ?person ?transcluded wd:qualifier.
+     ?person wdt:P31 wd:Q5.
+     ?person wdt:P21 ?gender.
+     SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+   }"""

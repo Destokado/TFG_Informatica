@@ -1,54 +1,88 @@
 import datetime
 import time
-import self as self
 import pywikibot
-from pywikibot import pagegenerators as pg
+from pywikibot import pagegenerators
+from pywikibot.data import mysql
 from pywikibot.data.sparql import SparqlQuery
+
 # Libraries
 # pip install wptools https://github.com/siznax/wptools easy to get info page= wptools.page('Ghandi') --> Page.get_wikidata(), etc.
 
 # WikiRepo --> useful for MAPS and locations --> retrieve locations with specific depth and timespan https://github.com/andrewtavis/wikirepo
 
+# startregion
+query = """SELECT DISTINCT ?person ?personLabel  ?genderLabel 
+   WHERE
+   {
+     ?person ?transcluded wd:qualifier.
+     ?person wdt:P31 wd:Q5.
+     ?person wdt:P21 ?gender.
+     SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+   }"""
+
+queryCounter = """SELECT ?gender ?genderLabel (count(distinct ?person) as ?number) 
+   WHERE
+   {
+     ?person ?transcluded wd:qualifier.
+     ?person wdt:P31 wd:Q5.
+     ?person wdt:P21 ?gender.
+     SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en".
+   ?gender rdfs:label ?genderLabel.}
+   }
+   GROUP BY  ?gender ?genderLabel """
+
+
+# endregion
 
 def main():
     startTime = time.time()
+    getMainPageTitles()
+    # query = 'select page_id from page where page_title = "PORTADA" AND page_namespace = 0'
+    # result=mysql.mysql_query(query)
 
-    query = """SELECT DISTINCT ?person ?personLabel  ?genderLabel 
-    WHERE
-    {
-      ?person ?transcluded wd:Q20875537.
-      ?person wdt:P31 wd:Q5.
-      ?person wdt:P21 ?gender.
-      SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
-    }"""
+    # gen = pagegenerators.MySQLPageGenerator(queryCounter)
 
-    queryCounter= """SELECT ?gender ?genderLabel (count(distinct ?person) as ?number) 
-    WHERE
-    {
-      ?person ?transcluded wd:qualifier.
-      ?person wdt:P31 wd:Q5.
-      ?person wdt:P21 ?gender.
-      SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en".
-    ?gender rdfs:label ?genderLabel.}
-    }
-    GROUP BY  ?gender ?genderLabel """
 
-    retrieve_from_wikidata(queryCounter,'ca','Eudald Calvo i Català')
-    #dict_count = count_by_lang(lang='ca', page='Pablo Picasso', sister_project='wikipedia')
+#    for p in gen:
+#    print(p.title)
 
-#    show_results(startTime, dict_count)
+    #retrieve_from_wikidata(queryCounter,'ca','Portada')
+# dict_count = count_by_lang(lang='ca', page='Pablo Escobar Gaviria', sister_project='wikipedia')
 
-def retrieve_from_wikidata(query:str,lang:str,page:str):
+# show_results(startTime, dict_count)
+def getMainPageTitles():
+    site = pywikibot.Site('wikidata','wikidata')
+    repo = site.data_repository()
+    item = pywikibot.ItemPage(repo,"Q5296")
+    sitelinks = item.iterlinks(family='wikipedia')
+
+    lang_dict = {}
+    for link in sitelinks:
+
+        val = str(link)
+        val = val.replace('[', '')
+        val = val.replace(']', '')
+        val = val.split(':')
+
+        element = {val[0] : val[1]}
+
+        lang_dict.update(element)
+
+    print(lang_dict)
+
+
+def retrieve_from_wikidata(query: str, lang: str, page: str):
     timestamp = time.time()
     site = pywikibot.Site(lang)
 
     workingPage = pywikibot.Page(site, page).data_item().getID()
     print(workingPage)
-    query = query.replace('qualifier',workingPage)
+    query = query.replace('qualifier', workingPage)
     print(query)
     wikiquery = SparqlQuery()
     result = wikiquery.select(query)
     print(result)
+
 
 def safePercent(number, total):
     if (number == 0 or total == 0): return 0
@@ -61,11 +95,11 @@ def count_by_lang(lang: str, page: str,
     timestamp = time.time()
     site = pywikibot.Site(lang, sister_project)
 
-
     workingPage = pywikibot.Page(site, page)
     print(f'The working page is{workingPage}')
-    linkedPages = workingPage.linkedPages(
-        namespaces=0)  # Get the outlinks of the namespace 0 (Article)
+    linkedPages = workingPage.embeddedin(namespaces=0)
+    # linkedPages = workingPage.linkedPages(
+    #    namespaces=0)  # Get the outlinks of the namespace 0 (Article)
     repo = site.data_repository()
 
     maleCount = 0;
@@ -75,6 +109,7 @@ def count_by_lang(lang: str, page: str,
     for linkedpage in linkedPages:
 
         try:
+
             qualifier = linkedpage.data_item().getID()
         except:
 
@@ -102,8 +137,6 @@ def count_by_lang(lang: str, page: str,
             # print('Keyerror, continuing the loop', err)
             continue
 
-
-
     totalCount = maleCount + femaleCount + othersCount
     dict_count = {'language': lang, 'page': workingPage.title(), 'qualifier': workingPage.data_item().getID(),
                   'sister_project': sister_project,
@@ -111,7 +144,6 @@ def count_by_lang(lang: str, page: str,
                   'percentage': {'males': safePercent(maleCount, totalCount),
                                  'females': safePercent(femaleCount, totalCount),
                                  'others': safePercent(othersCount, totalCount)}, 'timestamp': timestamp}
-
 
     return dict_count
 
@@ -130,15 +162,3 @@ def show_results(startTime, dict_count):
 
 if __name__ == '__main__':
     main()
-
-
-def synchronized_add(dict):
-    with self._lock:
-        # Add dict to the general dict
-        # OR
-        # Include dict to the database
-        print('')
-
-# Previous time 0:04:31.471516
-#0:04:21.906243 without restricting list
-#0:04:24.934458 with restricting list
