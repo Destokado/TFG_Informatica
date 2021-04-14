@@ -23,7 +23,7 @@ query = """SELECT DISTINCT ?person ?personLabel  ?genderLabel
 queryCounter = """SELECT ?gender ?genderLabel (count(distinct ?person) as ?number) 
    WHERE
    {
-     ?person ?transcluded wd:qualifier.
+     ?person ?transclude wd:qualifier.
      ?person wdt:P31 wd:Q5.
      ?person wdt:P21 ?gender.
      SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en".
@@ -35,36 +35,56 @@ queryCounter = """SELECT ?gender ?genderLabel (count(distinct ?person) as ?numbe
 # endregion
 
 def main():
-    startTime = time.time()
-    getMainPageTitles()
-    # query = 'select page_id from page where page_title = "PORTADA" AND page_namespace = 0'
-    # result=mysql.mysql_query(query)
+    langswiki = {}
+    final_dict = {}
+    for l in langswiki:
+        timestamp = time.time()
+        site = pywikibot.Site('langCode', 'wikipedia')
+        articleNames = getOutlinkNames()
+        queryValues = createQueryValues(site, articleNames)
+        queryResult_dict = {}  # make SPARQL query and get a JSON
+        final_dict += {'langCode', {queryResult_dict, timestamp}}
 
-    # gen = pagegenerators.MySQLPageGenerator(queryCounter)
+
+def getOutlinkNames():
+    # TODO
+    print('not implemented')
+    return ['not implemented']
 
 
-#    for p in gen:
-#    print(p.title)
+def createQueryValues(site: pywikibot.Site,
+                      article_names: list(str)):  # Return a string with all the values like wd:id1 wd:id2...
+    valuesString = ""
 
-    #retrieve_from_wikidata(queryCounter,'ca','Portada')
-# dict_count = count_by_lang(lang='ca', page='Pablo Escobar Gaviria', sister_project='wikipedia')
+    for a in article_names:
+        qid = getWikiDataId(site, a)
+        valuesString += 'wd:' + qid + " "
+    return valuesString
 
-# show_results(startTime, dict_count)
+
+def getWikiDataId(site: pywikibot.Site, article: str):
+    return pywikibot.Page(site, article).data_item().getID()
+
+
+def getPageIDsByNames(articleNames: str):
+    query = 'select page_id,page_title from page where page_title IN articleNames AND page_namespace = 0'
+    return mysql.mysql_query(query)
+
+
 def getMainPageTitles():
-    site = pywikibot.Site('wikidata','wikidata')
+    site = pywikibot.Site('wikidata', 'wikidata')
     repo = site.data_repository()
-    item = pywikibot.ItemPage(repo,"Q5296")
+    item = pywikibot.ItemPage(repo, "Q5296")
     sitelinks = item.iterlinks(family='wikipedia')
 
     lang_dict = {}
     for link in sitelinks:
-
         val = str(link)
         val = val.replace('[', '')
         val = val.replace(']', '')
         val = val.split(':')
 
-        element = {val[0] : val[1]}
+        element = {val[0]: val[1]}
 
         lang_dict.update(element)
 

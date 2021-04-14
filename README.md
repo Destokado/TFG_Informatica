@@ -36,3 +36,18 @@ WHERE pagelinks.pl_from = 1378 AND pagelinks.pl_from_namespace = 0 AND pagelinks
      ?person wdt:P21 ?gender.
      SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
    }"""
+   
+- Count the genders of the given articles:
+SELECT ?gender ?genderLabel (count(distinct ?person) as ?number)
+WHERE { 
+  VALUES ?person{
+  wd:Q5593
+  wd:Q23548
+  wd:Q5577
+} 
+     ?person wdt:P31 wd:Q5.
+     ?person wdt:P21 ?gender.
+     SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en".
+   ?gender rdfs:label ?genderLabel.}
+   }
+   GROUP BY  ?gender ?genderLabel
