@@ -1,17 +1,18 @@
 import datetime
+import json
 import time
+import wikipedia
 import pywikibot
-from pywikibot import pagegenerators
 from pywikibot.data import mysql
 from pywikibot.data.sparql import SparqlQuery
-
+from pywikibot import pagegenerators
 # Libraries
 # pip install wptools https://github.com/siznax/wptools easy to get info page= wptools.page('Ghandi') --> Page.get_wikidata(), etc.
 
 # WikiRepo --> useful for MAPS and locations --> retrieve locations with specific depth and timespan https://github.com/andrewtavis/wikirepo
 
 # startregion
-query = """SELECT DISTINCT ?person ?personLabel  ?genderLabel 
+queryQ = """SELECT DISTINCT ?person ?personLabel  ?genderLabel 
    WHERE
    {
      ?person ?transcluded wd:qualifier.
@@ -35,25 +36,47 @@ queryCounter = """SELECT ?gender ?genderLabel (count(distinct ?person) as ?numbe
 # endregion
 
 def main():
-    langswiki = {}
+    # Get the languageCode and the name of the main page #TODO: Store languageCode and the page_id of the main page
+    with open('langcode_mainPage_ID.json.json', encoding="utf8") as f:
+        langcode_pageid_dict = json.load(f)
+
+    get_gender_data(langcode_pageid_dict)
+
+
+def get_gender_data(langcode_pageid_dict):
     final_dict = {}
-    for l in langswiki:
+    for langcode in langcode_pageid_dict.keys():
         timestamp = time.time()
-        site = pywikibot.Site('langCode', 'wikipedia')
-        articleNames = getOutlinkNames()
+
+        articleNames = getOutlinkNames(langcode=langcode, page_id=langcode_pageid_dict[langcode])
+        site = pywikibot.Site(langcode, 'wikipedia')
         queryValues = createQueryValues(site, articleNames)
-        queryResult_dict = {}  # make SPARQL query and get a JSON
-        final_dict += {'langCode', {queryResult_dict, timestamp}}
+
+        wikiquery = SparqlQuery()
+        query = query.replace('qualifier', queryValues)
+        queryResult_dict = wikiquery.select(query)
+        # make SPARQL query and get a JSON of this format #https://www.w3.org/TR/2013/REC-sparql11-results-json-20130321
+        final_dict[langcode] = {queryResult_dict, timestamp}
+    return final_dict
 
 
-def getOutlinkNames():
-    # TODO
-    print('not implemented')
+def getOutlinkNames(page_id:int,langcode:str):
+    # TODO Format tuples to match return
+    namesQuery = "SELECT pagelinks.pl_title FROM pagelinks INNER JOIN page ON pagelinks.pl_title = page.page_title WHERE pagelinks.pl_from = %s AND pagelinks.pl_from_namespace = 0 AND pagelinks.pl_namespace = 0"
+    #%s is a replacement for the page_id to look for
+    result = mysql.mysql_query(namesQuery,params=page_id, dbname=langcode+'wiki')
+    generator = pagegenerators.MySQLPageGenerator(namesQuery)
+
+    r = result.__next__()
+    t = next(result)
+    print(t)
+
+    #print(tuples.gi_yieldfrom)
     return ['not implemented']
 
 
 def createQueryValues(site: pywikibot.Site,
-                      article_names: list(str)):  # Return a string with all the values like wd:id1 wd:id2...
+                      article_names: list):  # Return a string with all the values like wd:id1 wd:id2...
     valuesString = ""
 
     for a in article_names:
@@ -66,9 +89,21 @@ def getWikiDataId(site: pywikibot.Site, article: str):
     return pywikibot.Page(site, article).data_item().getID()
 
 
-def getPageIDsByNames(articleNames: str):
-    query = 'select page_id,page_title from page where page_title IN articleNames AND page_namespace = 0'
-    return mysql.mysql_query(query)
+def getPageIDByName(langcode:str,mainPageName: str):
+    #query = 'select page_id from page where page_title = %s AND page_namespace = 0'
+    #result = mysql.mysql_query(query,params=mainPageName,dbname=langcode)
+    #result.close()
+    try:
+        wikipedia.set_lang(langcode)
+        page = wikipedia.page(title=mainPageName)
+        id = page.pageid
+        return id
+    except Exception as e:
+        print(e)
+        print(f'Something wrong with {langcode} and {mainPageName}')
+        pass
+   # print(langcode,page.title,id)
+
 
 
 def getMainPageTitles():

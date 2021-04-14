@@ -12,7 +12,7 @@ Queries:
 "SELECT pagelinks.pl_title, page.page_id 
 FROM pagelinks 
 INNER JOIN page ON pagelinks.pl_title = page.page_title
-WHERE pagelinks.pl_from = 1378 AND pagelinks.pl_from_namespace = 0 AND pagelinks.pl_namespace = 0"
+WHERE pagelinks.pl_from = page identifier AND pagelinks.pl_from_namespace = 0 AND pagelinks.pl_namespace = 0"
 
 - Count gender outlinks of a given article
  """SELECT ?gender ?genderLabel (count(distinct ?person) as ?number) 
