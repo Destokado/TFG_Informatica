@@ -17,12 +17,13 @@ import requests
 # WikiRepo --> useful for MAPS and locations --> retrieve locations with specific depth and timespan https://github.com/andrewtavis/wikirepo
 
 # endregion
+with open('test.json', encoding="utf8") as f:
+    langcode_pageid_dict = json.load(f)
 
 def main():
 
 
-    with open('test.json', encoding="utf8") as f:
-        langcode_pageid_dict = json.load(f)
+
 
     result = get_gender_data(langcode_pageid_dict)
     print(result)
@@ -35,6 +36,17 @@ def main():
 def create_gender_homepage_visibility_db():
     conn = sqlite3.connect(wikilanguages_utils.databases_path + 'gender_homepage_visibility_db')
     cursor = conn.cursor()
+    #TODO: Create table with Qitems as genders
+
+    table_name = 'wiki_gender_homepage_metrics'
+    query = f"CREATE TABLE IF NOT EXISTS {table_name} (lang varchar ,timestamp timestamp, male integer , female integer, ,PRIMARY KEY (lang,timestamp ))"
+    cursor.execute(query)
+
+    table_name = 'wiki_homepage_items'
+    query = f"CREATE TABLE IF NOT EXISTS {table_name} (lang varchar, item varchar,gender varchar ,PRIMARY KEY (lang,timestamp))"
+    cursor.execute(query)
+
+    conn.commit()
 
 
 
@@ -49,7 +61,7 @@ def get_gender_data(langcode_pageid_dict):
     final_dict = {}
     url = 'https://query.wikidata.org/sparql'
     headers = {'Content-type': 'application/sparql-query'}
-    query = 'SELECT ?genderLabel (count(distinct ?person) as ?number) WHERE { VALUES ?person{ %s } ?person wdt:P31 wd:Q5. ?person wdt:P21 ?gender. SERVICE wikibase:label { bd:serviceParam wikibase:language "en". ?gender rdfs:label ?genderLabel.} } GROUP BY  ?gender ?genderLabel'
+    query = 'SELECT ?gender (count(distinct ?person) as ?number) WHERE { VALUES ?person{ %s } ?person wdt:P31 wd:Q5. ?person wdt:P21 ?gender. SERVICE wikibase:label { bd:serviceParam wikibase:language "en". ?gender rdfs:label ?genderLabel.} } GROUP BY  ?gender'
     for langcode in langcode_pageid_dict.keys():
         timestamp = time.time()
         try:
@@ -61,6 +73,7 @@ def get_gender_data(langcode_pageid_dict):
             print(f'**********************Something wrong with {langcode}******************************************')
             traceback.print_exc()
             continue
+
         site = pywikibot.Site(langcode, 'wikipedia')
         queryValues = createQueryValues(site, articleNames)
         newquery = query.replace('%s', queryValues)
