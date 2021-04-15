@@ -46,7 +46,7 @@ def main():
     result = get_gender_data(langcode_pageid_dict)
     print(result)
 
-    with open ('results.txt','w') as t:
+    with open ('results.json','w') as t:
         json.dump(t,indent=4)
 
 
