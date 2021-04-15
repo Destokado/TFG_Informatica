@@ -8,6 +8,7 @@ import pywikibot
 from pywikibot.data import mysql
 from pywikibot.data.sparql import SparqlQuery
 from pywikibot import pagegenerators
+import requests
 # Libraries
 # pip install wptools https://github.com/siznax/wptools easy to get info page= wptools.page('Ghandi') --> Page.get_wikidata(), etc.
 
@@ -38,16 +39,16 @@ queryCounter = """SELECT ?gender ?genderLabel (count(distinct ?person) as ?numbe
 # endregion
 
 def main():
-    # Get the languageCode and the name of the main page #TODO: Store languageCode and the page_id of the main page
 
-    with open('langcode_mainPage_ID.json', encoding="utf8") as f:
+
+    with open('test.json', encoding="utf8") as f:
         langcode_pageid_dict = json.load(f)
 
     result = get_gender_data(langcode_pageid_dict)
     print(result)
 
-    with open ('results.json','w') as t:
-        json.dump(t,indent=4)
+    with open ('results.json','w'):
+        json.dump(result,indent=4)
 
 
 
@@ -58,12 +59,15 @@ def get_gender_data(langcode_pageid_dict):
 
     counter = len(langcode_pageid_dict.keys())
     final_dict = {}
+    url = 'https://query.wikidata.org/sparql'
+    headers = {'Content-type': 'application/sparql-query'}
     query = 'SELECT ?genderLabel (count(distinct ?person) as ?number) WHERE { VALUES ?person{ %s } ?person wdt:P31 wd:Q5. ?person wdt:P21 ?gender. SERVICE wikibase:label { bd:serviceParam wikibase:language "en". ?gender rdfs:label ?genderLabel.} } GROUP BY  ?gender ?genderLabel'
     for langcode in langcode_pageid_dict.keys():
         timestamp = time.time()
         try:
             articleNames = getOutlinkNames(langcode=langcode, page_id=langcode_pageid_dict[langcode])
         except KeyError as e:
+
             continue
         except Exception as ex:
             print(f'**********************Something wrong with {langcode}******************************************')
@@ -71,12 +75,14 @@ def get_gender_data(langcode_pageid_dict):
             continue
         site = pywikibot.Site(langcode, 'wikipedia')
         queryValues = createQueryValues(site, articleNames)
-
-        wikiquery = SparqlQuery()
         newquery = query.replace('%s', queryValues)
-        queryResult_list =wikiquery.select(newquery)
-        queryResult_dict = parseListQueryToDict(queryResult_list)
 
+
+        r = requests.post(url,params={'format':'json'},data=newquery,headers=headers)
+        #wikiquery = SparqlQuery()
+        #queryResult_list =wikiquery.select(newquery)
+        #queryResult_dict = parseListQueryToDict(queryResult_list)
+        queryResult_dict = parseResponse(r)
         print(f'For lang {langcode}: {queryResult_dict}')
         final_dict[langcode] = [queryResult_dict, timestamp]
         elapsedTime = datetime.timedelta(seconds= time.time() - startTime)
@@ -87,9 +93,28 @@ def get_gender_data(langcode_pageid_dict):
     print(f'Script started at {dt.fromtimestamp(startTime)} and ended at {dt.fromtimestamp(finish_time)}. Duration of :{datetime.timedelta(seconds=finish_time - startTime)}')
 
     return final_dict
+def parseResponse(response):
+    parsedResult = {'male':0,'female':0,'non-binary':0,'intersex':0,'transgender male':0,'transgender female':0,'agender':0}
 
+    try: response = response.json()
+    except json.decoder.JSONDecodeError as e:
+        print(response.text)
+        traceback.print_exc()
+        return parsedResult
+
+    if len(response["results"]["bindings"]) !=0:
+        for row in response["results"]["bindings"]:
+            try:
+                gender = row["genderLabel"]["value"]
+                number = row["number"]["value"]
+                parsedResult[gender] = number
+            except:
+                continue
+
+    return parsedResult
 def parseListQueryToDict(queryResult_list):
     parsedResult = {'male':0,'female':0,'non-binary':0,'intersex':0,'transgender male':0,'transgender female':0,'agender':0}
+
     try:
         for row in queryResult_list:
             gender = row['genderLabel']
@@ -256,18 +281,6 @@ def count_by_lang(lang: str, page: str,
                                  'others': safePercent(othersCount, totalCount)}, 'timestamp': timestamp}
 
     return dict_count
-
-
-def show_results(startTime, dict_count):
-    print('The gender count is as follows:')
-    print('Males: ', dict_count['counter']['males'])
-    print('Females: ', dict_count['counter']['females'])
-    print('Others: ', dict_count['counter']['others'])
-    print('The gender outlinks percentage of this article is:')
-    finish_time = time.time()
-    print(
-        f'Males: {dict_count["percentage"]["males"]} Females: {dict_count["percentage"]["females"]} and Others: {dict_count["percentage"]["others"]}')
-    print(f'Script ended in {datetime.timedelta(seconds=finish_time - startTime)}')
 
 
 if __name__ == '__main__':
