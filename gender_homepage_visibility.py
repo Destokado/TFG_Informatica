@@ -1,10 +1,12 @@
 import datetime
 import json
+import sqlite3
 import time
 import traceback
 from datetime import datetime as dt
 import wikipedia
 import pywikibot
+import wikilanguages_utils
 from pywikibot.data import mysql
 from pywikibot.data.sparql import SparqlQuery
 from pywikibot import pagegenerators
@@ -13,28 +15,6 @@ import requests
 # pip install wptools https://github.com/siznax/wptools easy to get info page= wptools.page('Ghandi') --> Page.get_wikidata(), etc.
 
 # WikiRepo --> useful for MAPS and locations --> retrieve locations with specific depth and timespan https://github.com/andrewtavis/wikirepo
-
-# startregion
-queryQ = """SELECT DISTINCT ?person ?personLabel  ?genderLabel 
-   WHERE
-   {
-     ?person ?transcluded wd:qualifier.
-     ?person wdt:P31 wd:Q5.
-     ?person wdt:P21 ?gender.
-     SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
-   }"""
-
-queryCounter = """SELECT ?gender ?genderLabel (count(distinct ?person) as ?number) 
-   WHERE
-   {
-     ?person ?transclude wd:qualifier.
-     ?person wdt:P31 wd:Q5.
-     ?person wdt:P21 ?gender.
-     SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en".
-   ?gender rdfs:label ?genderLabel.}
-   }
-   GROUP BY  ?gender ?genderLabel """
-
 
 # endregion
 
@@ -47,8 +27,16 @@ def main():
     result = get_gender_data(langcode_pageid_dict)
     print(result)
 
-    with open ('results.json','w'):
-        json.dump(result,indent=4)
+    with open ('results.json','w') as fp:
+        json.dump(result,fp,indent=4)
+
+
+
+def create_gender_homepage_visibility_db():
+    conn = sqlite3.connect(wikilanguages_utils.databases_path + 'gender_homepage_visibility_db')
+    cursor = conn.cursor()
+
+
 
 
 

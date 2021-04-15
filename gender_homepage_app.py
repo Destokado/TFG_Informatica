@@ -2,8 +2,11 @@ import json
 
 import dash
 import dash_core_components as dcc
+from dash import dependencies
 import pandas as pd
 import plotly.express as px
+from dash.dependencies import Output,Input
+
 import wikilanguages_utils
 from dash_apps import *
 #########################################################
@@ -18,9 +21,8 @@ with open('languagecode_mainpage.json', encoding="utf8") as f:
     file = json.load(f)
 
 wikilanguagecodes = file.keys()
+language_names_list = wikilanguagecodes
 
-
-language_names_list = []
 lang_groups = list()
 lang_groups += ['Top 5','Top 10', 'Top 20', 'Top 30', 'Top 40']#, 'Top 50']
 #lang_groups += territories['region'].unique().tolist()
@@ -36,38 +38,23 @@ dict = {"es": {'male': 1, 'female': 23},
                    "it": {'male': 15, 'female': 10}}
 df = pd.DataFrame.from_dict(dict,orient='index')
 
-fig = px.bar(df, barmode='stack')
-fig.layout.title='Gender count of people articles appearing in the Main Page by wikipedia'
 ### DASH APP ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ###
 # dash_app23 = Dash(__name__, server = app, url_base_pathname = webtype + '/search_ccc_articles/', external_stylesheets=external_stylesheets ,external_scripts=external_scripts)
 title_addenda = ' - Wikipedia Diversity Observatory (WDO)'
 external_stylesheets = ['https://wcdo.wmflabs.org/assets/bWLwgP.css']
 app = dash.Dash(url_base_pathname='/homepage_gender_visibility/', external_stylesheets=external_stylesheets)
 app.config['suppress_callback_exceptions'] = True
-title = 'HP Gender Visibility'
+title = 'Home Page Gender Visibility'
 app.title = title+title_addenda
 
-#app.layout = \
-#    html.Div([
-#    dcc.Location(id='url', refresh=False),
-#    html.H1(id='header', children='Gender Visibility for each language edition'),
-#    html.Div(id='page-content'),
-#    dcc.Graph(
-#        id='example-graph',
-#        figure=fig
-#    )
-#])
-app.layout=html.Div([
+app.layout= html.Div([
     navbar,
     html.H3(title, style={'textAlign':'center'}),
     dcc.Markdown('''
         This page shows stastistics and graphs that illustrate the gender gap in Wikipedia language editions Main Page. For a detailed analysis on the evolution of gender gap over time or the pageviews women articles receive, you can check [Diversity Over Time](http://wcdo.wmflabs.org/diversity_over_time) and [Last Month Pageviews](https://wcdo.wmflabs.org/last_month_pageviews/).
         '''),
 
-    # html.H5('Gender Gap in Wikipedia Language Editions'),
-
     dcc.Markdown('''* **What is the gender gap in the Main Page of specific groups of Wikipedia language editions?**'''.replace('  ', '')),
-
 
     html.Div(
     html.P('Select a group of Wikipedias'),
@@ -88,17 +75,47 @@ app.layout=html.Div([
     html.P('You can add or remove languages:'),
     style={'display': 'inline-block','width': '500px'}),
 
-    dcc.Dropdown(id='sourcelangdropdown_gender_gap',
+    dcc.Dropdown(id='sourcelangdropdown_homepage_gender_gap',
         options = [{'label': k, 'value': k} for k in language_names_list],
         multi=True),
 
 
-    dcc.Graph(id = 'language_gendergap_barchart', figure=fig),
+    dcc.Graph(id = 'language_homepage_gendergap_barchart'),
     footbar,
 
 ], className="container")
 
 
+### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ###
+
+#### CALLBACKS ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ###
+
+
+# GENDER GAP Dropdown languages
+@app.callback(
+    Output(component_id='sourcelangdropdown_homepage_gender_gap', component_property='value'),
+    [Input('grouplangdropdown', 'value')])
+def set_langs_options_spread(selected_group):
+    #langolist, langlistnames = wikilanguages_utils.get_langs_group(selected_group, None, None, None, wikipedialanguage_numberarticles, territories, languages)
+    #available_options = [{'label': i, 'value': i} for i in langlistnames.keys()]
+    #list_options = []
+    #for item in available_options:
+    #    list_options.append(item['label'])
+    #re = sorted(list_options,reverse=False)
+    #return re
+
+   return ['ca','es','it']
+
+
+#GENDER HOMEPAGE GAP Barchart
+@app.callback(
+    Output(component_id='language_homepage_gendergap_barchart',component_property='figure'),[Input('sourcelangdropdown_homepage_gender_gap','value')])
+def update_barchart(langlist):
+    #TODO: Implement callback to update the barchart with the selected langlist
+    filtered_df = df[df.index.isin(langlist)]
+    print(filtered_df)
+    newfig = px.bar(filtered_df,barmode='stack')
+    return newfig
 
 if __name__ == '__main__':
     app.run_server(debug=True)
