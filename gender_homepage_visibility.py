@@ -1,6 +1,8 @@
 import datetime
 import json
 import time
+import traceback
+from datetime import datetime as dt
 import wikipedia
 import pywikibot
 from pywikibot.data import mysql
@@ -37,42 +39,92 @@ queryCounter = """SELECT ?gender ?genderLabel (count(distinct ?person) as ?numbe
 
 def main():
     # Get the languageCode and the name of the main page #TODO: Store languageCode and the page_id of the main page
-    with open('langcode_mainPage_ID.json.json', encoding="utf8") as f:
+
+    with open('langcode_mainPage_ID.json', encoding="utf8") as f:
         langcode_pageid_dict = json.load(f)
 
-    get_gender_data(langcode_pageid_dict)
+    result = get_gender_data(langcode_pageid_dict)
+    print(result)
+
+    with open ('results.txt','w') as t:
+        json.dump(t,indent=4)
+
+
 
 
 def get_gender_data(langcode_pageid_dict):
+    startTime = time.time()
+    print(f'Fetch started at {dt.fromtimestamp(startTime)}')
+
+    counter = len(langcode_pageid_dict.keys())
     final_dict = {}
+    query = 'SELECT ?genderLabel (count(distinct ?person) as ?number) WHERE { VALUES ?person{ %s } ?person wdt:P31 wd:Q5. ?person wdt:P21 ?gender. SERVICE wikibase:label { bd:serviceParam wikibase:language "en". ?gender rdfs:label ?genderLabel.} } GROUP BY  ?gender ?genderLabel'
     for langcode in langcode_pageid_dict.keys():
         timestamp = time.time()
-
-        articleNames = getOutlinkNames(langcode=langcode, page_id=langcode_pageid_dict[langcode])
+        try:
+            articleNames = getOutlinkNames(langcode=langcode, page_id=langcode_pageid_dict[langcode])
+        except KeyError as e:
+            continue
+        except Exception as ex:
+            print(f'**********************Something wrong with {langcode}******************************************')
+            traceback.print_exc()
+            continue
         site = pywikibot.Site(langcode, 'wikipedia')
         queryValues = createQueryValues(site, articleNames)
 
         wikiquery = SparqlQuery()
-        query = query.replace('qualifier', queryValues)
-        queryResult_dict = wikiquery.select(query)
-        # make SPARQL query and get a JSON of this format #https://www.w3.org/TR/2013/REC-sparql11-results-json-20130321
-        final_dict[langcode] = {queryResult_dict, timestamp}
+        newquery = query.replace('%s', queryValues)
+        queryResult_list =wikiquery.select(newquery)
+        queryResult_dict = parseListQueryToDict(queryResult_list)
+
+        print(f'For lang {langcode}: {queryResult_dict}')
+        final_dict[langcode] = [queryResult_dict, timestamp]
+        elapsedTime = datetime.timedelta(seconds= time.time() - startTime)
+        counter -= 1
+        print(f' Current Elapsed time: {elapsedTime} language(s) remaining: {counter} ')
+
+    finish_time = time.time()
+    print(f'Script started at {dt.fromtimestamp(startTime)} and ended at {dt.fromtimestamp(finish_time)}. Duration of :{datetime.timedelta(seconds=finish_time - startTime)}')
+
     return final_dict
 
+def parseListQueryToDict(queryResult_list):
+    parsedResult = {'male':0,'female':0,'non-binary':0,'intersex':0,'transgender male':0,'transgender female':0,'agender':0}
+    try:
+        for row in queryResult_list:
+            gender = row['genderLabel']
+            number = row['number']
+            parsedResult[gender] = number
+    finally:
+        return parsedResult
 
 def getOutlinkNames(page_id:int,langcode:str):
     # TODO Format tuples to match return
-    namesQuery = "SELECT pagelinks.pl_title FROM pagelinks INNER JOIN page ON pagelinks.pl_title = page.page_title WHERE pagelinks.pl_from = %s AND pagelinks.pl_from_namespace = 0 AND pagelinks.pl_namespace = 0"
+    #TODO Get things right from the mysql query
+    #TODO Work out how to do the MYSQL query
+    #namesQuery = "SELECT pagelinks.pl_title FROM pagelinks INNER JOIN page ON pagelinks.pl_title = page.page_title WHERE pagelinks.pl_from = %s AND pagelinks.pl_from_namespace = 0 AND pagelinks.pl_namespace = 0"
     #%s is a replacement for the page_id to look for
-    result = mysql.mysql_query(namesQuery,params=page_id, dbname=langcode+'wiki')
-    generator = pagegenerators.MySQLPageGenerator(namesQuery)
+    #namesQuery.replace('%s',page_id)
 
-    r = result.__next__()
-    t = next(result)
-    print(t)
+   # for r in mysql.mysql_query(namesQuery,params=page_id, dbname= langcode+'wiki'):
+   #     print(r)
+   # for page in pagegenerators.MySQLPageGenerator(namesQuery):
+   #     print(page)
+    links = list()
+    try:
+        wikipedia.set_lang(langcode)
+        page = wikipedia.page(pageid=page_id)
+        links = page.links
+    except Exception as e:
+        print(f' Langcode: {langcode} and page_id: {page_id} ')
+   # except KeyError as e:
+   #     print(f' KeyError exception: There is no links for this {langcode} and page {page_id} with name {page.title}')
+   #     #The KeyError exception means there are no links
+        #traceback.print_exc()
 
+    #print(links)
     #print(tuples.gi_yieldfrom)
-    return ['not implemented']
+    return links
 
 
 def createQueryValues(site: pywikibot.Site,
@@ -80,8 +132,11 @@ def createQueryValues(site: pywikibot.Site,
     valuesString = ""
 
     for a in article_names:
-        qid = getWikiDataId(site, a)
-        valuesString += 'wd:' + qid + " "
+        try:
+            qid = getWikiDataId(site, a)
+            valuesString += 'wd:' + qid + " "
+        except pywikibot.exceptions.NoPage :
+            continue
     return valuesString
 
 
