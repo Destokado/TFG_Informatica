@@ -63,8 +63,15 @@ def get_gender_data(langcode_pageid_dict):
     final_list = []
     url = 'https://query.wikidata.org/sparql'
     headers = {'Content-type': 'application/sparql-query'}
-    query = 'SELECT ?gender (count(distinct ?person) as ?number) WHERE { VALUES ?person{ %s } ?person wdt:P31 wd:Q5. ?person wdt:P21 ?gender. SERVICE wikibase:label { bd:serviceParam wikibase:language "en". ?gender rdfs:label ?genderLabel.} } GROUP BY  ?gender'
 
+    query = """SELECT ?gender ?person WHERE {
+      VALUES ?person {
+      %s
+      }
+      ?person wdt:P31 wd:Q5;
+        wdt:P21 ?gender.
+    }
+    """
     for langcode in langcode_pageid_dict.keys():
 
         timestamp = time.time()
@@ -83,8 +90,9 @@ def get_gender_data(langcode_pageid_dict):
         parsed_sparql_response = parse_sparql_response(response)
 
         print(f'For lang {langcode}: {parsed_sparql_response}')
+        if(len(parsed_sparql_response)==0): continue
 
-        #final_list.append({'lang':langcode, 'item':item,'gender':gender,'timestamp':timestamp})
+        final_list.extend(parsed_sparql_response)
         #final_dict[langcode] = [queryResult_dict, timestamp]
         elapsedTime = datetime.timedelta(seconds= time.time() - startTime)
 
@@ -126,7 +134,7 @@ def parse_sparql_response(response:json,langcode:str,timestamp):
         for row in response["results"]["bindings"]:
             try:
                 gender = row["gender"]["value"]
-                item = row["item"]["value"]
+                item = row["person"]["value"]
                 parsedResult.append({{'lang':langcode, 'item':item,'timestamp':timestamp,'gender':gender}})
 
             except:

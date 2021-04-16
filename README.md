@@ -58,3 +58,18 @@ FROM pagelinks
 INNER JOIN page ON pagelinks.pl_title = page.page_title
 INNER JOIN page_props ON page_props.pp_page = page.page_id
 WHERE pagelinks.pl_from = 5958  AND pagelinks.pl_from_namespace = 0 AND pagelinks.pl_namespace = 0 and page_props.pp_propname = 'wikibase_item'
+
+- Get the gender Q and the person Q of given articles:
+SELECT ?gender ?person WHERE {
+  VALUES ?person {
+    wd:Q5593
+    wd:Q23548
+    wd:Q5577
+  }
+  ?person wdt:P31 wd:Q5;
+    wdt:P21 ?gender.
+  SERVICE wikibase:label {
+    bd:serviceParam wikibase:language "en".
+  }
+}
+GROUP BY ?gender ?person
