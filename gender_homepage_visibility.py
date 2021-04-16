@@ -4,10 +4,8 @@ import sqlite3
 import time
 import traceback
 from datetime import datetime as dt
-
 import pywikibot
 import requests
-import toolforge
 import wikipedia
 from pywikibot.data.sparql import SparqlQuery
 
@@ -19,7 +17,7 @@ import wikilanguages_utils
 # WikiRepo --> useful for MAPS and locations --> retrieve locations with specific depth and timespan https://github.com/andrewtavis/wikirepo
 
 # endregion
-with open('test.json', encoding="utf8") as f:
+with open('langcode_mainPage_ID.json', encoding="utf8") as f:
     langcode_pageid_dict = json.load(f)
 
 def main():
@@ -64,36 +62,29 @@ def get_gender_data(langcode_pageid_dict):
     url = 'https://query.wikidata.org/sparql'
     headers = {'Content-type': 'application/sparql-query'}
 
-    query = """SELECT ?gender ?person WHERE {
-      VALUES ?person {
-      %s
-      }
-      ?person wdt:P31 wd:Q5;
-        wdt:P21 ?gender.
-    }
-    """
+    query = "SELECT ?gender ?person WHERE { VALUES ?person { %s } ?person wdt:P31 wd:Q5; wdt:P21 ?gender. }"
     for langcode in langcode_pageid_dict.keys():
 
         timestamp = time.time()
-        queryValues = get_wikibase_items(langcode, langcode_pageid_dict[langcode])
+        try:
+            queryValues = get_wikibase_items(langcode, langcode_pageid_dict[langcode])
+        except KeyError:
+            print(f'Something wrong with {langcode} when getting the query values')
+            traceback.print_exc()
+            print('*********************CONTINUING EXECUTION************************')
+            continue
         newquery = query.replace('%s', queryValues)
-
         r = requests.post(url,params={'format':'json'},data=newquery,headers=headers)
-        #wikiquery = SparqlQuery()
-        #queryResult_list =wikiquery.select(newquery)
-        #queryResult_dict = parseListQueryToDict(queryResult_list)
+       
         try:
             response = r.json()
         except json.decoder.JSONDecodeError:
             continue
 
-        parsed_sparql_response = parse_sparql_response(response)
-
-        print(f'For lang {langcode}: {parsed_sparql_response}')
+        parsed_sparql_response = parse_sparql_response(response,langcode,timestamp)
         if(len(parsed_sparql_response)==0): continue
 
-        final_list.extend(parsed_sparql_response)
-        #final_dict[langcode] = [queryResult_dict, timestamp]
+        final_list.extend(parsed_sparql_response)#We use extend to append every element on the list. Otherwise, its appended as a single element
         elapsedTime = datetime.timedelta(seconds= time.time() - startTime)
 
         counter -= 1
@@ -114,28 +105,33 @@ def get_wikibase_items(langcode:str, main_page_id:int):
 
 
 def parse_wikibase_response(response:json): # Return a string with all the values like wd:id1 wd:id2...
-
     items = ""
-    for page in response['query']['pages']:
+
+    for page_id in response['query']['pages']:
+
         try:
 
-            Q = page['pageprops']['wikibase_item']
-            items+= 'wd:'+Q+" "
-        except KeyError:
+            Q = response['query']['pages'][page_id]['pageprops']['wikibase_item']
+
+            items+= "wd:"+Q+" "
+        except KeyError: #The value is not found in the dict
+            continue
+        except TypeError: #The link has no page
             continue
     return items
 
 def parse_sparql_response(response:json,langcode:str,timestamp):
     parsedResult = []
 
-
     if len(response["results"]["bindings"]) !=0:
 
         for row in response["results"]["bindings"]:
+
             try:
-                gender = row["gender"]["value"]
-                item = row["person"]["value"]
-                parsedResult.append({{'lang':langcode, 'item':item,'timestamp':timestamp,'gender':gender}})
+                gender = row["gender"]["value"].split('/')
+                person = row["person"]["value"].split('/')
+                #Extract the URI and get only the QXXX
+                parsedResult.append({'lang':langcode, 'person':person[len(person)-1],'timestamp':timestamp,'gender':gender[len(gender)-1]})
 
             except:
                 continue
