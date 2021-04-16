@@ -22,11 +22,7 @@ with open('langcode_mainPage_ID.json', encoding="utf8") as f:
 
 def main():
 
-
-
-
     result = get_gender_data(langcode_pageid_dict)
-    print(result)
 
     with open ('results.json','w') as fp:
         json.dump(result,fp,indent=4)
@@ -36,15 +32,12 @@ def main():
 def create_gender_homepage_visibility_db():
     conn = sqlite3.connect(wikilanguages_utils.databases_path + 'gender_homepage_visibility_db')
     cursor = conn.cursor()
-    #TODO: Create table with Qitems as genders
 
-    table_name = 'wiki_gender_homepage_metrics'
-    query = f"CREATE TABLE IF NOT EXISTS {table_name} (lang varchar ,timestamp timestamp, male integer , female integer, ,PRIMARY KEY (lang,timestamp ))"
+
+    table_name = 'persons'
+    query = f"CREATE TABLE IF NOT EXISTS {table_name} (lang varchar NOT NULL ,timestamp timestamp NOT NULL, gender integer , person integer NOT NULL ,PRIMARY KEY (lang,timestamp ))"
     cursor.execute(query)
 
-    table_name = 'wiki_homepage_items'
-    query = f"CREATE TABLE IF NOT EXISTS {table_name} (lang varchar, item varchar,gender varchar ,PRIMARY KEY (lang,timestamp))"
-    cursor.execute(query)
 
     conn.commit()
 
@@ -59,6 +52,7 @@ def get_gender_data(langcode_pageid_dict):
 
     counter = len(langcode_pageid_dict.keys())
     final_list = []
+    not_in_list = []
     url = 'https://query.wikidata.org/sparql'
     headers = {'Content-type': 'application/sparql-query'}
 
@@ -72,17 +66,24 @@ def get_gender_data(langcode_pageid_dict):
             print(f'Something wrong with {langcode} when getting the query values')
             traceback.print_exc()
             print('*********************CONTINUING EXECUTION************************')
+            not_in_list.append({'lang':langcode,'error':'Query Values'})
+            counter -= 1
             continue
         newquery = query.replace('%s', queryValues)
         r = requests.post(url,params={'format':'json'},data=newquery,headers=headers)
-       
+
         try:
             response = r.json()
         except json.decoder.JSONDecodeError:
+            not_in_list.append({'lang':langcode,'error':'Converting query to json'})
+            counter -= 1
             continue
 
         parsed_sparql_response = parse_sparql_response(response,langcode,timestamp)
-        if(len(parsed_sparql_response)==0): continue
+        if(len(parsed_sparql_response)==0):
+            not_in_list.append({'lang':langcode,'error':'Parsed response is empty'})
+            counter -= 1
+            continue
 
         final_list.extend(parsed_sparql_response)#We use extend to append every element on the list. Otherwise, its appended as a single element
         elapsedTime = datetime.timedelta(seconds= time.time() - startTime)
@@ -92,7 +93,7 @@ def get_gender_data(langcode_pageid_dict):
 
     finish_time = time.time()
     print(f'Script started at {dt.fromtimestamp(startTime)} and ended at {dt.fromtimestamp(finish_time)}. Duration of :{datetime.timedelta(seconds=finish_time - startTime)}')
-
+    print(not_in_list)
     return final_list
 
 def get_wikibase_items(langcode:str, main_page_id:int):
