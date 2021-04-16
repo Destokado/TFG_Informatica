@@ -4,29 +4,25 @@ import sqlite3
 import time
 import traceback
 from datetime import datetime as dt
-import wikipedia
 import pywikibot
-import wikilanguages_utils
-from pywikibot.data import mysql
-from pywikibot.data.sparql import SparqlQuery
-from pywikibot import pagegenerators
 import requests
+import wikipedia
+from pywikibot.data.sparql import SparqlQuery
+
+import wikilanguages_utils
+
 # Libraries
 # pip install wptools https://github.com/siznax/wptools easy to get info page= wptools.page('Ghandi') --> Page.get_wikidata(), etc.
 
 # WikiRepo --> useful for MAPS and locations --> retrieve locations with specific depth and timespan https://github.com/andrewtavis/wikirepo
 
 # endregion
-with open('test.json', encoding="utf8") as f:
+with open('langcode_mainPage_ID.json', encoding="utf8") as f:
     langcode_pageid_dict = json.load(f)
 
 def main():
 
-
-
-
     result = get_gender_data(langcode_pageid_dict)
-    print(result)
 
     with open ('results.json','w') as fp:
         json.dump(result,fp,indent=4)
@@ -36,15 +32,12 @@ def main():
 def create_gender_homepage_visibility_db():
     conn = sqlite3.connect(wikilanguages_utils.databases_path + 'gender_homepage_visibility_db')
     cursor = conn.cursor()
-    #TODO: Create table with Qitems as genders
 
-    table_name = 'wiki_gender_homepage_metrics'
-    query = f"CREATE TABLE IF NOT EXISTS {table_name} (lang varchar ,timestamp timestamp, male integer , female integer, ,PRIMARY KEY (lang,timestamp ))"
+
+    table_name = 'persons'
+    query = f"CREATE TABLE IF NOT EXISTS {table_name} (lang varchar NOT NULL ,timestamp timestamp NOT NULL, gender integer , person integer NOT NULL ,PRIMARY KEY (lang,timestamp ))"
     cursor.execute(query)
 
-    table_name = 'wiki_homepage_items'
-    query = f"CREATE TABLE IF NOT EXISTS {table_name} (lang varchar, item varchar,gender varchar ,PRIMARY KEY (lang,timestamp))"
-    cursor.execute(query)
 
     conn.commit()
 
@@ -58,61 +51,93 @@ def get_gender_data(langcode_pageid_dict):
     print(f'Fetch started at {dt.fromtimestamp(startTime)}')
 
     counter = len(langcode_pageid_dict.keys())
-    final_dict = {}
+    final_list = []
+    not_in_list = []
     url = 'https://query.wikidata.org/sparql'
     headers = {'Content-type': 'application/sparql-query'}
-    query = 'SELECT ?gender (count(distinct ?person) as ?number) WHERE { VALUES ?person{ %s } ?person wdt:P31 wd:Q5. ?person wdt:P21 ?gender. SERVICE wikibase:label { bd:serviceParam wikibase:language "en". ?gender rdfs:label ?genderLabel.} } GROUP BY  ?gender'
+
+    query = "SELECT ?gender ?person WHERE { VALUES ?person { %s } ?person wdt:P31 wd:Q5; wdt:P21 ?gender. }"
     for langcode in langcode_pageid_dict.keys():
+
         timestamp = time.time()
         try:
-            articleNames = getOutlinkNames(langcode=langcode, page_id=langcode_pageid_dict[langcode])
-        except KeyError as e:
-
-            continue
-        except Exception as ex:
-            print(f'**********************Something wrong with {langcode}******************************************')
+            queryValues = get_wikibase_items(langcode, langcode_pageid_dict[langcode])
+        except KeyError:
+            print(f'Something wrong with {langcode} when getting the query values')
             traceback.print_exc()
+            print('*********************CONTINUING EXECUTION************************')
+            not_in_list.append({'lang':langcode,'error':'Query Values'})
+            counter -= 1
+            continue
+        newquery = query.replace('%s', queryValues)
+        r = requests.post(url,params={'format':'json'},data=newquery,headers=headers)
+
+        try:
+            response = r.json()
+        except json.decoder.JSONDecodeError:
+            not_in_list.append({'lang':langcode,'error':'Converting query to json'})
+            counter -= 1
             continue
 
-        site = pywikibot.Site(langcode, 'wikipedia')
-        queryValues = createQueryValues(site, articleNames)
-        newquery = query.replace('%s', queryValues)
+        parsed_sparql_response = parse_sparql_response(response,langcode,timestamp)
+        if(len(parsed_sparql_response)==0):
+            not_in_list.append({'lang':langcode,'error':'Parsed response is empty'})
+            counter -= 1
+            continue
 
-
-        r = requests.post(url,params={'format':'json'},data=newquery,headers=headers)
-        #wikiquery = SparqlQuery()
-        #queryResult_list =wikiquery.select(newquery)
-        #queryResult_dict = parseListQueryToDict(queryResult_list)
-        queryResult_dict = parseResponse(r)
-        print(f'For lang {langcode}: {queryResult_dict}')
-        final_dict[langcode] = [queryResult_dict, timestamp]
+        final_list.extend(parsed_sparql_response)#We use extend to append every element on the list. Otherwise, its appended as a single element
         elapsedTime = datetime.timedelta(seconds= time.time() - startTime)
+
         counter -= 1
         print(f' Current Elapsed time: {elapsedTime} language(s) remaining: {counter} ')
 
     finish_time = time.time()
     print(f'Script started at {dt.fromtimestamp(startTime)} and ended at {dt.fromtimestamp(finish_time)}. Duration of :{datetime.timedelta(seconds=finish_time - startTime)}')
+    print(not_in_list)
+    return final_list
 
-    return final_dict
-def parseResponse(response):
-    parsedResult = {'male':0,'female':0,'non-binary':0,'intersex':0,'transgender male':0,'transgender female':0,'agender':0}
+def get_wikibase_items(langcode:str, main_page_id:int):
 
-    try: response = response.json()
-    except json.decoder.JSONDecodeError as e:
-        print(response.text)
-        traceback.print_exc()
-        return parsedResult
+    url = f"https://{langcode}.wikipedia.org/w/api.php?action=query&format=json&prop=pageprops&pageids={main_page_id}&generator=links&utf8=1&gplnamespace=0&gpllimit=max"
+    r = requests.get(url)
+    result = parse_wikibase_response(r.json())
+    return result
+
+
+
+def parse_wikibase_response(response:json): # Return a string with all the values like wd:id1 wd:id2...
+    items = ""
+
+    for page_id in response['query']['pages']:
+
+        try:
+
+            Q = response['query']['pages'][page_id]['pageprops']['wikibase_item']
+
+            items+= "wd:"+Q+" "
+        except KeyError: #The value is not found in the dict
+            continue
+        except TypeError: #The link has no page
+            continue
+    return items
+
+def parse_sparql_response(response:json,langcode:str,timestamp):
+    parsedResult = []
 
     if len(response["results"]["bindings"]) !=0:
+
         for row in response["results"]["bindings"]:
+
             try:
-                gender = row["genderLabel"]["value"]
-                number = row["number"]["value"]
-                parsedResult[gender] = number
+                gender = row["gender"]["value"].split('/')
+                person = row["person"]["value"].split('/')
+                #Extract the URI and get only the QXXX
+                parsedResult.append({'lang':langcode, 'person':person[len(person)-1],'timestamp':timestamp,'gender':gender[len(gender)-1]})
+
             except:
                 continue
-
     return parsedResult
+
 def parseListQueryToDict(queryResult_list):
     parsedResult = {'male':0,'female':0,'non-binary':0,'intersex':0,'transgender male':0,'transgender female':0,'agender':0}
 
@@ -141,6 +166,7 @@ def getOutlinkNames(page_id:int,langcode:str):
         wikipedia.set_lang(langcode)
         page = wikipedia.page(pageid=page_id)
         links = page.links
+
     except Exception as e:
         print(f' Langcode: {langcode} and page_id: {page_id} ')
    # except KeyError as e:
@@ -154,7 +180,7 @@ def getOutlinkNames(page_id:int,langcode:str):
 
 
 def createQueryValues(site: pywikibot.Site,
-                      article_names: list):  # Return a string with all the values like wd:id1 wd:id2...
+                      article_names: list):
     valuesString = ""
 
     for a in article_names:
