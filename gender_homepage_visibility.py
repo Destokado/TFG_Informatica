@@ -17,30 +17,41 @@ import wikilanguages_utils
 # WikiRepo --> useful for MAPS and locations --> retrieve locations with specific depth and timespan https://github.com/andrewtavis/wikirepo
 
 # endregion
-with open('langcode_mainPage_ID.json', encoding="utf8") as f:
-    langcode_pageid_dict = json.load(f)
+
 
 def main():
+    with open('langcode_mainPage_ID.json', encoding="utf8") as f:
+        langcode_pageid_dict = json.load(f)
 
     result = get_gender_data(langcode_pageid_dict)
+    print(result)
+    #with open('results.txt', 'w') as fp:
+    #    fp.writelines(result)
 
-    with open ('results.json','w') as fp:
-        json.dump(result,fp,indent=4)
+    conn = sqlite3.connect('gender_homepage_visibility_db')
+    cursor = conn.cursor()
+    query = "INSERT INTO persons (lang,timestamp ,gender,person) VALUES (?,?,?,?) ;"
+
+    cursor.executemany(query,result)
+
+    print(cursor.execute("SELECT * FROM persons"))
+
+    conn.commit()
+    conn.close()
+
 
 
 
 def create_gender_homepage_visibility_db():
-    conn = sqlite3.connect(wikilanguages_utils.databases_path + 'gender_homepage_visibility_db')
+    conn = sqlite3.connect('gender_homepage_visibility_db')
     cursor = conn.cursor()
 
 
     table_name = 'persons'
     query = f"CREATE TABLE IF NOT EXISTS {table_name} (lang varchar NOT NULL ,timestamp timestamp NOT NULL, gender integer , person integer NOT NULL ,PRIMARY KEY (lang,timestamp ))"
     cursor.execute(query)
-
-
     conn.commit()
-
+    conn.close()
 
 
 
@@ -132,7 +143,7 @@ def parse_sparql_response(response:json,langcode:str,timestamp):
                 gender = row["gender"]["value"].split('/')
                 person = row["person"]["value"].split('/')
                 #Extract the URI and get only the QXXX
-                parsedResult.append({'lang':langcode, 'person':person[len(person)-1],'timestamp':timestamp,'gender':gender[len(gender)-1]})
+                parsedResult.append(langcode,person[len(person) - 1],timestamp,gender[len(gender)-1])
 
             except:
                 continue
