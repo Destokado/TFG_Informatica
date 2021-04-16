@@ -51,3 +51,10 @@ WHERE {
    ?gender rdfs:label ?genderLabel.}
    }
    GROUP BY  ?gender ?genderLabel
+
+Get the Qs of the sitelinks of a given mainpage and lang edition
+SELECT pagelinks.pl_title, page.page_id, page_props.pp_value
+FROM pagelinks 
+INNER JOIN page ON pagelinks.pl_title = page.page_title
+INNER JOIN page_props ON page_props.pp_page = page.page_id
+WHERE pagelinks.pl_from = 5958  AND pagelinks.pl_from_namespace = 0 AND pagelinks.pl_namespace = 0 and page_props.pp_propname = 'wikibase_item'
