@@ -10,6 +10,9 @@ last_period = '2020-05'
 LOGO = "./assets/logo.png"
 LOGO_foot = "./assets/wikimedia-logo.png"
 # LOGO = app.get_asset_url('logo.png') # this would have worked. 
+external_stylesheets = [dbc.themes.BOOTSTRAP]
+external_scripts = ['https://wdo.wmcloud.org/assets/gtag.js']
+webtype = ''
 
 navbar = html.Div([
     html.Br(),

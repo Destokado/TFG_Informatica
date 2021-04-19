@@ -4,9 +4,8 @@ import sqlite3
 import time
 import traceback
 from datetime import datetime as dt
-import pywikibot
 import requests
-import wikipedia
+
 
 
 def main():
@@ -101,8 +100,8 @@ def get_gendercount_by_lang( langs):
     conn = sqlite3.connect('gender_homepage_visibility_db')
     cursor = conn.cursor()
 
-    query ="SELECT lang, gender ,COUNT(gender)  FROM persons WHERE lang IN (%s) "%','.join('?'*len(langs))+"GROUP BY lang,gender ORDER BY lang ASC;"
-
+    #query ="SELECT lang, gender ,COUNT(gender)  FROM persons WHERE lang IN (%s) "%','.join('?'*len(langs))+"GROUP BY lang,gender ORDER BY lang ASC;"
+    query = "SELECT p1.lang, p1.gender, COUNT(p1.gender) as count,  p2.c as total FROM persons p1  JOIN (SELECT lang, COUNT(gender) as c FROM persons p2 GROUP BY lang HAVING c>0) p2 on p1.lang = p2.lang WHERE p1.lang IN (%s) "%','.join('?'*len(langs))+"GROUP BY p1.lang,p1.gender ORDER BY p1.lang ASC;"
     cursor.execute(query,langs)
     rows = cursor.fetchall()
     conn.close()
