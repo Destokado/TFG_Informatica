@@ -17,6 +17,8 @@ from dash_apps import *
 ############DATA COMPUTATION############################
 #territories = wikilanguages_utils.load_wikipedia_languages_territories_mapping()
 #languages = wikilanguages_utils.load_wiki_projects_information()
+from gender_homepage_visibility import get_gendercount_by_lang
+
 with open('languagecode_mainpage.json', encoding="utf8") as f:
     file = json.load(f)
 
@@ -36,7 +38,12 @@ lang_groups += ['Top 5','Top 10', 'Top 20', 'Top 30', 'Top 40']#, 'Top 50']
 dict = {"es": {'male': 1, 'female': 23},
                    "ca": {'male': 3, 'female': 12},
                    "it": {'male': 15, 'female': 10}}
-df = pd.DataFrame.from_dict(dict,orient='index')
+
+
+
+
+
+#df = pd.DataFrame.from_dict(dict,orient='index')
 
 ### DASH APP ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ###
 # dash_app23 = Dash(__name__, server = app, url_base_pathname = webtype + '/search_ccc_articles/', external_stylesheets=external_stylesheets ,external_scripts=external_scripts)
@@ -111,10 +118,12 @@ def set_langs_options_spread(selected_group):
 @app.callback(
     Output(component_id='language_homepage_gendergap_barchart',component_property='figure'),[Input('sourcelangdropdown_homepage_gender_gap','value')])
 def update_barchart(langlist):
-    #TODO: Implement callback to update the barchart with the selected langlist
-    filtered_df = df[df.index.isin(langlist)]
-    print(filtered_df)
-    newfig = px.bar(filtered_df,barmode='stack')
+    data = get_gendercount_by_lang(langlist)
+
+    df = pd.DataFrame.from_records(data,columns=['Language','Gender','Count'])
+    print(df)
+    newfig = px.bar(df, x='Language', y='Count', color='Gender')
+
     return newfig
 
 if __name__ == '__main__':
