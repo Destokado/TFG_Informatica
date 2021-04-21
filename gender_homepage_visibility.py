@@ -4,6 +4,7 @@ import sqlite3
 import time
 import traceback
 from datetime import datetime as dt
+
 import requests
 
 
@@ -19,7 +20,7 @@ def main():
     query = "INSERT INTO persons (lang,timestamp ,gender,person) VALUES (?,?,?,?) ;"
 
     cursor.executemany(query, result)
-    print('We have inserted', cursor.rowcount, 'records to the table.')
+    print('Inserted', cursor.rowcount, 'records to the table.')
     conn.commit()
     conn.close()
 
@@ -27,9 +28,7 @@ def main():
 def create_gender_homepage_visibility_db():
     conn = sqlite3.connect('gender_homepage_visibility_db')
     cursor = conn.cursor()
-
-    table_name = 'persons'
-    query = f"CREATE TABLE IF NOT EXISTS {table_name} (lang varchar NOT NULL ,timestamp timestamp NOT NULL, gender integer NOT NULL , person integer NOT NULL ,PRIMARY KEY (lang,timestamp,gender,person ))"
+    query = f"CREATE TABLE IF NOT EXISTS persons (lang varchar NOT NULL ,timestamp timestamp NOT NULL, gender integer NOT NULL , person integer NOT NULL ,PRIMARY KEY (lang,timestamp,gender,person ))"
     cursor.execute(query)
     conn.commit()
     conn.close()
@@ -144,20 +143,17 @@ def parse_sparql_response(response: json, langcode: str, timestamp):
 
 
 ####UNUSED METHODS
-# def getPageIDByName(langcode:str,mainPageName: str):
+#def getPageIDByName(langcode:str,mainPageName: str):
 #
 #    try:
 #        wikipedia.set_lang(langcode)
 #        page = wikipedia.page(title=mainPageName)
 #        id = page.pageid
 #        return id
+#
 #    except Exception as e:
 #        print(e)
 #        print(f'Something wrong with {langcode} and {mainPageName}')
-#        pass
-#
-#
-#
 #
 # def getMainPageTitles():
 #    site = pywikibot.Site('wikidata', 'wikidata')
@@ -177,8 +173,8 @@ def parse_sparql_response(response: json, langcode: str, timestamp):
 #        lang_dict.update(element)
 #
 #    print(lang_dict)
-#
-#
+
+
 # def safePercent(number, total):
 #    if (number == 0 or total == 0): return 0
 #    if (number > total): raise ValueError('number cannot be greater than total')
