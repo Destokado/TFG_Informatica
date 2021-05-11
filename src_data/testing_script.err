@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "testing_script.py", line 920, in <module>
-    main()
-  File "testing_script.py", line 616, in main
-    dash_app7_build_layout(params)
-  File "testing_script.py", line 341, in dash_app7_build_layout
-    input('')
-KeyboardInterrupt

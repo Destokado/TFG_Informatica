@@ -1,6 +1,6 @@
 import sys
 sys.path.insert(0, '/srv/wcdo/src_viz')
-from dash_apps import *
+from OLD.dash_apps import *
 
 # -*- coding: utf-8 -*-
 

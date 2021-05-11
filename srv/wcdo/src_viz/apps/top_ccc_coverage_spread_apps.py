@@ -1,79 +1,8 @@
-# -*- coding: utf-8 -*-
-
-import flask
-from flask import Flask, request, render_template
-from flask import send_from_directory
-from dash import Dash
-import dash
-import dash_html_components as html
-import dash_core_components as dcc
-import dash_table
-from dash.dependencies import Input, Output, State
-import squarify
-# viz
-import plotly
-import plotly.figure_factory as ff
-import plotly.express as px
-import plotly.graph_objects as go
-from plotly.subplots import make_subplots
-# data
-import pandas as pd
-import sqlite3
-# other
-import os
 import sys
-import logging
-from logging.handlers import RotatingFileHandler
-import datetime
-import time
+from OLD import dash_apps
 
-# script
-import wikilanguages_utils
-
+sys.path.insert(0, '/srv/wcdo/src_viz')
 from OLD.dash_apps import *
-
-
-##### RESOURCES GENERAL #####
-
-
-title_addenda = ' - Wikipedia Diversity Observatory (WDO)'
-
-databases_path = 'databases/'
-
-territories = wikilanguages_utils.load_wikipedia_languages_territories_mapping()
-languages = wikilanguages_utils.load_wiki_projects_information();
-
-wikilanguagecodes = languages.index.tolist()
-
-language_names_list = []
-language_names = {}
-language_names_full = {}
-for languagecode in wikilanguagecodes:
-    lang_name = languages.loc[languagecode]['languagename']+' ('+languagecode+')'
-    language_names_full[languagecode]=languages.loc[languagecode]['languagename']
-    language_names[lang_name] = languagecode
-    language_names_list.append(lang_name)
-
-language_names_inv = {v: k for k, v in language_names.items()}
-
-lang_groups = list()
-lang_groups += ['Top 10', 'Top 20', 'Top 30', 'Top 40','All languages']#, 'Top 50']
-lang_groups += territories['region'].unique().tolist()
-lang_groups += territories['subregion'].unique().tolist()
-
-### for the table
-languageswithoutterritory=['eo','got','ia','ie','io','jbo','lfn','nov','vo']
-# Only those with a geographical context
-for languagecode in languageswithoutterritory: wikilanguagecodes.remove(languagecode)
-
-wikipedialanguage_numberarticles = wikilanguages_utils.load_wikipedia_language_editions_numberofarticles(wikilanguagecodes,'')
-for languagecode in wikilanguagecodes:
-   if languagecode not in wikipedialanguage_numberarticles: wikilanguagecodes.remove(languagecode)
-
-country_names, regions, subregions = wikilanguages_utils.load_iso_3166_to_geographical_regions()
-
-
-
 
 
 #### DATA
@@ -1311,11 +1240,3 @@ def toggle_collapse(n, is_open):
     if n:
         return not is_open
     return is_open
-
-
-
-
-### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ###
-
-if __name__ == '__main__':
-    dash_app10.run_server(debug=True)

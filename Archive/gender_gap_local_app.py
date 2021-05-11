@@ -1,17 +1,14 @@
 # -*- coding: utf-8 -*-
 
 import flask
-from flask import Flask, request, render_template
-from flask import send_from_directory
 from dash import Dash
 import dash
 import dash_html_components as html
 import dash_core_components as dcc
 import dash_table
-from dash.dependencies import Input, Output, State
+from dash.dependencies import Input, Output
 import squarify
 # viz
-import plotly
 import plotly.figure_factory as ff
 import plotly.express as px
 import plotly.graph_objects as go
@@ -20,8 +17,6 @@ from plotly.subplots import make_subplots
 import pandas as pd
 import sqlite3
 # other
-import os
-import sys
 import logging
 from logging.handlers import RotatingFileHandler
 import datetime
@@ -30,7 +25,7 @@ import time
 # script
 import wikilanguages_utils
 
-from dash_apps import *
+from OLD.dash_apps import *
 
 
 ##### RESOURCES GENERAL #####

@@ -1,6 +1,0 @@
-Traceback (most recent call last):
-  File "ethnic_groups_content_selection.py", line 1751, in <module>
-    main()
-  File "ethnic_groups_content_selection.py", line 54, in main
-    input('')
-KeyboardInterrupt

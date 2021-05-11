@@ -133,7 +133,8 @@ pip-selfcheck.json
 .idea/mongoSettings.xml
 
 .idea/
-
+## Database
+*.db
 ## File-based project format:
 *.iws
 

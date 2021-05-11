@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "lgbt_content_selection.py", line 772, in <module>
-    main()
-  File "lgbt_content_selection.py", line 57, in main
-    update_wikipedia_diversity_lgbt_topics()
-  File "lgbt_content_selection.py", line 709, in update_wikipedia_diversity_lgbt_topics
-    os.remove(databases_path + lgbts_content_db); print (lgbts_content_db+' deleted.');
-NameError: name 'lgbts_content_db' is not defined
