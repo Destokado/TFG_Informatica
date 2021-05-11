@@ -1,0 +1,11 @@
+	Wiki	Title	Pageviews	Interwiki	Sundanese WD Label	WD Qitem
+0	[[:id:|id]]	[{{fullurl:id:Museum_Kereta_Api_Ambarawa}} Museum Kereta Api Ambarawa]	140	6		 [{{fullurl:wikidata:Q1311742}} Q1311742]
+1	[[:id:|id]]	[{{fullurl:id:Benteng_Pendem_Cilacap}} Benteng Pendem Cilacap]	72	5		 [{{fullurl:wikidata:Q4262369}} Q4262369]
+2	[[:id:|id]]	[{{fullurl:id:Museum_Zoologi_Bogor}} Museum Zoologi Bogor]	72	6		 [{{fullurl:wikidata:Q16746897}} Q16746897]
+3	[[:id:|id]]	[{{fullurl:id:Museum_Ullen_Sentalu}} Museum Ullen Sentalu]	63	3		 [{{fullurl:wikidata:Q3047067}} Q3047067]
+4	[[:id:|id]]	[{{fullurl:id:Museum_Ranggawarsita}} Museum Ranggawarsita]	47	2		 [{{fullurl:wikidata:Q12499640}} Q12499640]
+5	[[:id:|id]]	[{{fullurl:id:Museum_Radya_Pustaka}} Museum Radya Pustaka]	45	2		 [{{fullurl:wikidata:Q12499664}} Q12499664]
+6	[[:id:|id]]	[{{fullurl:id:Museum_Karmawibhangga}} Museum Karmawibhangga]	35	2		 [{{fullurl:wikidata:Q6372721}} Q6372721]
+7	[[:id:|id]]	[{{fullurl:id:Monumen_Pers_Nasional}} Monumen Pers Nasional]	33	2		 [{{fullurl:wikidata:Q15287387}} Q15287387]
+8	[[:id:|id]]	[{{fullurl:id:Museum_Basoeki_Abdullah}} Museum Basoeki Abdullah]	16	3		 [{{fullurl:wikidata:Q16862466}} Q16862466]
+9	[[:id:|id]]	[{{fullurl:id:Museum_Samudra_Raksa}} Museum Samudra Raksa]	11	2		 [{{fullurl:wikidata:Q7410684}} Q7410684]

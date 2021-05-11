@@ -1,0 +1,4 @@
+	Wiki	Title	Pageviews	Interwiki	Marathi WD Label	WD Qitem
+0	[[:en:|en]]	[{{fullurl:en:Vada_(food)}} Vada (food)]	597	19		 [{{fullurl:wikidata:Q2723131}} Q2723131]
+2	[[:te:|te]]	[{{fullurl:te:పూతరేకులు}} పూతరేకులు]	3	3		 [{{fullurl:wikidata:Q7228884}} Q7228884]
+3	[[:en:|en]]	[{{fullurl:en:Canja_de_Goa}} Canja de Goa]	2	2		 [{{fullurl:wikidata:Q9694384}} Q9694384]

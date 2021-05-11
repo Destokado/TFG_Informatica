@@ -1,0 +1,55 @@
+current cycle for the data: 2020-09
+['aa', 'ab', 'ace', 'ady', 'af', 'ak', 'als', 'am', 'an', 'ang', 'ar', 'arc', 'ary', 'arz', 'as', 'ast', 'atj', 'av', 'avk', 'awa', 'ay', 'az', 'azb', 'ba', 'ban', 'bar', 'bat_smg', 'bcl', 'be', 'be_x_old', 'bg', 'bh', 'bi', 'bjn', 'bm', 'bn', 'bo', 'bpy', 'br', 'bs', 'bug', 'bxr', 'ca', 'cbk_zam', 'cdo', 'ce', 'ceb', 'ch', 'cho', 'chr', 'chy', 'ckb', 'co', 'cr', 'crh', 'cs', 'csb', 'cu', 'cv', 'cy', 'da', 'de', 'din', 'diq', 'dsb', 'dty', 'dv', 'dz', 'ee', 'el', 'eml', 'en', 'eo', 'es', 'et', 'eu', 'ext', 'fa', 'ff', 'fi', 'fiu_vro', 'fj', 'fo', 'fr', 'frp', 'frr', 'fur', 'fy', 'ga', 'gag', 'gan', 'gcr', 'gd', 'gl', 'glk', 'gn', 'gom', 'gor', 'got', 'gu', 'gv', 'ha', 'hak', 'haw', 'he', 'hi', 'hif', 'ho', 'hr', 'hsb', 'ht', 'hu', 'hy', 'hyw', 'hz', 'ia', 'id', 'ie', 'ig', 'ii', 'ik', 'ilo', 'inh', 'io', 'is', 'it', 'iu', 'ja', 'jam', 'jbo', 'jv', 'ka', 'kaa', 'kab', 'kbd', 'kbp', 'kg', 'ki', 'kj', 'kk', 'kl', 'km', 'kn', 'ko', 'koi', 'kr', 'krc', 'ks', 'ksh', 'ku', 'kv', 'kw', 'ky', 'la', 'lad', 'lb', 'lbe', 'lez', 'lfn', 'lg', 'li', 'lij', 'lld', 'lmo', 'ln', 'lo', 'lrc', 'lt', 'ltg', 'lv', 'mai', 'map_bms', 'mdf', 'mg', 'mh', 'mhr', 'mi', 'min', 'mk', 'ml', 'mn', 'mnw', 'mr', 'mrj', 'ms', 'mt', 'mus', 'mwl', 'my', 'myv', 'mzn', 'na', 'nah', 'nap', 'nds', 'nds_nl', 'ne', 'new', 'ng', 'nl', 'nn', 'no', 'nov', 'nqo', 'nrm', 'nso', 'nv', 'ny', 'oc', 'olo', 'om', 'or', 'os', 'pa', 'pag', 'pam', 'pap', 'pcd', 'pdc', 'pfl', 'pi', 'pih', 'pl', 'pms', 'pnb', 'pnt', 'ps', 'pt', 'qu', 'rm', 'rmy', 'rn', 'ro', 'roa_rup', 'roa_tara', 'ru', 'ru_sib', 'rue', 'rw', 'sa', 'sah', 'sat', 'sc', 'scn', 'sco', 'sd', 'se', 'sg', 'sh', 'shn', 'si', 'simple', 'sk', 'sl', 'sm', 'smn', 'sn', 'so', 'sq', 'sr', 'srn', 'ss', 'st', 'stq', 'su', 'sv', 'sw', 'szl', 'szy', 'ta', 'tcy', 'te', 'tet', 'tg', 'th', 'ti', 'tk', 'tl', 'tlh', 'tn', 'to', 'tokipona', 'tpi', 'tr', 'ts', 'tt', 'tum', 'tw', 'ty', 'tyv', 'udm', 'ug', 'uk', 'ur', 'uz', 've', 'vec', 'vep', 'vi', 'vls', 'vo', 'wa', 'war', 'wo', 'wuu', 'xal', 'xh', 'xmf', 'yi', 'yo', 'za', 'zea', 'zh', 'zh_classical', 'zh_min_nan', 'zh_yue', 'zu']
+database in use in load_wikipedia_language_editions_numberofarticles: wikipedia_diversity_production.db
+this language is not in the database yet: ru_sib
+this language is not in the database yet: smn
+this language is not in the database yet: tlh
+this language is not in the database yet: tokipona
+wikipedialanguage_numberarticles loaded.
+this is the total number of articles in the Diversity Database: 54966559
+       qitem          Article Title  Edits  Editors  Pageviews   Bytes  References  Wikidata Properties  Interwiki Links  ...                    pt0        pg0                    pt1        pg1                    pt2        pg2                    pt3          pg3  page_id
+0    Q230156           Simona_Halep   1217      163      916.0   66784          87                   50               54  ...           Simona_Halep  sitelinks           Simona_Halep  sitelinks           Simona_Halep  sitelinks           Simona_Halep    sitelinks   661820
+1     Q12349                   Inna    601      110      383.0  122481         354                   61               49  ...                   Inna  sitelinks                   Inna  sitelinks                   Inna  sitelinks                   Inna    sitelinks   472361
+2   Q2880955  Elena_Liliana_Popescu    534       30        6.0   23505          15                   12                2  ...  Elena_Liliana_Popescu  sitelinks  Elena_Liliana_Popescu      label  Elena_Liliana_Popescu      label  Elena_Liliana_Popescu    sitelinks    51298
+3    Q463521          Dora_d'Istria    521       27       37.0  102849          36                   54               21  ...          Dora_d'Istria  sitelinks          Dora_d'Istria  sitelinks          Dora_d'Istria  sitelinks          Dora_d'Istria    sitelinks   447493
+4    Q463774            Elena_Udrea    518      111      125.0   25477          41                   19               10  ...            Elena_Udrea  sitelinks            Elena_Udrea  sitelinks            Elena_Udrea  sitelinks            Elena_Udrea    sitelinks   195304
+5   Q2422027          Andreea_Bălan    490       66      255.0   46528          83                   17               13  ...          Andreea_Bălan  sitelinks          Andreea_Bălan  sitelinks          Andreea_Bălan  sitelinks          Andreea_Bălan  translation   294512
+6   Q9368300        Viorica_Dăncilă    474       59      294.0   32296          72                   25               41  ...        Viorica_Dăncilă  sitelinks        Viorica_Dăncilă  sitelinks        Viorica_Dăncilă  sitelinks        Viorica_Dăncilă    sitelinks  1754535
+7  Q12720723         Angela_Similea    456       53      344.0   22620          31                   14                2  ...         Angela_Similea      label         Angela_Similea  sitelinks         Angela_Similea      label         Angela_Similea    sitelinks   114731
+8   Q6272233      Margareta_Pâslaru    433       57      224.0   60316          68                   23                5  ...      Margareta_Pâslaru  sitelinks      Margareta_Pâslaru  sitelinks      Margareta_Pâslaru      label      Margareta_Pâslaru    sitelinks   218382
+9    Q237033          Ana_Blandiana    415       92      409.0   30186          59                   55               27  ...          Ana_Blandiana  sitelinks          Ana_Blandiana  sitelinks          Ana_Blandiana  sitelinks          Ana_Blandiana    sitelinks    10292
+
+[10 rows x 22 columns]
+               page_title lang
+page_id                       
+6504     Maia Morgenstern   en
+6504     Maia Morgenstern   es
+6504     Maia Morgenstern   fr
+6504     Maia Morgenstern   it
+8537      Ileana Cotrubas   ca
+8537      Ileana Cotrubaș   en
+8537      Ileana Cotrubaş   es
+8537      Ileana Cotrubaș   fr
+8537      Ileana Cotrubaș   it
+9031       Maria Cebotari   ca
+       qitem          Article Title  Edits  Editors  Pageviews   Bytes  References  Wikidata Properties  Interwiki Links  ...        pg2                    pt3          pg3  page_id     page_title_1           page_title_2       page_title_3     page_title_4           page_title_5
+0    Q230156           Simona_Halep   1217      163      916.0   66784          87                   50               54  ...  sitelinks           Simona_Halep    sitelinks   661820     Simona Halep           Simona Halep       Simona Halep     Simona Halep           Simona Halep
+1     Q12349                   Inna    601      110      383.0  122481         354                   61               49  ...  sitelinks                   Inna    sitelinks   472361             Inna                   Inna               Inna             Inna                   Inna
+2   Q2880955  Elena_Liliana_Popescu    534       30        6.0   23505          15                   12                2  ...      label  Elena_Liliana_Popescu    sitelinks    51298              NaN  Elena Liliana Popescu                NaN              NaN  Elena Liliana Popescu
+3    Q463521          Dora_d'Istria    521       27       37.0  102849          36                   54               21  ...  sitelinks          Dora_d'Istria    sitelinks   447493    Dora d'Ístria          Dora d'Istria      Dora d'Istria    Dora d'Istria          Dora d'Istria
+4    Q463774            Elena_Udrea    518      111      125.0   25477          41                   19               10  ...  sitelinks            Elena_Udrea    sitelinks   195304              NaN            Elena Udrea        Elena Udrea      Elena Udrea            Elena Udrea
+5   Q2422027          Andreea_Bălan    490       66      255.0   46528          83                   17               13  ...  sitelinks          Andreea_Bălan  translation   294512    Andreea Bălan          Andreea Bălan      Andreea Bălan    Andreea Bălan                    NaN
+6   Q9368300        Viorica_Dăncilă    474       59      294.0   32296          72                   25               41  ...  sitelinks        Viorica_Dăncilă    sitelinks  1754535  Viorica Dăncilă        Viorica Dăncilă    Viorica Dăncilă  Viorica Dăncilă        Viorica Dăncilă
+7  Q12720723         Angela_Similea    456       53      344.0   22620          31                   14                2  ...      label         Angela_Similea    sitelinks   114731              NaN                    NaN     Angela Similea              NaN         Angela Similea
+8   Q6272233      Margareta_Pâslaru    433       57      224.0   60316          68                   23                5  ...      label      Margareta_Pâslaru    sitelinks   218382              NaN      Margareta Pâslaru  Margareta Pâslaru              NaN      Margareta Pâslaru
+9    Q237033          Ana_Blandiana    415       92      409.0   30186          59                   55               27  ...  sitelinks          Ana_Blandiana    sitelinks    10292    Ana Blandiana          Ana Blandiana      Ana Blandiana    Ana Blandiana          Ana Blandiana
+
+[10 rows x 27 columns]
+Traceback (most recent call last):
+  File "testing_script.py", line 920, in <module>
+    main()
+  File "testing_script.py", line 616, in main
+    dash_app7_build_layout(params)
+  File "testing_script.py", line 341, in dash_app7_build_layout
+    input('')
+KeyboardInterrupt

@@ -1,0 +1,2 @@
+	Wiki	Title	Pageviews	Interwiki	Odia WD Label	WD Qitem
+0	[[:te:|te]]	[{{fullurl:te:పూతరేకులు}} పూతరేకులు]	3	3		 [{{fullurl:wikidata:Q7228884}} Q7228884]

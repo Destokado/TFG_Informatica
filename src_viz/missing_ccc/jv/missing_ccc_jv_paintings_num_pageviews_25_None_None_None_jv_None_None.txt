@@ -1,0 +1,2 @@
+	Wiki	Title	Pageviews	Interwiki	Javanese WD Label	WD Qitem
+0	[[:id:|id]]	[{{fullurl:id:Penangkapan_Pangeran_Diponegoro}} Penangkapan Pangeran Diponegoro]	194	2		 [{{fullurl:wikidata:Q18177323}} Q18177323]

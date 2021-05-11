@@ -1,0 +1,2846 @@
+new cycle for the data: 2021-03
+<Response [200]>
+These are the new languages: Seediq, Saraiki, Atayal, Meitei, Nias, Altai, Madurese
+The new languages are in a file named: 
+/srv/wcdo/databases/new_wikipedia_language_editions.csv
+checking languages Replicas databases and deleting those without one...
+This language has no database or we cannot connect to it: ru_sib
+This language has no database or we cannot connect to it: tlh
+This language has no database or we cannot connect to it: tokipona
+['aa', 'ab', 'ace', 'ady', 'af', 'ak', 'als', 'am', 'an', 'ang', 'ar', 'arc', 'ary', 'arz', 'as', 'ast', 'atj', 'av', 'avk', 'awa', 'ay', 'az', 'azb', 'ba', 'ban', 'bar', 'bat_smg', 'bcl', 'be', 'be_x_old', 'bg', 'bh', 'bi', 'bjn', 'bm', 'bn', 'bo', 'bpy', 'br', 'bs', 'bug', 'bxr', 'ca', 'cbk_zam', 'cdo', 'ce', 'ceb', 'ch', 'cho', 'chr', 'chy', 'ckb', 'co', 'cr', 'crh', 'cs', 'csb', 'cu', 'cv', 'cy', 'da', 'de', 'din', 'diq', 'dsb', 'dty', 'dv', 'dz', 'ee', 'el', 'eml', 'en', 'eo', 'es', 'et', 'eu', 'ext', 'fa', 'ff', 'fi', 'fiu_vro', 'fj', 'fo', 'fr', 'frp', 'frr', 'fur', 'fy', 'ga', 'gag', 'gan', 'gcr', 'gd', 'gl', 'glk', 'gn', 'gom', 'gor', 'got', 'gu', 'gv', 'ha', 'hak', 'haw', 'he', 'hi', 'hif', 'ho', 'hr', 'hsb', 'ht', 'hu', 'hy', 'hyw', 'hz', 'ia', 'id', 'ie', 'ig', 'ii', 'ik', 'ilo', 'inh', 'io', 'is', 'it', 'iu', 'ja', 'jam', 'jbo', 'jv', 'ka', 'kaa', 'kab', 'kbd', 'kbp', 'kg', 'ki', 'kj', 'kk', 'kl', 'km', 'kn', 'ko', 'koi', 'kr', 'krc', 'ks', 'ksh', 'ku', 'kv', 'kw', 'ky', 'la', 'lad', 'lb', 'lbe', 'lez', 'lfn', 'lg', 'li', 'lij', 'lld', 'lmo', 'ln', 'lo', 'lrc', 'lt', 'ltg', 'lv', 'mai', 'map_bms', 'mdf', 'mg', 'mh', 'mhr', 'mi', 'min', 'mk', 'ml', 'mn', 'mnw', 'mr', 'mrj', 'ms', 'mt', 'mus', 'mwl', 'my', 'myv', 'mzn', 'na', 'nah', 'nap', 'nds', 'nds_nl', 'ne', 'new', 'ng', 'nl', 'nn', 'no', 'nov', 'nqo', 'nrm', 'nso', 'nv', 'ny', 'oc', 'olo', 'om', 'or', 'os', 'pa', 'pag', 'pam', 'pap', 'pcd', 'pdc', 'pfl', 'pi', 'pih', 'pl', 'pms', 'pnb', 'pnt', 'ps', 'pt', 'qu', 'rm', 'rmy', 'rn', 'ro', 'roa_rup', 'roa_tara', 'ru', 'rue', 'rw', 'sa', 'sah', 'sat', 'sc', 'scn', 'sco', 'sd', 'se', 'sg', 'sh', 'shn', 'si', 'simple', 'sk', 'sl', 'sm', 'smn', 'sn', 'so', 'sq', 'sr', 'srn', 'ss', 'st', 'stq', 'su', 'sv', 'sw', 'szl', 'szy', 'ta', 'tcy', 'te', 'tet', 'tg', 'th', 'ti', 'tk', 'tl', 'tn', 'to', 'tpi', 'tr', 'ts', 'tt', 'tum', 'tw', 'ty', 'tyv', 'udm', 'ug', 'uk', 'ur', 'uz', 've', 'vec', 'vep', 'vi', 'vls', 'vo', 'wa', 'war', 'wo', 'wuu', 'xal', 'xh', 'xmf', 'yi', 'yo', 'za', 'zea', 'zh', 'zh_classical', 'zh_min_nan', 'zh_yue', 'zu']
+aa
+31
+qitems obtained.
+Iterating the dump.
+done with the dump.
+2
+0
+articles for this language are in and updated: aa
+
+ab
+10378
+qitems obtained.
+Iterating the dump.
+done with the dump.
+6113
+23
+articles for this language are in and updated: ab
+
+ace
+14006
+qitems obtained.
+Iterating the dump.
+done with the dump.
+12324
+21
+articles for this language are in and updated: ace
+
+ady
+667
+qitems obtained.
+Iterating the dump.
+done with the dump.
+565
+4
+articles for this language are in and updated: ady
+
+af
+161569
+qitems obtained.
+Iterating the dump.
+done with the dump.
+97551
+140
+articles for this language are in and updated: af
+
+ak
+2303
+qitems obtained.
+Iterating the dump.
+done with the dump.
+1556
+23
+articles for this language are in and updated: ak
+
+als
+36639
+qitems obtained.
+Iterating the dump.
+done with the dump.
+27755
+44
+articles for this language are in and updated: als
+
+am
+16983
+qitems obtained.
+Iterating the dump.
+done with the dump.
+15339
+73
+articles for this language are in and updated: am
+
+an
+58604
+qitems obtained.
+Iterating the dump.
+done with the dump.
+38908
+997
+articles for this language are in and updated: an
+
+ang
+5866
+qitems obtained.
+Iterating the dump.
+done with the dump.
+3372
+14
+articles for this language are in and updated: ang
+
+ar
+1992449
+qitems obtained.
+Iterating the dump.
+done with the dump.
+1108339
+3596
+articles for this language are in and updated: ar
+
+arc
+2621
+qitems obtained.
+Iterating the dump.
+done with the dump.
+1807
+4
+articles for this language are in and updated: arc
+
+ary
+4071
+qitems obtained.
+Iterating the dump.
+done with the dump.
+3389
+397
+articles for this language are in and updated: ary
+
+arz
+1223704
+qitems obtained.
+Iterating the dump.
+done with the dump.
+1202411
+35847
+articles for this language are in and updated: arz
+
+as
+13769
+qitems obtained.
+Iterating the dump.
+done with the dump.
+8200
+252
+articles for this language are in and updated: as
+
+ast
+148181
+qitems obtained.
+Iterating the dump.
+done with the dump.
+118548
+5848
+articles for this language are in and updated: ast
+
+atj
+1322
+qitems obtained.
+Iterating the dump.
+done with the dump.
+1285
+252
+articles for this language are in and updated: atj
+
+av
+5077
+qitems obtained.
+Iterating the dump.
+done with the dump.
+2576
+32
+articles for this language are in and updated: av
+
+avk
+6730
+qitems obtained.
+Iterating the dump.
+done with the dump.
+6656
+6769
+articles for this language are in and updated: avk
+
+awa
+759
+qitems obtained.
+Iterating the dump.
+done with the dump.
+647
+3063
+articles for this language are in and updated: awa
+
+ay
+6233
+qitems obtained.
+Iterating the dump.
+done with the dump.
+5135
+6
+articles for this language are in and updated: ay
+
+az
+263603
+qitems obtained.
+Iterating the dump.
+done with the dump.
+177517
+2814
+articles for this language are in and updated: az
+
+azb
+362138
+qitems obtained.
+Iterating the dump.
+done with the dump.
+239572
+675
+articles for this language are in and updated: azb
+
+ba
+101201
+qitems obtained.
+Iterating the dump.
+done with the dump.
+56420
+320
+articles for this language are in and updated: ba
+
+ban
+10037
+qitems obtained.
+Iterating the dump.
+done with the dump.
+6524
+513
+articles for this language are in and updated: ban
+
+bar
+43122
+qitems obtained.
+Iterating the dump.
+done with the dump.
+31623
+41
+articles for this language are in and updated: bar
+
+bat_smg
+18755
+qitems obtained.
+Iterating the dump.
+done with the dump.
+16908
+5
+articles for this language are in and updated: bat_smg
+
+bcl
+12941
+qitems obtained.
+Iterating the dump.
+done with the dump.
+11140
+160
+articles for this language are in and updated: bcl
+
+be
+320253
+qitems obtained.
+Iterating the dump.
+done with the dump.
+203487
+422
+articles for this language are in and updated: be
+
+be_x_old
+143230
+qitems obtained.
+Iterating the dump.
+done with the dump.
+73786
+422
+articles for this language are in and updated: be_x_old
+
+bg
+352159
+qitems obtained.
+Iterating the dump.
+done with the dump.
+269309
+1669
+articles for this language are in and updated: bg
+
+bh
+24386
+qitems obtained.
+Iterating the dump.
+done with the dump.
+7439
+11
+articles for this language are in and updated: bh
+
+bi
+1703
+qitems obtained.
+Iterating the dump.
+done with the dump.
+1409
+2
+articles for this language are in and updated: bi
+
+bjn
+5131
+qitems obtained.
+Iterating the dump.
+done with the dump.
+3530
+173
+articles for this language are in and updated: bjn
+
+bm
+1105
+qitems obtained.
+Iterating the dump.
+done with the dump.
+759
+2
+articles for this language are in and updated: bm
+
+bn
+181063
+qitems obtained.
+Iterating the dump.
+done with the dump.
+104830
+1850
+articles for this language are in and updated: bn
+
+bo
+12803
+qitems obtained.
+Iterating the dump.
+done with the dump.
+11677
+66
+articles for this language are in and updated: bo
+
+bpy
+32546
+qitems obtained.
+Iterating the dump.
+done with the dump.
+25115
+18
+articles for this language are in and updated: bpy
+
+br
+92628
+qitems obtained.
+Iterating the dump.
+done with the dump.
+69380
+155
+articles for this language are in and updated: br
+
+bs
+147113
+qitems obtained.
+Iterating the dump.
+done with the dump.
+85348
+315
+articles for this language are in and updated: bs
+
+bug
+15132
+qitems obtained.
+Iterating the dump.
+done with the dump.
+14189
+2
+articles for this language are in and updated: bug
+
+bxr
+3746
+qitems obtained.
+Iterating the dump.
+done with the dump.
+2193
+5
+articles for this language are in and updated: bxr
+
+ca
+791683
+qitems obtained.
+Iterating the dump.
+done with the dump.
+673431
+3187
+articles for this language are in and updated: ca
+
+cbk_zam
+3831
+qitems obtained.
+Iterating the dump.
+done with the dump.
+3238
+7
+articles for this language are in and updated: cbk_zam
+
+cdo
+24857
+qitems obtained.
+Iterating the dump.
+done with the dump.
+15505
+12
+articles for this language are in and updated: cdo
+
+ce
+375264
+qitems obtained.
+Iterating the dump.
+done with the dump.
+353718
+538
+articles for this language are in and updated: ce
+
+ceb
+5048650
+qitems obtained.
+Iterating the dump.
+done with the dump.
+4879958
+841163
+articles for this language are in and updated: ceb
+
+ch
+846
+qitems obtained.
+Iterating the dump.
+done with the dump.
+545
+4
+articles for this language are in and updated: ch
+
+cho
+18
+qitems obtained.
+Iterating the dump.
+done with the dump.
+5
+9
+articles for this language are in and updated: cho
+
+chr
+1504
+qitems obtained.
+Iterating the dump.
+done with the dump.
+971
+1
+articles for this language are in and updated: chr
+
+chy
+1105
+qitems obtained.
+Iterating the dump.
+done with the dump.
+784
+0
+articles for this language are in and updated: chy
+
+ckb
+70213
+qitems obtained.
+Iterating the dump.
+done with the dump.
+29585
+638
+articles for this language are in and updated: ckb
+
+co
+7937
+qitems obtained.
+Iterating the dump.
+done with the dump.
+5974
+10
+articles for this language are in and updated: co
+
+cr
+523
+qitems obtained.
+Iterating the dump.
+done with the dump.
+164
+11
+articles for this language are in and updated: cr
+
+crh
+10811
+qitems obtained.
+Iterating the dump.
+done with the dump.
+9109
+84
+articles for this language are in and updated: crh
+
+cs
+667592
+qitems obtained.
+Iterating the dump.
+done with the dump.
+478083
+1101
+articles for this language are in and updated: cs
+
+csb
+6295
+qitems obtained.
+Iterating the dump.
+done with the dump.
+5402
+2
+articles for this language are in and updated: csb
+
+cu
+2228
+qitems obtained.
+Iterating the dump.
+done with the dump.
+780
+2
+articles for this language are in and updated: cu
+
+cv
+62335
+qitems obtained.
+Iterating the dump.
+done with the dump.
+45833
+183
+articles for this language are in and updated: cv
+
+cy
+174213
+qitems obtained.
+Iterating the dump.
+done with the dump.
+132627
+130
+articles for this language are in and updated: cy
+
+da
+347566
+qitems obtained.
+Iterating the dump.
+done with the dump.
+266131
+147
+articles for this language are in and updated: da
+
+de
+3078509
+qitems obtained.
+Iterating the dump.
+done with the dump.
+2559286
+7034
+articles for this language are in and updated: de
+
+din
+482
+qitems obtained.
+Iterating the dump.
+done with the dump.
+303
+3
+articles for this language are in and updated: din
+
+diq
+46760
+qitems obtained.
+Iterating the dump.
+done with the dump.
+39697
+377
+articles for this language are in and updated: diq
+
+dsb
+7713
+qitems obtained.
+Iterating the dump.
+done with the dump.
+3313
+0
+articles for this language are in and updated: dsb
+
+dty
+4402
+qitems obtained.
+Iterating the dump.
+done with the dump.
+3599
+6
+articles for this language are in and updated: dty
+
+dv
+4978
+qitems obtained.
+Iterating the dump.
+done with the dump.
+4307
+13
+articles for this language are in and updated: dv
+
+dz
+539
+qitems obtained.
+Iterating the dump.
+done with the dump.
+294
+1
+articles for this language are in and updated: dz
+
+ee
+761
+qitems obtained.
+Iterating the dump.
+done with the dump.
+388
+0
+articles for this language are in and updated: ee
+
+el
+268081
+qitems obtained.
+Iterating the dump.
+done with the dump.
+190908
+857
+articles for this language are in and updated: el
+
+eml
+13886
+qitems obtained.
+Iterating the dump.
+done with the dump.
+12673
+25
+articles for this language are in and updated: eml
+
+en
+8701630
+qitems obtained.
+Iterating the dump.
+done with the dump.
+6272596
+12230
+articles for this language are in and updated: en
+
+eo
+394961
+qitems obtained.
+Iterating the dump.
+done with the dump.
+294123
+901
+articles for this language are in and updated: eo
+
+es
+2104696
+qitems obtained.
+Iterating the dump.
+done with the dump.
+1614890
+6116
+articles for this language are in and updated: es
+
+et
+250995
+qitems obtained.
+Iterating the dump.
+done with the dump.
+216475
+2025
+articles for this language are in and updated: et
+
+eu
+454823
+qitems obtained.
+Iterating the dump.
+done with the dump.
+369609
+693
+articles for this language are in and updated: eu
+
+ext
+4266
+qitems obtained.
+Iterating the dump.
+done with the dump.
+3411
+27
+articles for this language are in and updated: ext
+
+fa
+1446976
+qitems obtained.
+Iterating the dump.
+done with the dump.
+778792
+9857
+articles for this language are in and updated: fa
+
+ff
+737
+qitems obtained.
+Iterating the dump.
+done with the dump.
+358
+11
+articles for this language are in and updated: ff
+
+fi
+603335
+qitems obtained.
+Iterating the dump.
+done with the dump.
+505574
+2084
+articles for this language are in and updated: fi
+
+fiu_vro
+7419
+qitems obtained.
+Iterating the dump.
+done with the dump.
+5799
+17
+articles for this language are in and updated: fiu_vro
+
+fj
+1869
+qitems obtained.
+Iterating the dump.
+done with the dump.
+1158
+0
+articles for this language are in and updated: fj
+
+fo
+22531
+qitems obtained.
+Iterating the dump.
+done with the dump.
+13545
+41
+articles for this language are in and updated: fo
+
+fr
+2869267
+qitems obtained.
+Iterating the dump.
+done with the dump.
+2307013
+13055
+articles for this language are in and updated: fr
+
+frp
+6385
+qitems obtained.
+Iterating the dump.
+done with the dump.
+4776
+97
+articles for this language are in and updated: frp
+
+frr
+18263
+qitems obtained.
+Iterating the dump.
+done with the dump.
+12834
+27
+articles for this language are in and updated: frr
+
+fur
+4438
+qitems obtained.
+Iterating the dump.
+done with the dump.
+3550
+9
+articles for this language are in and updated: fur
+
+fy
+87719
+qitems obtained.
+Iterating the dump.
+done with the dump.
+45439
+96
+articles for this language are in and updated: fy
+
+ga
+63054
+qitems obtained.
+Iterating the dump.
+done with the dump.
+54848
+179
+articles for this language are in and updated: ga
+
+gag
+4445
+qitems obtained.
+Iterating the dump.
+done with the dump.
+2922
+26
+articles for this language are in and updated: gag
+
+gan
+15120
+qitems obtained.
+Iterating the dump.
+done with the dump.
+6504
+1
+articles for this language are in and updated: gan
+
+gcr
+1727
+qitems obtained.
+Iterating the dump.
+done with the dump.
+1659
+719
+articles for this language are in and updated: gcr
+
+gd
+17804
+qitems obtained.
+Iterating the dump.
+done with the dump.
+15336
+17
+articles for this language are in and updated: gd
+
+gl
+247867
+qitems obtained.
+Iterating the dump.
+done with the dump.
+170922
+1970
+articles for this language are in and updated: gl
+
+glk
+7204
+qitems obtained.
+Iterating the dump.
+done with the dump.
+6419
+127
+articles for this language are in and updated: glk
+
+gn
+5322
+qitems obtained.
+Iterating the dump.
+done with the dump.
+4134
+6
+articles for this language are in and updated: gn
+
+gom
+4797
+qitems obtained.
+Iterating the dump.
+done with the dump.
+4116
+81
+articles for this language are in and updated: gom
+
+gor
+10519
+qitems obtained.
+Iterating the dump.
+done with the dump.
+9892
+2012
+articles for this language are in and updated: gor
+
+got
+1422
+qitems obtained.
+Iterating the dump.
+done with the dump.
+952
+8
+articles for this language are in and updated: got
+
+gu
+34198
+qitems obtained.
+Iterating the dump.
+done with the dump.
+29606
+83
+articles for this language are in and updated: gu
+
+gv
+11822
+qitems obtained.
+Iterating the dump.
+done with the dump.
+5042
+0
+articles for this language are in and updated: gv
+
+ha
+9623
+qitems obtained.
+Iterating the dump.
+done with the dump.
+8432
+680
+articles for this language are in and updated: ha
+
+hak
+11992
+qitems obtained.
+Iterating the dump.
+done with the dump.
+9521
+4
+articles for this language are in and updated: hak
+
+haw
+3090
+qitems obtained.
+Iterating the dump.
+done with the dump.
+2364
+52
+articles for this language are in and updated: haw
+
+he
+406071
+qitems obtained.
+Iterating the dump.
+done with the dump.
+290698
+2510
+articles for this language are in and updated: he
+
+hi
+187701
+qitems obtained.
+Iterating the dump.
+done with the dump.
+149239
+1231
+articles for this language are in and updated: hi
+
+hif
+13123
+qitems obtained.
+Iterating the dump.
+done with the dump.
+10105
+22
+articles for this language are in and updated: hif
+
+ho
+13
+qitems obtained.
+Iterating the dump.
+done with the dump.
+4
+0
+articles for this language are in and updated: ho
+
+hr
+219434
+qitems obtained.
+Iterating the dump.
+done with the dump.
+189320
+4754
+articles for this language are in and updated: hr
+
+hsb
+24017
+qitems obtained.
+Iterating the dump.
+done with the dump.
+13771
+2
+articles for this language are in and updated: hsb
+
+ht
+66782
+qitems obtained.
+Iterating the dump.
+done with the dump.
+62868
+212
+articles for this language are in and updated: ht
+
+hu
+576173
+qitems obtained.
+Iterating the dump.
+done with the dump.
+484601
+2076
+articles for this language are in and updated: hu
+
+hy
+362054
+qitems obtained.
+Iterating the dump.
+done with the dump.
+282488
+991
+articles for this language are in and updated: hy
+
+hyw
+12197
+qitems obtained.
+Iterating the dump.
+done with the dump.
+8809
+162
+articles for this language are in and updated: hyw
+
+hz
+14
+qitems obtained.
+Iterating the dump.
+done with the dump.
+1
+0
+articles for this language are in and updated: hz
+
+ia
+26880
+qitems obtained.
+Iterating the dump.
+done with the dump.
+23188
+21
+articles for this language are in and updated: ia
+
+id
+721292
+qitems obtained.
+Iterating the dump.
+done with the dump.
+562108
+8781
+articles for this language are in and updated: id
+
+ie
+6197
+qitems obtained.
+Iterating the dump.
+done with the dump.
+5568
+548
+articles for this language are in and updated: ie
+
+ig
+2732
+qitems obtained.
+Iterating the dump.
+done with the dump.
+2148
+93
+articles for this language are in and updated: ig
+
+ii
+20
+qitems obtained.
+Iterating the dump.
+done with the dump.
+15
+0
+articles for this language are in and updated: ii
+
+ik
+1088
+qitems obtained.
+Iterating the dump.
+done with the dump.
+674
+4
+articles for this language are in and updated: ik
+
+ilo
+32965
+qitems obtained.
+Iterating the dump.
+done with the dump.
+15389
+1
+articles for this language are in and updated: ilo
+
+inh
+3809
+qitems obtained.
+Iterating the dump.
+done with the dump.
+1644
+117
+articles for this language are in and updated: inh
+
+io
+36975
+qitems obtained.
+Iterating the dump.
+done with the dump.
+30516
+33
+articles for this language are in and updated: io
+
+is
+70016
+qitems obtained.
+Iterating the dump.
+done with the dump.
+52077
+476
+articles for this language are in and updated: is
+
+it
+2157702
+qitems obtained.
+Iterating the dump.
+done with the dump.
+1680007
+7813
+articles for this language are in and updated: it
+
+iu
+871
+qitems obtained.
+Iterating the dump.
+done with the dump.
+627
+6
+articles for this language are in and updated: iu
+
+ja
+1573275
+qitems obtained.
+Iterating the dump.
+done with the dump.
+1250816
+13458
+articles for this language are in and updated: ja
+
+jam
+2079
+qitems obtained.
+Iterating the dump.
+done with the dump.
+1716
+4
+articles for this language are in and updated: jam
+
+jbo
+2171
+qitems obtained.
+Iterating the dump.
+done with the dump.
+1333
+5
+articles for this language are in and updated: jbo
+
+jv
+88252
+qitems obtained.
+Iterating the dump.
+done with the dump.
+63491
+217
+articles for this language are in and updated: jv
+
+ka
+219324
+qitems obtained.
+Iterating the dump.
+done with the dump.
+149149
+2605
+articles for this language are in and updated: ka
+
+kaa
+2724
+qitems obtained.
+Iterating the dump.
+done with the dump.
+2017
+45
+articles for this language are in and updated: kaa
+
+kab
+8380
+qitems obtained.
+Iterating the dump.
+done with the dump.
+6129
+66
+articles for this language are in and updated: kab
+
+kbd
+4202
+qitems obtained.
+Iterating the dump.
+done with the dump.
+1622
+1
+articles for this language are in and updated: kbd
+
+kbp
+2138
+qitems obtained.
+Iterating the dump.
+done with the dump.
+1799
+118
+articles for this language are in and updated: kbp
+
+kg
+1595
+qitems obtained.
+Iterating the dump.
+done with the dump.
+1267
+4
+articles for this language are in and updated: kg
+
+ki
+1798
+qitems obtained.
+Iterating the dump.
+done with the dump.
+1488
+144
+articles for this language are in and updated: ki
+
+kj
+14
+qitems obtained.
+Iterating the dump.
+done with the dump.
+6
+0
+articles for this language are in and updated: kj
+
+kk
+262299
+qitems obtained.
+Iterating the dump.
+done with the dump.
+230754
+1223
+articles for this language are in and updated: kk
+
+kl
+1302
+qitems obtained.
+Iterating the dump.
+done with the dump.
+861
+9
+articles for this language are in and updated: kl
+
+km
+12872
+qitems obtained.
+Iterating the dump.
+done with the dump.
+9797
+351
+articles for this language are in and updated: km
+
+kn
+33666
+qitems obtained.
+Iterating the dump.
+done with the dump.
+27323
+294
+articles for this language are in and updated: kn
+
+ko
+857073
+qitems obtained.
+Iterating the dump.
+done with the dump.
+528701
+8951
+articles for this language are in and updated: ko
+
+koi
+4664
+qitems obtained.
+Iterating the dump.
+done with the dump.
+3502
+2
+articles for this language are in and updated: koi
+
+kr
+11
+qitems obtained.
+Iterating the dump.
+done with the dump.
+1
+0
+articles for this language are in and updated: kr
+
+krc
+5647
+qitems obtained.
+Iterating the dump.
+done with the dump.
+2072
+4
+articles for this language are in and updated: krc
+
+ks
+640
+qitems obtained.
+Iterating the dump.
+done with the dump.
+567
+26
+articles for this language are in and updated: ks
+
+ksh
+4011
+qitems obtained.
+Iterating the dump.
+done with the dump.
+2902
+11
+articles for this language are in and updated: ksh
+
+ku
+44317
+qitems obtained.
+Iterating the dump.
+done with the dump.
+34220
+4502
+articles for this language are in and updated: ku
+
+kv
+8762
+qitems obtained.
+Iterating the dump.
+done with the dump.
+5509
+18
+articles for this language are in and updated: kv
+
+kw
+6265
+qitems obtained.
+Iterating the dump.
+done with the dump.
+4585
+12
+articles for this language are in and updated: kw
+
+ky
+86375
+qitems obtained.
+Iterating the dump.
+done with the dump.
+80717
+101
+articles for this language are in and updated: ky
+
+la
+179235
+qitems obtained.
+Iterating the dump.
+done with the dump.
+135011
+178
+articles for this language are in and updated: la
+
+lad
+6411
+qitems obtained.
+Iterating the dump.
+done with the dump.
+3588
+13
+articles for this language are in and updated: lad
+
+lb
+91039
+qitems obtained.
+Iterating the dump.
+done with the dump.
+59458
+177
+articles for this language are in and updated: lb
+
+lbe
+1728
+qitems obtained.
+Iterating the dump.
+done with the dump.
+1257
+3
+articles for this language are in and updated: lbe
+
+lez
+7050
+qitems obtained.
+Iterating the dump.
+done with the dump.
+4200
+2
+articles for this language are in and updated: lez
+
+lfn
+5333
+qitems obtained.
+Iterating the dump.
+done with the dump.
+4676
+13
+articles for this language are in and updated: lfn
+
+lg
+2755
+qitems obtained.
+Iterating the dump.
+done with the dump.
+2467
+19
+articles for this language are in and updated: lg
+
+li
+16085
+qitems obtained.
+Iterating the dump.
+done with the dump.
+13209
+38
+articles for this language are in and updated: li
+
+lij
+12199
+qitems obtained.
+Iterating the dump.
+done with the dump.
+9927
+345
+articles for this language are in and updated: lij
+
+lld
+1714
+qitems obtained.
+Iterating the dump.
+done with the dump.
+1141
+309
+articles for this language are in and updated: lld
+
+lmo
+55574
+qitems obtained.
+Iterating the dump.
+done with the dump.
+45841
+173
+articles for this language are in and updated: lmo
+
+ln
+5011
+qitems obtained.
+Iterating the dump.
+done with the dump.
+3310
+18
+articles for this language are in and updated: ln
+
+lo
+6217
+qitems obtained.
+Iterating the dump.
+done with the dump.
+4585
+80
+articles for this language are in and updated: lo
+
+lrc
+4
+qitems obtained.
+Iterating the dump.
+done with the dump.
+1
+0
+articles for this language are in and updated: lrc
+
+lt
+237785
+qitems obtained.
+Iterating the dump.
+done with the dump.
+196897
+645
+articles for this language are in and updated: lt
+
+ltg
+2097
+qitems obtained.
+Iterating the dump.
+done with the dump.
+1008
+1
+articles for this language are in and updated: ltg
+
+lv
+145409
+qitems obtained.
+Iterating the dump.
+done with the dump.
+105884
+1324
+articles for this language are in and updated: lv
+
+mai
+18536
+qitems obtained.
+Iterating the dump.
+done with the dump.
+14525
+9
+articles for this language are in and updated: mai
+
+map_bms
+21150
+qitems obtained.
+Iterating the dump.
+done with the dump.
+13776
+5
+articles for this language are in and updated: map_bms
+
+mdf
+2579
+qitems obtained.
+Iterating the dump.
+done with the dump.
+1357
+2
+articles for this language are in and updated: mdf
+
+mg
+99932
+qitems obtained.
+Iterating the dump.
+done with the dump.
+93766
+189
+articles for this language are in and updated: mg
+
+mh
+20
+qitems obtained.
+Iterating the dump.
+done with the dump.
+8
+1
+articles for this language are in and updated: mh
+
+mhr
+15137
+qitems obtained.
+Iterating the dump.
+done with the dump.
+10303
+27
+articles for this language are in and updated: mhr
+
+mi
+8244
+qitems obtained.
+Iterating the dump.
+done with the dump.
+7207
+4
+articles for this language are in and updated: mi
+
+min
+227178
+qitems obtained.
+Iterating the dump.
+done with the dump.
+224550
+152
+articles for this language are in and updated: min
+
+mk
+197624
+qitems obtained.
+Iterating the dump.
+done with the dump.
+113223
+1109
+articles for this language are in and updated: mk
+
+ml
+114943
+qitems obtained.
+Iterating the dump.
+done with the dump.
+73284
+772
+articles for this language are in and updated: ml
+
+mn
+65845
+qitems obtained.
+Iterating the dump.
+done with the dump.
+22024
+284
+articles for this language are in and updated: mn
+
+mnw
+1704
+qitems obtained.
+Iterating the dump.
+done with the dump.
+549
+818
+articles for this language are in and updated: mnw
+
+mr
+79233
+qitems obtained.
+Iterating the dump.
+done with the dump.
+60694
+12546
+articles for this language are in and updated: mr
+
+mrj
+12355
+qitems obtained.
+Iterating the dump.
+done with the dump.
+10521
+7
+articles for this language are in and updated: mrj
+
+ms
+394960
+qitems obtained.
+Iterating the dump.
+done with the dump.
+346516
+1509
+articles for this language are in and updated: ms
+
+mt
+8037
+qitems obtained.
+Iterating the dump.
+done with the dump.
+3870
+22
+articles for this language are in and updated: mt
+
+mus
+11
+qitems obtained.
+Iterating the dump.
+done with the dump.
+3
+0
+articles for this language are in and updated: mus
+
+mwl
+7473
+qitems obtained.
+Iterating the dump.
+done with the dump.
+4107
+11
+articles for this language are in and updated: mwl
+
+my
+65880
+qitems obtained.
+Iterating the dump.
+done with the dump.
+50959
+51989
+articles for this language are in and updated: my
+
+myv
+10606
+qitems obtained.
+Iterating the dump.
+done with the dump.
+6414
+14
+articles for this language are in and updated: myv
+
+mzn
+16598
+qitems obtained.
+Iterating the dump.
+done with the dump.
+13521
+78
+articles for this language are in and updated: mzn
+
+na
+2347
+qitems obtained.
+Iterating the dump.
+done with the dump.
+1516
+88
+articles for this language are in and updated: na
+
+nah
+9584
+qitems obtained.
+Iterating the dump.
+done with the dump.
+7160
+10
+articles for this language are in and updated: nah
+
+nap
+16645
+qitems obtained.
+Iterating the dump.
+done with the dump.
+14734
+10
+articles for this language are in and updated: nap
+
+nds
+87533
+qitems obtained.
+Iterating the dump.
+done with the dump.
+81208
+1309
+articles for this language are in and updated: nds
+
+nds_nl
+9519
+qitems obtained.
+Iterating the dump.
+done with the dump.
+7234
+15
+articles for this language are in and updated: nds_nl
+
+ne
+42336
+qitems obtained.
+Iterating the dump.
+done with the dump.
+32102
+99
+articles for this language are in and updated: ne
+
+new
+107333
+qitems obtained.
+Iterating the dump.
+done with the dump.
+72897
+134
+articles for this language are in and updated: new
+
+ng
+39
+qitems obtained.
+Iterating the dump.
+done with the dump.
+15
+6
+articles for this language are in and updated: ng
+
+nl
+2202545
+qitems obtained.
+Iterating the dump.
+done with the dump.
+2051003
+1391
+articles for this language are in and updated: nl
+
+nn
+237844
+qitems obtained.
+Iterating the dump.
+done with the dump.
+158040
+321
+articles for this language are in and updated: nn
+
+no
+746186
+qitems obtained.
+Iterating the dump.
+done with the dump.
+552537
+2562
+articles for this language are in and updated: no
+
+nov
+2840
+qitems obtained.
+Iterating the dump.
+done with the dump.
+1798
+3
+articles for this language are in and updated: nov
+
+nqo
+615
+qitems obtained.
+Iterating the dump.
+done with the dump.
+586
+478
+articles for this language are in and updated: nqo
+
+nrm
+5027
+qitems obtained.
+Iterating the dump.
+done with the dump.
+4564
+33
+articles for this language are in and updated: nrm
+
+nso
+8806
+qitems obtained.
+Iterating the dump.
+done with the dump.
+8361
+76
+articles for this language are in and updated: nso
+
+nv
+18971
+qitems obtained.
+Iterating the dump.
+done with the dump.
+16694
+5
+articles for this language are in and updated: nv
+
+ny
+1496
+qitems obtained.
+Iterating the dump.
+done with the dump.
+808
+30
+articles for this language are in and updated: ny
+
+oc
+109506
+qitems obtained.
+Iterating the dump.
+done with the dump.
+86574
+216
+articles for this language are in and updated: oc
+
+olo
+5145
+qitems obtained.
+Iterating the dump.
+done with the dump.
+3906
+16
+articles for this language are in and updated: olo
+
+om
+1486
+qitems obtained.
+Iterating the dump.
+done with the dump.
+1115
+85
+articles for this language are in and updated: om
+
+or
+24816
+qitems obtained.
+Iterating the dump.
+done with the dump.
+15578
+76
+articles for this language are in and updated: or
+
+os
+22132
+qitems obtained.
+Iterating the dump.
+done with the dump.
+13028
+210
+articles for this language are in and updated: os
+
+pa
+46716
+qitems obtained.
+Iterating the dump.
+done with the dump.
+37575
+306
+articles for this language are in and updated: pa
+
+pag
+5504
+qitems obtained.
+Iterating the dump.
+done with the dump.
+4960
+4
+articles for this language are in and updated: pag
+
+pam
+11732
+qitems obtained.
+Iterating the dump.
+done with the dump.
+8963
+22
+articles for this language are in and updated: pam
+
+pap
+2811
+qitems obtained.
+Iterating the dump.
+done with the dump.
+2219
+27
+articles for this language are in and updated: pap
+
+pcd
+6062
+qitems obtained.
+Iterating the dump.
+done with the dump.
+5144
+51
+articles for this language are in and updated: pcd
+
+pdc
+3198
+qitems obtained.
+Iterating the dump.
+done with the dump.
+2082
+25
+articles for this language are in and updated: pdc
+
+pfl
+3847
+qitems obtained.
+Iterating the dump.
+done with the dump.
+2718
+4
+articles for this language are in and updated: pfl
+
+pi
+3390
+qitems obtained.
+Iterating the dump.
+done with the dump.
+3214
+3
+articles for this language are in and updated: pi
+
+pih
+1608
+qitems obtained.
+Iterating the dump.
+done with the dump.
+852
+39
+articles for this language are in and updated: pih
+
+pl
+1752288
+qitems obtained.
+Iterating the dump.
+done with the dump.
+1460862
+7871
+articles for this language are in and updated: pl
+
+pms
+71182
+qitems obtained.
+Iterating the dump.
+done with the dump.
+65005
+819
+articles for this language are in and updated: pms
+
+pnb
+71543
+qitems obtained.
+Iterating the dump.
+done with the dump.
+61085
+1357
+articles for this language are in and updated: pnb
+
+pnt
+857
+qitems obtained.
+Iterating the dump.
+done with the dump.
+520
+0
+articles for this language are in and updated: pnt
+
+ps
+16102
+qitems obtained.
+Iterating the dump.
+done with the dump.
+13260
+524
+articles for this language are in and updated: ps
+
+pt
+1499353
+qitems obtained.
+Iterating the dump.
+done with the dump.
+1060494
+6116
+articles for this language are in and updated: pt
+
+qu
+31368
+qitems obtained.
+Iterating the dump.
+done with the dump.
+23058
+54
+articles for this language are in and updated: qu
+
+rm
+5075
+qitems obtained.
+Iterating the dump.
+done with the dump.
+3755
+13
+articles for this language are in and updated: rm
+
+rmy
+1066
+qitems obtained.
+Iterating the dump.
+done with the dump.
+711
+3
+articles for this language are in and updated: rmy
+
+rn
+1261
+qitems obtained.
+Iterating the dump.
+done with the dump.
+712
+2
+articles for this language are in and updated: rn
+
+ro
+581244
+qitems obtained.
+Iterating the dump.
+done with the dump.
+418078
+1058
+articles for this language are in and updated: ro
+
+roa_rup
+1702
+qitems obtained.
+Iterating the dump.
+done with the dump.
+1279
+2
+articles for this language are in and updated: roa_rup
+
+roa_tara
+11388
+qitems obtained.
+Iterating the dump.
+done with the dump.
+9312
+3
+articles for this language are in and updated: roa_tara
+
+ru
+2261059
+qitems obtained.
+Iterating the dump.
+done with the dump.
+1697216
+19826
+articles for this language are in and updated: ru
+
+rue
+11073
+qitems obtained.
+Iterating the dump.
+done with the dump.
+8077
+34
+articles for this language are in and updated: rue
+
+rw
+3139
+qitems obtained.
+Iterating the dump.
+done with the dump.
+2119
+114
+articles for this language are in and updated: rw
+
+sa
+21750
+qitems obtained.
+Iterating the dump.
+done with the dump.
+11593
+62
+articles for this language are in and updated: sa
+
+sah
+22310
+qitems obtained.
+Iterating the dump.
+done with the dump.
+14367
+257
+articles for this language are in and updated: sah
+
+sat
+6607
+qitems obtained.
+Iterating the dump.
+done with the dump.
+5615
+382
+articles for this language are in and updated: sat
+
+sc
+9120
+qitems obtained.
+Iterating the dump.
+done with the dump.
+7077
+52
+articles for this language are in and updated: sc
+
+scn
+29054
+qitems obtained.
+Iterating the dump.
+done with the dump.
+26415
+20
+articles for this language are in and updated: scn
+
+sco
+94142
+qitems obtained.
+Iterating the dump.
+done with the dump.
+40831
+60
+articles for this language are in and updated: sco
+
+sd
+27051
+qitems obtained.
+Iterating the dump.
+done with the dump.
+15681
+179
+articles for this language are in and updated: sd
+
+se
+13885
+qitems obtained.
+Iterating the dump.
+done with the dump.
+7951
+6
+articles for this language are in and updated: se
+
+sg
+511
+qitems obtained.
+Iterating the dump.
+done with the dump.
+295
+0
+articles for this language are in and updated: sg
+
+sh
+527428
+qitems obtained.
+Iterating the dump.
+done with the dump.
+454733
+362
+articles for this language are in and updated: sh
+
+shn
+15922
+qitems obtained.
+Iterating the dump.
+done with the dump.
+8740
+528
+articles for this language are in and updated: shn
+
+si
+31301
+qitems obtained.
+Iterating the dump.
+done with the dump.
+20475
+400
+articles for this language are in and updated: si
+
+simple
+250361
+qitems obtained.
+Iterating the dump.
+done with the dump.
+184606
+1657
+articles for this language are in and updated: simple
+
+sk
+327264
+qitems obtained.
+Iterating the dump.
+done with the dump.
+236370
+197
+articles for this language are in and updated: sk
+
+sl
+245107
+qitems obtained.
+Iterating the dump.
+done with the dump.
+171841
+349
+articles for this language are in and updated: sl
+
+sm
+1329
+qitems obtained.
+Iterating the dump.
+done with the dump.
+1037
+20
+articles for this language are in and updated: sm
+
+smn
+6176
+qitems obtained.
+Iterating the dump.
+done with the dump.
+2766
+47
+articles for this language are in and updated: smn
+
+sn
+6710
+qitems obtained.
+Iterating the dump.
+done with the dump.
+6055
+1167
+articles for this language are in and updated: sn
+
+so
+9859
+qitems obtained.
+Iterating the dump.
+done with the dump.
+7047
+243
+articles for this language are in and updated: so
+
+sq
+110502
+qitems obtained.
+Iterating the dump.
+done with the dump.
+90657
+1040
+articles for this language are in and updated: sq
+
+sr
+743061
+qitems obtained.
+Iterating the dump.
+done with the dump.
+642267
+3309
+articles for this language are in and updated: sr
+
+srn
+1502
+qitems obtained.
+Iterating the dump.
+done with the dump.
+1182
+7
+articles for this language are in and updated: srn
+
+ss
+906
+qitems obtained.
+Iterating the dump.
+done with the dump.
+560
+1
+articles for this language are in and updated: ss
+
+st
+1096
+qitems obtained.
+Iterating the dump.
+done with the dump.
+904
+60
+articles for this language are in and updated: st
+
+stq
+5142
+qitems obtained.
+Iterating the dump.
+done with the dump.
+4109
+6
+articles for this language are in and updated: stq
+
+su
+68716
+qitems obtained.
+Iterating the dump.
+done with the dump.
+57028
+3879
+articles for this language are in and updated: su
+
+sv
+3629720
+qitems obtained.
+Iterating the dump.
+done with the dump.
+3229551
+689
+articles for this language are in and updated: sv
+
+sw
+76008
+qitems obtained.
+Iterating the dump.
+done with the dump.
+60897
+593
+articles for this language are in and updated: sw
+
+szl
+58758
+qitems obtained.
+Iterating the dump.
+done with the dump.
+53367
+140
+articles for this language are in and updated: szl
+
+szy
+1729
+qitems obtained.
+Iterating the dump.
+done with the dump.
+1400
+2489
+articles for this language are in and updated: szy
+
+ta
+170935
+qitems obtained.
+Iterating the dump.
+done with the dump.
+139706
+878
+articles for this language are in and updated: ta
+
+tcy
+2162
+qitems obtained.
+Iterating the dump.
+done with the dump.
+1663
+33
+articles for this language are in and updated: tcy
+
+te
+87220
+qitems obtained.
+Iterating the dump.
+done with the dump.
+70542
+535
+articles for this language are in and updated: te
+
+tet
+2038
+qitems obtained.
+Iterating the dump.
+done with the dump.
+1585
+4
+articles for this language are in and updated: tet
+
+tg
+126764
+qitems obtained.
+Iterating the dump.
+done with the dump.
+102444
+665
+articles for this language are in and updated: tg
+
+th
+217270
+qitems obtained.
+Iterating the dump.
+done with the dump.
+139474
+696
+articles for this language are in and updated: th
+
+ti
+976
+qitems obtained.
+Iterating the dump.
+done with the dump.
+372
+1
+articles for this language are in and updated: ti
+
+tk
+9349
+qitems obtained.
+Iterating the dump.
+done with the dump.
+7212
+105
+articles for this language are in and updated: tk
+
+tl
+90952
+qitems obtained.
+Iterating the dump.
+done with the dump.
+55202
+270
+articles for this language are in and updated: tl
+
+tn
+1180
+qitems obtained.
+Iterating the dump.
+done with the dump.
+842
+7
+articles for this language are in and updated: tn
+
+to
+2135
+qitems obtained.
+Iterating the dump.
+done with the dump.
+1750
+3
+articles for this language are in and updated: to
+
+tpi
+2520
+qitems obtained.
+Iterating the dump.
+done with the dump.
+1659
+7
+articles for this language are in and updated: tpi
+
+tr
+658803
+qitems obtained.
+Iterating the dump.
+done with the dump.
+384705
+14717
+articles for this language are in and updated: tr
+
+ts
+1181
+qitems obtained.
+Iterating the dump.
+done with the dump.
+726
+5
+articles for this language are in and updated: ts
+
+tt
+294364
+qitems obtained.
+Iterating the dump.
+done with the dump.
+262657
+4452
+articles for this language are in and updated: tt
+
+tum
+994
+qitems obtained.
+Iterating the dump.
+done with the dump.
+722
+1
+articles for this language are in and updated: tum
+
+tw
+1047
+qitems obtained.
+Iterating the dump.
+done with the dump.
+788
+62
+articles for this language are in and updated: tw
+
+ty
+1596
+qitems obtained.
+Iterating the dump.
+done with the dump.
+1331
+1
+articles for this language are in and updated: ty
+
+tyv
+4412
+qitems obtained.
+Iterating the dump.
+done with the dump.
+3171
+12
+articles for this language are in and updated: tyv
+
+udm
+7558
+qitems obtained.
+Iterating the dump.
+done with the dump.
+5053
+5
+articles for this language are in and updated: udm
+
+ug
+8616
+qitems obtained.
+Iterating the dump.
+done with the dump.
+7069
+635
+articles for this language are in and updated: ug
+
+uk
+1381894
+qitems obtained.
+Iterating the dump.
+done with the dump.
+1078687
+9745
+articles for this language are in and updated: uk
+
+ur
+601407
+qitems obtained.
+Iterating the dump.
+done with the dump.
+164023
+1599
+articles for this language are in and updated: ur
+
+uz
+156569
+qitems obtained.
+Iterating the dump.
+done with the dump.
+137232
+2968
+articles for this language are in and updated: uz
+
+ve
+809
+qitems obtained.
+Iterating the dump.
+done with the dump.
+557
+114
+articles for this language are in and updated: ve
+
+vec
+74907
+qitems obtained.
+Iterating the dump.
+done with the dump.
+67465
+92
+articles for this language are in and updated: vec
+
+vep
+14259
+qitems obtained.
+Iterating the dump.
+done with the dump.
+6657
+6
+articles for this language are in and updated: vep
+
+vi
+1536865
+qitems obtained.
+Iterating the dump.
+done with the dump.
+1259487
+3550
+articles for this language are in and updated: vi
+
+vls
+10697
+qitems obtained.
+Iterating the dump.
+done with the dump.
+7401
+18
+articles for this language are in and updated: vls
+
+vo
+129586
+qitems obtained.
+Iterating the dump.
+done with the dump.
+126503
+12
+articles for this language are in and updated: vo
+
+wa
+15480
+qitems obtained.
+Iterating the dump.
+done with the dump.
+10973
+216
+articles for this language are in and updated: wa
+
+war
+1425391
+qitems obtained.
+Iterating the dump.
+done with the dump.
+1265108
+45
+articles for this language are in and updated: war
+
+wo
+2700
+qitems obtained.
+Iterating the dump.
+done with the dump.
+1655
+11
+articles for this language are in and updated: wo
+
+wuu
+46076
+qitems obtained.
+Iterating the dump.
+done with the dump.
+41825
+122
+articles for this language are in and updated: wuu
+
+xal
+2654
+qitems obtained.
+Iterating the dump.
+done with the dump.
+2321
+3
+articles for this language are in and updated: xal
+
+xh
+2056
+qitems obtained.
+Iterating the dump.
+done with the dump.
+1401
+19
+articles for this language are in and updated: xh
+
+xmf
+22575
+qitems obtained.
+Iterating the dump.
+done with the dump.
+15343
+837
+articles for this language are in and updated: xmf
+
+yi
+19677
+qitems obtained.
+Iterating the dump.
+done with the dump.
+15147
+106
+articles for this language are in and updated: yi
+
+yo
+39065
+qitems obtained.
+Iterating the dump.
+done with the dump.
+33300
+332
+articles for this language are in and updated: yo
+
+za
+2493
+qitems obtained.
+Iterating the dump.
+done with the dump.
+2117
+0
+articles for this language are in and updated: za
+
+zea
+5631
+qitems obtained.
+Iterating the dump.
+done with the dump.
+4773
+1
+articles for this language are in and updated: zea
+
+zh
+1627653
+qitems obtained.
+Iterating the dump.
+done with the dump.
+1172060
+19950
+articles for this language are in and updated: zh
+
+zh_classical
+19188
+qitems obtained.
+Iterating the dump.
+done with the dump.
+10656
+107
+articles for this language are in and updated: zh_classical
+
+zh_min_nan
+469430
+qitems obtained.
+Iterating the dump.
+done with the dump.
+429253
+1554
+articles for this language are in and updated: zh_min_nan
+
+zh_yue
+141332
+qitems obtained.
+Iterating the dump.
+done with the dump.
+108862
+560
+articles for this language are in and updated: zh_yue
+
+zu
+9053
+qitems obtained.
+Iterating the dump.
+done with the dump.
+7595
+551
+articles for this language are in and updated: zu
+
+Traceback (most recent call last):
+  File "wikipedia_diversity.py", line 1363, in <module>
+    
+  File "wikipedia_diversity.py", line 51, in main
+    print ('dump iterated')
+  File "wikipedia_diversity.py", line 1073, in insert_page_ids_page_titles_qitems_wikipedia_diversity_db
+    def store_religious_groups_wd_diversity_categories_db():
+  File "/srv/wcdo/src_data/wikilanguages_utils.py", line 1651, in verify_function_run
+    cursor.execute(query,(script_name, function_name, cycle_year_month, finish_time, duration))
+sqlite3.IntegrityError: UNIQUE constraint failed: function_account.script_name, function_account.function_name, function_account.year_month

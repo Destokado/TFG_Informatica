@@ -1,0 +1,3 @@
+	Wiki	Title	Pageviews	Interwiki	Tamil WD Label	WD Qitem
+0	[[:ml:|ml]]	[{{fullurl:ml:പരിപ്പുവട}} പരിപ്പുവട]	4	0		 [{{fullurl:wikidata:Q13113101}} Q13113101]
+1	[[:te:|te]]	[{{fullurl:te:పూతరేకులు}} పూతరేకులు]	3	3	[{{fullurl:ta:போத்தரேக்குலு}} போத்தரேக்குலு]	 [{{fullurl:wikidata:Q7228884}} Q7228884]

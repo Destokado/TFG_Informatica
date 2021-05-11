@@ -1,0 +1,1523 @@
+current cycle for the data: 2021-03
+checking languages Replicas databases and deleting those without one...
+This language has no database or we cannot connect to it: ru_sib
+This language has no database or we cannot connect to it: tlh
+This language has no database or we cannot connect to it: tokipona
+['aa', 'ab', 'ace', 'ady', 'af', 'ak', 'als', 'am', 'an', 'ang', 'ar', 'arc', 'ary', 'arz', 'as', 'ast', 'atj', 'av', 'avk', 'awa', 'ay', 'az', 'azb', 'ba', 'ban', 'bar', 'bat_smg', 'bcl', 'be', 'be_x_old', 'bg', 'bh', 'bi', 'bjn', 'bm', 'bn', 'bo', 'bpy', 'br', 'bs', 'bug', 'bxr', 'ca', 'cbk_zam', 'cdo', 'ce', 'ceb', 'ch', 'cho', 'chr', 'chy', 'ckb', 'co', 'cr', 'crh', 'cs', 'csb', 'cu', 'cv', 'cy', 'da', 'de', 'din', 'diq', 'dsb', 'dty', 'dv', 'dz', 'ee', 'el', 'eml', 'en', 'eo', 'es', 'et', 'eu', 'ext', 'fa', 'ff', 'fi', 'fiu_vro', 'fj', 'fo', 'fr', 'frp', 'frr', 'fur', 'fy', 'ga', 'gag', 'gan', 'gcr', 'gd', 'gl', 'glk', 'gn', 'gom', 'gor', 'got', 'gu', 'gv', 'ha', 'hak', 'haw', 'he', 'hi', 'hif', 'ho', 'hr', 'hsb', 'ht', 'hu', 'hy', 'hyw', 'hz', 'ia', 'id', 'ie', 'ig', 'ii', 'ik', 'ilo', 'inh', 'io', 'is', 'it', 'iu', 'ja', 'jam', 'jbo', 'jv', 'ka', 'kaa', 'kab', 'kbd', 'kbp', 'kg', 'ki', 'kj', 'kk', 'kl', 'km', 'kn', 'ko', 'koi', 'kr', 'krc', 'ks', 'ksh', 'ku', 'kv', 'kw', 'ky', 'la', 'lad', 'lb', 'lbe', 'lez', 'lfn', 'lg', 'li', 'lij', 'lld', 'lmo', 'ln', 'lo', 'lrc', 'lt', 'ltg', 'lv', 'mai', 'map_bms', 'mdf', 'mg', 'mh', 'mhr', 'mi', 'min', 'mk', 'ml', 'mn', 'mnw', 'mr', 'mrj', 'ms', 'mt', 'mus', 'mwl', 'my', 'myv', 'mzn', 'na', 'nah', 'nap', 'nds', 'nds_nl', 'ne', 'new', 'ng', 'nl', 'nn', 'no', 'nov', 'nqo', 'nrm', 'nso', 'nv', 'ny', 'oc', 'olo', 'om', 'or', 'os', 'pa', 'pag', 'pam', 'pap', 'pcd', 'pdc', 'pfl', 'pi', 'pih', 'pl', 'pms', 'pnb', 'pnt', 'ps', 'pt', 'qu', 'rm', 'rmy', 'rn', 'ro', 'roa_rup', 'roa_tara', 'ru', 'rue', 'rw', 'sa', 'sah', 'sat', 'sc', 'scn', 'sco', 'sd', 'se', 'sg', 'sh', 'shn', 'si', 'simple', 'sk', 'sl', 'sm', 'smn', 'sn', 'so', 'sq', 'sr', 'srn', 'ss', 'st', 'stq', 'su', 'sv', 'sw', 'szl', 'szy', 'ta', 'tcy', 'te', 'tet', 'tg', 'th', 'ti', 'tk', 'tl', 'tn', 'to', 'tpi', 'tr', 'ts', 'tt', 'tum', 'tw', 'ty', 'tyv', 'udm', 'ug', 'uk', 'ur', 'uz', 've', 'vec', 'vep', 'vi', 'vls', 'vo', 'wa', 'war', 'wo', 'wuu', 'xal', 'xh', 'xmf', 'yi', 'yo', 'za', 'zea', 'zh', 'zh_classical', 'zh_min_nan', 'zh_yue', 'zu']
+database in use in load_wikipedia_language_editions_numberofarticles: wikipedia_diversity.db
+wikipedialanguage_numberarticles loaded.
+this is the total number of articles in the Diversity Database: 57546287
+- Process Accountant: The function "extend_articles_history_features aa" has not run yet. Do it! Now: 2021/04/28-11:58:38. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+one all-time file.
+1
+['/public/dumps/public/other/mediawiki_history/2021-03/aawiki/2021-03.aawiki.all-time.tsv.bz2']
+Total number of articles: 2
+/public/dumps/public/other/mediawiki_history/2021-03/aawiki/2021-03.aawiki.all-time.tsv.bz2
+Articles introduced: 2. Articles left for next files or not in the database: 0.
+This file took: 0:00:00.345067
+aa history parsed and stored
++ Process Accountant. Function: extend_articles_history_features aa is NOW RUN! Script: article_features.py. After 0:00:00.592508.
+
+- Process Accountant: The function "extend_articles_history_features ab" has not run yet. Do it! Now: 2021/04/28-11:58:39. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+one all-time file.
+1
+['/public/dumps/public/other/mediawiki_history/2021-03/abwiki/2021-03.abwiki.all-time.tsv.bz2']
+Total number of articles: 6136
+/public/dumps/public/other/mediawiki_history/2021-03/abwiki/2021-03.abwiki.all-time.tsv.bz2
+Articles introduced: 6061. Articles left for next files or not in the database: 75.
+This file took: 0:00:06.567296
+ab history parsed and stored
++ Process Accountant. Function: extend_articles_history_features ab is NOW RUN! Script: article_features.py. After 0:00:07.692396.
+
+- Process Accountant: The function "extend_articles_history_features ace" has not run yet. Do it! Now: 2021/04/28-11:58:47. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+one all-time file.
+1
+['/public/dumps/public/other/mediawiki_history/2021-03/acewiki/2021-03.acewiki.all-time.tsv.bz2']
+Total number of articles: 12345
+/public/dumps/public/other/mediawiki_history/2021-03/acewiki/2021-03.acewiki.all-time.tsv.bz2
+Articles introduced: 12341. Articles left for next files or not in the database: 4.
+This file took: 0:00:09.476133
+ace history parsed and stored
++ Process Accountant. Function: extend_articles_history_features ace is NOW RUN! Script: article_features.py. After 0:00:09.932134.
+
+- Process Accountant: The function "extend_articles_history_features ady" has not run yet. Do it! Now: 2021/04/28-11:58:57. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+one all-time file.
+1
+['/public/dumps/public/other/mediawiki_history/2021-03/adywiki/2021-03.adywiki.all-time.tsv.bz2']
+Total number of articles: 569
+/public/dumps/public/other/mediawiki_history/2021-03/adywiki/2021-03.adywiki.all-time.tsv.bz2
+Articles introduced: 568. Articles left for next files or not in the database: 1.
+This file took: 0:00:01.098341
+ady history parsed and stored
++ Process Accountant. Function: extend_articles_history_features ady is NOW RUN! Script: article_features.py. After 0:00:01.376159.
+
+- Process Accountant: The function "extend_articles_history_features af" has not run yet. Do it! Now: 2021/04/28-11:58:59. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+one all-time file.
+1
+['/public/dumps/public/other/mediawiki_history/2021-03/afwiki/2021-03.afwiki.all-time.tsv.bz2']
+Total number of articles: 97691
+/public/dumps/public/other/mediawiki_history/2021-03/afwiki/2021-03.afwiki.all-time.tsv.bz2
+Articles introduced: 97442. Articles left for next files or not in the database: 249.
+This file took: 0:02:49.554788
+af history parsed and stored
++ Process Accountant. Function: extend_articles_history_features af is NOW RUN! Script: article_features.py. After 0:02:56.195992.
+
+- Process Accountant: The function "extend_articles_history_features ak" has not run yet. Do it! Now: 2021/04/28-12:01:56. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+one all-time file.
+1
+['/public/dumps/public/other/mediawiki_history/2021-03/akwiki/2021-03.akwiki.all-time.tsv.bz2']
+Total number of articles: 1579
+/public/dumps/public/other/mediawiki_history/2021-03/akwiki/2021-03.akwiki.all-time.tsv.bz2
+Articles introduced: 1575. Articles left for next files or not in the database: 4.
+This file took: 0:00:02.484793
+ak history parsed and stored
++ Process Accountant. Function: extend_articles_history_features ak is NOW RUN! Script: article_features.py. After 0:00:03.749189.
+
+- Process Accountant: The function "extend_articles_history_features als" has not run yet. Do it! Now: 2021/04/28-12:02:00. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+one all-time file.
+1
+['/public/dumps/public/other/mediawiki_history/2021-03/alswiki/2021-03.alswiki.all-time.tsv.bz2']
+Total number of articles: 27799
+/public/dumps/public/other/mediawiki_history/2021-03/alswiki/2021-03.alswiki.all-time.tsv.bz2
+Articles introduced: 27767. Articles left for next files or not in the database: 32.
+This file took: 0:01:05.408182
+als history parsed and stored
++ Process Accountant. Function: extend_articles_history_features als is NOW RUN! Script: article_features.py. After 0:01:07.194861.
+
+- Process Accountant: The function "extend_articles_history_features am" has not run yet. Do it! Now: 2021/04/28-12:03:07. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+one all-time file.
+1
+['/public/dumps/public/other/mediawiki_history/2021-03/amwiki/2021-03.amwiki.all-time.tsv.bz2']
+Total number of articles: 15412
+/public/dumps/public/other/mediawiki_history/2021-03/amwiki/2021-03.amwiki.all-time.tsv.bz2
+Articles introduced: 15392. Articles left for next files or not in the database: 20.
+This file took: 0:00:26.207295
+am history parsed and stored
++ Process Accountant. Function: extend_articles_history_features am is NOW RUN! Script: article_features.py. After 0:00:26.863653.
+
+- Process Accountant: The function "extend_articles_history_features an" has not run yet. Do it! Now: 2021/04/28-12:03:35. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+one all-time file.
+1
+['/public/dumps/public/other/mediawiki_history/2021-03/anwiki/2021-03.anwiki.all-time.tsv.bz2']
+Total number of articles: 39905
+/public/dumps/public/other/mediawiki_history/2021-03/anwiki/2021-03.anwiki.all-time.tsv.bz2
+Articles introduced: 39527. Articles left for next files or not in the database: 378.
+This file took: 0:01:51.766054
+an history parsed and stored
++ Process Accountant. Function: extend_articles_history_features an is NOW RUN! Script: article_features.py. After 0:01:53.190252.
+
+- Process Accountant: The function "extend_articles_history_features ang" has not run yet. Do it! Now: 2021/04/28-12:05:28. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+one all-time file.
+1
+['/public/dumps/public/other/mediawiki_history/2021-03/angwiki/2021-03.angwiki.all-time.tsv.bz2']
+Total number of articles: 3386
+/public/dumps/public/other/mediawiki_history/2021-03/angwiki/2021-03.angwiki.all-time.tsv.bz2
+Articles introduced: 3375. Articles left for next files or not in the database: 11.
+This file took: 0:00:13.365898
+ang history parsed and stored
++ Process Accountant. Function: extend_articles_history_features ang is NOW RUN! Script: article_features.py. After 0:00:13.686485.
+
+- Process Accountant: The function "extend_articles_history_features ar" has not run yet. Do it! Now: 2021/04/28-12:05:59. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+multiple files.
+20
+['/public/dumps/public/other/mediawiki_history/2021-03/arwiki/2021-03.arwiki.2021.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/arwiki/2021-03.arwiki.2020.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/arwiki/2021-03.arwiki.2019.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/arwiki/2021-03.arwiki.2018.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/arwiki/2021-03.arwiki.2017.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/arwiki/2021-03.arwiki.2016.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/arwiki/2021-03.arwiki.2015.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/arwiki/2021-03.arwiki.2014.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/arwiki/2021-03.arwiki.2013.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/arwiki/2021-03.arwiki.2012.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/arwiki/2021-03.arwiki.2011.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/arwiki/2021-03.arwiki.2010.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/arwiki/2021-03.arwiki.2009.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/arwiki/2021-03.arwiki.2008.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/arwiki/2021-03.arwiki.2007.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/arwiki/2021-03.arwiki.2006.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/arwiki/2021-03.arwiki.2005.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/arwiki/2021-03.arwiki.2004.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/arwiki/2021-03.arwiki.2003.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/arwiki/2021-03.arwiki.2001.tsv.bz2']
+Total number of articles: 1111935
+/public/dumps/public/other/mediawiki_history/2021-03/arwiki/2021-03.arwiki.2021.tsv.bz2
+Articles introduced: 12807. Articles left for next files or not in the database: 1099128.
+This file took: 0:01:22.559998
+/public/dumps/public/other/mediawiki_history/2021-03/arwiki/2021-03.arwiki.2020.tsv.bz2
+Articles introduced: 76879. Articles left for next files or not in the database: 1022249.
+This file took: 0:11:25.639457
+/public/dumps/public/other/mediawiki_history/2021-03/arwiki/2021-03.arwiki.2019.tsv.bz2
+Articles introduced: 372001. Articles left for next files or not in the database: 650248.
+This file took: 0:12:21.621184
+/public/dumps/public/other/mediawiki_history/2021-03/arwiki/2021-03.arwiki.2018.tsv.bz2
+Articles introduced: 103013. Articles left for next files or not in the database: 547235.
+This file took: 0:06:47.392960
+/public/dumps/public/other/mediawiki_history/2021-03/arwiki/2021-03.arwiki.2017.tsv.bz2
+Articles introduced: 99617. Articles left for next files or not in the database: 447618.
+This file took: 0:05:38.582727
+/public/dumps/public/other/mediawiki_history/2021-03/arwiki/2021-03.arwiki.2016.tsv.bz2
+Articles introduced: 55444. Articles left for next files or not in the database: 392174.
+This file took: 0:05:09.368918
+/public/dumps/public/other/mediawiki_history/2021-03/arwiki/2021-03.arwiki.2015.tsv.bz2
+Articles introduced: 63808. Articles left for next files or not in the database: 328366.
+This file took: 0:03:57.708487
+/public/dumps/public/other/mediawiki_history/2021-03/arwiki/2021-03.arwiki.2014.tsv.bz2
+Articles introduced: 91490. Articles left for next files or not in the database: 236876.
+This file took: 0:03:09.984082
+/public/dumps/public/other/mediawiki_history/2021-03/arwiki/2021-03.arwiki.2013.tsv.bz2
+Articles introduced: 44452. Articles left for next files or not in the database: 192424.
+This file took: 0:03:02.212708
+/public/dumps/public/other/mediawiki_history/2021-03/arwiki/2021-03.arwiki.2012.tsv.bz2
+Articles introduced: 40163. Articles left for next files or not in the database: 152261.
+This file took: 0:02:41.817852
+/public/dumps/public/other/mediawiki_history/2021-03/arwiki/2021-03.arwiki.2011.tsv.bz2
+Articles introduced: 23974. Articles left for next files or not in the database: 128287.
+This file took: 0:02:16.541300
+/public/dumps/public/other/mediawiki_history/2021-03/arwiki/2021-03.arwiki.2010.tsv.bz2
+Articles introduced: 21735. Articles left for next files or not in the database: 106552.
+This file took: 0:02:11.294446
+/public/dumps/public/other/mediawiki_history/2021-03/arwiki/2021-03.arwiki.2009.tsv.bz2
+Articles introduced: 26874. Articles left for next files or not in the database: 79678.
+This file took: 0:02:29.404040
+/public/dumps/public/other/mediawiki_history/2021-03/arwiki/2021-03.arwiki.2008.tsv.bz2
+Articles introduced: 30454. Articles left for next files or not in the database: 49224.
+This file took: 0:01:45.200593
+/public/dumps/public/other/mediawiki_history/2021-03/arwiki/2021-03.arwiki.2007.tsv.bz2
+Articles introduced: 25406. Articles left for next files or not in the database: 23818.
+This file took: 0:01:07.395411
+/public/dumps/public/other/mediawiki_history/2021-03/arwiki/2021-03.arwiki.2006.tsv.bz2
+Articles introduced: 10550. Articles left for next files or not in the database: 13268.
+This file took: 0:00:34.518636
+/public/dumps/public/other/mediawiki_history/2021-03/arwiki/2021-03.arwiki.2005.tsv.bz2
+Articles introduced: 8143. Articles left for next files or not in the database: 5125.
+This file took: 0:00:13.086327
+/public/dumps/public/other/mediawiki_history/2021-03/arwiki/2021-03.arwiki.2004.tsv.bz2
+Articles introduced: 1452. Articles left for next files or not in the database: 3673.
+This file took: 0:00:02.932968
+/public/dumps/public/other/mediawiki_history/2021-03/arwiki/2021-03.arwiki.2003.tsv.bz2
+Articles introduced: 14. Articles left for next files or not in the database: 3659.
+This file took: 0:00:00.188472
+/public/dumps/public/other/mediawiki_history/2021-03/arwiki/2021-03.arwiki.2001.tsv.bz2
+Articles introduced: 587. Articles left for next files or not in the database: 3072.
+This file took: 0:00:00.227432
+ar history parsed and stored
++ Process Accountant. Function: extend_articles_history_features ar is NOW RUN! Script: article_features.py. After 1:07:12.470413.
+
+- Process Accountant: The function "extend_articles_history_features arc" has not run yet. Do it! Now: 2021/04/28-13:13:13. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+one all-time file.
+1
+['/public/dumps/public/other/mediawiki_history/2021-03/arcwiki/2021-03.arcwiki.all-time.tsv.bz2']
+Total number of articles: 1811
+/public/dumps/public/other/mediawiki_history/2021-03/arcwiki/2021-03.arcwiki.all-time.tsv.bz2
+Articles introduced: 1810. Articles left for next files or not in the database: 1.
+This file took: 0:00:06.475078
+arc history parsed and stored
++ Process Accountant. Function: extend_articles_history_features arc is NOW RUN! Script: article_features.py. After 0:00:06.680819.
+
+- Process Accountant: The function "extend_articles_history_features ary" has not run yet. Do it! Now: 2021/04/28-13:13:19. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+one all-time file.
+1
+['/public/dumps/public/other/mediawiki_history/2021-03/arywiki/2021-03.arywiki.all-time.tsv.bz2']
+Total number of articles: 3786
+/public/dumps/public/other/mediawiki_history/2021-03/arywiki/2021-03.arywiki.all-time.tsv.bz2
+Articles introduced: 3690. Articles left for next files or not in the database: 96.
+This file took: 0:00:03.153201
+ary history parsed and stored
++ Process Accountant. Function: extend_articles_history_features ary is NOW RUN! Script: article_features.py. After 0:00:03.934133.
+
+- Process Accountant: The function "extend_articles_history_features arz" has not run yet. Do it! Now: 2021/04/28-13:13:44. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+one all-time file.
+1
+['/public/dumps/public/other/mediawiki_history/2021-03/arzwiki/2021-03.arzwiki.all-time.tsv.bz2']
+Total number of articles: 1238258
+/public/dumps/public/other/mediawiki_history/2021-03/arzwiki/2021-03.arzwiki.all-time.tsv.bz2
+Articles introduced: 1221854. Articles left for next files or not in the database: 16404.
+This file took: 0:08:12.940380
+arz history parsed and stored
++ Process Accountant. Function: extend_articles_history_features arz is NOW RUN! Script: article_features.py. After 0:09:01.552165.
+
+- Process Accountant: The function "extend_articles_history_features as" has not run yet. Do it! Now: 2021/04/28-13:22:47. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+one all-time file.
+1
+['/public/dumps/public/other/mediawiki_history/2021-03/aswiki/2021-03.aswiki.all-time.tsv.bz2']
+Total number of articles: 8452
+/public/dumps/public/other/mediawiki_history/2021-03/aswiki/2021-03.aswiki.all-time.tsv.bz2
+Articles introduced: 8382. Articles left for next files or not in the database: 70.
+This file took: 0:00:16.420241
+as history parsed and stored
++ Process Accountant. Function: extend_articles_history_features as is NOW RUN! Script: article_features.py. After 0:00:16.904685.
+
+- Process Accountant: The function "extend_articles_history_features ast" has not run yet. Do it! Now: 2021/04/28-13:23:05. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+one all-time file.
+1
+['/public/dumps/public/other/mediawiki_history/2021-03/astwiki/2021-03.astwiki.all-time.tsv.bz2']
+Total number of articles: 124396
+/public/dumps/public/other/mediawiki_history/2021-03/astwiki/2021-03.astwiki.all-time.tsv.bz2
+Articles introduced: 114074. Articles left for next files or not in the database: 10322.
+This file took: 0:04:07.297192
+ast history parsed and stored
++ Process Accountant. Function: extend_articles_history_features ast is NOW RUN! Script: article_features.py. After 0:04:11.672790.
+
+- Process Accountant: The function "extend_articles_history_features atj" has not run yet. Do it! Now: 2021/04/28-13:27:17. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+one all-time file.
+1
+['/public/dumps/public/other/mediawiki_history/2021-03/atjwiki/2021-03.atjwiki.all-time.tsv.bz2']
+Total number of articles: 1537
+/public/dumps/public/other/mediawiki_history/2021-03/atjwiki/2021-03.atjwiki.all-time.tsv.bz2
+Articles introduced: 1534. Articles left for next files or not in the database: 3.
+This file took: 0:00:01.234148
+atj history parsed and stored
++ Process Accountant. Function: extend_articles_history_features atj is NOW RUN! Script: article_features.py. After 0:00:01.412868.
+
+- Process Accountant: The function "extend_articles_history_features av" has not run yet. Do it! Now: 2021/04/28-13:27:18. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+one all-time file.
+1
+['/public/dumps/public/other/mediawiki_history/2021-03/avwiki/2021-03.avwiki.all-time.tsv.bz2']
+Total number of articles: 2608
+/public/dumps/public/other/mediawiki_history/2021-03/avwiki/2021-03.avwiki.all-time.tsv.bz2
+Articles introduced: 2601. Articles left for next files or not in the database: 7.
+This file took: 0:00:04.273075
+av history parsed and stored
++ Process Accountant. Function: extend_articles_history_features av is NOW RUN! Script: article_features.py. After 0:00:04.467866.
+
+- Process Accountant: The function "extend_articles_history_features avk" has not run yet. Do it! Now: 2021/04/28-13:27:23. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+one all-time file.
+1
+['/public/dumps/public/other/mediawiki_history/2021-03/avkwiki/2021-03.avkwiki.all-time.tsv.bz2']
+Total number of articles: 13425
+/public/dumps/public/other/mediawiki_history/2021-03/avkwiki/2021-03.avkwiki.all-time.tsv.bz2
+Articles introduced: 12995. Articles left for next files or not in the database: 430.
+This file took: 0:00:05.126949
+avk history parsed and stored
++ Process Accountant. Function: extend_articles_history_features avk is NOW RUN! Script: article_features.py. After 0:00:05.454179.
+
+- Process Accountant: The function "extend_articles_history_features awa" has not run yet. Do it! Now: 2021/04/28-13:27:28. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+one all-time file.
+1
+['/public/dumps/public/other/mediawiki_history/2021-03/awawiki/2021-03.awawiki.all-time.tsv.bz2']
+Total number of articles: 3710
+/public/dumps/public/other/mediawiki_history/2021-03/awawiki/2021-03.awawiki.all-time.tsv.bz2
+Articles introduced: 3710. Articles left for next files or not in the database: 0.
+This file took: 0:00:01.870527
+awa history parsed and stored
++ Process Accountant. Function: extend_articles_history_features awa is NOW RUN! Script: article_features.py. After 0:00:02.113917.
+
+- Process Accountant: The function "extend_articles_history_features ay" has not run yet. Do it! Now: 2021/04/28-13:27:30. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+one all-time file.
+1
+['/public/dumps/public/other/mediawiki_history/2021-03/aywiki/2021-03.aywiki.all-time.tsv.bz2']
+Total number of articles: 5141
+/public/dumps/public/other/mediawiki_history/2021-03/aywiki/2021-03.aywiki.all-time.tsv.bz2
+Articles introduced: 5139. Articles left for next files or not in the database: 2.
+This file took: 0:00:06.332872
+ay history parsed and stored
++ Process Accountant. Function: extend_articles_history_features ay is NOW RUN! Script: article_features.py. After 0:00:06.636141.
+
+- Process Accountant: The function "extend_articles_history_features az" has not run yet. Do it! Now: 2021/04/28-13:27:39. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+one all-time file.
+1
+['/public/dumps/public/other/mediawiki_history/2021-03/azwiki/2021-03.azwiki.all-time.tsv.bz2']
+Total number of articles: 180331
+/public/dumps/public/other/mediawiki_history/2021-03/azwiki/2021-03.azwiki.all-time.tsv.bz2
+Articles introduced: 179574. Articles left for next files or not in the database: 757.
+This file took: 0:06:32.453570
+az history parsed and stored
++ Process Accountant. Function: extend_articles_history_features az is NOW RUN! Script: article_features.py. After 0:06:42.040942.
+
+- Process Accountant: The function "extend_articles_history_features azb" has not run yet. Do it! Now: 2021/04/28-13:34:25. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+one all-time file.
+1
+['/public/dumps/public/other/mediawiki_history/2021-03/azbwiki/2021-03.azbwiki.all-time.tsv.bz2']
+Total number of articles: 240247
+/public/dumps/public/other/mediawiki_history/2021-03/azbwiki/2021-03.azbwiki.all-time.tsv.bz2
+Articles introduced: 240188. Articles left for next files or not in the database: 59.
+This file took: 0:01:48.584582
+azb history parsed and stored
++ Process Accountant. Function: extend_articles_history_features azb is NOW RUN! Script: article_features.py. After 0:01:59.242365.
+
+- Process Accountant: The function "extend_articles_history_features ba" has not run yet. Do it! Now: 2021/04/28-13:36:25. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+one all-time file.
+1
+['/public/dumps/public/other/mediawiki_history/2021-03/bawiki/2021-03.bawiki.all-time.tsv.bz2']
+Total number of articles: 56740
+/public/dumps/public/other/mediawiki_history/2021-03/bawiki/2021-03.bawiki.all-time.tsv.bz2
+Articles introduced: 56500. Articles left for next files or not in the database: 240.
+This file took: 0:01:07.975867
+ba history parsed and stored
++ Process Accountant. Function: extend_articles_history_features ba is NOW RUN! Script: article_features.py. After 0:01:10.020747.
+
+- Process Accountant: The function "extend_articles_history_features ban" has not run yet. Do it! Now: 2021/04/28-13:37:35. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+one all-time file.
+1
+['/public/dumps/public/other/mediawiki_history/2021-03/banwiki/2021-03.banwiki.all-time.tsv.bz2']
+Total number of articles: 7037
+/public/dumps/public/other/mediawiki_history/2021-03/banwiki/2021-03.banwiki.all-time.tsv.bz2
+Articles introduced: 6828. Articles left for next files or not in the database: 209.
+This file took: 0:00:05.080605
+ban history parsed and stored
++ Process Accountant. Function: extend_articles_history_features ban is NOW RUN! Script: article_features.py. After 0:00:05.428427.
+
+- Process Accountant: The function "extend_articles_history_features bar" has not run yet. Do it! Now: 2021/04/28-13:37:41. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+one all-time file.
+1
+['/public/dumps/public/other/mediawiki_history/2021-03/barwiki/2021-03.barwiki.all-time.tsv.bz2']
+Total number of articles: 31664
+/public/dumps/public/other/mediawiki_history/2021-03/barwiki/2021-03.barwiki.all-time.tsv.bz2
+Articles introduced: 31648. Articles left for next files or not in the database: 16.
+This file took: 0:00:42.861583
+bar history parsed and stored
++ Process Accountant. Function: extend_articles_history_features bar is NOW RUN! Script: article_features.py. After 0:00:44.642307.
+
+- Process Accountant: The function "extend_articles_history_features bat_smg" has not run yet. Do it! Now: 2021/04/28-13:38:26. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+one all-time file.
+1
+['/public/dumps/public/other/mediawiki_history/2021-03/bat_smgwiki/2021-03.bat_smgwiki.all-time.tsv.bz2']
+Total number of articles: 16913
+/public/dumps/public/other/mediawiki_history/2021-03/bat_smgwiki/2021-03.bat_smgwiki.all-time.tsv.bz2
+Articles introduced: 16864. Articles left for next files or not in the database: 49.
+This file took: 0:00:24.180660
+bat_smg history parsed and stored
++ Process Accountant. Function: extend_articles_history_features bat_smg is NOW RUN! Script: article_features.py. After 0:00:24.776324.
+
+- Process Accountant: The function "extend_articles_history_features bcl" has not run yet. Do it! Now: 2021/04/28-13:38:51. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+one all-time file.
+1
+['/public/dumps/public/other/mediawiki_history/2021-03/bclwiki/2021-03.bclwiki.all-time.tsv.bz2']
+Total number of articles: 11300
+/public/dumps/public/other/mediawiki_history/2021-03/bclwiki/2021-03.bclwiki.all-time.tsv.bz2
+Articles introduced: 11233. Articles left for next files or not in the database: 67.
+This file took: 0:00:15.301574
+bcl history parsed and stored
++ Process Accountant. Function: extend_articles_history_features bcl is NOW RUN! Script: article_features.py. After 0:00:15.665272.
+
+- Process Accountant: The function "extend_articles_history_features be" has not run yet. Do it! Now: 2021/04/28-13:39:07. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+one all-time file.
+1
+['/public/dumps/public/other/mediawiki_history/2021-03/bewiki/2021-03.bewiki.all-time.tsv.bz2']
+Total number of articles: 203909
+/public/dumps/public/other/mediawiki_history/2021-03/bewiki/2021-03.bewiki.all-time.tsv.bz2
+Articles introduced: 203293. Articles left for next files or not in the database: 616.
+This file took: 0:04:18.243801
+be history parsed and stored
++ Process Accountant. Function: extend_articles_history_features be is NOW RUN! Script: article_features.py. After 0:04:27.255563.
+
+- Process Accountant: The function "extend_articles_history_features be_x_old" has not run yet. Do it! Now: 2021/04/28-13:43:35. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+one all-time file.
+1
+['/public/dumps/public/other/mediawiki_history/2021-03/be_x_oldwiki/2021-03.be_x_oldwiki.all-time.tsv.bz2']
+Total number of articles: 74208
+/public/dumps/public/other/mediawiki_history/2021-03/be_x_oldwiki/2021-03.be_x_oldwiki.all-time.tsv.bz2
+Articles introduced: 73878. Articles left for next files or not in the database: 330.
+This file took: 0:02:13.100723
+be_x_old history parsed and stored
++ Process Accountant. Function: extend_articles_history_features be_x_old is NOW RUN! Script: article_features.py. After 0:02:15.766814.
+
+- Process Accountant: The function "extend_articles_history_features bg" has not run yet. Do it! Now: 2021/04/28-13:45:53. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+multiple files.
+20
+['/public/dumps/public/other/mediawiki_history/2021-03/bgwiki/2021-03.bgwiki.2021.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/bgwiki/2021-03.bgwiki.2020.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/bgwiki/2021-03.bgwiki.2019.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/bgwiki/2021-03.bgwiki.2018.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/bgwiki/2021-03.bgwiki.2017.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/bgwiki/2021-03.bgwiki.2016.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/bgwiki/2021-03.bgwiki.2015.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/bgwiki/2021-03.bgwiki.2014.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/bgwiki/2021-03.bgwiki.2013.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/bgwiki/2021-03.bgwiki.2012.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/bgwiki/2021-03.bgwiki.2011.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/bgwiki/2021-03.bgwiki.2010.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/bgwiki/2021-03.bgwiki.2009.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/bgwiki/2021-03.bgwiki.2008.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/bgwiki/2021-03.bgwiki.2007.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/bgwiki/2021-03.bgwiki.2006.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/bgwiki/2021-03.bgwiki.2005.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/bgwiki/2021-03.bgwiki.2004.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/bgwiki/2021-03.bgwiki.2003.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/bgwiki/2021-03.bgwiki.2001.tsv.bz2']
+Total number of articles: 270978
+/public/dumps/public/other/mediawiki_history/2021-03/bgwiki/2021-03.bgwiki.2021.tsv.bz2
+Articles introduced: 2183. Articles left for next files or not in the database: 268795.
+This file took: 0:00:13.543981
+/public/dumps/public/other/mediawiki_history/2021-03/bgwiki/2021-03.bgwiki.2020.tsv.bz2
+Articles introduced: 9833. Articles left for next files or not in the database: 258962.
+This file took: 0:01:03.475266
+/public/dumps/public/other/mediawiki_history/2021-03/bgwiki/2021-03.bgwiki.2019.tsv.bz2
+Articles introduced: 10412. Articles left for next files or not in the database: 248550.
+This file took: 0:00:55.452608
+/public/dumps/public/other/mediawiki_history/2021-03/bgwiki/2021-03.bgwiki.2018.tsv.bz2
+Articles introduced: 10334. Articles left for next files or not in the database: 238216.
+This file took: 0:00:57.819812
+/public/dumps/public/other/mediawiki_history/2021-03/bgwiki/2021-03.bgwiki.2017.tsv.bz2
+Articles introduced: 13875. Articles left for next files or not in the database: 224341.
+This file took: 0:00:52.870207
+/public/dumps/public/other/mediawiki_history/2021-03/bgwiki/2021-03.bgwiki.2016.tsv.bz2
+Articles introduced: 13079. Articles left for next files or not in the database: 211262.
+This file took: 0:00:47.412339
+/public/dumps/public/other/mediawiki_history/2021-03/bgwiki/2021-03.bgwiki.2015.tsv.bz2
+Articles introduced: 24274. Articles left for next files or not in the database: 186988.
+This file took: 0:00:53.767281
+/public/dumps/public/other/mediawiki_history/2021-03/bgwiki/2021-03.bgwiki.2014.tsv.bz2
+Articles introduced: 31608. Articles left for next files or not in the database: 155380.
+This file took: 0:00:43.085677
+/public/dumps/public/other/mediawiki_history/2021-03/bgwiki/2021-03.bgwiki.2013.tsv.bz2
+Articles introduced: 12872. Articles left for next files or not in the database: 142508.
+This file took: 0:00:57.643408
+/public/dumps/public/other/mediawiki_history/2021-03/bgwiki/2021-03.bgwiki.2012.tsv.bz2
+Articles introduced: 17266. Articles left for next files or not in the database: 125242.
+This file took: 0:01:07.424999
+/public/dumps/public/other/mediawiki_history/2021-03/bgwiki/2021-03.bgwiki.2011.tsv.bz2
+Articles introduced: 14176. Articles left for next files or not in the database: 111066.
+This file took: 0:01:03.263432
+/public/dumps/public/other/mediawiki_history/2021-03/bgwiki/2021-03.bgwiki.2010.tsv.bz2
+Articles introduced: 23022. Articles left for next files or not in the database: 88044.
+This file took: 0:01:10.450602
+/public/dumps/public/other/mediawiki_history/2021-03/bgwiki/2021-03.bgwiki.2009.tsv.bz2
+Articles introduced: 21092. Articles left for next files or not in the database: 66952.
+This file took: 0:01:02.774053
+/public/dumps/public/other/mediawiki_history/2021-03/bgwiki/2021-03.bgwiki.2008.tsv.bz2
+Articles introduced: 16168. Articles left for next files or not in the database: 50784.
+This file took: 0:01:07.643995
+/public/dumps/public/other/mediawiki_history/2021-03/bgwiki/2021-03.bgwiki.2007.tsv.bz2
+Articles introduced: 16559. Articles left for next files or not in the database: 34225.
+This file took: 0:00:52.046460
+/public/dumps/public/other/mediawiki_history/2021-03/bgwiki/2021-03.bgwiki.2006.tsv.bz2
+Articles introduced: 12472. Articles left for next files or not in the database: 21753.
+This file took: 0:00:33.807494
+/public/dumps/public/other/mediawiki_history/2021-03/bgwiki/2021-03.bgwiki.2005.tsv.bz2
+Articles introduced: 8505. Articles left for next files or not in the database: 13248.
+This file took: 0:00:17.688944
+/public/dumps/public/other/mediawiki_history/2021-03/bgwiki/2021-03.bgwiki.2004.tsv.bz2
+Articles introduced: 12169. Articles left for next files or not in the database: 1079.
+This file took: 0:00:13.313674
+/public/dumps/public/other/mediawiki_history/2021-03/bgwiki/2021-03.bgwiki.2003.tsv.bz2
+Articles introduced: 400. Articles left for next files or not in the database: 679.
+This file took: 0:00:00.287563
+/public/dumps/public/other/mediawiki_history/2021-03/bgwiki/2021-03.bgwiki.2001.tsv.bz2
+Articles introduced: 0. Articles left for next files or not in the database: 679.
+This file took: 0:00:00.065883
+bg history parsed and stored
++ Process Accountant. Function: extend_articles_history_features bg is NOW RUN! Script: article_features.py. After 0:15:09.474903.
+
+- Process Accountant: The function "extend_articles_history_features bh" has not run yet. Do it! Now: 2021/04/28-14:01:02. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+one all-time file.
+1
+['/public/dumps/public/other/mediawiki_history/2021-03/bhwiki/2021-03.bhwiki.all-time.tsv.bz2']
+Total number of articles: 7450
+/public/dumps/public/other/mediawiki_history/2021-03/bhwiki/2021-03.bhwiki.all-time.tsv.bz2
+Articles introduced: 7443. Articles left for next files or not in the database: 7.
+This file took: 0:00:25.714669
+bh history parsed and stored
++ Process Accountant. Function: extend_articles_history_features bh is NOW RUN! Script: article_features.py. After 0:00:26.030894.
+
+- Process Accountant: The function "extend_articles_history_features bi" has not run yet. Do it! Now: 2021/04/28-14:01:28. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+one all-time file.
+1
+['/public/dumps/public/other/mediawiki_history/2021-03/biwiki/2021-03.biwiki.all-time.tsv.bz2']
+Total number of articles: 1411
+/public/dumps/public/other/mediawiki_history/2021-03/biwiki/2021-03.biwiki.all-time.tsv.bz2
+Articles introduced: 1410. Articles left for next files or not in the database: 1.
+This file took: 0:00:03.006959
+bi history parsed and stored
++ Process Accountant. Function: extend_articles_history_features bi is NOW RUN! Script: article_features.py. After 0:00:03.294408.
+
+- Process Accountant: The function "extend_articles_history_features bjn" has not run yet. Do it! Now: 2021/04/28-14:01:32. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+one all-time file.
+1
+['/public/dumps/public/other/mediawiki_history/2021-03/bjnwiki/2021-03.bjnwiki.all-time.tsv.bz2']
+Total number of articles: 3703
+/public/dumps/public/other/mediawiki_history/2021-03/bjnwiki/2021-03.bjnwiki.all-time.tsv.bz2
+Articles introduced: 3606. Articles left for next files or not in the database: 97.
+This file took: 0:00:04.551909
+bjn history parsed and stored
++ Process Accountant. Function: extend_articles_history_features bjn is NOW RUN! Script: article_features.py. After 0:00:04.759708.
+
+- Process Accountant: The function "extend_articles_history_features bm" has not run yet. Do it! Now: 2021/04/28-14:01:37. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+one all-time file.
+1
+['/public/dumps/public/other/mediawiki_history/2021-03/bmwiki/2021-03.bmwiki.all-time.tsv.bz2']
+Total number of articles: 761
+/public/dumps/public/other/mediawiki_history/2021-03/bmwiki/2021-03.bmwiki.all-time.tsv.bz2
+Articles introduced: 759. Articles left for next files or not in the database: 2.
+This file took: 0:00:02.721234
+bm history parsed and stored
++ Process Accountant. Function: extend_articles_history_features bm is NOW RUN! Script: article_features.py. After 0:00:02.903698.
+
+- Process Accountant: The function "extend_articles_history_features bn" has not run yet. Do it! Now: 2021/04/28-14:01:40. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+one all-time file.
+1
+['/public/dumps/public/other/mediawiki_history/2021-03/bnwiki/2021-03.bnwiki.all-time.tsv.bz2']
+Total number of articles: 106680
+/public/dumps/public/other/mediawiki_history/2021-03/bnwiki/2021-03.bnwiki.all-time.tsv.bz2
+Articles introduced: 105866. Articles left for next files or not in the database: 814.
+This file took: 0:05:06.112907
+bn history parsed and stored
++ Process Accountant. Function: extend_articles_history_features bn is NOW RUN! Script: article_features.py. After 0:05:10.397834.
+
+- Process Accountant: The function "extend_articles_history_features bo" has not run yet. Do it! Now: 2021/04/28-14:06:51. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+one all-time file.
+1
+['/public/dumps/public/other/mediawiki_history/2021-03/bowiki/2021-03.bowiki.all-time.tsv.bz2']
+Total number of articles: 11743
+/public/dumps/public/other/mediawiki_history/2021-03/bowiki/2021-03.bowiki.all-time.tsv.bz2
+Articles introduced: 11740. Articles left for next files or not in the database: 3.
+This file took: 0:00:10.691536
+bo history parsed and stored
++ Process Accountant. Function: extend_articles_history_features bo is NOW RUN! Script: article_features.py. After 0:00:11.171096.
+
+- Process Accountant: The function "extend_articles_history_features bpy" has not run yet. Do it! Now: 2021/04/28-14:07:02. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+one all-time file.
+1
+['/public/dumps/public/other/mediawiki_history/2021-03/bpywiki/2021-03.bpywiki.all-time.tsv.bz2']
+Total number of articles: 25133
+/public/dumps/public/other/mediawiki_history/2021-03/bpywiki/2021-03.bpywiki.all-time.tsv.bz2
+Articles introduced: 25132. Articles left for next files or not in the database: 1.
+This file took: 0:00:48.239832
+bpy history parsed and stored
++ Process Accountant. Function: extend_articles_history_features bpy is NOW RUN! Script: article_features.py. After 0:00:49.184856.
+
+- Process Accountant: The function "extend_articles_history_features br" has not run yet. Do it! Now: 2021/04/28-14:07:52. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+one all-time file.
+1
+['/public/dumps/public/other/mediawiki_history/2021-03/brwiki/2021-03.brwiki.all-time.tsv.bz2']
+Total number of articles: 69535
+/public/dumps/public/other/mediawiki_history/2021-03/brwiki/2021-03.brwiki.all-time.tsv.bz2
+Articles introduced: 69487. Articles left for next files or not in the database: 48.
+This file took: 0:02:03.346974
+br history parsed and stored
++ Process Accountant. Function: extend_articles_history_features br is NOW RUN! Script: article_features.py. After 0:02:05.873948.
+
+- Process Accountant: The function "extend_articles_history_features bs" has not run yet. Do it! Now: 2021/04/28-14:09:58. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+one all-time file.
+1
+['/public/dumps/public/other/mediawiki_history/2021-03/bswiki/2021-03.bswiki.all-time.tsv.bz2']
+Total number of articles: 85663
+/public/dumps/public/other/mediawiki_history/2021-03/bswiki/2021-03.bswiki.all-time.tsv.bz2
+Articles introduced: 85448. Articles left for next files or not in the database: 215.
+This file took: 0:03:14.163377
+bs history parsed and stored
++ Process Accountant. Function: extend_articles_history_features bs is NOW RUN! Script: article_features.py. After 0:03:17.394422.
+
+- Process Accountant: The function "extend_articles_history_features bug" has not run yet. Do it! Now: 2021/04/28-14:13:16. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+one all-time file.
+1
+['/public/dumps/public/other/mediawiki_history/2021-03/bugwiki/2021-03.bugwiki.all-time.tsv.bz2']
+Total number of articles: 14191
+/public/dumps/public/other/mediawiki_history/2021-03/bugwiki/2021-03.bugwiki.all-time.tsv.bz2
+Articles introduced: 14191. Articles left for next files or not in the database: 0.
+This file took: 0:00:14.524938
+bug history parsed and stored
++ Process Accountant. Function: extend_articles_history_features bug is NOW RUN! Script: article_features.py. After 0:00:15.060968.
+
+- Process Accountant: The function "extend_articles_history_features bxr" has not run yet. Do it! Now: 2021/04/28-14:13:31. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+one all-time file.
+1
+['/public/dumps/public/other/mediawiki_history/2021-03/bxrwiki/2021-03.bxrwiki.all-time.tsv.bz2']
+Total number of articles: 2198
+/public/dumps/public/other/mediawiki_history/2021-03/bxrwiki/2021-03.bxrwiki.all-time.tsv.bz2
+Articles introduced: 2198. Articles left for next files or not in the database: 0.
+This file took: 0:00:03.725460
+bxr history parsed and stored
++ Process Accountant. Function: extend_articles_history_features bxr is NOW RUN! Script: article_features.py. After 0:00:03.929042.
+
+- Process Accountant: The function "extend_articles_history_features ca" has not run yet. Do it! Now: 2021/04/28-14:13:39. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+multiple files.
+21
+['/public/dumps/public/other/mediawiki_history/2021-03/cawiki/2021-03.cawiki.2021.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/cawiki/2021-03.cawiki.2020.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/cawiki/2021-03.cawiki.2019.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/cawiki/2021-03.cawiki.2018.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/cawiki/2021-03.cawiki.2017.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/cawiki/2021-03.cawiki.2016.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/cawiki/2021-03.cawiki.2015.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/cawiki/2021-03.cawiki.2014.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/cawiki/2021-03.cawiki.2013.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/cawiki/2021-03.cawiki.2012.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/cawiki/2021-03.cawiki.2011.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/cawiki/2021-03.cawiki.2010.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/cawiki/2021-03.cawiki.2009.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/cawiki/2021-03.cawiki.2008.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/cawiki/2021-03.cawiki.2007.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/cawiki/2021-03.cawiki.2006.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/cawiki/2021-03.cawiki.2005.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/cawiki/2021-03.cawiki.2004.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/cawiki/2021-03.cawiki.2003.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/cawiki/2021-03.cawiki.2002.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/cawiki/2021-03.cawiki.2001.tsv.bz2']
+Total number of articles: 676618
+/public/dumps/public/other/mediawiki_history/2021-03/cawiki/2021-03.cawiki.2021.tsv.bz2
+Articles introduced: 8057. Articles left for next files or not in the database: 668561.
+This file took: 0:01:16.330144
+/public/dumps/public/other/mediawiki_history/2021-03/cawiki/2021-03.cawiki.2020.tsv.bz2
+Articles introduced: 33593. Articles left for next files or not in the database: 634968.
+This file took: 0:04:14.900603
+/public/dumps/public/other/mediawiki_history/2021-03/cawiki/2021-03.cawiki.2019.tsv.bz2
+Articles introduced: 35499. Articles left for next files or not in the database: 599469.
+This file took: 0:02:35.795320
+/public/dumps/public/other/mediawiki_history/2021-03/cawiki/2021-03.cawiki.2018.tsv.bz2
+Articles introduced: 31772. Articles left for next files or not in the database: 567697.
+This file took: 0:01:38.704459
+/public/dumps/public/other/mediawiki_history/2021-03/cawiki/2021-03.cawiki.2017.tsv.bz2
+Articles introduced: 39117. Articles left for next files or not in the database: 528580.
+This file took: 0:01:57.622596
+/public/dumps/public/other/mediawiki_history/2021-03/cawiki/2021-03.cawiki.2016.tsv.bz2
+Articles introduced: 39234. Articles left for next files or not in the database: 489346.
+This file took: 0:02:21.051833
+/public/dumps/public/other/mediawiki_history/2021-03/cawiki/2021-03.cawiki.2015.tsv.bz2
+Articles introduced: 45857. Articles left for next files or not in the database: 443489.
+This file took: 0:02:21.192132
+/public/dumps/public/other/mediawiki_history/2021-03/cawiki/2021-03.cawiki.2014.tsv.bz2
+Articles introduced: 28200. Articles left for next files or not in the database: 415289.
+This file took: 0:02:50.445311
+/public/dumps/public/other/mediawiki_history/2021-03/cawiki/2021-03.cawiki.2013.tsv.bz2
+Articles introduced: 27062. Articles left for next files or not in the database: 388227.
+This file took: 0:02:39.213137
+/public/dumps/public/other/mediawiki_history/2021-03/cawiki/2021-03.cawiki.2012.tsv.bz2
+Articles introduced: 30708. Articles left for next files or not in the database: 357519.
+This file took: 0:02:53.628852
+/public/dumps/public/other/mediawiki_history/2021-03/cawiki/2021-03.cawiki.2011.tsv.bz2
+Articles introduced: 59530. Articles left for next files or not in the database: 297989.
+This file took: 0:02:57.885621
+/public/dumps/public/other/mediawiki_history/2021-03/cawiki/2021-03.cawiki.2010.tsv.bz2
+Articles introduced: 81926. Articles left for next files or not in the database: 216063.
+This file took: 0:02:43.018189
+/public/dumps/public/other/mediawiki_history/2021-03/cawiki/2021-03.cawiki.2009.tsv.bz2
+Articles introduced: 66049. Articles left for next files or not in the database: 150014.
+This file took: 0:02:20.832852
+/public/dumps/public/other/mediawiki_history/2021-03/cawiki/2021-03.cawiki.2008.tsv.bz2
+Articles introduced: 57547. Articles left for next files or not in the database: 92467.
+This file took: 0:01:59.060319
+/public/dumps/public/other/mediawiki_history/2021-03/cawiki/2021-03.cawiki.2007.tsv.bz2
+Articles introduced: 43376. Articles left for next files or not in the database: 49091.
+This file took: 0:01:24.012546
+/public/dumps/public/other/mediawiki_history/2021-03/cawiki/2021-03.cawiki.2006.tsv.bz2
+Articles introduced: 25580. Articles left for next files or not in the database: 23511.
+This file took: 0:00:49.116319
+/public/dumps/public/other/mediawiki_history/2021-03/cawiki/2021-03.cawiki.2005.tsv.bz2
+Articles introduced: 11138. Articles left for next files or not in the database: 12373.
+This file took: 0:00:19.424544
+/public/dumps/public/other/mediawiki_history/2021-03/cawiki/2021-03.cawiki.2004.tsv.bz2
+Articles introduced: 6549. Articles left for next files or not in the database: 5824.
+This file took: 0:00:09.702801
+/public/dumps/public/other/mediawiki_history/2021-03/cawiki/2021-03.cawiki.2003.tsv.bz2
+Articles introduced: 4112. Articles left for next files or not in the database: 1712.
+This file took: 0:00:02.828196
+/public/dumps/public/other/mediawiki_history/2021-03/cawiki/2021-03.cawiki.2002.tsv.bz2
+Articles introduced: 66. Articles left for next files or not in the database: 1646.
+This file took: 0:00:00.113122
+/public/dumps/public/other/mediawiki_history/2021-03/cawiki/2021-03.cawiki.2001.tsv.bz2
+Articles introduced: 10. Articles left for next files or not in the database: 1636.
+This file took: 0:00:00.089801
+ca history parsed and stored
++ Process Accountant. Function: extend_articles_history_features ca is NOW RUN! Script: article_features.py. After 0:38:03.505466.
+
+- Process Accountant: The function "extend_articles_history_features cbk_zam" has not run yet. Do it! Now: 2021/04/28-14:51:43. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+one all-time file.
+1
+['/public/dumps/public/other/mediawiki_history/2021-03/cbk_zamwiki/2021-03.cbk_zamwiki.all-time.tsv.bz2']
+Total number of articles: 3245
+/public/dumps/public/other/mediawiki_history/2021-03/cbk_zamwiki/2021-03.cbk_zamwiki.all-time.tsv.bz2
+Articles introduced: 3240. Articles left for next files or not in the database: 5.
+This file took: 0:00:05.996348
+cbk_zam history parsed and stored
++ Process Accountant. Function: extend_articles_history_features cbk_zam is NOW RUN! Script: article_features.py. After 0:00:06.261724.
+
+- Process Accountant: The function "extend_articles_history_features cdo" has not run yet. Do it! Now: 2021/04/28-14:51:49. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+one all-time file.
+1
+['/public/dumps/public/other/mediawiki_history/2021-03/cdowiki/2021-03.cdowiki.all-time.tsv.bz2']
+Total number of articles: 15517
+/public/dumps/public/other/mediawiki_history/2021-03/cdowiki/2021-03.cdowiki.all-time.tsv.bz2
+Articles introduced: 15488. Articles left for next files or not in the database: 29.
+This file took: 0:00:06.711017
+cdo history parsed and stored
++ Process Accountant. Function: extend_articles_history_features cdo is NOW RUN! Script: article_features.py. After 0:00:07.294867.
+
+- Process Accountant: The function "extend_articles_history_features ce" has not run yet. Do it! Now: 2021/04/28-14:52:00. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+one all-time file.
+1
+['/public/dumps/public/other/mediawiki_history/2021-03/cewiki/2021-03.cewiki.all-time.tsv.bz2']
+Total number of articles: 354256
+/public/dumps/public/other/mediawiki_history/2021-03/cewiki/2021-03.cewiki.all-time.tsv.bz2
+Articles introduced: 354215. Articles left for next files or not in the database: 41.
+This file took: 0:07:22.153731
+ce history parsed and stored
++ Process Accountant. Function: extend_articles_history_features ce is NOW RUN! Script: article_features.py. After 0:07:34.735032.
+
+- Process Accountant: The function "extend_articles_history_features ceb" has not run yet. Do it! Now: 2021/04/28-15:00:25. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+multiple files.
+17
+['/public/dumps/public/other/mediawiki_history/2021-03/cebwiki/2021-03.cebwiki.2021.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/cebwiki/2021-03.cebwiki.2020.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/cebwiki/2021-03.cebwiki.2019.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/cebwiki/2021-03.cebwiki.2018.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/cebwiki/2021-03.cebwiki.2017.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/cebwiki/2021-03.cebwiki.2016.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/cebwiki/2021-03.cebwiki.2015.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/cebwiki/2021-03.cebwiki.2014.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/cebwiki/2021-03.cebwiki.2013.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/cebwiki/2021-03.cebwiki.2012.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/cebwiki/2021-03.cebwiki.2011.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/cebwiki/2021-03.cebwiki.2010.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/cebwiki/2021-03.cebwiki.2009.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/cebwiki/2021-03.cebwiki.2008.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/cebwiki/2021-03.cebwiki.2007.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/cebwiki/2021-03.cebwiki.2006.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/cebwiki/2021-03.cebwiki.2005.tsv.bz2']
+Total number of articles: 5721121
+/public/dumps/public/other/mediawiki_history/2021-03/cebwiki/2021-03.cebwiki.2021.tsv.bz2
+Articles introduced: 199827. Articles left for next files or not in the database: 5521294.
+This file took: 0:00:52.629374
+/public/dumps/public/other/mediawiki_history/2021-03/cebwiki/2021-03.cebwiki.2020.tsv.bz2
+Articles introduced: 117832. Articles left for next files or not in the database: 5403462.
+This file took: 0:00:58.092082
+/public/dumps/public/other/mediawiki_history/2021-03/cebwiki/2021-03.cebwiki.2019.tsv.bz2
+Articles introduced: 247. Articles left for next files or not in the database: 5403215.
+This file took: 0:05:23.704235
+/public/dumps/public/other/mediawiki_history/2021-03/cebwiki/2021-03.cebwiki.2018.tsv.bz2
+Articles introduced: 301. Articles left for next files or not in the database: 5402914.
+This file took: 0:07:42.562999
+/public/dumps/public/other/mediawiki_history/2021-03/cebwiki/2021-03.cebwiki.2017.tsv.bz2
+Articles introduced: 1755887. Articles left for next files or not in the database: 3647027.
+This file took: 0:11:28.313404
+/public/dumps/public/other/mediawiki_history/2021-03/cebwiki/2021-03.cebwiki.2016.tsv.bz2
+Articles introduced: 1917981. Articles left for next files or not in the database: 1729046.
+This file took: 0:10:51.628298
+/public/dumps/public/other/mediawiki_history/2021-03/cebwiki/2021-03.cebwiki.2015.tsv.bz2
+Articles introduced: 495113. Articles left for next files or not in the database: 1233933.
+This file took: 0:02:56.689582
+/public/dumps/public/other/mediawiki_history/2021-03/cebwiki/2021-03.cebwiki.2014.tsv.bz2
+Articles introduced: 301457. Articles left for next files or not in the database: 932476.
+This file took: 0:01:38.780154
+/public/dumps/public/other/mediawiki_history/2021-03/cebwiki/2021-03.cebwiki.2013.tsv.bz2
+Articles introduced: 829649. Articles left for next files or not in the database: 102827.
+This file took: 0:04:54.175126
+/public/dumps/public/other/mediawiki_history/2021-03/cebwiki/2021-03.cebwiki.2012.tsv.bz2
+Articles introduced: 454. Articles left for next files or not in the database: 102373.
+This file took: 0:00:17.921089
+/public/dumps/public/other/mediawiki_history/2021-03/cebwiki/2021-03.cebwiki.2011.tsv.bz2
+Articles introduced: 149. Articles left for next files or not in the database: 102224.
+This file took: 0:00:18.703654
+/public/dumps/public/other/mediawiki_history/2021-03/cebwiki/2021-03.cebwiki.2010.tsv.bz2
+Articles introduced: 1975. Articles left for next files or not in the database: 100249.
+This file took: 0:00:14.950121
+/public/dumps/public/other/mediawiki_history/2021-03/cebwiki/2021-03.cebwiki.2009.tsv.bz2
+Articles introduced: 4456. Articles left for next files or not in the database: 95793.
+This file took: 0:00:26.116084
+/public/dumps/public/other/mediawiki_history/2021-03/cebwiki/2021-03.cebwiki.2008.tsv.bz2
+Articles introduced: 2252. Articles left for next files or not in the database: 93541.
+This file took: 0:00:11.639207
+/public/dumps/public/other/mediawiki_history/2021-03/cebwiki/2021-03.cebwiki.2007.tsv.bz2
+Articles introduced: 19999. Articles left for next files or not in the database: 73542.
+This file took: 0:00:12.986936
+/public/dumps/public/other/mediawiki_history/2021-03/cebwiki/2021-03.cebwiki.2006.tsv.bz2
+Articles introduced: 12501. Articles left for next files or not in the database: 61041.
+This file took: 0:00:04.650756
+/public/dumps/public/other/mediawiki_history/2021-03/cebwiki/2021-03.cebwiki.2005.tsv.bz2
+Articles introduced: 972. Articles left for next files or not in the database: 60069.
+This file took: 0:00:00.684011
+ceb history parsed and stored
++ Process Accountant. Function: extend_articles_history_features ceb is NOW RUN! Script: article_features.py. After 0:52:35.914238.
+
+- Process Accountant: The function "extend_articles_history_features ch" has not run yet. Do it! Now: 2021/04/28-15:53:06. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+one all-time file.
+1
+['/public/dumps/public/other/mediawiki_history/2021-03/chwiki/2021-03.chwiki.all-time.tsv.bz2']
+Total number of articles: 549
+/public/dumps/public/other/mediawiki_history/2021-03/chwiki/2021-03.chwiki.all-time.tsv.bz2
+Articles introduced: 544. Articles left for next files or not in the database: 5.
+This file took: 0:00:01.646397
+ch history parsed and stored
++ Process Accountant. Function: extend_articles_history_features ch is NOW RUN! Script: article_features.py. After 0:00:01.819592.
+
+- Process Accountant: The function "extend_articles_history_features cho" has not run yet. Do it! Now: 2021/04/28-15:53:08. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+one all-time file.
+1
+['/public/dumps/public/other/mediawiki_history/2021-03/chowiki/2021-03.chowiki.all-time.tsv.bz2']
+Total number of articles: 14
+/public/dumps/public/other/mediawiki_history/2021-03/chowiki/2021-03.chowiki.all-time.tsv.bz2
+Articles introduced: 14. Articles left for next files or not in the database: 0.
+This file took: 0:00:00.328773
+cho history parsed and stored
++ Process Accountant. Function: extend_articles_history_features cho is NOW RUN! Script: article_features.py. After 0:00:00.510291.
+
+- Process Accountant: The function "extend_articles_history_features chr" has not run yet. Do it! Now: 2021/04/28-15:53:09. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+one all-time file.
+1
+['/public/dumps/public/other/mediawiki_history/2021-03/chrwiki/2021-03.chrwiki.all-time.tsv.bz2']
+Total number of articles: 972
+/public/dumps/public/other/mediawiki_history/2021-03/chrwiki/2021-03.chrwiki.all-time.tsv.bz2
+Articles introduced: 972. Articles left for next files or not in the database: 0.
+This file took: 0:00:03.214496
+chr history parsed and stored
++ Process Accountant. Function: extend_articles_history_features chr is NOW RUN! Script: article_features.py. After 0:00:03.391673.
+
+- Process Accountant: The function "extend_articles_history_features chy" has not run yet. Do it! Now: 2021/04/28-15:53:12. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+one all-time file.
+1
+['/public/dumps/public/other/mediawiki_history/2021-03/chywiki/2021-03.chywiki.all-time.tsv.bz2']
+Total number of articles: 784
+/public/dumps/public/other/mediawiki_history/2021-03/chywiki/2021-03.chywiki.all-time.tsv.bz2
+Articles introduced: 784. Articles left for next files or not in the database: 0.
+This file took: 0:00:01.771151
+chy history parsed and stored
++ Process Accountant. Function: extend_articles_history_features chy is NOW RUN! Script: article_features.py. After 0:00:01.934195.
+
+- Process Accountant: The function "extend_articles_history_features ckb" has not run yet. Do it! Now: 2021/04/28-15:53:14. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+one all-time file.
+1
+['/public/dumps/public/other/mediawiki_history/2021-03/ckbwiki/2021-03.ckbwiki.all-time.tsv.bz2']
+Total number of articles: 30223
+/public/dumps/public/other/mediawiki_history/2021-03/ckbwiki/2021-03.ckbwiki.all-time.tsv.bz2
+Articles introduced: 29635. Articles left for next files or not in the database: 588.
+This file took: 0:00:47.324250
+ckb history parsed and stored
++ Process Accountant. Function: extend_articles_history_features ckb is NOW RUN! Script: article_features.py. After 0:00:48.330052.
+
+- Process Accountant: The function "extend_articles_history_features co" has not run yet. Do it! Now: 2021/04/28-15:54:03. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+one all-time file.
+1
+['/public/dumps/public/other/mediawiki_history/2021-03/cowiki/2021-03.cowiki.all-time.tsv.bz2']
+Total number of articles: 5984
+/public/dumps/public/other/mediawiki_history/2021-03/cowiki/2021-03.cowiki.all-time.tsv.bz2
+Articles introduced: 5968. Articles left for next files or not in the database: 16.
+This file took: 0:00:18.613393
+co history parsed and stored
++ Process Accountant. Function: extend_articles_history_features co is NOW RUN! Script: article_features.py. After 0:00:18.891438.
+
+- Process Accountant: The function "extend_articles_history_features cr" has not run yet. Do it! Now: 2021/04/28-15:54:22. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+one all-time file.
+1
+['/public/dumps/public/other/mediawiki_history/2021-03/crwiki/2021-03.crwiki.all-time.tsv.bz2']
+Total number of articles: 175
+/public/dumps/public/other/mediawiki_history/2021-03/crwiki/2021-03.crwiki.all-time.tsv.bz2
+Articles introduced: 175. Articles left for next files or not in the database: 0.
+This file took: 0:00:01.911732
+cr history parsed and stored
++ Process Accountant. Function: extend_articles_history_features cr is NOW RUN! Script: article_features.py. After 0:00:02.155371.
+
+- Process Accountant: The function "extend_articles_history_features crh" has not run yet. Do it! Now: 2021/04/28-15:54:24. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+one all-time file.
+1
+['/public/dumps/public/other/mediawiki_history/2021-03/crhwiki/2021-03.crhwiki.all-time.tsv.bz2']
+Total number of articles: 9193
+/public/dumps/public/other/mediawiki_history/2021-03/crhwiki/2021-03.crhwiki.all-time.tsv.bz2
+Articles introduced: 9097. Articles left for next files or not in the database: 96.
+This file took: 0:00:09.617398
+crh history parsed and stored
++ Process Accountant. Function: extend_articles_history_features crh is NOW RUN! Script: article_features.py. After 0:00:09.983106.
+
+- Process Accountant: The function "extend_articles_history_features cs" has not run yet. Do it! Now: 2021/04/28-15:54:37. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+multiple files.
+20
+['/public/dumps/public/other/mediawiki_history/2021-03/cswiki/2021-03.cswiki.2021.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/cswiki/2021-03.cswiki.2020.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/cswiki/2021-03.cswiki.2019.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/cswiki/2021-03.cswiki.2018.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/cswiki/2021-03.cswiki.2017.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/cswiki/2021-03.cswiki.2016.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/cswiki/2021-03.cswiki.2015.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/cswiki/2021-03.cswiki.2014.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/cswiki/2021-03.cswiki.2013.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/cswiki/2021-03.cswiki.2012.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/cswiki/2021-03.cswiki.2011.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/cswiki/2021-03.cswiki.2010.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/cswiki/2021-03.cswiki.2009.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/cswiki/2021-03.cswiki.2008.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/cswiki/2021-03.cswiki.2007.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/cswiki/2021-03.cswiki.2006.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/cswiki/2021-03.cswiki.2005.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/cswiki/2021-03.cswiki.2004.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/cswiki/2021-03.cswiki.2003.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/cswiki/2021-03.cswiki.2002.tsv.bz2']
+Total number of articles: 479184
+/public/dumps/public/other/mediawiki_history/2021-03/cswiki/2021-03.cswiki.2021.tsv.bz2
+Articles introduced: 7461. Articles left for next files or not in the database: 471723.
+This file took: 0:00:25.136839
+/public/dumps/public/other/mediawiki_history/2021-03/cswiki/2021-03.cswiki.2020.tsv.bz2
+Articles introduced: 28245. Articles left for next files or not in the database: 443478.
+This file took: 0:01:32.928162
+/public/dumps/public/other/mediawiki_history/2021-03/cswiki/2021-03.cswiki.2019.tsv.bz2
+Articles introduced: 22972. Articles left for next files or not in the database: 420506.
+This file took: 0:01:32.415270
+/public/dumps/public/other/mediawiki_history/2021-03/cswiki/2021-03.cswiki.2018.tsv.bz2
+Articles introduced: 22396. Articles left for next files or not in the database: 398110.
+This file took: 0:01:25.269445
+/public/dumps/public/other/mediawiki_history/2021-03/cswiki/2021-03.cswiki.2017.tsv.bz2
+Articles introduced: 26182. Articles left for next files or not in the database: 371928.
+This file took: 0:01:34.335780
+/public/dumps/public/other/mediawiki_history/2021-03/cswiki/2021-03.cswiki.2016.tsv.bz2
+Articles introduced: 29211. Articles left for next files or not in the database: 342717.
+This file took: 0:01:39.121705
+/public/dumps/public/other/mediawiki_history/2021-03/cswiki/2021-03.cswiki.2015.tsv.bz2
+Articles introduced: 29794. Articles left for next files or not in the database: 312923.
+This file took: 0:01:28.469711
+/public/dumps/public/other/mediawiki_history/2021-03/cswiki/2021-03.cswiki.2014.tsv.bz2
+Articles introduced: 28154. Articles left for next files or not in the database: 284769.
+This file took: 0:01:27.558679
+/public/dumps/public/other/mediawiki_history/2021-03/cswiki/2021-03.cswiki.2013.tsv.bz2
+Articles introduced: 30704. Articles left for next files or not in the database: 254065.
+This file took: 0:02:01.297704
+/public/dumps/public/other/mediawiki_history/2021-03/cswiki/2021-03.cswiki.2012.tsv.bz2
+Articles introduced: 35725. Articles left for next files or not in the database: 218340.
+This file took: 0:02:12.312262
+/public/dumps/public/other/mediawiki_history/2021-03/cswiki/2021-03.cswiki.2011.tsv.bz2
+Articles introduced: 34284. Articles left for next files or not in the database: 184056.
+This file took: 0:02:05.552024
+/public/dumps/public/other/mediawiki_history/2021-03/cswiki/2021-03.cswiki.2010.tsv.bz2
+Articles introduced: 37217. Articles left for next files or not in the database: 146839.
+This file took: 0:02:08.110433
+/public/dumps/public/other/mediawiki_history/2021-03/cswiki/2021-03.cswiki.2009.tsv.bz2
+Articles introduced: 29783. Articles left for next files or not in the database: 117056.
+This file took: 0:01:51.110113
+/public/dumps/public/other/mediawiki_history/2021-03/cswiki/2021-03.cswiki.2008.tsv.bz2
+Articles introduced: 31929. Articles left for next files or not in the database: 85127.
+This file took: 0:01:49.860840
+/public/dumps/public/other/mediawiki_history/2021-03/cswiki/2021-03.cswiki.2007.tsv.bz2
+Articles introduced: 30651. Articles left for next files or not in the database: 54476.
+This file took: 0:01:26.024557
+/public/dumps/public/other/mediawiki_history/2021-03/cswiki/2021-03.cswiki.2006.tsv.bz2
+Articles introduced: 32384. Articles left for next files or not in the database: 22092.
+This file took: 0:01:06.618726
+/public/dumps/public/other/mediawiki_history/2021-03/cswiki/2021-03.cswiki.2005.tsv.bz2
+Articles introduced: 16080. Articles left for next files or not in the database: 6012.
+This file took: 0:00:24.880511
+/public/dumps/public/other/mediawiki_history/2021-03/cswiki/2021-03.cswiki.2004.tsv.bz2
+Articles introduced: 3312. Articles left for next files or not in the database: 2700.
+This file took: 0:00:05.228383
+/public/dumps/public/other/mediawiki_history/2021-03/cswiki/2021-03.cswiki.2003.tsv.bz2
+Articles introduced: 968. Articles left for next files or not in the database: 1732.
+This file took: 0:00:00.845733
+/public/dumps/public/other/mediawiki_history/2021-03/cswiki/2021-03.cswiki.2002.tsv.bz2
+Articles introduced: 18. Articles left for next files or not in the database: 1714.
+This file took: 0:00:00.306926
+cs history parsed and stored
++ Process Accountant. Function: extend_articles_history_features cs is NOW RUN! Script: article_features.py. After 0:26:38.543053.
+
+- Process Accountant: The function "extend_articles_history_features csb" has not run yet. Do it! Now: 2021/04/28-16:21:16. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+one all-time file.
+1
+['/public/dumps/public/other/mediawiki_history/2021-03/csbwiki/2021-03.csbwiki.all-time.tsv.bz2']
+Total number of articles: 5404
+/public/dumps/public/other/mediawiki_history/2021-03/csbwiki/2021-03.csbwiki.all-time.tsv.bz2
+Articles introduced: 5402. Articles left for next files or not in the database: 2.
+This file took: 0:00:12.226774
+csb history parsed and stored
++ Process Accountant. Function: extend_articles_history_features csb is NOW RUN! Script: article_features.py. After 0:00:12.493438.
+
+- Process Accountant: The function "extend_articles_history_features cu" has not run yet. Do it! Now: 2021/04/28-16:21:28. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+one all-time file.
+1
+['/public/dumps/public/other/mediawiki_history/2021-03/cuwiki/2021-03.cuwiki.all-time.tsv.bz2']
+Total number of articles: 782
+/public/dumps/public/other/mediawiki_history/2021-03/cuwiki/2021-03.cuwiki.all-time.tsv.bz2
+Articles introduced: 782. Articles left for next files or not in the database: 0.
+This file took: 0:00:04.616815
+cu history parsed and stored
++ Process Accountant. Function: extend_articles_history_features cu is NOW RUN! Script: article_features.py. After 0:00:04.808992.
+
+- Process Accountant: The function "extend_articles_history_features cv" has not run yet. Do it! Now: 2021/04/28-16:21:34. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+one all-time file.
+1
+['/public/dumps/public/other/mediawiki_history/2021-03/cvwiki/2021-03.cvwiki.all-time.tsv.bz2']
+Total number of articles: 46016
+/public/dumps/public/other/mediawiki_history/2021-03/cvwiki/2021-03.cvwiki.all-time.tsv.bz2
+Articles introduced: 45940. Articles left for next files or not in the database: 76.
+This file took: 0:00:49.419963
+cv history parsed and stored
++ Process Accountant. Function: extend_articles_history_features cv is NOW RUN! Script: article_features.py. After 0:00:51.139662.
+
+- Process Accountant: The function "extend_articles_history_features cy" has not run yet. Do it! Now: 2021/04/28-16:22:26. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+one all-time file.
+1
+['/public/dumps/public/other/mediawiki_history/2021-03/cywiki/2021-03.cywiki.all-time.tsv.bz2']
+Total number of articles: 132757
+/public/dumps/public/other/mediawiki_history/2021-03/cywiki/2021-03.cywiki.all-time.tsv.bz2
+Articles introduced: 132684. Articles left for next files or not in the database: 73.
+This file took: 0:12:44.330771
+cy history parsed and stored
++ Process Accountant. Function: extend_articles_history_features cy is NOW RUN! Script: article_features.py. After 0:12:48.910140.
+
+- Process Accountant: The function "extend_articles_history_features da" has not run yet. Do it! Now: 2021/04/28-16:35:16. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+multiple files.
+20
+['/public/dumps/public/other/mediawiki_history/2021-03/dawiki/2021-03.dawiki.2021.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/dawiki/2021-03.dawiki.2020.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/dawiki/2021-03.dawiki.2019.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/dawiki/2021-03.dawiki.2018.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/dawiki/2021-03.dawiki.2017.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/dawiki/2021-03.dawiki.2016.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/dawiki/2021-03.dawiki.2015.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/dawiki/2021-03.dawiki.2014.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/dawiki/2021-03.dawiki.2013.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/dawiki/2021-03.dawiki.2012.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/dawiki/2021-03.dawiki.2011.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/dawiki/2021-03.dawiki.2010.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/dawiki/2021-03.dawiki.2009.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/dawiki/2021-03.dawiki.2008.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/dawiki/2021-03.dawiki.2007.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/dawiki/2021-03.dawiki.2006.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/dawiki/2021-03.dawiki.2005.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/dawiki/2021-03.dawiki.2004.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/dawiki/2021-03.dawiki.2003.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/dawiki/2021-03.dawiki.2002.tsv.bz2']
+Total number of articles: 266278
+/public/dumps/public/other/mediawiki_history/2021-03/dawiki/2021-03.dawiki.2021.tsv.bz2
+Articles introduced: 2108. Articles left for next files or not in the database: 264170.
+This file took: 0:00:07.660214
+/public/dumps/public/other/mediawiki_history/2021-03/dawiki/2021-03.dawiki.2020.tsv.bz2
+Articles introduced: 8523. Articles left for next files or not in the database: 255647.
+This file took: 0:00:25.469584
+/public/dumps/public/other/mediawiki_history/2021-03/dawiki/2021-03.dawiki.2019.tsv.bz2
+Articles introduced: 14192. Articles left for next files or not in the database: 241455.
+This file took: 0:00:29.059412
+/public/dumps/public/other/mediawiki_history/2021-03/dawiki/2021-03.dawiki.2018.tsv.bz2
+Articles introduced: 7779. Articles left for next files or not in the database: 233676.
+This file took: 0:00:31.714025
+/public/dumps/public/other/mediawiki_history/2021-03/dawiki/2021-03.dawiki.2017.tsv.bz2
+Articles introduced: 12070. Articles left for next files or not in the database: 221606.
+This file took: 0:00:36.612913
+/public/dumps/public/other/mediawiki_history/2021-03/dawiki/2021-03.dawiki.2016.tsv.bz2
+Articles introduced: 10060. Articles left for next files or not in the database: 211546.
+This file took: 0:00:34.336898
+/public/dumps/public/other/mediawiki_history/2021-03/dawiki/2021-03.dawiki.2015.tsv.bz2
+Articles introduced: 18444. Articles left for next files or not in the database: 193102.
+This file took: 0:00:34.782004
+/public/dumps/public/other/mediawiki_history/2021-03/dawiki/2021-03.dawiki.2014.tsv.bz2
+Articles introduced: 9901. Articles left for next files or not in the database: 183201.
+This file took: 0:00:37.552847
+/public/dumps/public/other/mediawiki_history/2021-03/dawiki/2021-03.dawiki.2013.tsv.bz2
+Articles introduced: 11468. Articles left for next files or not in the database: 171733.
+This file took: 0:00:56.132906
+/public/dumps/public/other/mediawiki_history/2021-03/dawiki/2021-03.dawiki.2012.tsv.bz2
+Articles introduced: 14048. Articles left for next files or not in the database: 157685.
+This file took: 0:01:13.096106
+/public/dumps/public/other/mediawiki_history/2021-03/dawiki/2021-03.dawiki.2011.tsv.bz2
+Articles introduced: 18802. Articles left for next files or not in the database: 138883.
+This file took: 0:01:09.426628
+/public/dumps/public/other/mediawiki_history/2021-03/dawiki/2021-03.dawiki.2010.tsv.bz2
+Articles introduced: 19065. Articles left for next files or not in the database: 119818.
+This file took: 0:01:13.048798
+/public/dumps/public/other/mediawiki_history/2021-03/dawiki/2021-03.dawiki.2009.tsv.bz2
+Articles introduced: 20697. Articles left for next files or not in the database: 99121.
+This file took: 0:01:21.369107
+/public/dumps/public/other/mediawiki_history/2021-03/dawiki/2021-03.dawiki.2008.tsv.bz2
+Articles introduced: 23827. Articles left for next files or not in the database: 75294.
+This file took: 0:01:09.583220
+/public/dumps/public/other/mediawiki_history/2021-03/dawiki/2021-03.dawiki.2007.tsv.bz2
+Articles introduced: 21806. Articles left for next files or not in the database: 53488.
+This file took: 0:01:00.034687
+/public/dumps/public/other/mediawiki_history/2021-03/dawiki/2021-03.dawiki.2006.tsv.bz2
+Articles introduced: 19299. Articles left for next files or not in the database: 34189.
+This file took: 0:00:50.885453
+/public/dumps/public/other/mediawiki_history/2021-03/dawiki/2021-03.dawiki.2005.tsv.bz2
+Articles introduced: 16420. Articles left for next files or not in the database: 17769.
+This file took: 0:00:27.461340
+/public/dumps/public/other/mediawiki_history/2021-03/dawiki/2021-03.dawiki.2004.tsv.bz2
+Articles introduced: 8591. Articles left for next files or not in the database: 9178.
+This file took: 0:00:13.708564
+/public/dumps/public/other/mediawiki_history/2021-03/dawiki/2021-03.dawiki.2003.tsv.bz2
+Articles introduced: 8219. Articles left for next files or not in the database: 959.
+This file took: 0:00:09.192604
+/public/dumps/public/other/mediawiki_history/2021-03/dawiki/2021-03.dawiki.2002.tsv.bz2
+Articles introduced: 536. Articles left for next files or not in the database: 423.
+This file took: 0:00:02.237377
+da history parsed and stored
++ Process Accountant. Function: extend_articles_history_features da is NOW RUN! Script: article_features.py. After 0:13:55.648403.
+
+- Process Accountant: The function "extend_articles_history_features de" has not run yet. Do it! Now: 2021/04/28-16:49:36. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+multiple files.
+21
+['/public/dumps/public/other/mediawiki_history/2021-03/dewiki/2021-03.dewiki.2021.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/dewiki/2021-03.dewiki.2020.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/dewiki/2021-03.dewiki.2019.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/dewiki/2021-03.dewiki.2018.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/dewiki/2021-03.dewiki.2017.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/dewiki/2021-03.dewiki.2016.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/dewiki/2021-03.dewiki.2015.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/dewiki/2021-03.dewiki.2014.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/dewiki/2021-03.dewiki.2013.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/dewiki/2021-03.dewiki.2012.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/dewiki/2021-03.dewiki.2011.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/dewiki/2021-03.dewiki.2010.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/dewiki/2021-03.dewiki.2009.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/dewiki/2021-03.dewiki.2008.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/dewiki/2021-03.dewiki.2007.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/dewiki/2021-03.dewiki.2006.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/dewiki/2021-03.dewiki.2005.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/dewiki/2021-03.dewiki.2004.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/dewiki/2021-03.dewiki.2003.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/dewiki/2021-03.dewiki.2002.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/dewiki/2021-03.dewiki.2001.tsv.bz2']
+Total number of articles: 2566320
+/public/dumps/public/other/mediawiki_history/2021-03/dewiki/2021-03.dewiki.2021.tsv.bz2
+Articles introduced: 37093. Articles left for next files or not in the database: 2529227.
+This file took: 0:03:38.847706
+/public/dumps/public/other/mediawiki_history/2021-03/dewiki/2021-03.dewiki.2020.tsv.bz2
+Articles introduced: 128496. Articles left for next files or not in the database: 2400731.
+This file took: 0:12:53.872182
+/public/dumps/public/other/mediawiki_history/2021-03/dewiki/2021-03.dewiki.2019.tsv.bz2
+Articles introduced: 117857. Articles left for next files or not in the database: 2282874.
+This file took: 0:12:47.485417
+/public/dumps/public/other/mediawiki_history/2021-03/dewiki/2021-03.dewiki.2018.tsv.bz2
+Articles introduced: 110919. Articles left for next files or not in the database: 2171955.
+This file took: 0:13:26.270168
+/public/dumps/public/other/mediawiki_history/2021-03/dewiki/2021-03.dewiki.2017.tsv.bz2
+Articles introduced: 115643. Articles left for next files or not in the database: 2056312.
+This file took: 0:13:15.684229
+/public/dumps/public/other/mediawiki_history/2021-03/dewiki/2021-03.dewiki.2016.tsv.bz2
+Articles introduced: 117207. Articles left for next files or not in the database: 1939105.
+This file took: 0:14:02.641775
+/public/dumps/public/other/mediawiki_history/2021-03/dewiki/2021-03.dewiki.2015.tsv.bz2
+Articles introduced: 118652. Articles left for next files or not in the database: 1820453.
+This file took: 0:15:06.149272
+/public/dumps/public/other/mediawiki_history/2021-03/dewiki/2021-03.dewiki.2014.tsv.bz2
+Articles introduced: 115831. Articles left for next files or not in the database: 1704622.
+This file took: 0:13:52.668529
+/public/dumps/public/other/mediawiki_history/2021-03/dewiki/2021-03.dewiki.2013.tsv.bz2
+Articles introduced: 130093. Articles left for next files or not in the database: 1574529.
+This file took: 0:17:19.935627
+/public/dumps/public/other/mediawiki_history/2021-03/dewiki/2021-03.dewiki.2012.tsv.bz2
+Articles introduced: 159763. Articles left for next files or not in the database: 1414766.
+This file took: 0:18:55.661088
+/public/dumps/public/other/mediawiki_history/2021-03/dewiki/2021-03.dewiki.2011.tsv.bz2
+Articles introduced: 157878. Articles left for next files or not in the database: 1256888.
+This file took: 0:19:34.077642
+/public/dumps/public/other/mediawiki_history/2021-03/dewiki/2021-03.dewiki.2010.tsv.bz2
+Articles introduced: 164602. Articles left for next files or not in the database: 1092286.
+This file took: 0:20:08.170800
+/public/dumps/public/other/mediawiki_history/2021-03/dewiki/2021-03.dewiki.2009.tsv.bz2
+Articles introduced: 160171. Articles left for next files or not in the database: 932115.
+This file took: 0:19:57.230958
+/public/dumps/public/other/mediawiki_history/2021-03/dewiki/2021-03.dewiki.2008.tsv.bz2
+Articles introduced: 169804. Articles left for next files or not in the database: 762311.
+This file took: 0:20:29.343408
+/public/dumps/public/other/mediawiki_history/2021-03/dewiki/2021-03.dewiki.2007.tsv.bz2
+Articles introduced: 181046. Articles left for next files or not in the database: 581265.
+This file took: 0:21:38.780032
+/public/dumps/public/other/mediawiki_history/2021-03/dewiki/2021-03.dewiki.2006.tsv.bz2
+Articles introduced: 215648. Articles left for next files or not in the database: 365617.
+This file took: 0:19:44.616931
+/public/dumps/public/other/mediawiki_history/2021-03/dewiki/2021-03.dewiki.2005.tsv.bz2
+Articles introduced: 166498. Articles left for next files or not in the database: 199119.
+This file took: 0:12:58.920245
+/public/dumps/public/other/mediawiki_history/2021-03/dewiki/2021-03.dewiki.2004.tsv.bz2
+Articles introduced: 144977. Articles left for next files or not in the database: 54142.
+This file took: 0:06:46.215658
+/public/dumps/public/other/mediawiki_history/2021-03/dewiki/2021-03.dewiki.2003.tsv.bz2
+Articles introduced: 34471. Articles left for next files or not in the database: 19671.
+This file took: 0:01:35.620721
+/public/dumps/public/other/mediawiki_history/2021-03/dewiki/2021-03.dewiki.2002.tsv.bz2
+Articles introduced: 9605. Articles left for next files or not in the database: 10066.
+This file took: 0:00:24.061914
+/public/dumps/public/other/mediawiki_history/2021-03/dewiki/2021-03.dewiki.2001.tsv.bz2
+Articles introduced: 1051. Articles left for next files or not in the database: 9015.
+This file took: 0:00:02.555291
+de history parsed and stored
++ Process Accountant. Function: extend_articles_history_features de is NOW RUN! Script: article_features.py. After 4:40:52.003513.
+
+- Process Accountant: The function "extend_articles_history_features din" has not run yet. Do it! Now: 2021/04/28-21:30:30. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+one all-time file.
+1
+['/public/dumps/public/other/mediawiki_history/2021-03/dinwiki/2021-03.dinwiki.all-time.tsv.bz2']
+Total number of articles: 306
+/public/dumps/public/other/mediawiki_history/2021-03/dinwiki/2021-03.dinwiki.all-time.tsv.bz2
+Articles introduced: 302. Articles left for next files or not in the database: 4.
+This file took: 0:00:00.682652
+din history parsed and stored
++ Process Accountant. Function: extend_articles_history_features din is NOW RUN! Script: article_features.py. After 0:00:00.883473.
+
+- Process Accountant: The function "extend_articles_history_features diq" has not run yet. Do it! Now: 2021/04/28-21:30:31. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+one all-time file.
+1
+['/public/dumps/public/other/mediawiki_history/2021-03/diqwiki/2021-03.diqwiki.all-time.tsv.bz2']
+Total number of articles: 40074
+/public/dumps/public/other/mediawiki_history/2021-03/diqwiki/2021-03.diqwiki.all-time.tsv.bz2
+Articles introduced: 40043. Articles left for next files or not in the database: 31.
+This file took: 0:00:26.881216
+diq history parsed and stored
++ Process Accountant. Function: extend_articles_history_features diq is NOW RUN! Script: article_features.py. After 0:00:28.196510.
+
+- Process Accountant: The function "extend_articles_history_features dsb" has not run yet. Do it! Now: 2021/04/28-21:30:59. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+one all-time file.
+1
+['/public/dumps/public/other/mediawiki_history/2021-03/dsbwiki/2021-03.dsbwiki.all-time.tsv.bz2']
+Total number of articles: 3313
+/public/dumps/public/other/mediawiki_history/2021-03/dsbwiki/2021-03.dsbwiki.all-time.tsv.bz2
+Articles introduced: 3313. Articles left for next files or not in the database: 0.
+This file took: 0:00:07.389725
+dsb history parsed and stored
++ Process Accountant. Function: extend_articles_history_features dsb is NOW RUN! Script: article_features.py. After 0:00:07.613332.
+
+- Process Accountant: The function "extend_articles_history_features dty" has not run yet. Do it! Now: 2021/04/28-21:31:07. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+one all-time file.
+1
+['/public/dumps/public/other/mediawiki_history/2021-03/dtywiki/2021-03.dtywiki.all-time.tsv.bz2']
+Total number of articles: 3605
+/public/dumps/public/other/mediawiki_history/2021-03/dtywiki/2021-03.dtywiki.all-time.tsv.bz2
+Articles introduced: 3605. Articles left for next files or not in the database: 0.
+This file took: 0:00:07.622823
+dty history parsed and stored
++ Process Accountant. Function: extend_articles_history_features dty is NOW RUN! Script: article_features.py. After 0:00:07.852197.
+
+- Process Accountant: The function "extend_articles_history_features dv" has not run yet. Do it! Now: 2021/04/28-21:31:15. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+one all-time file.
+1
+['/public/dumps/public/other/mediawiki_history/2021-03/dvwiki/2021-03.dvwiki.all-time.tsv.bz2']
+Total number of articles: 4320
+/public/dumps/public/other/mediawiki_history/2021-03/dvwiki/2021-03.dvwiki.all-time.tsv.bz2
+Articles introduced: 4319. Articles left for next files or not in the database: 1.
+This file took: 0:00:08.260088
+dv history parsed and stored
++ Process Accountant. Function: extend_articles_history_features dv is NOW RUN! Script: article_features.py. After 0:00:08.496428.
+
+- Process Accountant: The function "extend_articles_history_features dz" has not run yet. Do it! Now: 2021/04/28-21:31:24. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+one all-time file.
+1
+['/public/dumps/public/other/mediawiki_history/2021-03/dzwiki/2021-03.dzwiki.all-time.tsv.bz2']
+Total number of articles: 295
+/public/dumps/public/other/mediawiki_history/2021-03/dzwiki/2021-03.dzwiki.all-time.tsv.bz2
+Articles introduced: 295. Articles left for next files or not in the database: 0.
+This file took: 0:00:02.013996
+dz history parsed and stored
++ Process Accountant. Function: extend_articles_history_features dz is NOW RUN! Script: article_features.py. After 0:00:02.177863.
+
+- Process Accountant: The function "extend_articles_history_features ee" has not run yet. Do it! Now: 2021/04/28-21:31:26. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+one all-time file.
+1
+['/public/dumps/public/other/mediawiki_history/2021-03/eewiki/2021-03.eewiki.all-time.tsv.bz2']
+Total number of articles: 388
+/public/dumps/public/other/mediawiki_history/2021-03/eewiki/2021-03.eewiki.all-time.tsv.bz2
+Articles introduced: 388. Articles left for next files or not in the database: 0.
+This file took: 0:00:02.951395
+ee history parsed and stored
++ Process Accountant. Function: extend_articles_history_features ee is NOW RUN! Script: article_features.py. After 0:00:03.120268.
+
+- Process Accountant: The function "extend_articles_history_features el" has not run yet. Do it! Now: 2021/04/28-21:31:30. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+one all-time file.
+1
+['/public/dumps/public/other/mediawiki_history/2021-03/elwiki/2021-03.elwiki.all-time.tsv.bz2']
+Total number of articles: 191765
+/public/dumps/public/other/mediawiki_history/2021-03/elwiki/2021-03.elwiki.all-time.tsv.bz2
+Articles introduced: 190686. Articles left for next files or not in the database: 1079.
+This file took: 0:09:54.213285
+el history parsed and stored
++ Process Accountant. Function: extend_articles_history_features el is NOW RUN! Script: article_features.py. After 0:10:02.526349.
+
+- Process Accountant: The function "extend_articles_history_features eml" has not run yet. Do it! Now: 2021/04/28-21:41:33. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+one all-time file.
+1
+['/public/dumps/public/other/mediawiki_history/2021-03/emlwiki/2021-03.emlwiki.all-time.tsv.bz2']
+Total number of articles: 12698
+/public/dumps/public/other/mediawiki_history/2021-03/emlwiki/2021-03.emlwiki.all-time.tsv.bz2
+Articles introduced: 12678. Articles left for next files or not in the database: 20.
+This file took: 0:00:09.643876
+eml history parsed and stored
++ Process Accountant. Function: extend_articles_history_features eml is NOW RUN! Script: article_features.py. After 0:00:10.097572.
+
+- Process Accountant: The function "extend_articles_history_features en" has not run yet. Do it! Now: 2021/04/28-21:42:40. Year Month Cycle: 2021-03
+20210301000000 20210401000000
+editors table created.
+/public/dumps/public/other/mediawiki_history/2021-03
+multiple files.
+244
+['/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2021-04.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2021-03.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2021-02.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2021-01.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2020-12.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2020-11.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2020-10.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2020-09.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2020-08.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2020-07.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2020-06.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2020-05.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2020-04.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2020-03.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2020-02.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2020-01.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2019-12.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2019-11.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2019-10.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2019-09.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2019-08.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2019-07.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2019-06.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2019-05.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2019-04.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2019-03.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2019-02.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2019-01.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2018-12.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2018-11.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2018-10.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2018-09.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2018-08.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2018-07.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2018-06.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2018-05.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2018-04.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2018-03.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2018-02.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2018-01.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2017-12.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2017-11.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2017-10.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2017-09.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2017-08.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2017-07.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2017-06.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2017-05.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2017-04.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2017-03.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2017-02.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2017-01.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2016-12.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2016-11.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2016-10.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2016-09.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2016-08.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2016-07.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2016-06.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2016-05.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2016-04.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2016-03.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2016-02.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2016-01.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2015-12.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2015-11.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2015-10.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2015-09.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2015-08.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2015-07.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2015-06.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2015-05.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2015-04.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2015-03.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2015-02.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2015-01.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2014-12.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2014-11.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2014-10.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2014-09.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2014-08.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2014-07.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2014-06.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2014-05.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2014-04.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2014-03.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2014-02.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2014-01.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2013-12.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2013-11.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2013-10.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2013-09.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2013-08.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2013-07.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2013-06.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2013-05.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2013-04.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2013-03.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2013-02.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2013-01.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2012-12.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2012-11.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2012-10.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2012-09.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2012-08.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2012-07.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2012-06.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2012-05.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2012-04.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2012-03.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2012-02.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2012-01.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2011-12.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2011-11.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2011-10.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2011-09.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2011-08.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2011-07.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2011-06.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2011-05.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2011-04.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2011-03.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2011-02.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2011-01.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2010-12.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2010-11.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2010-10.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2010-09.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2010-08.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2010-07.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2010-06.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2010-05.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2010-04.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2010-03.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2010-02.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2010-01.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2009-12.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2009-11.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2009-10.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2009-09.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2009-08.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2009-07.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2009-06.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2009-05.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2009-04.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2009-03.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2009-02.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2009-01.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2008-12.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2008-11.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2008-10.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2008-09.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2008-08.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2008-07.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2008-06.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2008-05.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2008-04.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2008-03.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2008-02.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2008-01.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2007-12.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2007-11.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2007-10.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2007-09.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2007-08.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2007-07.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2007-06.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2007-05.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2007-04.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2007-03.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2007-02.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2007-01.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2006-12.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2006-11.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2006-10.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2006-09.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2006-08.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2006-07.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2006-06.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2006-05.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2006-04.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2006-03.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2006-02.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2006-01.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2005-12.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2005-11.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2005-10.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2005-09.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2005-08.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2005-07.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2005-06.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2005-05.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2005-04.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2005-03.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2005-02.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2005-01.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2004-12.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2004-11.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2004-10.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2004-09.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2004-08.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2004-07.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2004-06.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2004-05.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2004-04.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2004-03.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2004-02.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2004-01.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2003-12.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2003-11.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2003-10.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2003-09.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2003-08.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2003-07.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2003-06.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2003-05.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2003-04.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2003-03.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2003-02.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2003-01.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2002-12.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2002-11.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2002-10.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2002-09.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2002-08.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2002-07.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2002-06.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2002-05.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2002-04.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2002-03.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2002-02.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2002-01.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2001-12.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2001-11.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2001-10.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2001-09.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2001-08.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2001-07.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2001-06.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2001-05.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2001-04.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2001-03.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2001-02.tsv.bz2', '/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2001-01.tsv.bz2']
+Total number of articles: 6284826
+/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2021-04.tsv.bz2
+Articles introduced: 15. Articles left for next files or not in the database: 6284811.
+This file took: 0:00:00.908790
+/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2021-03.tsv.bz2
+Articles introduced: 24105. Articles left for next files or not in the database: 6260706.
+This file took: 0:07:05.041555
+/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2021-02.tsv.bz2
+Articles introduced: 22429. Articles left for next files or not in the database: 6238277.
+This file took: 0:06:32.129410
+/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2021-01.tsv.bz2
+Articles introduced: 22428. Articles left for next files or not in the database: 6215849.
+This file took: 0:08:42.579057
+/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2020-12.tsv.bz2
+Articles introduced: 21270. Articles left for next files or not in the database: 6194579.
+This file took: 0:07:53.654332
+/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2020-11.tsv.bz2
+Articles introduced: 18241. Articles left for next files or not in the database: 6176338.
+This file took: 0:07:08.096081
+/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2020-10.tsv.bz2
+Articles introduced: 18949. Articles left for next files or not in the database: 6157389.
+This file took: 0:07:05.376781
+/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2020-09.tsv.bz2
+Articles introduced: 18483. Articles left for next files or not in the database: 6138906.
+This file took: 0:07:19.370627
+/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2020-08.tsv.bz2
+Articles introduced: 20672. Articles left for next files or not in the database: 6118234.
+This file took: 0:07:36.136809
+/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2020-07.tsv.bz2
+Articles introduced: 22382. Articles left for next files or not in the database: 6095852.
+This file took: 0:07:29.371186
+/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2020-06.tsv.bz2
+Articles introduced: 23774. Articles left for next files or not in the database: 6072078.
+This file took: 0:07:50.367075
+/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2020-05.tsv.bz2
+Articles introduced: 23161. Articles left for next files or not in the database: 6048917.
+This file took: 0:08:52.169152
+/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2020-04.tsv.bz2
+Articles introduced: 23397. Articles left for next files or not in the database: 6025520.
+This file took: 0:08:33.948868
+/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2020-03.tsv.bz2
+Articles introduced: 23791. Articles left for next files or not in the database: 6001729.
+This file took: 0:08:05.816106
+/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2020-02.tsv.bz2
+Articles introduced: 18801. Articles left for next files or not in the database: 5982928.
+This file took: 0:07:52.857529
+/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2020-01.tsv.bz2
+Articles introduced: 18530. Articles left for next files or not in the database: 5964398.
+This file took: 0:08:41.229053
+/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2019-12.tsv.bz2
+Articles introduced: 17560. Articles left for next files or not in the database: 5946838.
+This file took: 0:08:16.794408
+/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2019-11.tsv.bz2
+Articles introduced: 17085. Articles left for next files or not in the database: 5929753.
+This file took: 0:08:25.668056
+/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2019-10.tsv.bz2
+Articles introduced: 24128. Articles left for next files or not in the database: 5905625.
+This file took: 0:09:13.810177
+/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2019-09.tsv.bz2
+Articles introduced: 20441. Articles left for next files or not in the database: 5885184.
+This file took: 0:10:35.616652
+/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2019-08.tsv.bz2
+Articles introduced: 20639. Articles left for next files or not in the database: 5864545.
+This file took: 0:09:28.998070
+/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2019-07.tsv.bz2
+Articles introduced: 19927. Articles left for next files or not in the database: 5844618.
+This file took: 0:10:00.169744
+/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2019-06.tsv.bz2
+Articles introduced: 18055. Articles left for next files or not in the database: 5826563.
+This file took: 0:09:57.376627
+/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2019-05.tsv.bz2
+Articles introduced: 19874. Articles left for next files or not in the database: 5806689.
+This file took: 0:10:26.467002
+/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2019-04.tsv.bz2
+Articles introduced: 19370. Articles left for next files or not in the database: 5787319.
+This file took: 0:10:19.416714
+/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2019-03.tsv.bz2
+Articles introduced: 20407. Articles left for next files or not in the database: 5766912.
+This file took: 0:10:48.026391
+/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2019-02.tsv.bz2
+Articles introduced: 18700. Articles left for next files or not in the database: 5748212.
+This file took: 0:11:52.585747
+/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2019-01.tsv.bz2
+Articles introduced: 21630. Articles left for next files or not in the database: 5726582.
+This file took: 0:11:31.422615
+/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2018-12.tsv.bz2
+Articles introduced: 19813. Articles left for next files or not in the database: 5706769.
+This file took: 0:12:02.989674
+/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2018-11.tsv.bz2
+Articles introduced: 18154. Articles left for next files or not in the database: 5688615.
+This file took: 0:11:35.871186
+/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2018-10.tsv.bz2
+Articles introduced: 19185. Articles left for next files or not in the database: 5669430.
+This file took: 0:12:09.180357
+/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2018-09.tsv.bz2
+Articles introduced: 18741. Articles left for next files or not in the database: 5650689.
+This file took: 0:11:49.272455
+/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2018-08.tsv.bz2
+Articles introduced: 20160. Articles left for next files or not in the database: 5630529.
+This file took: 0:12:28.478580
+/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2018-07.tsv.bz2
+Articles introduced: 18707. Articles left for next files or not in the database: 5611822.
+This file took: 0:12:22.580405
+/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2018-06.tsv.bz2
+Articles introduced: 17433. Articles left for next files or not in the database: 5594389.
+This file took: 0:12:27.503281
+/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2018-05.tsv.bz2
+Articles introduced: 28883. Articles left for next files or not in the database: 5565506.
+This file took: 0:13:18.829068
+/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2018-04.tsv.bz2
+Articles introduced: 29616. Articles left for next files or not in the database: 5535890.
+This file took: 0:13:52.098084
+/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2018-03.tsv.bz2
+Articles introduced: 22136. Articles left for next files or not in the database: 5513754.
+This file took: 0:14:38.415018
+/public/dumps/public/other/mediawiki_history/2021-03/enwiki/2021-03.enwiki.2018-02.tsv.bz2
+Articles introduced: 20498. Articles left for next files or not in the database: 5493256.

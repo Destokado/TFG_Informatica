@@ -1,0 +1,5 @@
+	Wiki	Title	Pageviews	Interwiki	Sindhi WD Label	WD Qitem
+0	[[:en:|en]]	[{{fullurl:en:Vada_(food)}} Vada (food)]	597	19		 [{{fullurl:wikidata:Q2723131}} Q2723131]
+1	[[:en:|en]]	[{{fullurl:en:Sindhi_biryani}} Sindhi biryani]	82	1		 [{{fullurl:wikidata:Q7522199}} Q7522199]
+2	[[:en:|en]]	[{{fullurl:en:Bhalia_wheat}} Bhalia wheat]	17	1		 [{{fullurl:wikidata:Q22304295}} Q22304295]
+6	[[:te:|te]]	[{{fullurl:te:పూతరేకులు}} పూతరేకులు]	3	3		 [{{fullurl:wikidata:Q7228884}} Q7228884]

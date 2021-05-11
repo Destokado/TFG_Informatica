@@ -1,0 +1,2 @@
+	Wiki	Title	Pageviews	Interwiki	Indonesian WD Label	WD Qitem
+1	[[:de:|de]]	[{{fullurl:de:Agung_Rai_Museum_of_Art}} Agung Rai Museum of Art]	1	1		 [{{fullurl:wikidata:Q398622}} Q398622]

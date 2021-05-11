@@ -1,0 +1,12 @@
+	Wiki	Title	Pageviews	Interwiki	Odia WD Label	WD Qitem
+0	[[:en:|en]]	[{{fullurl:en:Moheener_Ghoraguli}} Moheener Ghoraguli]	282	3		 [{{fullurl:wikidata:Q3348129}} Q3348129]
+1	[[:en:|en]]	[{{fullurl:en:O_Mur_Apunar_Desh}} O Mur Apunar Desh]	131	4		 [{{fullurl:wikidata:Q7073294}} Q7073294]
+2	[[:en:|en]]	[{{fullurl:en:Underground_Authority}} Underground Authority]	54	2		 [{{fullurl:wikidata:Q7883627}} Q7883627]
+3	[[:en:|en]]	[{{fullurl:en:Prithibi}} Prithibi]	34	0		 [{{fullurl:wikidata:Q4163821}} Q4163821]
+4	[[:en:|en]]	[{{fullurl:en:Five_Little_Indians}} Five Little Indians]	26	0		 [{{fullurl:wikidata:Q5455991}} Q5455991]
+5	[[:en:|en]]	[{{fullurl:en:Insomnia_(band)}} Insomnia (band)]	23	0		 [{{fullurl:wikidata:Q15053569}} Q15053569]
+6	[[:en:|en]]	[{{fullurl:en:Cassini's_Division}} Cassini's Division]	13	0		 [{{fullurl:wikidata:Q5049434}} Q5049434]
+8	[[:en:|en]]	[{{fullurl:en:Pseudonym_(band)}} Pseudonym (band)]	8	0		 [{{fullurl:wikidata:Q7255187}} Q7255187]
+9	[[:en:|en]]	[{{fullurl:en:Chronic_Xorn}} Chronic Xorn]	8	0		 [{{fullurl:wikidata:Q5113958}} Q5113958]
+10	[[:en:|en]]	[{{fullurl:en:Sinister_Violence}} Sinister Violence]	2	1		 [{{fullurl:wikidata:Q7524446}} Q7524446]
+12	[[:en:|en]]	[{{fullurl:en:Kollage_(band)}} Kollage (band)]	0	0		 [{{fullurl:wikidata:Q972712}} Q972712]

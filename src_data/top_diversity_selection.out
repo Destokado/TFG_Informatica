@@ -1,0 +1,551 @@
+current cycle for the data: 2020-07
+database in use in load_wikipedia_language_editions_numberofarticles: wikipedia_diversity.db
+this language is not in the database yet: tlh
+this language is not in the database yet: ru_sib
+this language is not in the database yet: lld
+this language is not in the database yet: awa
+this language is not in the database yet: tokipona
+this language is not in the database yet: ary
+this language is not in the database yet: avk
+wikipedialanguage_numberarticles loaded.
+this is the total number of articles in the Diversity Database: 53578462
+['aa', 'ab', 'ace', 'ady', 'af', 'ak', 'als', 'am', 'an', 'ang', 'ar', 'arc', 'arz', 'as', 'ast', 'atj', 'av', 'ay', 'az', 'azb', 'ba', 'bar', 'bat_smg', 'bcl', 'be', 'be_x_old', 'bg', 'bh', 'bi', 'bjn', 'bm', 'bn', 'bo', 'bpy', 'br', 'bs', 'bug', 'bxr', 'ca', 'cbk_zam', 'cdo', 'ce', 'ceb', 'ch', 'cho', 'chr', 'chy', 'ckb', 'co', 'cr', 'crh', 'cs', 'csb', 'cu', 'cv', 'cy', 'da', 'de', 'din', 'diq', 'dsb', 'dty', 'dv', 'dz', 'ee', 'el', 'eml', 'en', 'eo', 'es', 'et', 'eu', 'ext', 'fa', 'ff', 'fi', 'fiu_vro', 'fj', 'fo', 'fr', 'frp', 'frr', 'fur', 'fy', 'ga', 'gag', 'gan', 'gd', 'gl', 'glk', 'gn', 'gom', 'gor', 'got', 'gu', 'gv', 'ha', 'hak', 'haw', 'he', 'hi', 'hif', 'ho', 'hr', 'hsb', 'ht', 'hu', 'hy', 'hz', 'ia', 'id', 'ie', 'ig', 'ii', 'ik', 'ilo', 'inh', 'io', 'is', 'it', 'iu', 'ja', 'jam', 'jbo', 'jv', 'ka', 'kaa', 'kab', 'kbd', 'kbp', 'kg', 'ki', 'kj', 'kk', 'kl', 'km', 'kn', 'ko', 'koi', 'kr', 'krc', 'ks', 'ksh', 'ku', 'kv', 'kw', 'ky', 'la', 'lad', 'lb', 'lbe', 'lez', 'lg', 'li', 'lfn', 'lij', 'lmo', 'ln', 'lo', 'lrc', 'lt', 'ltg', 'lv', 'mai', 'map_bms', 'mdf', 'mg', 'mh', 'mhr', 'mi', 'min', 'mk', 'ml', 'mn', 'mr', 'mrj', 'ms', 'mt', 'mus', 'mwl', 'my', 'myv', 'mzn', 'na', 'nah', 'zh_min_nan', 'nap', 'nds', 'nds_nl', 'ne', 'new', 'ng', 'nl', 'nn', 'no', 'nov', 'nrm', 'nso', 'nv', 'ny', 'oc', 'olo', 'om', 'or', 'os', 'pa', 'pag', 'pam', 'pap', 'pcd', 'pdc', 'pfl', 'pi', 'pih', 'pl', 'pms', 'pnb', 'pnt', 'ps', 'pt', 'qu', 'rm', 'rmy', 'rn', 'ro', 'roa_rup', 'roa_tara', 'ru', 'rue', 'rw', 'sa', 'sah', 'sc', 'scn', 'sco', 'sd', 'se', 'sg', 'sh', 'si', 'simple', 'sk', 'sl', 'sm', 'sn', 'so', 'sq', 'sat', 'sr', 'srn', 'ss', 'st', 'stq', 'su', 'sv', 'sw', 'szl', 'ta', 'tcy', 'te', 'tet', 'tg', 'th', 'ti', 'tk', 'tl', 'tn', 'to', 'tpi', 'tr', 'ts', 'tt', 'tum', 'tw', 'ty', 'tyv', 'udm', 'ug', 'uk', 'ur', 'uz', 've', 'vec', 'vep', 'vi', 'vls', 'vo', 'wa', 'war', 'wo', 'wuu', 'xal', 'xh', 'xmf', 'yi', 'yo', 'za', 'zea', 'zh', 'zh_classical', 'zh_yue', 'zu', 'shn', 'hyw', 'mnw', 'nqo', 'ban', 'gcr', 'szy', 'awa', 'ary']
+Generating all the Top articles lists.
+language: en
+page_ids loaded.
+qitems loaded.
+they are:
+6090474
+
+### language 68/311: 	English en 	| Europe;Oceania;Americas;Africa;Asia	Northern Europe;Polynesia;Latin America and the Caribbean;Australia and New Zealand;Northern America;Sub-Saharan Africa;South-eastern Asia;Eastern Asia;Melanesia;Southern Europe;Micronesia;Southern Asia;Northern Africa	 | 
+these are the countries from this language:
+['MP', 'IM', 'PK', 'PR', 'SL', 'PG', 'TC', 'KE', 'GG', 'MW', 'SS', 'PH', 'NR', 'MH', 'PW', 'TT', 'IN', 'US', 'RW', 'WS', 'GI', 'NG', 'IO', 'JM', 'BM', 'BN', 'LS', 'MU', 'SB', 'ZW', 'GU', 'FJ', 'TK', 'ZM', 'BQ', 'BS', 'LR', 'NU', 'SC', 'GM', 'AU', 'GH', 'BZ', 'BB', 'NZ', 'IE', 'AS', 'VG', 'PN', 'KN', 'JE', 'NA', 'KI', 'CK', 'SD', 'CA', 'SX', 'SZ', 'VI', 'BW', 'AG', 'CM', 'GD', 'FM', 'GY', 'NF', 'MS', 'SG', 'MY', 'ZA', 'TO', 'UG', 'VU', 'LC', 'HK', 'KY', 'TV', 'MT', 'GB', 'DM', 'VC', 'AI', '']
+
+
+This country starts now: 1599645114.572266
+Lists for country: United Kingdom (English speaking territories)
+
+
+* make_table_top_diversity_articles_list
+geolocated
+Obtaining a prioritized article list based on these parameters:
+en ['ccc'] ['Q21', 'Q22', 'Q25', 'Q145']  {'percent_outlinks_to_lgbt': 0.2, 'num_outlinks_to_lgbt': 0.8} positive 500 none ['num_editors', 'num_pageviews', 'num_bytes', 'num_references', 'num_wdproperty', 'num_interwiki']
+define the content type
+define the specific category.
+We are usign these categories to filter the content (either topics or territories).
+['Q21', 'Q22', 'Q25', 'Q145']
+define the timeframe
+obtain the data.
+SELECT * FROM enwiki WHERE ccc_binary=1 AND (main_territory = "Q21" OR main_territory = "Q22" OR main_territory = "Q25" OR main_territory = "Q145")
+['qitem' 'page_id' 'page_title' 'date_created' 'date_last_edit'
+ 'date_last_discussion' 'geocoordinates' 'iso3166' 'iso31662' 'region'
+ 'gender' 'ethnic_group' 'supra_ethnic_group' 'sexual_orientation'
+ 'religious_group' 'ccc_binary' 'main_territory'
+ 'num_retrieval_strategies' 'ccc_geolocated' 'country_wd' 'location_wd'
+ 'language_strong_wd' 'created_by_wd' 'part_of_wd' 'keyword_title'
+ 'category_crawling_territories' 'category_crawling_territories_level'
+ 'language_weak_wd' 'affiliation_wd' 'has_part_wd' 'num_inlinks_from_CCC'
+ 'num_outlinks_to_CCC' 'percent_inlinks_from_CCC'
+ 'percent_outlinks_to_CCC' 'other_ccc_country_wd' 'other_ccc_location_wd'
+ 'other_ccc_language_strong_wd' 'other_ccc_created_by_wd'
+ 'other_ccc_part_of_wd' 'other_ccc_language_weak_wd'
+ 'other_ccc_affiliation_wd' 'other_ccc_has_part_wd'
+ 'num_inlinks_from_geolocated_abroad' 'num_outlinks_to_geolocated_abroad'
+ 'percent_inlinks_from_geolocated_abroad'
+ 'percent_outlinks_to_geolocated_abroad' 'folk' 'earth'
+ 'monuments_and_buildings' 'music_creations_and_organizations'
+ 'sport_and_teams' 'food' 'paintings' 'glam' 'books'
+ 'clothing_and_fashion' 'industry' 'religion' 'time_interval' 'start_time'
+ 'end_time' 'num_inlinks' 'num_outlinks' 'num_bytes' 'num_references'
+ 'num_edits' 'num_edits_last_month' 'num_editors' 'num_discussions'
+ 'num_pageviews' 'num_wdproperty' 'num_interwiki' 'num_images'
+ 'featured_article' 'wikirank' 'first_timestamp_lang' 'ethnic_group_topic'
+ 'lgbt_topic_binary' 'num_inlinks_from_women' 'num_outlinks_to_women'
+ 'percent_inlinks_from_women' 'percent_outlinks_to_women'
+ 'num_inlinks_from_men' 'num_outlinks_to_men' 'percent_inlinks_from_men'
+ 'percent_outlinks_to_men' 'num_inlinks_from_lgbt' 'num_outlinks_to_lgbt'
+ 'percent_inlinks_from_lgbt' 'percent_outlinks_to_lgbt']
+this is the number of lines of the dataframe: 337916
+337916
+number of lines after removing duplicates: 
+337916
+filter and save the first 80% of the CCC articles in terms of number of strategies and inlinks from CCC.
+222188
+There are now: 222188 articles.
+rank articles by relevance
+percent_outlinks_to_lgbt
+parameter of relevance: percent_outlinks_to_lgbt with coefficient: 0.2
+num_outlinks_to_lgbt
+parameter of relevance: num_outlinks_to_lgbt with coefficient: 0.8
+calculate the representativity coefficients
+representativity coefficients filtered by only these categories:
+['Q21', 'Q22', 'Q25', 'Q145']
+1
+{}
+make the new dataframe
+{'Any': 500}
+the window has: 500
+Any has: 500
+the window has: 500
+Any has: 500
+Any 500
+1 (500) Attitude_(magazine) Q758208 					percent_outlinks_to_lgbt:0.184 	num_outlinks_to_lgbt:23
+2 (499) Onlywomen_Press Q17016906 					percent_outlinks_to_lgbt:0.08287292817679558 	num_outlinks_to_lgbt:15
+3 (498) Gay's_the_Word_(bookshop) Q5528519 					percent_outlinks_to_lgbt:0.13580246913580246 	num_outlinks_to_lgbt:11
+4 (497) Nathan_Wyburn Q6969436 					percent_outlinks_to_lgbt:0.06666666666666667 	num_outlinks_to_lgbt:14
+5 (496) Football_at_the_2012_Summer_Olympics_–_Women's_tournament_–_Knockout_stage Q5466165 					percent_outlinks_to_lgbt:0.06451612903225806 	num_outlinks_to_lgbt:12
+6 (495) Basil_Bunting Q2886803 					percent_outlinks_to_lgbt:0.04946236559139785 	num_outlinks_to_lgbt:23
+7 (494) Lynn_Fontanne Q242484 					percent_outlinks_to_lgbt:0.047872340425531915 	num_outlinks_to_lgbt:18
+8 (493) George_Rose_(actor) Q1480761 					percent_outlinks_to_lgbt:0.05263157894736842 	num_outlinks_to_lgbt:14
+9 (492) Celebrity_Fifteen_to_One Q23001906 					percent_outlinks_to_lgbt:0.06111111111111111 	num_outlinks_to_lgbt:11
+10 (491) Eva_Le_Gallienne Q266402 					percent_outlinks_to_lgbt:0.045454545454545456 	num_outlinks_to_lgbt:21
+11 (490) Maurice_Evans_(actor) Q1233590 					percent_outlinks_to_lgbt:0.043478260869565216 	num_outlinks_to_lgbt:17
+12 (489) Adrian_Lester Q373395 					percent_outlinks_to_lgbt:0.054945054945054944 	num_outlinks_to_lgbt:10
+13 (488) Hbomberguy Q60709223 					percent_outlinks_to_lgbt:0.1038961038961039 	num_outlinks_to_lgbt:8
+14 (487) The_Frank_Skinner_Show Q7735151 					percent_outlinks_to_lgbt:0.048034934497816595 	num_outlinks_to_lgbt:11
+15 (486) Heaven_(nightclub) Q5694616 					percent_outlinks_to_lgbt:0.050505050505050504 	num_outlinks_to_lgbt:10
+16 (485) Rock_Circus Q7354318 					percent_outlinks_to_lgbt:0.06504065040650407 	num_outlinks_to_lgbt:8
+17 (484) Eric_Porter Q1351583 					percent_outlinks_to_lgbt:0.05202312138728324 	num_outlinks_to_lgbt:9
+18 (483) Alex_Jennings Q1260893 					percent_outlinks_to_lgbt:0.043333333333333335 	num_outlinks_to_lgbt:13
+19 (482) Julie_Bindel Q6308046 					percent_outlinks_to_lgbt:0.0397196261682243 	num_outlinks_to_lgbt:17
+20 (481) Rock_Star_Ate_My_Hamster Q2499818 					percent_outlinks_to_lgbt:0.08860759493670886 	num_outlinks_to_lgbt:7
+21 (480) Daniel_Massey_(actor) Q1161698 					percent_outlinks_to_lgbt:0.04926108374384237 	num_outlinks_to_lgbt:10
+22 (479) Marianne_Elliott_(director) Q6762215 					percent_outlinks_to_lgbt:0.045662100456621 	num_outlinks_to_lgbt:10
+23 (478) Star_Stories Q7600916 					percent_outlinks_to_lgbt:0.045454545454545456 	num_outlinks_to_lgbt:11
+24 (477) Stonewall_(charity) Q681943 					percent_outlinks_to_lgbt:0.04152249134948097 	num_outlinks_to_lgbt:12
+25 (476) Gabrielle_Enthoven Q17309006 					percent_outlinks_to_lgbt:0.08974358974358974 	num_outlinks_to_lgbt:7
+26 (475) British_Soap_Award_for_Best_Actor Q55639367 					percent_outlinks_to_lgbt:0.06363636363636363 	num_outlinks_to_lgbt:7
+27 (474) Leadley Q65935903 					percent_outlinks_to_lgbt:0.048484848484848485 	num_outlinks_to_lgbt:8
+28 (473) Rosemary_Harris Q234195 					percent_outlinks_to_lgbt:0.034976152623211444 	num_outlinks_to_lgbt:22
+29 (472) Matt_Cain_(writer) Q55108640 					percent_outlinks_to_lgbt:0.109375 	num_outlinks_to_lgbt:7
+30 (471) The_Listener_(magazine) Q7747542 					percent_outlinks_to_lgbt:0.10526315789473684 	num_outlinks_to_lgbt:6
+31 (470) Harold_Monro Q970245 					percent_outlinks_to_lgbt:0.05555555555555555 	num_outlinks_to_lgbt:7
+32 (469) Michael_Crawford Q656035 					percent_outlinks_to_lgbt:0.037267080745341616 	num_outlinks_to_lgbt:12
+33 (468) Michael_Bryant_(actor) Q15521093 					percent_outlinks_to_lgbt:0.047619047619047616 	num_outlinks_to_lgbt:8
+34 (467) Mr_Hudson Q1359723 					percent_outlinks_to_lgbt:0.056 	num_outlinks_to_lgbt:7
+35 (466) Sexuality_and_Its_Discontents Q48770748 					percent_outlinks_to_lgbt:0.09375 	num_outlinks_to_lgbt:6
+36 (465) Jessica_Tandy Q182104 					percent_outlinks_to_lgbt:0.03259452411994785 	num_outlinks_to_lgbt:25
+37 (464) Rex_Harrison Q181887 					percent_outlinks_to_lgbt:0.032915360501567396 	num_outlinks_to_lgbt:21
+38 (463) Robert_Herring_(poet) Q7345469 					percent_outlinks_to_lgbt:0.14285714285714285 	num_outlinks_to_lgbt:6
+39 (462) Jane_Greenwood Q6152311 					percent_outlinks_to_lgbt:0.0410958904109589 	num_outlinks_to_lgbt:9
+40 (461) John_Howard_(singer-songwriter) Q6240041 					percent_outlinks_to_lgbt:0.06086956521739131 	num_outlinks_to_lgbt:7
+41 (460) Faber_and_Faber Q898097 					percent_outlinks_to_lgbt:0.058823529411764705 	num_outlinks_to_lgbt:7
+42 (459) Alan_Bates Q309160 					percent_outlinks_to_lgbt:0.03365384615384615 	num_outlinks_to_lgbt:14
+43 (458) Alec_McCowen Q492176 					percent_outlinks_to_lgbt:0.03571428571428571 	num_outlinks_to_lgbt:11
+44 (457) Diana_Souhami Q5271307 					percent_outlinks_to_lgbt:0.15384615384615385 	num_outlinks_to_lgbt:6
+45 (456) The_Playlist Q48699601 					percent_outlinks_to_lgbt:0.03560830860534125 	num_outlinks_to_lgbt:12
+46 (455) John_Wood_(English_actor) Q599439 					percent_outlinks_to_lgbt:0.03430079155672823 	num_outlinks_to_lgbt:13
+47 (454) Hugo_Guinness Q5933988 					percent_outlinks_to_lgbt:0.04697986577181208 	num_outlinks_to_lgbt:7
+48 (453) Peston_on_Sunday Q24034650 					percent_outlinks_to_lgbt:0.0375 	num_outlinks_to_lgbt:9
+49 (452) Jonny_Lee_Miller Q7516 					percent_outlinks_to_lgbt:0.0371900826446281 	num_outlinks_to_lgbt:9
+50 (451) Thelma_Holt Q7781071 					percent_outlinks_to_lgbt:0.03676470588235294 	num_outlinks_to_lgbt:10
+51 (450) Claire_Bloom Q235622 					percent_outlinks_to_lgbt:0.0319634703196347 	num_outlinks_to_lgbt:14
+52 (449) Alan_Howard Q339083 					percent_outlinks_to_lgbt:0.03690036900369004 	num_outlinks_to_lgbt:10
+53 (448) Henry_Goodman Q3132807 					percent_outlinks_to_lgbt:0.041025641025641026 	num_outlinks_to_lgbt:8
+54 (447) Bertie_Carvel Q14956941 					percent_outlinks_to_lgbt:0.034482758620689655 	num_outlinks_to_lgbt:11
+55 (446) Weekend_(talk_show) Q17034998 					percent_outlinks_to_lgbt:0.030664395229982964 	num_outlinks_to_lgbt:18
+56 (445) Charli_XCX Q5084390 					percent_outlinks_to_lgbt:0.03343465045592705 	num_outlinks_to_lgbt:11
+57 (444) Rory_Kinnear Q1320782 					percent_outlinks_to_lgbt:0.03287671232876712 	num_outlinks_to_lgbt:12
+58 (443) Jim_Dale Q1689081 					percent_outlinks_to_lgbt:0.03508771929824561 	num_outlinks_to_lgbt:10
+59 (442) Barry_Evans_(EastEnders) Q4864208 					percent_outlinks_to_lgbt:0.03296703296703297 	num_outlinks_to_lgbt:12
+60 (441) David_Bamber Q960494 					percent_outlinks_to_lgbt:0.050359712230215826 	num_outlinks_to_lgbt:7
+61 (440) Robert_Lindsay_(actor) Q944245 					percent_outlinks_to_lgbt:0.03234501347708895 	num_outlinks_to_lgbt:12
+62 (439) Rebecca_Lenkiewicz Q7301808 					percent_outlinks_to_lgbt:0.05660377358490566 	num_outlinks_to_lgbt:6
+63 (438) John_R._Gordon Q6253852 					percent_outlinks_to_lgbt:0.0759493670886076 	num_outlinks_to_lgbt:6
+64 (437) Rufus_Sewell Q299217 					percent_outlinks_to_lgbt:0.03643724696356275 	num_outlinks_to_lgbt:9
+65 (436) Design_for_Living Q5264340 					percent_outlinks_to_lgbt:0.06593406593406594 	num_outlinks_to_lgbt:6
+66 (435) Philip_Hoare Q7183736 					percent_outlinks_to_lgbt:0.08955223880597014 	num_outlinks_to_lgbt:6
+67 (434) Trevor_Eve Q345950 					percent_outlinks_to_lgbt:0.03940886699507389 	num_outlinks_to_lgbt:8
+68 (433) Hypothetical_(TV_series) Q65120496 					percent_outlinks_to_lgbt:0.061855670103092786 	num_outlinks_to_lgbt:6
+69 (432) Sarah_Woodward Q7422919 					percent_outlinks_to_lgbt:0.04242424242424243 	num_outlinks_to_lgbt:7
+70 (431) Mika_(singer) Q186329 					percent_outlinks_to_lgbt:0.0353356890459364 	num_outlinks_to_lgbt:10
+71 (430) Chris_New Q5107578 					percent_outlinks_to_lgbt:0.05309734513274336 	num_outlinks_to_lgbt:6
+72 (429) Brian_Bedford Q4963077 					percent_outlinks_to_lgbt:0.036290322580645164 	num_outlinks_to_lgbt:9
+73 (428) I_Am_a_Camera Q3423702 					percent_outlinks_to_lgbt:0.057692307692307696 	num_outlinks_to_lgbt:6
+74 (427) Terrence_Higgins_Trust Q723759 					percent_outlinks_to_lgbt:0.13953488372093023 	num_outlinks_to_lgbt:6
+75 (426) Sam_Mendes Q223233 					percent_outlinks_to_lgbt:0.029548989113530325 	num_outlinks_to_lgbt:19
+76 (425) Lucy_Bronze Q6698219 					percent_outlinks_to_lgbt:0.03529411764705882 	num_outlinks_to_lgbt:9
+77 (424) Great_Lives Q5599518 					percent_outlinks_to_lgbt:0.029357798165137616 	num_outlinks_to_lgbt:32
+78 (423) Brit_Award_for_British_Male_Solo_Artist Q48770227 					percent_outlinks_to_lgbt:0.04046242774566474 	num_outlinks_to_lgbt:7
+79 (422) Brit_Award_for_International_Female_Solo_Artist Q16985325 					percent_outlinks_to_lgbt:0.046357615894039736 	num_outlinks_to_lgbt:7
+80 (421) Icons:_The_Greatest_Person_of_the_20th_Century Q64827538 					percent_outlinks_to_lgbt:0.058823529411764705 	num_outlinks_to_lgbt:6
+81 (420) Mike_Ockrent Q6848256 					percent_outlinks_to_lgbt:0.06060606060606061 	num_outlinks_to_lgbt:6
+82 (419) Football_at_the_2012_Summer_Olympics_–_Women's_tournament_–_Group_F Q5466159 					percent_outlinks_to_lgbt:0.049586776859504134 	num_outlinks_to_lgbt:6
+83 (418) The_Female_Eunuch Q7733656 					percent_outlinks_to_lgbt:0.044585987261146494 	num_outlinks_to_lgbt:7
+84 (417) Dawn_French's_Girls_Who_Do_Comedy Q5242444 					percent_outlinks_to_lgbt:0.11627906976744186 	num_outlinks_to_lgbt:5
+85 (416) Paul_Scofield Q223988 					percent_outlinks_to_lgbt:0.02936096718480138 	num_outlinks_to_lgbt:17
+86 (415) Sheila_Jeffreys Q4894592 					percent_outlinks_to_lgbt:0.029411764705882353 	num_outlinks_to_lgbt:16
+87 (414) Virtually_Famous Q18163825 					percent_outlinks_to_lgbt:0.0594059405940594 	num_outlinks_to_lgbt:6
+88 (413) Katie_Waissel Q6377573 					percent_outlinks_to_lgbt:0.037037037037037035 	num_outlinks_to_lgbt:8
+89 (412) Amos_Pizzey Q60736657 					percent_outlinks_to_lgbt:0.08771929824561403 	num_outlinks_to_lgbt:5
+90 (411) Jamie_Parker Q547670 					percent_outlinks_to_lgbt:0.04142011834319527 	num_outlinks_to_lgbt:7
+91 (410) Peston_(TV_programme) Q60745941 					percent_outlinks_to_lgbt:0.04093567251461988 	num_outlinks_to_lgbt:7
+92 (409) The_Impressions_Show_with_Culshaw_and_Stephenson Q7741630 					percent_outlinks_to_lgbt:0.04430379746835443 	num_outlinks_to_lgbt:7
+93 (408) Nicholas_Hytner Q967302 					percent_outlinks_to_lgbt:0.029484029484029485 	num_outlinks_to_lgbt:12
+94 (407) Karaoke_Revolution_(2009_video_game) Q6368546 					percent_outlinks_to_lgbt:0.03825136612021858 	num_outlinks_to_lgbt:7
+95 (406) Rock_Profile Q7354637 					percent_outlinks_to_lgbt:0.061224489795918366 	num_outlinks_to_lgbt:6
+96 (405) E._M._Forster Q189119 					percent_outlinks_to_lgbt:0.03524229074889868 	num_outlinks_to_lgbt:8
+97 (404) York_Notes Q8055509 					percent_outlinks_to_lgbt:0.04242424242424243 	num_outlinks_to_lgbt:7
+98 (403) ITV_Specials Q5975075 					percent_outlinks_to_lgbt:0.027700831024930747 	num_outlinks_to_lgbt:20
+99 (402) Warren_Mitchell Q7970393 					percent_outlinks_to_lgbt:0.030136986301369864 	num_outlinks_to_lgbt:11
+100 (401) Pride_in_London Q7242790 					percent_outlinks_to_lgbt:0.027777777777777776 	num_outlinks_to_lgbt:17
+101 (400) The_Joy_of_Sex Q83585 					percent_outlinks_to_lgbt:0.048 	num_outlinks_to_lgbt:6
+102 (399) Theatre_Night Q17022676 					percent_outlinks_to_lgbt:0.03664921465968586 	num_outlinks_to_lgbt:7
+103 (398) John_Lehmann Q1563198 					percent_outlinks_to_lgbt:0.05660377358490566 	num_outlinks_to_lgbt:6
+104 (397) Time_for_Inclusive_Education Q21660284 					percent_outlinks_to_lgbt:0.05825242718446602 	num_outlinks_to_lgbt:6
+105 (396) The_Oxford_Book_of_Twentieth_Century_English_Verse Q7755786 					percent_outlinks_to_lgbt:0.034334763948497854 	num_outlinks_to_lgbt:8
+106 (395) The_Big_Fat_Quiz_of_the_Year Q3416096 					percent_outlinks_to_lgbt:0.02727272727272727 	num_outlinks_to_lgbt:18
+107 (394) Eileen_Atkins Q269835 					percent_outlinks_to_lgbt:0.02710843373493976 	num_outlinks_to_lgbt:18
+108 (393) Jonathan_Pryce Q312702 					percent_outlinks_to_lgbt:0.027586206896551724 	num_outlinks_to_lgbt:16
+109 (392) Matthew_Kelly Q6790782 					percent_outlinks_to_lgbt:0.041379310344827586 	num_outlinks_to_lgbt:6
+110 (391) Donald_Sinden Q432316 					percent_outlinks_to_lgbt:0.03169014084507042 	num_outlinks_to_lgbt:9
+111 (390) Rosamund_Pike Q230004 					percent_outlinks_to_lgbt:0.030927835051546393 	num_outlinks_to_lgbt:9
+112 (389) Alfred_Molina Q296028 					percent_outlinks_to_lgbt:0.02734375 	num_outlinks_to_lgbt:14
+113 (388) Marjorie_Rhodes Q6766329 					percent_outlinks_to_lgbt:0.03954802259887006 	num_outlinks_to_lgbt:7
+114 (387) Peter_Hall_(director) Q769414 					percent_outlinks_to_lgbt:0.028645833333333332 	num_outlinks_to_lgbt:11
+115 (386) Pauline_Collins Q242705 					percent_outlinks_to_lgbt:0.028871391076115485 	num_outlinks_to_lgbt:11
+116 (385) 2DTV Q4633087 					percent_outlinks_to_lgbt:0.04054054054054054 	num_outlinks_to_lgbt:6
+117 (384) Stephen_Moore_(actor) Q2344985 					percent_outlinks_to_lgbt:0.05128205128205128 	num_outlinks_to_lgbt:6
+118 (383) Ian_McKellen Q170510 					percent_outlinks_to_lgbt:0.026285714285714287 	num_outlinks_to_lgbt:23
+119 (382) Tonight_at_the_London_Palladium Q7639501 					percent_outlinks_to_lgbt:0.035897435897435895 	num_outlinks_to_lgbt:7
+120 (381) Michael_Sheen Q298276 					percent_outlinks_to_lgbt:0.02702702702702703 	num_outlinks_to_lgbt:14
+121 (380) Funeral_Blues Q1474247 					percent_outlinks_to_lgbt:0.06756756756756757 	num_outlinks_to_lgbt:5
+122 (379) Paul_Copley Q15463457 					percent_outlinks_to_lgbt:0.043795620437956206 	num_outlinks_to_lgbt:6
+123 (378) The_World_in_the_Evening Q17020965 					percent_outlinks_to_lgbt:0.06493506493506493 	num_outlinks_to_lgbt:5
+124 (377) J._R._Ackerley Q2658365 					percent_outlinks_to_lgbt:0.05555555555555555 	num_outlinks_to_lgbt:5
+125 (376) Wilfred_Owen Q212719 					percent_outlinks_to_lgbt:0.03255813953488372 	num_outlinks_to_lgbt:7
+126 (375) Janet_McTeer Q232292 					percent_outlinks_to_lgbt:0.027586206896551724 	num_outlinks_to_lgbt:12
+127 (374) Ben_Howard Q816518 					percent_outlinks_to_lgbt:0.03870967741935484 	num_outlinks_to_lgbt:6
+128 (373) George_Ezra Q15459513 					percent_outlinks_to_lgbt:0.03773584905660377 	num_outlinks_to_lgbt:6
+129 (372) So_Graham_Norton Q7549285 					percent_outlinks_to_lgbt:0.033816425120772944 	num_outlinks_to_lgbt:7
+130 (371) Kenneth_Halliwell Q1738867 					percent_outlinks_to_lgbt:0.08064516129032258 	num_outlinks_to_lgbt:5
+131 (370) Luke_Treadaway Q129788 					percent_outlinks_to_lgbt:0.039735099337748346 	num_outlinks_to_lgbt:6
+132 (369) Glenda_Jackson Q182408 					percent_outlinks_to_lgbt:0.025423728813559324 	num_outlinks_to_lgbt:18
+133 (368) Claude_Rains Q318734 					percent_outlinks_to_lgbt:0.026217228464419477 	num_outlinks_to_lgbt:14
+134 (367) Mark_Rylance Q324572 					percent_outlinks_to_lgbt:0.025210084033613446 	num_outlinks_to_lgbt:18
+135 (366) Anthony_Quayle Q347711 					percent_outlinks_to_lgbt:0.0299625468164794 	num_outlinks_to_lgbt:8
+136 (365) Tom_Robinson Q723493 					percent_outlinks_to_lgbt:0.039473684210526314 	num_outlinks_to_lgbt:6
+137 (364) James_Morrison_(singer) Q316301 					percent_outlinks_to_lgbt:0.0410958904109589 	num_outlinks_to_lgbt:6
+138 (363) Oliver_Ford_Davies Q562973 					percent_outlinks_to_lgbt:0.0410958904109589 	num_outlinks_to_lgbt:6
+139 (362) Paul_Danquah Q16090036 					percent_outlinks_to_lgbt:0.08928571428571429 	num_outlinks_to_lgbt:5
+140 (361) Hollyoaks Q1585857 					percent_outlinks_to_lgbt:0.02564102564102564 	num_outlinks_to_lgbt:13
+141 (360) Big_Bang_(British_band) Q4905010 					percent_outlinks_to_lgbt:0.04716981132075472 	num_outlinks_to_lgbt:5
+142 (359) The_Charlotte_Church_Show Q7722190 					percent_outlinks_to_lgbt:0.03896103896103896 	num_outlinks_to_lgbt:6
+143 (358) John_Gielgud Q204685 					percent_outlinks_to_lgbt:0.02406832298136646 	num_outlinks_to_lgbt:31
+144 (357) Big_Finish_Productions Q4905688 					percent_outlinks_to_lgbt:0.02830188679245283 	num_outlinks_to_lgbt:9
+145 (356) Tom_Courtenay Q329798 					percent_outlinks_to_lgbt:0.024793388429752067 	num_outlinks_to_lgbt:15
+146 (355) Steve_Sidwell_(musician) Q3973394 					percent_outlinks_to_lgbt:0.040268456375838924 	num_outlinks_to_lgbt:6
+147 (354) Wolverine_and_Deadpool Q8030549 					percent_outlinks_to_lgbt:0.030434782608695653 	num_outlinks_to_lgbt:7
+148 (353) Derek_Jacobi Q256164 					percent_outlinks_to_lgbt:0.0243161094224924 	num_outlinks_to_lgbt:16
+149 (352) Richard_Griffiths Q314831 					percent_outlinks_to_lgbt:0.02727272727272727 	num_outlinks_to_lgbt:9
+150 (351) Stephen_Jones_(milliner) Q2670107 					percent_outlinks_to_lgbt:0.030837004405286344 	num_outlinks_to_lgbt:7
+151 (350) Diva_(magazine) Q1279728 					percent_outlinks_to_lgbt:0.22727272727272727 	num_outlinks_to_lgbt:5
+152 (349) David_Haig Q1985868 					percent_outlinks_to_lgbt:0.03271028037383177 	num_outlinks_to_lgbt:7
+153 (348) Live_at_the_Apollo_(TV_series) Q2243214 					percent_outlinks_to_lgbt:0.03428571428571429 	num_outlinks_to_lgbt:6
+154 (347) Mark_Strong Q312712 					percent_outlinks_to_lgbt:0.02877697841726619 	num_outlinks_to_lgbt:8
+155 (346) Cedric_Hardwicke Q527735 					percent_outlinks_to_lgbt:0.02768166089965398 	num_outlinks_to_lgbt:8
+156 (345) Anthony_Dowell Q573159 					percent_outlinks_to_lgbt:0.04065040650406504 	num_outlinks_to_lgbt:5
+157 (344) Cynthia_Erivo Q21592474 					percent_outlinks_to_lgbt:0.030837004405286344 	num_outlinks_to_lgbt:7
+158 (343) Mona_Washbourne Q1943941 					percent_outlinks_to_lgbt:0.028268551236749116 	num_outlinks_to_lgbt:8
+159 (342) Diana_Rigg Q232876 					percent_outlinks_to_lgbt:0.025056947608200455 	num_outlinks_to_lgbt:11
+160 (341) Stephen_Rea Q313042 					percent_outlinks_to_lgbt:0.02654867256637168 	num_outlinks_to_lgbt:9
+161 (340) Andrew_Lloyd_Webber Q180975 					percent_outlinks_to_lgbt:0.022835394862036156 	num_outlinks_to_lgbt:24
+162 (339) The_Sunday_Night_Project Q7767381 					percent_outlinks_to_lgbt:0.025252525252525252 	num_outlinks_to_lgbt:10
+163 (338) Michael_Horovitz Q3856183 					percent_outlinks_to_lgbt:0.03409090909090909 	num_outlinks_to_lgbt:6
+164 (337) Jamie_Bell Q297071 					percent_outlinks_to_lgbt:0.026936026936026935 	num_outlinks_to_lgbt:8
+165 (336) Lynne_Perrie Q657120 					percent_outlinks_to_lgbt:0.04065040650406504 	num_outlinks_to_lgbt:5
+166 (335) Roger_Allam Q2424994 					percent_outlinks_to_lgbt:0.026490066225165563 	num_outlinks_to_lgbt:8
+167 (334) Paul_Hilton_(British_actor) Q19282295 					percent_outlinks_to_lgbt:0.05319148936170213 	num_outlinks_to_lgbt:5
+168 (333) Sylvie_Simmons Q7661056 					percent_outlinks_to_lgbt:0.04132231404958678 	num_outlinks_to_lgbt:5
+169 (332) Beth_Mead Q20706960 					percent_outlinks_to_lgbt:0.036585365853658534 	num_outlinks_to_lgbt:6
+170 (331) London_Gay_Men's_Chorus Q6670439 					percent_outlinks_to_lgbt:0.02518891687657431 	num_outlinks_to_lgbt:10
+171 (330) Robert_Stephens Q691648 					percent_outlinks_to_lgbt:0.03508771929824561 	num_outlinks_to_lgbt:6
+172 (329) Trevor_Nunn Q1334509 					percent_outlinks_to_lgbt:0.027586206896551724 	num_outlinks_to_lgbt:8
+173 (328) Wes_Butters Q7983650 					percent_outlinks_to_lgbt:0.060240963855421686 	num_outlinks_to_lgbt:5
+174 (327) Hairspray_(musical) Q153520 					percent_outlinks_to_lgbt:0.023679417122040074 	num_outlinks_to_lgbt:13
+175 (326) Dancing_on_Ice_(series_11) Q57611701 					percent_outlinks_to_lgbt:0.026936026936026935 	num_outlinks_to_lgbt:8
+176 (325) Nancy_Cunard Q275793 					percent_outlinks_to_lgbt:0.027777777777777776 	num_outlinks_to_lgbt:7
+177 (324) Peter_Cook Q525970 					percent_outlinks_to_lgbt:0.023423423423423424 	num_outlinks_to_lgbt:13
+178 (323) Jude_Law Q160432 					percent_outlinks_to_lgbt:0.023722627737226276 	num_outlinks_to_lgbt:13
+179 (322) Tim_Arnold_(musician) Q7803098 					percent_outlinks_to_lgbt:0.031413612565445025 	num_outlinks_to_lgbt:6
+180 (321) Vanessa_Redgrave Q347879 					percent_outlinks_to_lgbt:0.02230843840931135 	num_outlinks_to_lgbt:23
+181 (320) Buffy_the_Vampire_Slayer_Magazine_incorporating_Angel_Magazine Q600537 					percent_outlinks_to_lgbt:0.025069637883008356 	num_outlinks_to_lgbt:9
+182 (319) UK_Music_Hall_of_Fame Q835142 					percent_outlinks_to_lgbt:0.028455284552845527 	num_outlinks_to_lgbt:7
+183 (318) Journey_South Q675111 					percent_outlinks_to_lgbt:0.03076923076923077 	num_outlinks_to_lgbt:6
+184 (317) Jack_Shepherd_(actor) Q1949101 					percent_outlinks_to_lgbt:0.03389830508474576 	num_outlinks_to_lgbt:6
+185 (316) Gordon_Onslow_Ford Q3889392 					percent_outlinks_to_lgbt:0.03076923076923077 	num_outlinks_to_lgbt:6
+186 (315) Quentin_Quire Q250443 					percent_outlinks_to_lgbt:0.023965141612200435 	num_outlinks_to_lgbt:11
+187 (314) Stormzy Q20055659 					percent_outlinks_to_lgbt:0.03508771929824561 	num_outlinks_to_lgbt:6
+188 (313) Raffaello_de_Banfield Q2127119 					percent_outlinks_to_lgbt:0.07692307692307693 	num_outlinks_to_lgbt:4
+189 (312) Edith_Craig Q5338522 					percent_outlinks_to_lgbt:0.04 	num_outlinks_to_lgbt:5
+190 (311) Christopher_Hampton Q515274 					percent_outlinks_to_lgbt:0.022968197879858657 	num_outlinks_to_lgbt:13
+191 (310) Benedict_Cumberbatch Q244674 					percent_outlinks_to_lgbt:0.022658610271903322 	num_outlinks_to_lgbt:15
+192 (309) Matthew_Bourne Q1139570 					percent_outlinks_to_lgbt:0.027450980392156862 	num_outlinks_to_lgbt:7
+193 (308) Parkinson_(TV_series) Q2855349 					percent_outlinks_to_lgbt:0.03508771929824561 	num_outlinks_to_lgbt:6
+194 (307) Douglas_Hodge Q5301604 					percent_outlinks_to_lgbt:0.026058631921824105 	num_outlinks_to_lgbt:8
+195 (306) Jill_Ellis Q10546516 					percent_outlinks_to_lgbt:0.027888446215139442 	num_outlinks_to_lgbt:7
+196 (305) Scarlett_Lee Q59554441 					percent_outlinks_to_lgbt:0.030456852791878174 	num_outlinks_to_lgbt:6
+197 (304) Jenny_Ryan Q21066498 					percent_outlinks_to_lgbt:0.07142857142857142 	num_outlinks_to_lgbt:4
+198 (303) Present_Laughter Q7240934 					percent_outlinks_to_lgbt:0.03731343283582089 	num_outlinks_to_lgbt:5
+199 (302) Francesca_Jackson Q5479112 					percent_outlinks_to_lgbt:0.06060606060606061 	num_outlinks_to_lgbt:4
+200 (301) Wilde_(film) Q839825 					percent_outlinks_to_lgbt:0.03676470588235294 	num_outlinks_to_lgbt:5
+201 (300) National_Secular_Society Q1967723 					percent_outlinks_to_lgbt:0.028846153846153848 	num_outlinks_to_lgbt:6
+202 (299) James_McAvoy Q193659 					percent_outlinks_to_lgbt:0.02358490566037736 	num_outlinks_to_lgbt:10
+203 (298) Oxford_Union Q2157937 					percent_outlinks_to_lgbt:0.023936170212765957 	num_outlinks_to_lgbt:9
+204 (297) Brit_Awards Q223313 					percent_outlinks_to_lgbt:0.021739130434782608 	num_outlinks_to_lgbt:19
+205 (296) Don_Black_(lyricist) Q1238931 					percent_outlinks_to_lgbt:0.022091310751104567 	num_outlinks_to_lgbt:15
+206 (295) Stephen_Dillane Q707538 					percent_outlinks_to_lgbt:0.024324324324324326 	num_outlinks_to_lgbt:9
+207 (294) Peggy_Ashcroft Q230832 					percent_outlinks_to_lgbt:0.022336769759450172 	num_outlinks_to_lgbt:13
+208 (293) Roast_Battle Q55631791 					percent_outlinks_to_lgbt:0.05102040816326531 	num_outlinks_to_lgbt:5
+209 (292) The_Uncommon_Reader Q1219535 					percent_outlinks_to_lgbt:0.07272727272727272 	num_outlinks_to_lgbt:4
+210 (291) Critics'_Circle_Theatre_Award Q5186885 					percent_outlinks_to_lgbt:0.023109243697478993 	num_outlinks_to_lgbt:11
+211 (290) Dudley_Moore Q310343 					percent_outlinks_to_lgbt:0.022821576763485476 	num_outlinks_to_lgbt:11
+212 (289) John_Tiffany Q6260836 					percent_outlinks_to_lgbt:0.030612244897959183 	num_outlinks_to_lgbt:6
+213 (288) Murder_in_Successville Q19954629 					percent_outlinks_to_lgbt:0.0335195530726257 	num_outlinks_to_lgbt:6
+214 (287) Nicola_Walker Q2915749 					percent_outlinks_to_lgbt:0.03 	num_outlinks_to_lgbt:6
+215 (286) Grace_Davies_(singer) Q84818947 					percent_outlinks_to_lgbt:0.03296703296703297 	num_outlinks_to_lgbt:6
+216 (285) Sharon_D._Clarke Q7490025 					percent_outlinks_to_lgbt:0.027777777777777776 	num_outlinks_to_lgbt:7
+217 (284) Roger_Rees Q1750774 					percent_outlinks_to_lgbt:0.026923076923076925 	num_outlinks_to_lgbt:7
+218 (283) Trevor_Griffiths Q507900 					percent_outlinks_to_lgbt:0.034482758620689655 	num_outlinks_to_lgbt:5
+219 (282) Robert_Pattinson Q36767 					percent_outlinks_to_lgbt:0.022540983606557378 	num_outlinks_to_lgbt:11
+220 (281) Gargoyle_Club Q18159982 					percent_outlinks_to_lgbt:0.047619047619047616 	num_outlinks_to_lgbt:5
+221 (280) Quentin_Crisp Q920513 					percent_outlinks_to_lgbt:0.02857142857142857 	num_outlinks_to_lgbt:6
+222 (279) Jonathan_Miller Q1435905 					percent_outlinks_to_lgbt:0.023148148148148147 	num_outlinks_to_lgbt:10
+223 (278) Jacqueline_Rose Q3157793 					percent_outlinks_to_lgbt:0.04201680672268908 	num_outlinks_to_lgbt:5
+224 (277) Robert_Morley Q965379 					percent_outlinks_to_lgbt:0.023195876288659795 	num_outlinks_to_lgbt:9
+225 (276) Evening_Standard_Theatre_Awards Q5416631 					percent_outlinks_to_lgbt:0.021013597033374538 	num_outlinks_to_lgbt:17
+226 (275) The_Great_British_Bake_Off Q7737672 					percent_outlinks_to_lgbt:0.021825396825396824 	num_outlinks_to_lgbt:11
+227 (274) Richard_Burton Q151973 					percent_outlinks_to_lgbt:0.02077687443541102 	num_outlinks_to_lgbt:23
+228 (273) Wesley_Wyndam-Pryce Q2605546 					percent_outlinks_to_lgbt:0.029850746268656716 	num_outlinks_to_lgbt:6
+229 (272) Anthony_Andrews Q534898 					percent_outlinks_to_lgbt:0.02702702702702703 	num_outlinks_to_lgbt:6
+230 (271) Mel_Giedroyc Q6810704 					percent_outlinks_to_lgbt:0.036231884057971016 	num_outlinks_to_lgbt:5
+231 (270) Social_in_the_City Q19605770 					percent_outlinks_to_lgbt:0.04201680672268908 	num_outlinks_to_lgbt:5
+232 (269) Destiny_(Irene_Adler) Q1051111 					percent_outlinks_to_lgbt:0.023880597014925373 	num_outlinks_to_lgbt:8
+233 (268) Chris_Braide Q5105955 					percent_outlinks_to_lgbt:0.028037383177570093 	num_outlinks_to_lgbt:6
+234 (267) Bill_Nighy Q207179 					percent_outlinks_to_lgbt:0.02154398563734291 	num_outlinks_to_lgbt:12
+235 (266) Patrick_Stewart Q16296 					percent_outlinks_to_lgbt:0.021116138763197588 	num_outlinks_to_lgbt:14
+236 (265) Only_the_Young_(band) Q21061500 					percent_outlinks_to_lgbt:0.03 	num_outlinks_to_lgbt:6
+237 (264) Frances_de_la_Tour Q233457 					percent_outlinks_to_lgbt:0.02346041055718475 	num_outlinks_to_lgbt:8
+238 (263) Stephen_Fry:_Out_There Q15917308 					percent_outlinks_to_lgbt:0.08695652173913043 	num_outlinks_to_lgbt:4
+239 (262) Hotel_Café_Royal Q5017262 					percent_outlinks_to_lgbt:0.03731343283582089 	num_outlinks_to_lgbt:5
+240 (261) Sam_Bailey Q15373681 					percent_outlinks_to_lgbt:0.02491103202846975 	num_outlinks_to_lgbt:7
+241 (260) Daniel_Rigby Q5218579 					percent_outlinks_to_lgbt:0.038461538461538464 	num_outlinks_to_lgbt:5
+242 (259) Tim_Rice Q298295 					percent_outlinks_to_lgbt:0.020496224379719527 	num_outlinks_to_lgbt:19
+243 (258) Wogan Q8029058 					percent_outlinks_to_lgbt:0.05063291139240506 	num_outlinks_to_lgbt:4
+244 (257) Rachel_Weisz Q134077 					percent_outlinks_to_lgbt:0.021052631578947368 	num_outlinks_to_lgbt:14
+245 (256) Audrey_Hepburn Q42786 					percent_outlinks_to_lgbt:0.0208078335373317 	num_outlinks_to_lgbt:17
+246 (255) Joan_Carlyle Q6204925 					percent_outlinks_to_lgbt:0.047058823529411764 	num_outlinks_to_lgbt:4
+247 (254) Vicious_(TV_series) Q13099546 					percent_outlinks_to_lgbt:0.05970149253731343 	num_outlinks_to_lgbt:4
+248 (253) Judi_Dench Q28054 					percent_outlinks_to_lgbt:0.020361990950226245 	num_outlinks_to_lgbt:27
+249 (252) Albert_Stopford Q19975280 					percent_outlinks_to_lgbt:0.06896551724137931 	num_outlinks_to_lgbt:4
+250 (251) Cyril_Holland Q3009019 					percent_outlinks_to_lgbt:0.05128205128205128 	num_outlinks_to_lgbt:4
+251 (250) Tom_Hiddleston Q295803 					percent_outlinks_to_lgbt:0.02131782945736434 	num_outlinks_to_lgbt:11
+252 (249) 25th_National_Television_Awards Q85738153 					percent_outlinks_to_lgbt:0.037037037037037035 	num_outlinks_to_lgbt:5
+253 (248) E._L._Grant_Watson Q3115411 					percent_outlinks_to_lgbt:0.08695652173913043 	num_outlinks_to_lgbt:4
+254 (247) Maggie_Smith Q172653 					percent_outlinks_to_lgbt:0.020239190432382703 	num_outlinks_to_lgbt:22
+255 (246) Celebrity_Mastermind Q5057748 					percent_outlinks_to_lgbt:0.020366598778004074 	num_outlinks_to_lgbt:20
+256 (245) Duncan_Grant Q766166 					percent_outlinks_to_lgbt:0.04065040650406504 	num_outlinks_to_lgbt:5
+257 (244) Absolutely_Fabulous Q332554 					percent_outlinks_to_lgbt:0.023809523809523808 	num_outlinks_to_lgbt:7
+258 (243) Tite_Street Q7809929 					percent_outlinks_to_lgbt:0.06349206349206349 	num_outlinks_to_lgbt:4
+259 (242) Jule_Styne Q587741 					percent_outlinks_to_lgbt:0.021611001964636542 	num_outlinks_to_lgbt:11
+260 (241) Olive_Custance Q7087146 					percent_outlinks_to_lgbt:0.11428571428571428 	num_outlinks_to_lgbt:4
+261 (240) The_Now_Show Q1873600 					percent_outlinks_to_lgbt:0.030864197530864196 	num_outlinks_to_lgbt:5
+262 (239) Torchwood_Institute Q3151816 					percent_outlinks_to_lgbt:0.022535211267605635 	num_outlinks_to_lgbt:8
+263 (238) Tom_Stoppard Q294773 					percent_outlinks_to_lgbt:0.0208 	num_outlinks_to_lgbt:13
+264 (237) Olivia_Laing Q28871669 					percent_outlinks_to_lgbt:0.10256410256410256 	num_outlinks_to_lgbt:4
+265 (236) Anna_Kavan Q287679 					percent_outlinks_to_lgbt:0.02976190476190476 	num_outlinks_to_lgbt:5
+266 (235) Tom_Glynn-Carney Q33133445 					percent_outlinks_to_lgbt:0.05263157894736842 	num_outlinks_to_lgbt:4
+267 (234) Cicely_Hamilton Q5119353 					percent_outlinks_to_lgbt:0.05 	num_outlinks_to_lgbt:4
+268 (233) Sybil_Pye Q23620545 					percent_outlinks_to_lgbt:0.08 	num_outlinks_to_lgbt:4
+269 (232) Mermaids_(charity) Q60764444 					percent_outlinks_to_lgbt:0.02654867256637168 	num_outlinks_to_lgbt:6
+270 (231) The_Lazarus_Experiment Q3203418 					percent_outlinks_to_lgbt:0.037037037037037035 	num_outlinks_to_lgbt:5
+271 (230) Lord_Alfred_Douglas Q460660 					percent_outlinks_to_lgbt:0.028169014084507043 	num_outlinks_to_lgbt:6
+272 (229) Years_&_Years Q18608591 					percent_outlinks_to_lgbt:0.04 	num_outlinks_to_lgbt:5
+273 (228) Teleny,_or_The_Reverse_of_the_Medal Q685737 					percent_outlinks_to_lgbt:0.05263157894736842 	num_outlinks_to_lgbt:4
+274 (227) Stephen_Henry Q7609464 					percent_outlinks_to_lgbt:0.05714285714285714 	num_outlinks_to_lgbt:4
+275 (226) Zoë_Tyler Q8074745 					percent_outlinks_to_lgbt:0.11764705882352941 	num_outlinks_to_lgbt:4
+276 (225) Taboo_(musical) Q2919770 					percent_outlinks_to_lgbt:0.06779661016949153 	num_outlinks_to_lgbt:4
+277 (224) The_Memorial Q7750959 					percent_outlinks_to_lgbt:0.056338028169014086 	num_outlinks_to_lgbt:4
+278 (223) Jane_Seymour_(actress) Q123849 					percent_outlinks_to_lgbt:0.02247191011235955 	num_outlinks_to_lgbt:8
+279 (222) Mark_Ronson Q425821 					percent_outlinks_to_lgbt:0.019704433497536946 	num_outlinks_to_lgbt:20
+280 (221) 100_Greatest_(TV_series) Q4546135 					percent_outlinks_to_lgbt:0.020761245674740483 	num_outlinks_to_lgbt:12
+281 (220) Brit_Award_for_International_Male_Solo_Artist Q48770245 					percent_outlinks_to_lgbt:0.03048780487804878 	num_outlinks_to_lgbt:5
+282 (219) Imagine_(TV_series) Q7123904 					percent_outlinks_to_lgbt:0.037037037037037035 	num_outlinks_to_lgbt:5
+283 (218) Olivia_Williams Q231163 					percent_outlinks_to_lgbt:0.02843601895734597 	num_outlinks_to_lgbt:6
+284 (217) Benjamin_Clementine Q16203707 					percent_outlinks_to_lgbt:0.03571428571428571 	num_outlinks_to_lgbt:5
+285 (216) Lisa_Cameron Q19871819 					percent_outlinks_to_lgbt:0.044444444444444446 	num_outlinks_to_lgbt:4
+286 (215) Blanchland Q2543086 					percent_outlinks_to_lgbt:0.0784313725490196 	num_outlinks_to_lgbt:4
+287 (214) Torchwood_Declassified Q863806 					percent_outlinks_to_lgbt:0.0273972602739726 	num_outlinks_to_lgbt:6
+288 (213) Jazzin'_for_Blue_Jean Q2077906 					percent_outlinks_to_lgbt:0.02608695652173913 	num_outlinks_to_lgbt:6
+289 (212) John_Healey_(politician) Q615077 					percent_outlinks_to_lgbt:0.02643171806167401 	num_outlinks_to_lgbt:6
+290 (211) Dirk_Bogarde Q299190 					percent_outlinks_to_lgbt:0.021479713603818614 	num_outlinks_to_lgbt:9
+291 (210) Pet_Shop_Boys Q485625 					percent_outlinks_to_lgbt:0.02034428794992175 	num_outlinks_to_lgbt:13
+292 (209) Edith_Evans Q236718 					percent_outlinks_to_lgbt:0.021686746987951807 	num_outlinks_to_lgbt:9
+293 (208) Stella_Vine Q7607144 					percent_outlinks_to_lgbt:0.03875968992248062 	num_outlinks_to_lgbt:5
+294 (207) 2011_FIFA_Women's_World_Cup Q108183 					percent_outlinks_to_lgbt:0.022535211267605635 	num_outlinks_to_lgbt:8
+295 (206) Miranda_Richardson Q229241 					percent_outlinks_to_lgbt:0.020876826722338204 	num_outlinks_to_lgbt:10
+296 (205) The_Swimming-Pool_Library Q7767674 					percent_outlinks_to_lgbt:0.10526315789473684 	num_outlinks_to_lgbt:4
+297 (204) Hymn_to_St_Cecilia Q2104387 					percent_outlinks_to_lgbt:0.03205128205128205 	num_outlinks_to_lgbt:5
+298 (203) Nigel_Hawthorne Q269589 					percent_outlinks_to_lgbt:0.020793950850661626 	num_outlinks_to_lgbt:11
+299 (202) Josie_Rourke Q6290774 					percent_outlinks_to_lgbt:0.03597122302158273 	num_outlinks_to_lgbt:5
+300 (201) Dominic_Cooke Q5290502 					percent_outlinks_to_lgbt:0.028901734104046242 	num_outlinks_to_lgbt:5
+301 (200) Glen_Byam_Shaw Q5567611 					percent_outlinks_to_lgbt:0.041666666666666664 	num_outlinks_to_lgbt:4
+302 (199) Madame_Tussauds Q186309 					percent_outlinks_to_lgbt:0.019308943089430895 	num_outlinks_to_lgbt:19
+303 (198) Psychobitches Q19650486 					percent_outlinks_to_lgbt:0.03597122302158273 	num_outlinks_to_lgbt:5
+304 (197) Michael_Grandage Q6830724 					percent_outlinks_to_lgbt:0.02608695652173913 	num_outlinks_to_lgbt:6
+305 (196) Marc_Almond Q452166 					percent_outlinks_to_lgbt:0.022653721682847898 	num_outlinks_to_lgbt:7
+306 (195) Knight_Bachelor Q833163 					percent_outlinks_to_lgbt:0.034482758620689655 	num_outlinks_to_lgbt:5
+307 (194) The_Lord_Crewe_Arms_Hotel Q7748422 					percent_outlinks_to_lgbt:0.2 	num_outlinks_to_lgbt:4
+308 (193) Marion_Fellows Q19881816 					percent_outlinks_to_lgbt:0.05194805194805195 	num_outlinks_to_lgbt:4
+309 (192) Fantomex Q2539413 					percent_outlinks_to_lgbt:0.0205761316872428 	num_outlinks_to_lgbt:10
+310 (191) Martita_Hunt Q458146 					percent_outlinks_to_lgbt:0.025974025974025976 	num_outlinks_to_lgbt:6
+311 (190) Lionel_Bart Q326299 					percent_outlinks_to_lgbt:0.02608695652173913 	num_outlinks_to_lgbt:6
+312 (189) Gwen_Cooper Q508160 					percent_outlinks_to_lgbt:0.02348993288590604 	num_outlinks_to_lgbt:7
+313 (188) Harriet_Jones Q3127739 					percent_outlinks_to_lgbt:0.044444444444444446 	num_outlinks_to_lgbt:4
+314 (187) Strictly_Come_Dancing_(series_2) Q7623646 					percent_outlinks_to_lgbt:0.02553191489361702 	num_outlinks_to_lgbt:6
+315 (186) Three_Coins_in_the_Fountain_(song) Q7797393 					percent_outlinks_to_lgbt:0.024193548387096774 	num_outlinks_to_lgbt:6
+316 (185) Richard_Fairbrass Q1581075 					percent_outlinks_to_lgbt:0.06896551724137931 	num_outlinks_to_lgbt:4
+317 (184) Angela_Lansbury Q206856 					percent_outlinks_to_lgbt:0.018982536066818528 	num_outlinks_to_lgbt:25
+318 (183) T_in_the_Park_2013 Q7672701 					percent_outlinks_to_lgbt:0.032467532467532464 	num_outlinks_to_lgbt:5
+319 (182) Naomie_Harris Q156586 					percent_outlinks_to_lgbt:0.024896265560165973 	num_outlinks_to_lgbt:6
+320 (181) Benson_Taylor Q4890282 					percent_outlinks_to_lgbt:0.024 	num_outlinks_to_lgbt:6
+321 (180) Ian_Holm Q223091 					percent_outlinks_to_lgbt:0.019867549668874173 	num_outlinks_to_lgbt:12
+322 (179) Ben_Whishaw Q342617 					percent_outlinks_to_lgbt:0.021505376344086023 	num_outlinks_to_lgbt:8
+323 (178) Imelda_Staunton Q234798 					percent_outlinks_to_lgbt:0.0197869101978691 	num_outlinks_to_lgbt:13
+324 (177) WH_Smith_Literary_Award Q1614635 					percent_outlinks_to_lgbt:0.03773584905660377 	num_outlinks_to_lgbt:4
+325 (176) Mary_Renault Q235354 					percent_outlinks_to_lgbt:0.043478260869565216 	num_outlinks_to_lgbt:4
+326 (175) William_Walton Q310939 					percent_outlinks_to_lgbt:0.021164021164021163 	num_outlinks_to_lgbt:8
+327 (174) One_Love_Manchester Q30125323 					percent_outlinks_to_lgbt:0.024 	num_outlinks_to_lgbt:6
+328 (173) Naomi_Watts Q132616 					percent_outlinks_to_lgbt:0.02032520325203252 	num_outlinks_to_lgbt:10
+329 (172) Mark_Gatiss Q560286 					percent_outlinks_to_lgbt:0.021798365122615803 	num_outlinks_to_lgbt:8
+330 (171) Shayne_Ward Q266091 					percent_outlinks_to_lgbt:0.0231023102310231 	num_outlinks_to_lgbt:7
+331 (170) Doctor_Who_(series_4) Q1612231 					percent_outlinks_to_lgbt:0.02553191489361702 	num_outlinks_to_lgbt:6
+332 (169) Laurence_Olivier_Award_for_Best_Revival Q6500804 					percent_outlinks_to_lgbt:0.02575107296137339 	num_outlinks_to_lgbt:6
+333 (168) Julian_Fellowes Q336018 					percent_outlinks_to_lgbt:0.02028397565922921 	num_outlinks_to_lgbt:10
+334 (167) Paul_Jesson Q7151583 					percent_outlinks_to_lgbt:0.039603960396039604 	num_outlinks_to_lgbt:4
+335 (166) Jane_Lapotaire Q445808 					percent_outlinks_to_lgbt:0.029239766081871343 	num_outlinks_to_lgbt:5
+336 (165) Tom_Holland_(actor) Q2023710 					percent_outlinks_to_lgbt:0.023178807947019868 	num_outlinks_to_lgbt:7
+337 (164) Women_in_Love Q2443714 					percent_outlinks_to_lgbt:0.037037037037037035 	num_outlinks_to_lgbt:4
+338 (163) Vyvyan_Holland Q713325 					percent_outlinks_to_lgbt:0.0449438202247191 	num_outlinks_to_lgbt:4
+339 (162) Tracey_Emin Q241185 					percent_outlinks_to_lgbt:0.022508038585209004 	num_outlinks_to_lgbt:7
+340 (161) Nick_Grimshaw Q547486 					percent_outlinks_to_lgbt:0.024193548387096774 	num_outlinks_to_lgbt:6
+341 (160) Maurice_(film) Q432088 					percent_outlinks_to_lgbt:0.034482758620689655 	num_outlinks_to_lgbt:5
+342 (159) Linda_Bellos Q6551403 					percent_outlinks_to_lgbt:0.03333333333333333 	num_outlinks_to_lgbt:5
+343 (158) Alan_Cumming Q316629 					percent_outlinks_to_lgbt:0.021739130434782608 	num_outlinks_to_lgbt:7
+344 (157) Nick_Brown Q265935 					percent_outlinks_to_lgbt:0.026737967914438502 	num_outlinks_to_lgbt:5
+345 (156) Renée_Vivien Q275628 					percent_outlinks_to_lgbt:0.05194805194805195 	num_outlinks_to_lgbt:4
+346 (155) Monica_Dolan Q3320714 					percent_outlinks_to_lgbt:0.03333333333333333 	num_outlinks_to_lgbt:5
+347 (154) Dancing_on_Ice_(series_12) Q84302586 					percent_outlinks_to_lgbt:0.022222222222222223 	num_outlinks_to_lgbt:7
+348 (153) Christie's Q503176 					percent_outlinks_to_lgbt:0.03048780487804878 	num_outlinks_to_lgbt:5
+349 (152) Fran_Kirby Q17602414 					percent_outlinks_to_lgbt:0.02717391304347826 	num_outlinks_to_lgbt:5
+350 (151) Cheltenham_Literature_Festival Q5090213 					percent_outlinks_to_lgbt:0.041666666666666664 	num_outlinks_to_lgbt:4
+351 (150) Phoebe_Waller-Bridge Q16224046 					percent_outlinks_to_lgbt:0.020202020202020204 	num_outlinks_to_lgbt:10
+352 (149) Psylocke Q973050 					percent_outlinks_to_lgbt:0.01957585644371941 	num_outlinks_to_lgbt:12
+353 (148) Ricky_Gervais Q23517 					percent_outlinks_to_lgbt:0.01948051948051948 	num_outlinks_to_lgbt:12
+354 (147) Fanny_Hill Q1395765 					percent_outlinks_to_lgbt:0.024793388429752067 	num_outlinks_to_lgbt:6
+355 (146) Brian_Cox_(actor) Q34975 					percent_outlinks_to_lgbt:0.02 	num_outlinks_to_lgbt:10
+356 (145) Cheryl_Fergison Q5092722 					percent_outlinks_to_lgbt:0.05555555555555555 	num_outlinks_to_lgbt:4
+357 (144) Joe_Carstairs Q6765073 					percent_outlinks_to_lgbt:0.07407407407407407 	num_outlinks_to_lgbt:4
+358 (143) Kev_Orkian Q6395652 					percent_outlinks_to_lgbt:0.02717391304347826 	num_outlinks_to_lgbt:5
+359 (142) Annette_Badland Q3617975 					percent_outlinks_to_lgbt:0.021806853582554516 	num_outlinks_to_lgbt:7
+360 (141) Mary_Lloyd_(sculptor) Q6780105 					percent_outlinks_to_lgbt:0.05 	num_outlinks_to_lgbt:4
+361 (140) Jeremy_Irons Q171745 					percent_outlinks_to_lgbt:0.018691588785046728 	num_outlinks_to_lgbt:16
+362 (139) Cher_Lloyd Q230451 					percent_outlinks_to_lgbt:0.02258064516129032 	num_outlinks_to_lgbt:7
+363 (138) Fatboy_Slim Q272619 					percent_outlinks_to_lgbt:0.021052631578947368 	num_outlinks_to_lgbt:8
+364 (137) Under_the_Westway Q276728 					percent_outlinks_to_lgbt:0.03773584905660377 	num_outlinks_to_lgbt:4
+365 (136) James_Tait_Black_Memorial_Prize Q392586 					percent_outlinks_to_lgbt:0.02056555269922879 	num_outlinks_to_lgbt:8
+366 (135) The_One_Show Q7755050 					percent_outlinks_to_lgbt:0.025974025974025976 	num_outlinks_to_lgbt:6
+367 (134) The_British_Soap_Awards Q7720205 					percent_outlinks_to_lgbt:0.018442622950819672 	num_outlinks_to_lgbt:18
+368 (133) Theatre_by_the_Lake Q7777470 					percent_outlinks_to_lgbt:0.024793388429752067 	num_outlinks_to_lgbt:6
+369 (132) Dai_Bradley Q3703113 					percent_outlinks_to_lgbt:0.0380952380952381 	num_outlinks_to_lgbt:4
+370 (131) Lyn_Irvine Q6708329 					percent_outlinks_to_lgbt:0.12121212121212122 	num_outlinks_to_lgbt:4
+371 (130) Hugh_Laurie Q49017 					percent_outlinks_to_lgbt:0.01972386587771203 	num_outlinks_to_lgbt:10
+372 (129) Helen_Mirren Q349391 					percent_outlinks_to_lgbt:0.018142235123367198 	num_outlinks_to_lgbt:25
+373 (128) UEFA_Women's_Euro_2005 Q836715 					percent_outlinks_to_lgbt:0.026041666666666668 	num_outlinks_to_lgbt:5
+374 (127) Top_of_the_Pops Q930414 					percent_outlinks_to_lgbt:0.01984126984126984 	num_outlinks_to_lgbt:10
+375 (126) Strictly_Come_Dancing_(series_12) Q17104814 					percent_outlinks_to_lgbt:0.019955654101995565 	num_outlinks_to_lgbt:9
+376 (125) Lip_Sync_Battle_UK Q21998212 					percent_outlinks_to_lgbt:0.03048780487804878 	num_outlinks_to_lgbt:5
+377 (124) The_QI_Book_of_the_Dead Q7758862 					percent_outlinks_to_lgbt:0.03773584905660377 	num_outlinks_to_lgbt:4
+378 (123) Janet_Devlin Q15177210 					percent_outlinks_to_lgbt:0.024793388429752067 	num_outlinks_to_lgbt:6
+379 (122) Alan_Davies:_As_Yet_Untitled Q17510458 					percent_outlinks_to_lgbt:0.026041666666666668 	num_outlinks_to_lgbt:5
+380 (121) Twiggy Q229442 					percent_outlinks_to_lgbt:0.022151898734177215 	num_outlinks_to_lgbt:7
+381 (120) Tilda_Swinton Q200534 					percent_outlinks_to_lgbt:0.01870503597122302 	num_outlinks_to_lgbt:13
+382 (119) Curtis_Brown_(literary_agents) Q5195696 					percent_outlinks_to_lgbt:0.0273224043715847 	num_outlinks_to_lgbt:5
+383 (118) Dazed Q1641941 					percent_outlinks_to_lgbt:0.06779661016949153 	num_outlinks_to_lgbt:4
+384 (117) The_News_Quiz Q7753924 					percent_outlinks_to_lgbt:0.021341463414634148 	num_outlinks_to_lgbt:7
+385 (116) Strictly_Come_Dancing_(series_17) Q65070350 					percent_outlinks_to_lgbt:0.019955654101995565 	num_outlinks_to_lgbt:9
+386 (115) All_You_Need_Is_Love:_The_Story_of_Popular_Music Q4729902 					percent_outlinks_to_lgbt:0.02 	num_outlinks_to_lgbt:9
+387 (114) Misha_B Q442184 					percent_outlinks_to_lgbt:0.02147239263803681 	num_outlinks_to_lgbt:7
+388 (113) St._Sukie_de_la_Croix Q16148356 					percent_outlinks_to_lgbt:0.020100502512562814 	num_outlinks_to_lgbt:8
+389 (112) Sophie_Wyss Q17151675 					percent_outlinks_to_lgbt:0.06060606060606061 	num_outlinks_to_lgbt:4
+390 (111) Val_May Q18536848 					percent_outlinks_to_lgbt:0.06666666666666667 	num_outlinks_to_lgbt:4
+391 (110) Bastille_(band) Q689 					percent_outlinks_to_lgbt:0.022641509433962263 	num_outlinks_to_lgbt:6
+392 (109) Outsider_(comics) Q17629988 					percent_outlinks_to_lgbt:0.020151133501259445 	num_outlinks_to_lgbt:8
+393 (108) Sam_Smith Q15123969 					percent_outlinks_to_lgbt:0.01818181818181818 	num_outlinks_to_lgbt:15
+394 (107) District_X Q3543695 					percent_outlinks_to_lgbt:0.019955654101995565 	num_outlinks_to_lgbt:9
+395 (106) Gillian_Lynne Q2056584 					percent_outlinks_to_lgbt:0.030303030303030304 	num_outlinks_to_lgbt:5
+396 (105) Tracey_Ullman Q130549 					percent_outlinks_to_lgbt:0.019197207678883072 	num_outlinks_to_lgbt:11
+397 (104) Douglas_Furber Q5301494 					percent_outlinks_to_lgbt:0.04878048780487805 	num_outlinks_to_lgbt:4
+398 (103) Mister_Sinister Q302534 					percent_outlinks_to_lgbt:0.019097222222222224 	num_outlinks_to_lgbt:11
+399 (102) Jake_Quickenden Q18637772 					percent_outlinks_to_lgbt:0.022304832713754646 	num_outlinks_to_lgbt:6
+400 (101) Christopher_Nolan Q25191 					percent_outlinks_to_lgbt:0.018465909090909092 	num_outlinks_to_lgbt:13
+401 (100) Little_Friend_(film) Q6650107 					percent_outlinks_to_lgbt:0.04 	num_outlinks_to_lgbt:4
+402 (99) Naomi_Campbell Q199369 					percent_outlinks_to_lgbt:0.020771513353115726 	num_outlinks_to_lgbt:7
+403 (98) Matthew_Warchus Q3299812 					percent_outlinks_to_lgbt:0.023622047244094488 	num_outlinks_to_lgbt:6
+404 (97) Sexual_Freedom_Awards Q5395409 					percent_outlinks_to_lgbt:0.0380952380952381 	num_outlinks_to_lgbt:4
+405 (96) Flamingo_(comics) Q5391262 					percent_outlinks_to_lgbt:0.020202020202020204 	num_outlinks_to_lgbt:8
+406 (95) HARDTalk Q5236590 					percent_outlinks_to_lgbt:0.02064896755162242 	num_outlinks_to_lgbt:7
+407 (94) Rhys_Williams_(Torchwood) Q3429875 					percent_outlinks_to_lgbt:0.02717391304347826 	num_outlinks_to_lgbt:5
+408 (93) Rachel_Williams_(footballer) Q10914 					percent_outlinks_to_lgbt:0.04597701149425287 	num_outlinks_to_lgbt:4
+409 (92) Janie_Dee Q6154382 					percent_outlinks_to_lgbt:0.02108433734939759 	num_outlinks_to_lgbt:7
+410 (91) Stars_in_Their_Eyes Q5977899 					percent_outlinks_to_lgbt:0.05 	num_outlinks_to_lgbt:4
+411 (90) 1001_Things_You_Should_Know Q4546081 					percent_outlinks_to_lgbt:0.0425531914893617 	num_outlinks_to_lgbt:4
+412 (89) Mick_Rock Q339170 					percent_outlinks_to_lgbt:0.03773584905660377 	num_outlinks_to_lgbt:4
+413 (88) Vaudeville_Theatre Q7917262 					percent_outlinks_to_lgbt:0.019851116625310174 	num_outlinks_to_lgbt:8
+414 (87) Dead_Ringers_(comedy) Q3157308 					percent_outlinks_to_lgbt:0.017325017325017324 	num_outlinks_to_lgbt:25
+415 (86) The_Happy_Prince_(2018_film) Q27501903 					percent_outlinks_to_lgbt:0.044444444444444446 	num_outlinks_to_lgbt:4
+416 (85) The_Natural_History_and_Antiquities_of_Selborne Q3247095 					percent_outlinks_to_lgbt:0.026041666666666668 	num_outlinks_to_lgbt:5
+417 (84) Margaret_Leighton Q179496 					percent_outlinks_to_lgbt:0.024291497975708502 	num_outlinks_to_lgbt:6
+418 (83) Giles_Terera Q16216123 					percent_outlinks_to_lgbt:0.03773584905660377 	num_outlinks_to_lgbt:4
+419 (82) Jared_Harris Q362500 					percent_outlinks_to_lgbt:0.020202020202020204 	num_outlinks_to_lgbt:8
+420 (81) Dan_Grech-Marguerat Q5213602 					percent_outlinks_to_lgbt:0.037037037037037035 	num_outlinks_to_lgbt:4
+421 (80) Hugh_Wheeler Q5171067 					percent_outlinks_to_lgbt:0.02976190476190476 	num_outlinks_to_lgbt:5
+422 (79) Mary_Dyer Q232899 					percent_outlinks_to_lgbt:0.01876172607879925 	num_outlinks_to_lgbt:10
+423 (78) Nigel_Finch Q16013413 					percent_outlinks_to_lgbt:0.07547169811320754 	num_outlinks_to_lgbt:4
+424 (77) Alan_Carr's_Specstacular Q16960620 					percent_outlinks_to_lgbt:0.039603960396039604 	num_outlinks_to_lgbt:4
+425 (76) Greenbelt_Festival Q5603707 					percent_outlinks_to_lgbt:0.01951219512195122 	num_outlinks_to_lgbt:8
+426 (75) Paul_Young Q360501 					percent_outlinks_to_lgbt:0.023622047244094488 	num_outlinks_to_lgbt:6
+427 (74) David_Hockney Q159907 					percent_outlinks_to_lgbt:0.022988505747126436 	num_outlinks_to_lgbt:6
+428 (73) Lady_Vic Q6470582 					percent_outlinks_to_lgbt:0.030534351145038167 	num_outlinks_to_lgbt:4
+429 (72) Millie_Bright Q23021129 					percent_outlinks_to_lgbt:0.039603960396039604 	num_outlinks_to_lgbt:4
+430 (71) Inside_the_Whale Q2908748 					percent_outlinks_to_lgbt:0.04 	num_outlinks_to_lgbt:4
+431 (70) Natasha_Richardson Q212545 					percent_outlinks_to_lgbt:0.023346303501945526 	num_outlinks_to_lgbt:6
+432 (69) Oliver! Q1483458 					percent_outlinks_to_lgbt:0.019656019656019656 	num_outlinks_to_lgbt:8
+433 (68) Jim_Broadbent Q185079 					percent_outlinks_to_lgbt:0.018456375838926176 	num_outlinks_to_lgbt:11
+434 (67) Julian_Barnes Q295431 					percent_outlinks_to_lgbt:0.02214022140221402 	num_outlinks_to_lgbt:6
+435 (66) Merlin_Holland Q704692 					percent_outlinks_to_lgbt:0.04878048780487805 	num_outlinks_to_lgbt:4
+436 (65) Bestival Q2616359 					percent_outlinks_to_lgbt:0.020588235294117647 	num_outlinks_to_lgbt:7
+437 (64) Elizabeth_Spriggs Q272554 					percent_outlinks_to_lgbt:0.028089887640449437 	num_outlinks_to_lgbt:5
+438 (63) Francis_L._Sullivan Q969601 					percent_outlinks_to_lgbt:0.026595744680851064 	num_outlinks_to_lgbt:5
+439 (62) Paul_O'Grady_Live Q7152783 					percent_outlinks_to_lgbt:0.0380952380952381 	num_outlinks_to_lgbt:4
+440 (61) British_Academy_Television_Award_for_Best_International_Programme Q16985329 					percent_outlinks_to_lgbt:0.022556390977443608 	num_outlinks_to_lgbt:6
+441 (60) Beryl_Reid Q459344 					percent_outlinks_to_lgbt:0.024390243902439025 	num_outlinks_to_lgbt:5
+442 (59) Harold_Pinter_Theatre Q5662026 					percent_outlinks_to_lgbt:0.019417475728155338 	num_outlinks_to_lgbt:8
+443 (58) Wolverine_(video_game) Q8030537 					percent_outlinks_to_lgbt:0.0234375 	num_outlinks_to_lgbt:6
+444 (57) An_Audience_with... Q4749828 					percent_outlinks_to_lgbt:0.05333333333333334 	num_outlinks_to_lgbt:4
+445 (56) Josh_Record Q16231903 					percent_outlinks_to_lgbt:0.04 	num_outlinks_to_lgbt:4
+446 (55) Born_Free_(Matt_Monro_song) Q4945815 					percent_outlinks_to_lgbt:0.022222222222222223 	num_outlinks_to_lgbt:6
+447 (54) Lee_Hall_(playwright) Q1811812 					percent_outlinks_to_lgbt:0.019886363636363636 	num_outlinks_to_lgbt:7
+448 (53) Kingdom_(British_TV_series) Q2667814 					percent_outlinks_to_lgbt:0.029850746268656716 	num_outlinks_to_lgbt:4
+449 (52) Band_Aid_(band) Q806231 					percent_outlinks_to_lgbt:0.018912529550827423 	num_outlinks_to_lgbt:8
+450 (51) Prater_Violet Q16238195 					percent_outlinks_to_lgbt:0.04938271604938271 	num_outlinks_to_lgbt:4
+451 (50) Fern_Britton_Meets... Q5444444 					percent_outlinks_to_lgbt:0.030534351145038167 	num_outlinks_to_lgbt:4
+452 (49) Izzy_Christiansen Q6085292 					percent_outlinks_to_lgbt:0.03333333333333333 	num_outlinks_to_lgbt:4
+453 (48) Graham_Norton's_Bigger_Picture Q5593103 					percent_outlinks_to_lgbt:0.04597701149425287 	num_outlinks_to_lgbt:4
+454 (47) James_Blunt Q130799 					percent_outlinks_to_lgbt:0.020833333333333332 	num_outlinks_to_lgbt:6
+455 (46) Sally_Hawkins Q233563 					percent_outlinks_to_lgbt:0.01867219917012448 	num_outlinks_to_lgbt:9
+456 (45) The_Subjection_of_Women Q3407659 					percent_outlinks_to_lgbt:0.04040404040404041 	num_outlinks_to_lgbt:4
+457 (44) MasterChef_(British_TV_series) Q45726 					percent_outlinks_to_lgbt:0.019138755980861243 	num_outlinks_to_lgbt:8
+458 (43) British_Book_Awards Q7575072 					percent_outlinks_to_lgbt:0.02 	num_outlinks_to_lgbt:7
+459 (42) The_Children's_Book Q4159424 					percent_outlinks_to_lgbt:0.0967741935483871 	num_outlinks_to_lgbt:3
+460 (41) Noël_Coward Q298388 					percent_outlinks_to_lgbt:0.01971830985915493

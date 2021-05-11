@@ -1,0 +1,11 @@
+	Wiki	Title	Pageviews	Interwiki	Inlinks CCC	Sundanese WD Label	WD Qitem
+0	[[:id:|id]]	[{{fullurl:id:Museum_Kereta_Api_Ambarawa}} Museum Kereta Api Ambarawa]	140	6	5		 [{{fullurl:wikidata:Q1311742}} Q1311742]
+1	[[:id:|id]]	[{{fullurl:id:Museum_Radya_Pustaka}} Museum Radya Pustaka]	45	2	3		 [{{fullurl:wikidata:Q12499664}} Q12499664]
+2	[[:id:|id]]	[{{fullurl:id:Museum_Ullen_Sentalu}} Museum Ullen Sentalu]	63	3	1		 [{{fullurl:wikidata:Q3047067}} Q3047067]
+3	[[:jv:|jv]]	[{{fullurl:jv:Museum_Zoologi_Bogor}} Museum Zoologi Bogor]	0	6	1		 [{{fullurl:wikidata:Q16746897}} Q16746897]
+5	[[:id:|id]]	[{{fullurl:id:Museum_Karmawibhangga}} Museum Karmawibhangga]	35	2	1		 [{{fullurl:wikidata:Q6372721}} Q6372721]
+6	[[:id:|id]]	[{{fullurl:id:Museum_Samudra_Raksa}} Museum Samudra Raksa]	11	2	1		 [{{fullurl:wikidata:Q7410684}} Q7410684]
+7	[[:id:|id]]	[{{fullurl:id:Museum_Basoeki_Abdullah}} Museum Basoeki Abdullah]	16	3	0		 [{{fullurl:wikidata:Q16862466}} Q16862466]
+10	[[:jv:|jv]]	[{{fullurl:jv:Bèntèng_pendhem_Cilacap}} Bèntèng pendhem Cilacap]	0	5	0		 [{{fullurl:wikidata:Q4262369}} Q4262369]
+12	[[:jv:|jv]]	[{{fullurl:jv:Musiyum_Ranggawarsita}} Musiyum Ranggawarsita]	0	2	0		 [{{fullurl:wikidata:Q12499640}} Q12499640]
+14	[[:id:|id]]	[{{fullurl:id:Monumen_Pers_Nasional}} Monumen Pers Nasional]	33	2	0		 [{{fullurl:wikidata:Q15287387}} Q15287387]

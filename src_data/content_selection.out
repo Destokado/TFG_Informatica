@@ -1,0 +1,2087 @@
+current cycle for the data: 2021-03
+checking languages Replicas databases and deleting those without one...
+This language has no database or we cannot connect to it: ru_sib
+This language has no database or we cannot connect to it: tlh
+This language has no database or we cannot connect to it: tokipona
+['aa', 'ab', 'ace', 'ady', 'af', 'ak', 'als', 'am', 'an', 'ang', 'ar', 'arc', 'ary', 'arz', 'as', 'ast', 'atj', 'av', 'awa', 'ay', 'az', 'azb', 'ba', 'ban', 'bar', 'bat_smg', 'bcl', 'be', 'be_x_old', 'bg', 'bh', 'bi', 'bjn', 'bm', 'bn', 'bo', 'bpy', 'br', 'bs', 'bug', 'bxr', 'ca', 'cbk_zam', 'cdo', 'ce', 'ceb', 'ch', 'cho', 'chr', 'chy', 'ckb', 'co', 'cr', 'crh', 'cs', 'csb', 'cu', 'cv', 'cy', 'da', 'de', 'din', 'diq', 'dsb', 'dty', 'dv', 'dz', 'ee', 'el', 'eml', 'en', 'es', 'et', 'eu', 'ext', 'fa', 'ff', 'fi', 'fiu_vro', 'fj', 'fo', 'fr', 'frp', 'frr', 'fur', 'fy', 'ga', 'gag', 'gan', 'gcr', 'gd', 'gl', 'glk', 'gn', 'gom', 'gor', 'gu', 'gv', 'ha', 'hak', 'haw', 'he', 'hi', 'hif', 'ho', 'hr', 'hsb', 'ht', 'hu', 'hy', 'hyw', 'hz', 'id', 'ig', 'ii', 'ik', 'ilo', 'inh', 'is', 'it', 'iu', 'ja', 'jam', 'jv', 'ka', 'kaa', 'kab', 'kbd', 'kbp', 'kg', 'ki', 'kj', 'kk', 'kl', 'km', 'kn', 'ko', 'koi', 'kr', 'krc', 'ks', 'ksh', 'ku', 'kv', 'kw', 'ky', 'la', 'lad', 'lb', 'lbe', 'lez', 'lg', 'li', 'lij', 'lld', 'lmo', 'ln', 'lo', 'lrc', 'lt', 'ltg', 'lv', 'mai', 'map_bms', 'mdf', 'mg', 'mh', 'mhr', 'mi', 'min', 'mk', 'ml', 'mn', 'mnw', 'mr', 'mrj', 'ms', 'mt', 'mus', 'mwl', 'my', 'myv', 'mzn', 'na', 'nah', 'nap', 'nds', 'nds_nl', 'ne', 'new', 'ng', 'nl', 'nn', 'no', 'nqo', 'nrm', 'nso', 'nv', 'ny', 'oc', 'olo', 'om', 'or', 'os', 'pa', 'pag', 'pam', 'pap', 'pcd', 'pdc', 'pfl', 'pi', 'pih', 'pl', 'pms', 'pnb', 'pnt', 'ps', 'pt', 'qu', 'rm', 'rmy', 'rn', 'ro', 'roa_rup', 'roa_tara', 'ru', 'rue', 'rw', 'sa', 'sah', 'sat', 'sc', 'scn', 'sco', 'sd', 'se', 'sg', 'sh', 'shn', 'si', 'simple', 'sk', 'sl', 'sm', 'smn', 'sn', 'so', 'sq', 'sr', 'srn', 'ss', 'st', 'stq', 'su', 'sv', 'sw', 'szl', 'szy', 'ta', 'tcy', 'te', 'tet', 'tg', 'th', 'ti', 'tk', 'tl', 'tn', 'to', 'tpi', 'tr', 'ts', 'tt', 'tum', 'tw', 'ty', 'tyv', 'udm', 'ug', 'uk', 'ur', 'uz', 've', 'vec', 'vep', 'vi', 'vls', 'wa', 'war', 'wo', 'wuu', 'xal', 'xh', 'xmf', 'yi', 'yo', 'za', 'zea', 'zh', 'zh_classical', 'zh_min_nan', 'zh_yue', 'zu']
+304
+database in use in load_wikipedia_language_editions_numberofarticles: wikipedia_diversity.db
+wikipedialanguage_numberarticles loaded.
+this is the total number of articles in the Diversity Database: 57034348
+= Process Accountant: The function "label_potential_ccc_articles_with_links aa" has already been run. It lasted: 0:00:00.142847
+= Process Accountant: The function "label_potential_ccc_articles_with_links ab" has already been run. It lasted: 0:00:04.224958
+= Process Accountant: The function "label_potential_ccc_articles_with_links ace" has already been run. It lasted: 0:00:02.190146
+= Process Accountant: The function "label_potential_ccc_articles_with_links ady" has already been run. It lasted: 0:00:00.127273
+= Process Accountant: The function "label_potential_ccc_articles_with_links af" has already been run. It lasted: 0:01:01.003646
+= Process Accountant: The function "label_potential_ccc_articles_with_links ak" has already been run. It lasted: 0:00:00.172857
+= Process Accountant: The function "label_potential_ccc_articles_with_links als" has already been run. It lasted: 0:00:13.537946
+= Process Accountant: The function "label_potential_ccc_articles_with_links am" has already been run. It lasted: 0:00:03.083680
+= Process Accountant: The function "label_potential_ccc_articles_with_links an" has already been run. It lasted: 0:00:19.163264
+= Process Accountant: The function "label_potential_ccc_articles_with_links ang" has already been run. It lasted: 0:00:01.295013
+= Process Accountant: The function "label_potential_ccc_articles_with_links ar" has already been run. It lasted: 0:25:10.621570
+= Process Accountant: The function "label_potential_ccc_articles_with_links arc" has already been run. It lasted: 0:00:00.402540
+= Process Accountant: The function "label_potential_ccc_articles_with_links ary" has already been run. It lasted: 0:00:00.635147
+= Process Accountant: The function "label_potential_ccc_articles_with_links arz" has already been run. It lasted: 0:04:20.900800
+= Process Accountant: The function "label_potential_ccc_articles_with_links as" has already been run. It lasted: 0:00:06.306942
+= Process Accountant: The function "label_potential_ccc_articles_with_links ast" has already been run. It lasted: 0:00:56.466437
+= Process Accountant: The function "label_potential_ccc_articles_with_links atj" has already been run. It lasted: 0:00:00.130168
+= Process Accountant: The function "label_potential_ccc_articles_with_links av" has already been run. It lasted: 0:00:01.409889
+= Process Accountant: The function "label_potential_ccc_articles_with_links awa" has already been run. It lasted: 0:00:00.667313
+= Process Accountant: The function "label_potential_ccc_articles_with_links ay" has already been run. It lasted: 0:00:01.277236
+= Process Accountant: The function "label_potential_ccc_articles_with_links az" has already been run. It lasted: 0:01:26.749552
+= Process Accountant: The function "label_potential_ccc_articles_with_links azb" has already been run. It lasted: 0:01:59.415810
+= Process Accountant: The function "label_potential_ccc_articles_with_links ba" has already been run. It lasted: 0:00:19.869400
+= Process Accountant: The function "label_potential_ccc_articles_with_links ban" has already been run. It lasted: 0:00:05.856929
+= Process Accountant: The function "label_potential_ccc_articles_with_links bar" has already been run. It lasted: 0:00:12.045020
+= Process Accountant: The function "label_potential_ccc_articles_with_links bat_smg" has already been run. It lasted: 0:00:02.059552
+= Process Accountant: The function "label_potential_ccc_articles_with_links bcl" has already been run. It lasted: 0:00:06.105063
+= Process Accountant: The function "label_potential_ccc_articles_with_links be" has already been run. It lasted: 0:02:00.871926
+= Process Accountant: The function "label_potential_ccc_articles_with_links be_x_old" has already been run. It lasted: 0:00:37.395688
+= Process Accountant: The function "label_potential_ccc_articles_with_links bg" has already been run. It lasted: 0:01:59.449722
+= Process Accountant: The function "label_potential_ccc_articles_with_links bh" has already been run. It lasted: 0:00:09.013829
+= Process Accountant: The function "label_potential_ccc_articles_with_links bi" has already been run. It lasted: 0:00:00.211710
+= Process Accountant: The function "label_potential_ccc_articles_with_links bjn" has already been run. It lasted: 0:00:04.584816
+= Process Accountant: The function "label_potential_ccc_articles_with_links bm" has already been run. It lasted: 0:00:00.725310
+= Process Accountant: The function "label_potential_ccc_articles_with_links bn" has already been run. It lasted: 0:01:44.853829
+= Process Accountant: The function "label_potential_ccc_articles_with_links bo" has already been run. It lasted: 0:00:01.036881
+= Process Accountant: The function "label_potential_ccc_articles_with_links bpy" has already been run. It lasted: 0:00:17.728263
+= Process Accountant: The function "label_potential_ccc_articles_with_links br" has already been run. It lasted: 0:00:22.754541
+= Process Accountant: The function "label_potential_ccc_articles_with_links bs" has already been run. It lasted: 0:01:41.272024
+= Process Accountant: The function "label_potential_ccc_articles_with_links bug" has already been run. It lasted: 0:00:39.042469
+= Process Accountant: The function "label_potential_ccc_articles_with_links bxr" has already been run. It lasted: 0:00:01.106631
+= Process Accountant: The function "label_potential_ccc_articles_with_links ca" has already been run. It lasted: 0:07:15.082406
+- Process Accountant: The function "label_potential_ccc_articles_with_links cbk_zam" has not run yet. Do it! Now: 2021/05/11-07:46:01. Year Month Cycle: 2021-03
+Iterating the dump.
+Done with the dump.
++ Process Accountant. Function: label_potential_ccc_articles_with_links cbk_zam is NOW RUN! Script: content_selection.py. After 0:00:00.837017.
+
+- Process Accountant: The function "label_potential_ccc_articles_with_links cdo" has not run yet. Do it! Now: 2021/05/11-07:46:02. Year Month Cycle: 2021-03
+Iterating the dump.
+Done with the dump.
++ Process Accountant. Function: label_potential_ccc_articles_with_links cdo is NOW RUN! Script: content_selection.py. After 0:00:04.232505.
+
+- Process Accountant: The function "label_potential_ccc_articles_with_links ce" has not run yet. Do it! Now: 2021/05/11-07:46:15. Year Month Cycle: 2021-03
+Iterating the dump.
+1000000
+current time: 6.357638597488403 ce
+number of lines per second: 157.29 thousand.
+2000000
+current time: 12.38320803642273 ce
+number of lines per second: 161.51 thousand.
+3000000
+current time: 18.270859956741333 ce
+number of lines per second: 164.2 thousand.
+4000000
+current time: 24.018200635910034 ce
+number of lines per second: 166.54 thousand.
+5000000
+current time: 29.667601108551025 ce
+number of lines per second: 168.53 thousand.
+6000000
+current time: 35.36525344848633 ce
+number of lines per second: 169.66 thousand.
+7000000
+current time: 41.12475562095642 ce
+number of lines per second: 170.21 thousand.
+8000000
+current time: 46.75902199745178 ce
+number of lines per second: 171.09 thousand.
+9000000
+current time: 52.55832767486572 ce
+number of lines per second: 171.24 thousand.
+10000000
+current time: 58.40284085273743 ce
+number of lines per second: 171.22 thousand.
+11000000
+current time: 64.18178176879883 ce
+number of lines per second: 171.39 thousand.
+12000000
+current time: 69.81139516830444 ce
+number of lines per second: 171.89 thousand.
+13000000
+current time: 75.6008071899414 ce
+number of lines per second: 171.96 thousand.
+14000000
+current time: 81.4397463798523 ce
+number of lines per second: 171.91 thousand.
+15000000
+current time: 87.45058131217957 ce
+number of lines per second: 171.53 thousand.
+16000000
+current time: 93.15510368347168 ce
+number of lines per second: 171.76 thousand.
+17000000
+current time: 98.84247040748596 ce
+number of lines per second: 171.99 thousand.
+18000000
+current time: 104.51292681694031 ce
+number of lines per second: 172.23 thousand.
+19000000
+current time: 110.18493890762329 ce
+number of lines per second: 172.44 thousand.
+20000000
+current time: 115.95114278793335 ce
+number of lines per second: 172.49 thousand.
+21000000
+current time: 121.76003789901733 ce
+number of lines per second: 172.47 thousand.
+22000000
+current time: 127.50798344612122 ce
+number of lines per second: 172.54 thousand.
+23000000
+current time: 133.45870113372803 ce
+number of lines per second: 172.34 thousand.
+24000000
+current time: 139.24340558052063 ce
+number of lines per second: 172.36 thousand.
+25000000
+current time: 145.03666615486145 ce
+number of lines per second: 172.37 thousand.
+26000000
+current time: 150.85935521125793 ce
+number of lines per second: 172.35 thousand.
+27000000
+current time: 156.73957180976868 ce
+number of lines per second: 172.26 thousand.
+28000000
+current time: 162.56281161308289 ce
+number of lines per second: 172.24 thousand.
+29000000
+current time: 168.43266367912292 ce
+number of lines per second: 172.18 thousand.
+30000000
+current time: 174.2431948184967 ce
+number of lines per second: 172.17 thousand.
+31000000
+current time: 180.05541253089905 ce
+number of lines per second: 172.17 thousand.
+32000000
+current time: 185.93354725837708 ce
+number of lines per second: 172.1 thousand.
+33000000
+current time: 191.86512994766235 ce
+number of lines per second: 172.0 thousand.
+34000000
+current time: 197.84802079200745 ce
+number of lines per second: 171.85 thousand.
+35000000
+current time: 203.74393701553345 ce
+number of lines per second: 171.78 thousand.
+36000000
+current time: 209.668030500412 ce
+number of lines per second: 171.7 thousand.
+37000000
+current time: 215.55371570587158 ce
+number of lines per second: 171.65 thousand.
+38000000
+current time: 221.11952877044678 ce
+number of lines per second: 171.85 thousand.
+39000000
+current time: 224.55671548843384 ce
+number of lines per second: 173.68 thousand.
+40000000
+current time: 228.13309717178345 ce
+number of lines per second: 175.34 thousand.
+41000000
+current time: 232.5777232646942 ce
+number of lines per second: 176.29 thousand.
+42000000
+current time: 239.0910701751709 ce
+number of lines per second: 175.67 thousand.
+43000000
+current time: 243.686363697052 ce
+number of lines per second: 176.46 thousand.
+Done with the dump.
++ Process Accountant. Function: label_potential_ccc_articles_with_links ce is NOW RUN! Script: content_selection.py. After 0:04:23.913095.
+
+- Process Accountant: The function "label_potential_ccc_articles_with_links ceb" has not run yet. Do it! Now: 2021/05/11-07:53:33. Year Month Cycle: 2021-03
+Iterating the dump.
+1000000
+current time: 6.804892539978027 ceb
+number of lines per second: 146.92 thousand.
+2000000
+current time: 13.269335269927979 ceb
+number of lines per second: 150.72 thousand.
+3000000
+current time: 19.678720951080322 ceb
+number of lines per second: 152.45 thousand.
+4000000
+current time: 26.224623680114746 ceb
+number of lines per second: 152.53 thousand.
+5000000
+current time: 32.69448232650757 ceb
+number of lines per second: 152.93 thousand.
+6000000
+current time: 38.98981809616089 ceb
+number of lines per second: 153.89 thousand.
+7000000
+current time: 45.644092321395874 ceb
+number of lines per second: 153.36 thousand.
+8000000
+current time: 52.00001120567322 ceb
+number of lines per second: 153.85 thousand.
+9000000
+current time: 58.22371983528137 ceb
+number of lines per second: 154.58 thousand.
+10000000
+current time: 64.64189624786377 ceb
+number of lines per second: 154.7 thousand.
+11000000
+current time: 71.03363585472107 ceb
+number of lines per second: 154.86 thousand.
+12000000
+current time: 77.40566301345825 ceb
+number of lines per second: 155.03 thousand.
+13000000
+current time: 83.8327088356018 ceb
+number of lines per second: 155.07 thousand.
+14000000
+current time: 90.20572233200073 ceb
+number of lines per second: 155.2 thousand.
+15000000
+current time: 96.5473940372467 ceb
+number of lines per second: 155.36 thousand.
+16000000
+current time: 102.84279656410217 ceb
+number of lines per second: 155.58 thousand.
+17000000
+current time: 108.94350671768188 ceb
+number of lines per second: 156.04 thousand.
+18000000
+current time: 114.66032433509827 ceb
+number of lines per second: 156.99 thousand.
+19000000
+current time: 120.83993005752563 ceb
+number of lines per second: 157.23 thousand.
+20000000
+current time: 127.25100517272949 ceb
+number of lines per second: 157.17 thousand.
+21000000
+current time: 133.64947509765625 ceb
+number of lines per second: 157.13 thousand.
+22000000
+current time: 139.8893060684204 ceb
+number of lines per second: 157.27 thousand.
+23000000
+current time: 146.06816220283508 ceb
+number of lines per second: 157.46 thousand.
+24000000
+current time: 152.11104440689087 ceb
+number of lines per second: 157.78 thousand.
+25000000
+current time: 158.5273561477661 ceb
+number of lines per second: 157.7 thousand.
+26000000
+current time: 164.67431211471558 ceb
+number of lines per second: 157.89 thousand.
+27000000
+current time: 170.666118144989 ceb
+number of lines per second: 158.2 thousand.
+28000000
+current time: 176.9580159187317 ceb
+number of lines per second: 158.23 thousand.
+29000000
+current time: 183.25900053977966 ceb
+number of lines per second: 158.25 thousand.
+30000000
+current time: 189.50099658966064 ceb
+number of lines per second: 158.31 thousand.
+31000000
+current time: 195.9012746810913 ceb
+number of lines per second: 158.24 thousand.
+32000000
+current time: 202.48179817199707 ceb
+number of lines per second: 158.04 thousand.
+33000000
+current time: 208.7947061061859 ceb
+number of lines per second: 158.05 thousand.
+34000000
+current time: 215.12022829055786 ceb
+number of lines per second: 158.05 thousand.
+35000000
+current time: 221.36664533615112 ceb
+number of lines per second: 158.11 thousand.
+36000000
+current time: 227.38210320472717 ceb
+number of lines per second: 158.32 thousand.
+37000000
+current time: 233.63996267318726 ceb
+number of lines per second: 158.36 thousand.
+38000000
+current time: 240.08684754371643 ceb
+number of lines per second: 158.28 thousand.
+39000000
+current time: 246.32367372512817 ceb
+number of lines per second: 158.33 thousand.
+40000000
+current time: 252.6773660182953 ceb
+number of lines per second: 158.3 thousand.
+41000000
+current time: 258.9535014629364 ceb
+number of lines per second: 158.33 thousand.
+42000000
+current time: 265.3959708213806 ceb
+number of lines per second: 158.25 thousand.
+43000000
+current time: 271.6063280105591 ceb
+number of lines per second: 158.32 thousand.
+44000000
+current time: 278.09280133247375 ceb
+number of lines per second: 158.22 thousand.
+45000000
+current time: 284.348979473114 ceb
+number of lines per second: 158.26 thousand.
+46000000
+current time: 290.44129610061646 ceb
+number of lines per second: 158.38 thousand.
+47000000
+current time: 296.8171465396881 ceb
+number of lines per second: 158.35 thousand.
+48000000
+current time: 302.8339970111847 ceb
+number of lines per second: 158.5 thousand.
+49000000
+current time: 309.1616516113281 ceb
+number of lines per second: 158.49 thousand.
+50000000
+current time: 315.3018865585327 ceb
+number of lines per second: 158.58 thousand.
+51000000
+current time: 321.6321876049042 ceb
+number of lines per second: 158.57 thousand.
+52000000
+current time: 327.93746161460876 ceb
+number of lines per second: 158.57 thousand.
+53000000
+current time: 334.1152307987213 ceb
+number of lines per second: 158.63 thousand.
+54000000
+current time: 340.50152564048767 ceb
+number of lines per second: 158.59 thousand.
+55000000
+current time: 346.8354456424713 ceb
+number of lines per second: 158.58 thousand.
+56000000
+current time: 353.2372751235962 ceb
+number of lines per second: 158.53 thousand.
+57000000
+current time: 359.57540702819824 ceb
+number of lines per second: 158.52 thousand.
+58000000
+current time: 365.37508726119995 ceb
+number of lines per second: 158.74 thousand.
+59000000
+current time: 371.28034806251526 ceb
+number of lines per second: 158.91 thousand.
+60000000
+current time: 377.42622685432434 ceb
+number of lines per second: 158.97 thousand.
+61000000
+current time: 383.71646428108215 ceb
+number of lines per second: 158.97 thousand.
+62000000
+current time: 389.9331040382385 ceb
+number of lines per second: 159.0 thousand.
+63000000
+current time: 396.0216853618622 ceb
+number of lines per second: 159.08 thousand.
+64000000
+current time: 402.41144371032715 ceb
+number of lines per second: 159.04 thousand.
+65000000
+current time: 408.4097399711609 ceb
+number of lines per second: 159.15 thousand.
+66000000
+current time: 414.1223044395447 ceb
+number of lines per second: 159.37 thousand.
+67000000
+current time: 419.7936954498291 ceb
+number of lines per second: 159.6 thousand.
+68000000
+current time: 425.201856136322 ceb
+number of lines per second: 159.92 thousand.
+69000000
+current time: 431.2547028064728 ceb
+number of lines per second: 160.0 thousand.
+70000000
+current time: 437.4700872898102 ceb
+number of lines per second: 160.01 thousand.
+71000000
+current time: 443.5283000469208 ceb
+number of lines per second: 160.08 thousand.
+72000000
+current time: 449.95919132232666 ceb
+number of lines per second: 160.01 thousand.
+73000000
+current time: 456.3030562400818 ceb
+number of lines per second: 159.98 thousand.
+74000000
+current time: 462.7733256816864 ceb
+number of lines per second: 159.91 thousand.
+75000000
+current time: 469.09580087661743 ceb
+number of lines per second: 159.88 thousand.
+76000000
+current time: 475.4506471157074 ceb
+number of lines per second: 159.85 thousand.
+77000000
+current time: 481.9600479602814 ceb
+number of lines per second: 159.76 thousand.
+78000000
+current time: 488.4284930229187 ceb
+number of lines per second: 159.7 thousand.
+79000000
+current time: 494.9714403152466 ceb
+number of lines per second: 159.61 thousand.
+80000000
+current time: 501.0814137458801 ceb
+number of lines per second: 159.65 thousand.
+81000000
+current time: 507.18149852752686 ceb
+number of lines per second: 159.71 thousand.
+82000000
+current time: 513.5660734176636 ceb
+number of lines per second: 159.67 thousand.
+83000000
+current time: 520.1525249481201 ceb
+number of lines per second: 159.57 thousand.
+84000000
+current time: 526.6332013607025 ceb
+number of lines per second: 159.5 thousand.
+85000000
+current time: 533.1125180721283 ceb
+number of lines per second: 159.44 thousand.
+86000000
+current time: 539.6236419677734 ceb
+number of lines per second: 159.37 thousand.
+87000000
+current time: 546.144956111908 ceb
+number of lines per second: 159.3 thousand.
+88000000
+current time: 552.6128857135773 ceb
+number of lines per second: 159.24 thousand.
+89000000
+current time: 559.0902907848358 ceb
+number of lines per second: 159.19 thousand.
+90000000
+current time: 565.5926289558411 ceb
+number of lines per second: 159.13 thousand.
+91000000
+current time: 569.7575957775116 ceb
+number of lines per second: 159.72 thousand.
+92000000
+current time: 573.3758456707001 ceb
+number of lines per second: 160.45 thousand.
+93000000
+current time: 577.2334463596344 ceb
+number of lines per second: 161.11 thousand.
+94000000
+current time: 580.5893499851227 ceb
+number of lines per second: 161.9 thousand.
+95000000
+current time: 587.2403078079224 ceb
+number of lines per second: 161.77 thousand.
+Done with the dump.
++ Process Accountant. Function: label_potential_ccc_articles_with_links ceb is NOW RUN! Script: content_selection.py. After 1:49:13.371091.
+
+- Process Accountant: The function "label_potential_ccc_articles_with_links ch" has not run yet. Do it! Now: 2021/05/11-09:42:55. Year Month Cycle: 2021-03
+Iterating the dump.
+Done with the dump.
++ Process Accountant. Function: label_potential_ccc_articles_with_links ch is NOW RUN! Script: content_selection.py. After 0:00:00.243621.
+
+- Process Accountant: The function "label_potential_ccc_articles_with_links cho" has not run yet. Do it! Now: 2021/05/11-09:42:55. Year Month Cycle: 2021-03
+Iterating the dump.
+Done with the dump.
++ Process Accountant. Function: label_potential_ccc_articles_with_links cho is NOW RUN! Script: content_selection.py. After 0:00:00.058195.
+
+- Process Accountant: The function "label_potential_ccc_articles_with_links chr" has not run yet. Do it! Now: 2021/05/11-09:42:55. Year Month Cycle: 2021-03
+Iterating the dump.
+Done with the dump.
++ Process Accountant. Function: label_potential_ccc_articles_with_links chr is NOW RUN! Script: content_selection.py. After 0:00:00.388575.
+
+- Process Accountant: The function "label_potential_ccc_articles_with_links chy" has not run yet. Do it! Now: 2021/05/11-09:42:55. Year Month Cycle: 2021-03
+Iterating the dump.
+Done with the dump.
++ Process Accountant. Function: label_potential_ccc_articles_with_links chy is NOW RUN! Script: content_selection.py. After 0:00:00.098364.
+
+- Process Accountant: The function "label_potential_ccc_articles_with_links ckb" has not run yet. Do it! Now: 2021/05/11-09:42:57. Year Month Cycle: 2021-03
+Iterating the dump.
+1000000
+current time: 6.5862510204315186 ckb
+number of lines per second: 151.83 thousand.
+2000000
+current time: 12.529273986816406 ckb
+number of lines per second: 159.63 thousand.
+3000000
+current time: 18.262551069259644 ckb
+number of lines per second: 164.27 thousand.
+Done with the dump.
++ Process Accountant. Function: label_potential_ccc_articles_with_links ckb is NOW RUN! Script: content_selection.py. After 0:00:22.856450.
+
+- Process Accountant: The function "label_potential_ccc_articles_with_links co" has not run yet. Do it! Now: 2021/05/11-09:43:20. Year Month Cycle: 2021-03
+Iterating the dump.
+Done with the dump.
++ Process Accountant. Function: label_potential_ccc_articles_with_links co is NOW RUN! Script: content_selection.py. After 0:00:01.946898.
+
+- Process Accountant: The function "label_potential_ccc_articles_with_links cr" has not run yet. Do it! Now: 2021/05/11-09:43:22. Year Month Cycle: 2021-03
+Iterating the dump.
+Done with the dump.
++ Process Accountant. Function: label_potential_ccc_articles_with_links cr is NOW RUN! Script: content_selection.py. After 0:00:00.098695.
+
+- Process Accountant: The function "label_potential_ccc_articles_with_links crh" has not run yet. Do it! Now: 2021/05/11-09:43:22. Year Month Cycle: 2021-03
+Iterating the dump.
+Done with the dump.
++ Process Accountant. Function: label_potential_ccc_articles_with_links crh is NOW RUN! Script: content_selection.py. After 0:00:02.479773.
+
+- Process Accountant: The function "label_potential_ccc_articles_with_links cs" has not run yet. Do it! Now: 2021/05/11-09:43:48. Year Month Cycle: 2021-03
+Iterating the dump.
+1000000
+current time: 7.001516103744507 cs
+number of lines per second: 142.83 thousand.
+2000000
+current time: 13.451676845550537 cs
+number of lines per second: 148.68 thousand.
+3000000
+current time: 19.979984998703003 cs
+number of lines per second: 150.15 thousand.
+4000000
+current time: 28.562908172607422 cs
+number of lines per second: 140.04 thousand.
+5000000
+current time: 35.170645236968994 cs
+number of lines per second: 142.16 thousand.
+6000000
+current time: 41.78169012069702 cs
+number of lines per second: 143.6 thousand.
+7000000
+current time: 48.26832723617554 cs
+number of lines per second: 145.02 thousand.
+8000000
+current time: 54.8009889125824 cs
+number of lines per second: 145.98 thousand.
+9000000
+current time: 61.17263889312744 cs
+number of lines per second: 147.12 thousand.
+10000000
+current time: 67.72146725654602 cs
+number of lines per second: 147.66 thousand.
+11000000
+current time: 74.35677719116211 cs
+number of lines per second: 147.94 thousand.
+12000000
+current time: 80.81914758682251 cs
+number of lines per second: 148.48 thousand.
+13000000
+current time: 87.32968807220459 cs
+number of lines per second: 148.86 thousand.
+14000000
+current time: 93.87545347213745 cs
+number of lines per second: 149.13 thousand.
+15000000
+current time: 100.4564597606659 cs
+number of lines per second: 149.32 thousand.
+16000000
+current time: 106.87749767303467 cs
+number of lines per second: 149.7 thousand.
+17000000
+current time: 113.38268494606018 cs
+number of lines per second: 149.93 thousand.
+18000000
+current time: 119.81713581085205 cs
+number of lines per second: 150.23 thousand.
+19000000
+current time: 126.50943922996521 cs
+number of lines per second: 150.19 thousand.
+20000000
+current time: 132.9946095943451 cs
+number of lines per second: 150.38 thousand.
+21000000
+current time: 139.62159204483032 cs
+number of lines per second: 150.41 thousand.
+22000000
+current time: 146.2079381942749 cs
+number of lines per second: 150.47 thousand.
+23000000
+current time: 152.4557569026947 cs
+number of lines per second: 150.86 thousand.
+24000000
+current time: 159.04556155204773 cs
+number of lines per second: 150.9 thousand.
+25000000
+current time: 165.5571391582489 cs
+number of lines per second: 151.01 thousand.
+26000000
+current time: 172.08314108848572 cs
+number of lines per second: 151.09 thousand.
+27000000
+current time: 178.51627111434937 cs
+number of lines per second: 151.25 thousand.
+28000000
+current time: 184.9633185863495 cs
+number of lines per second: 151.38 thousand.
+29000000
+current time: 190.0193111896515 cs
+number of lines per second: 152.62 thousand.
+30000000
+current time: 193.56042957305908 cs
+number of lines per second: 154.99 thousand.
+31000000
+current time: 200.43530368804932 cs
+number of lines per second: 154.66 thousand.
+32000000
+current time: 206.14175486564636 cs
+number of lines per second: 155.23 thousand.
+33000000
+current time: 210.0947117805481 cs
+number of lines per second: 157.07 thousand.
+34000000
+current time: 213.19416785240173 cs
+number of lines per second: 159.48 thousand.
+35000000
+current time: 218.3455274105072 cs
+number of lines per second: 160.3 thousand.
+36000000
+current time: 224.4341526031494 cs
+number of lines per second: 160.4 thousand.
+Done with the dump.
++ Process Accountant. Function: label_potential_ccc_articles_with_links cs is NOW RUN! Script: content_selection.py. After 0:04:13.085947.
+
+- Process Accountant: The function "label_potential_ccc_articles_with_links csb" has not run yet. Do it! Now: 2021/05/11-09:48:02. Year Month Cycle: 2021-03
+Iterating the dump.
+Done with the dump.
++ Process Accountant. Function: label_potential_ccc_articles_with_links csb is NOW RUN! Script: content_selection.py. After 0:00:01.846577.
+
+- Process Accountant: The function "label_potential_ccc_articles_with_links cu" has not run yet. Do it! Now: 2021/05/11-09:48:04. Year Month Cycle: 2021-03
+Iterating the dump.
+Done with the dump.
++ Process Accountant. Function: label_potential_ccc_articles_with_links cu is NOW RUN! Script: content_selection.py. After 0:00:00.241744.
+
+- Process Accountant: The function "label_potential_ccc_articles_with_links cv" has not run yet. Do it! Now: 2021/05/11-09:48:05. Year Month Cycle: 2021-03
+Iterating the dump.
+1000000
+current time: 6.740764617919922 cv
+number of lines per second: 148.35 thousand.
+2000000
+current time: 12.51909351348877 cv
+number of lines per second: 159.76 thousand.
+Done with the dump.
++ Process Accountant. Function: label_potential_ccc_articles_with_links cv is NOW RUN! Script: content_selection.py. After 0:00:16.001914.
+
+- Process Accountant: The function "label_potential_ccc_articles_with_links cy" has not run yet. Do it! Now: 2021/05/11-09:48:27. Year Month Cycle: 2021-03
+Iterating the dump.
+1000000
+current time: 6.573019504547119 cy
+number of lines per second: 152.14 thousand.
+2000000
+current time: 12.519696235656738 cy
+number of lines per second: 159.75 thousand.
+3000000
+current time: 18.550312042236328 cy
+number of lines per second: 161.72 thousand.
+4000000
+current time: 24.44279909133911 cy
+number of lines per second: 163.65 thousand.
+5000000
+current time: 30.54817509651184 cy
+number of lines per second: 163.68 thousand.
+6000000
+current time: 35.49659490585327 cy
+number of lines per second: 169.03 thousand.
+Done with the dump.
++ Process Accountant. Function: label_potential_ccc_articles_with_links cy is NOW RUN! Script: content_selection.py. After 0:00:43.804466.
+
+- Process Accountant: The function "label_potential_ccc_articles_with_links da" has not run yet. Do it! Now: 2021/05/11-09:49:25. Year Month Cycle: 2021-03
+Iterating the dump.
+1000000
+current time: 7.127592325210571 da
+number of lines per second: 140.3 thousand.
+2000000
+current time: 13.57896375656128 da
+number of lines per second: 147.29 thousand.
+3000000
+current time: 19.948235511779785 da
+number of lines per second: 150.39 thousand.
+4000000
+current time: 28.293407440185547 da
+number of lines per second: 141.38 thousand.
+5000000
+current time: 34.71889901161194 da
+number of lines per second: 144.01 thousand.
+6000000
+current time: 41.068824768066406 da
+number of lines per second: 146.1 thousand.
+7000000
+current time: 47.59633946418762 da
+number of lines per second: 147.07 thousand.
+8000000
+current time: 54.142879009246826 da
+number of lines per second: 147.76 thousand.
+9000000
+current time: 60.592949867248535 da
+number of lines per second: 148.53 thousand.
+10000000
+current time: 67.12799954414368 da
+number of lines per second: 148.97 thousand.
+11000000
+current time: 73.59139108657837 da
+number of lines per second: 149.47 thousand.
+12000000
+current time: 81.10511183738708 da
+number of lines per second: 147.96 thousand.
+13000000
+current time: 87.52792191505432 da
+number of lines per second: 148.52 thousand.
+14000000
+current time: 93.86971807479858 da
+number of lines per second: 149.14 thousand.
+15000000
+current time: 99.33157682418823 da
+number of lines per second: 151.01 thousand.
+16000000
+current time: 104.67584109306335 da
+number of lines per second: 152.85 thousand.
+17000000
+current time: 109.20762825012207 da
+number of lines per second: 155.67 thousand.
+18000000
+current time: 112.22525954246521 da
+number of lines per second: 160.39 thousand.
+19000000
+current time: 115.38494229316711 da
+number of lines per second: 164.67 thousand.
+20000000
+current time: 120.4253990650177 da
+number of lines per second: 166.08 thousand.
+21000000
+current time: 125.17715644836426 da
+number of lines per second: 167.76 thousand.
+Done with the dump.
++ Process Accountant. Function: label_potential_ccc_articles_with_links da is NOW RUN! Script: content_selection.py. After 0:02:22.671991.
+
+- Process Accountant: The function "label_potential_ccc_articles_with_links de" has not run yet. Do it! Now: 2021/05/11-09:54:27. Year Month Cycle: 2021-03
+Iterating the dump.
+1000000
+current time: 7.422430992126465 de
+number of lines per second: 134.73 thousand.
+2000000
+current time: 14.959357500076294 de
+number of lines per second: 133.7 thousand.
+3000000
+current time: 21.83770728111267 de
+number of lines per second: 137.38 thousand.
+4000000
+current time: 28.820561408996582 de
+number of lines per second: 138.79 thousand.
+5000000
+current time: 35.827343225479126 de
+number of lines per second: 139.56 thousand.
+6000000
+current time: 43.040822982788086 de
+number of lines per second: 139.4 thousand.
+7000000
+current time: 50.39790439605713 de
+number of lines per second: 138.89 thousand.
+8000000
+current time: 57.36049199104309 de
+number of lines per second: 139.47 thousand.
+9000000
+current time: 64.60244035720825 de
+number of lines per second: 139.31 thousand.
+10000000
+current time: 71.6106367111206 de
+number of lines per second: 139.64 thousand.
+11000000
+current time: 78.65495657920837 de
+number of lines per second: 139.85 thousand.
+12000000
+current time: 85.4142074584961 de
+number of lines per second: 140.49 thousand.
+13000000
+current time: 92.23157811164856 de
+number of lines per second: 140.95 thousand.
+14000000
+current time: 99.15916156768799 de
+number of lines per second: 141.19 thousand.
+15000000
+current time: 106.16548132896423 de
+number of lines per second: 141.29 thousand.
+16000000
+current time: 113.0431604385376 de
+number of lines per second: 141.54 thousand.
+17000000
+current time: 120.07324719429016 de
+number of lines per second: 141.58 thousand.
+18000000
+current time: 127.09971380233765 de
+number of lines per second: 141.62 thousand.
+19000000
+current time: 134.0540885925293 de
+number of lines per second: 141.73 thousand.
+20000000
+current time: 140.78805017471313 de
+number of lines per second: 142.06 thousand.
+21000000
+current time: 147.64191126823425 de
+number of lines per second: 142.24 thousand.
+22000000
+current time: 154.7942168712616 de
+number of lines per second: 142.12 thousand.
+23000000
+current time: 161.77002930641174 de
+number of lines per second: 142.18 thousand.
+24000000
+current time: 168.92141461372375 de
+number of lines per second: 142.08 thousand.
+25000000
+current time: 175.9316589832306 de
+number of lines per second: 142.1 thousand.
+26000000
+current time: 182.6468722820282 de
+number of lines per second: 142.35 thousand.
+27000000
+current time: 189.75813388824463 de
+number of lines per second: 142.29 thousand.
+28000000
+current time: 196.6654567718506 de
+number of lines per second: 142.37 thousand.
+29000000
+current time: 203.3974015712738 de
+number of lines per second: 142.58 thousand.
+30000000
+current time: 210.48517155647278 de
+number of lines per second: 142.53 thousand.
+31000000
+current time: 217.43825936317444 de
+number of lines per second: 142.57 thousand.
+32000000
+current time: 223.5824797153473 de
+number of lines per second: 143.12 thousand.
+33000000
+current time: 230.43768095970154 de
+number of lines per second: 143.21 thousand.
+34000000
+current time: 237.58265900611877 de
+number of lines per second: 143.11 thousand.
+35000000
+current time: 244.5600244998932 de
+number of lines per second: 143.11 thousand.
+36000000
+current time: 251.63054656982422 de
+number of lines per second: 143.07 thousand.
+37000000
+current time: 258.54343819618225 de
+number of lines per second: 143.11 thousand.
+38000000
+current time: 265.52119278907776 de
+number of lines per second: 143.11 thousand.
+39000000
+current time: 272.5210325717926 de
+number of lines per second: 143.11 thousand.
+40000000
+current time: 279.41550874710083 de
+number of lines per second: 143.16 thousand.
+41000000
+current time: 286.2216856479645 de
+number of lines per second: 143.25 thousand.
+42000000
+current time: 293.23290061950684 de
+number of lines per second: 143.23 thousand.
+43000000
+current time: 300.20066595077515 de
+number of lines per second: 143.24 thousand.
+44000000
+current time: 307.1805818080902 de
+number of lines per second: 143.24 thousand.
+45000000
+current time: 313.858678817749 de
+number of lines per second: 143.38 thousand.
+46000000
+current time: 320.93977212905884 de
+number of lines per second: 143.33 thousand.
+47000000
+current time: 327.9638795852661 de
+number of lines per second: 143.31 thousand.
+48000000
+current time: 334.96132135391235 de
+number of lines per second: 143.3 thousand.
+49000000
+current time: 341.9127299785614 de
+number of lines per second: 143.31 thousand.
+50000000
+current time: 349.04778146743774 de
+number of lines per second: 143.25 thousand.
+51000000
+current time: 356.0544295310974 de
+number of lines per second: 143.24 thousand.
+52000000
+current time: 363.1746451854706 de
+number of lines per second: 143.18 thousand.
+53000000
+current time: 370.23139572143555 de
+number of lines per second: 143.15 thousand.
+54000000
+current time: 377.2337553501129 de
+number of lines per second: 143.15 thousand.
+55000000
+current time: 384.2261483669281 de
+number of lines per second: 143.14 thousand.
+56000000
+current time: 391.019469499588 de
+number of lines per second: 143.22 thousand.
+57000000
+current time: 397.9245810508728 de
+number of lines per second: 143.24 thousand.
+58000000
+current time: 404.6129319667816 de
+number of lines per second: 143.35 thousand.
+59000000
+current time: 411.6836643218994 de
+number of lines per second: 143.31 thousand.
+60000000
+current time: 418.8092107772827 de
+number of lines per second: 143.26 thousand.
+61000000
+current time: 426.0109508037567 de
+number of lines per second: 143.19 thousand.
+62000000
+current time: 433.1041395664215 de
+number of lines per second: 143.15 thousand.
+63000000
+current time: 440.28155612945557 de
+number of lines per second: 143.09 thousand.
+64000000
+current time: 447.03776597976685 de
+number of lines per second: 143.16 thousand.
+65000000
+current time: 454.25256419181824 de
+number of lines per second: 143.09 thousand.
+66000000
+current time: 461.3540804386139 de
+number of lines per second: 143.06 thousand.
+67000000
+current time: 468.8881845474243 de
+number of lines per second: 142.89 thousand.
+68000000
+current time: 475.8997280597687 de
+number of lines per second: 142.89 thousand.
+69000000
+current time: 483.09947180747986 de
+number of lines per second: 142.83 thousand.
+70000000
+current time: 490.1275978088379 de
+number of lines per second: 142.82 thousand.
+71000000
+current time: 497.2029504776001 de
+number of lines per second: 142.8 thousand.
+72000000
+current time: 503.87376594543457 de
+number of lines per second: 142.89 thousand.
+73000000
+current time: 510.67736864089966 de
+number of lines per second: 142.95 thousand.
+74000000
+current time: 517.1318311691284 de
+number of lines per second: 143.1 thousand.
+75000000
+current time: 523.4155929088593 de
+number of lines per second: 143.29 thousand.
+76000000
+current time: 529.7574319839478 de
+number of lines per second: 143.46 thousand.
+77000000
+current time: 536.128237247467 de
+number of lines per second: 143.62 thousand.
+78000000
+current time: 542.9221429824829 de
+number of lines per second: 143.67 thousand.
+79000000
+current time: 550.0856411457062 de
+number of lines per second: 143.61 thousand.
+80000000
+current time: 557.0829963684082 de
+number of lines per second: 143.61 thousand.
+81000000
+current time: 564.2570595741272 de
+number of lines per second: 143.55 thousand.
+82000000
+current time: 571.467645406723 de
+number of lines per second: 143.49 thousand.
+83000000
+current time: 578.5173947811127 de
+number of lines per second: 143.47 thousand.
+84000000
+current time: 585.6572160720825 de
+number of lines per second: 143.43 thousand.
+85000000
+current time: 592.6887121200562 de
+number of lines per second: 143.41 thousand.
+86000000
+current time: 599.6648051738739 de
+number of lines per second: 143.41 thousand.
+87000000
+current time: 606.4608502388 de
+number of lines per second: 143.46 thousand.
+88000000
+current time: 613.1901543140411 de
+number of lines per second: 143.51 thousand.
+89000000
+current time: 620.188818693161 de
+number of lines per second: 143.5 thousand.
+90000000
+current time: 627.2786104679108 de
+number of lines per second: 143.48 thousand.
+91000000
+current time: 634.3288853168488 de
+number of lines per second: 143.46 thousand.
+92000000
+current time: 641.4135291576385 de
+number of lines per second: 143.43 thousand.
+93000000
+current time: 647.962836265564 de
+number of lines per second: 143.53 thousand.
+94000000
+current time: 654.9675343036652 de
+number of lines per second: 143.52 thousand.
+95000000
+current time: 662.0106635093689 de
+number of lines per second: 143.5 thousand.
+96000000
+current time: 669.0589923858643 de
+number of lines per second: 143.49 thousand.
+97000000
+current time: 676.3014118671417 de
+number of lines per second: 143.43 thousand.
+98000000
+current time: 683.3791162967682 de
+number of lines per second: 143.41 thousand.
+99000000
+current time: 690.2319767475128 de
+number of lines per second: 143.43 thousand.
+100000000
+current time: 697.1373879909515 de
+number of lines per second: 143.44 thousand.
+101000000
+current time: 704.0131978988647 de
+number of lines per second: 143.46 thousand.
+102000000
+current time: 711.0398237705231 de
+number of lines per second: 143.45 thousand.
+103000000
+current time: 717.9001007080078 de
+number of lines per second: 143.47 thousand.
+104000000
+current time: 724.830461025238 de
+number of lines per second: 143.48 thousand.
+105000000
+current time: 732.0272264480591 de
+number of lines per second: 143.44 thousand.
+106000000
+current time: 738.9208149909973 de
+number of lines per second: 143.45 thousand.
+107000000
+current time: 745.7284638881683 de
+number of lines per second: 143.48 thousand.
+108000000
+current time: 752.6659119129181 de
+number of lines per second: 143.49 thousand.
+109000000
+current time: 759.7064402103424 de
+number of lines per second: 143.48 thousand.
+110000000
+current time: 766.6575348377228 de
+number of lines per second: 143.48 thousand.
+111000000
+current time: 773.5659735202789 de
+number of lines per second: 143.49 thousand.
+112000000
+current time: 780.5660636425018 de
+number of lines per second: 143.49 thousand.
+113000000
+current time: 787.6529576778412 de
+number of lines per second: 143.46 thousand.
+114000000
+current time: 794.5762312412262 de
+number of lines per second: 143.47 thousand.
+115000000
+current time: 801.6428346633911 de
+number of lines per second: 143.46 thousand.
+116000000
+current time: 808.6882803440094 de
+number of lines per second: 143.44 thousand.
+117000000
+current time: 815.7066555023193 de
+number of lines per second: 143.43 thousand.
+118000000
+current time: 822.7001855373383 de
+number of lines per second: 143.43 thousand.
+119000000
+current time: 829.7377021312714 de
+number of lines per second: 143.42 thousand.
+120000000
+current time: 836.7052664756775 de
+number of lines per second: 143.42 thousand.
+121000000
+current time: 843.8577098846436 de
+number of lines per second: 143.39 thousand.
+122000000
+current time: 850.7183377742767 de
+number of lines per second: 143.41 thousand.
+123000000
+current time: 857.5888102054596 de
+number of lines per second: 143.43 thousand.
+124000000
+current time: 864.2467465400696 de
+number of lines per second: 143.48 thousand.
+125000000
+current time: 871.1669385433197 de
+number of lines per second: 143.49 thousand.
+126000000
+current time: 878.1086061000824 de
+number of lines per second: 143.49 thousand.
+127000000
+current time: 885.1271924972534 de
+number of lines per second: 143.48 thousand.
+128000000
+current time: 891.8949344158173 de
+number of lines per second: 143.51 thousand.
+129000000
+current time: 898.7639594078064 de
+number of lines per second: 143.53 thousand.
+130000000
+current time: 905.7643141746521 de
+number of lines per second: 143.53 thousand.
+131000000
+current time: 912.6204974651337 de
+number of lines per second: 143.54 thousand.
+132000000
+current time: 919.6462042331696 de
+number of lines per second: 143.53 thousand.
+133000000
+current time: 926.6366190910339 de
+number of lines per second: 143.53 thousand.
+134000000
+current time: 933.5115697383881 de
+number of lines per second: 143.54 thousand.
+135000000
+current time: 940.5903015136719 de
+number of lines per second: 143.53 thousand.
+136000000
+current time: 947.4115915298462 de
+number of lines per second: 143.55 thousand.
+137000000
+current time: 952.2948484420776 de
+number of lines per second: 143.86 thousand.
+138000000
+current time: 956.243730545044 de
+number of lines per second: 144.31 thousand.
+139000000
+current time: 962.1679503917694 de
+number of lines per second: 144.47 thousand.
+140000000
+current time: 969.7234268188477 de
+number of lines per second: 144.37 thousand.
+141000000
+current time: 977.3510522842407 de
+number of lines per second: 144.27 thousand.
+142000000
+current time: 983.8343951702118 de
+number of lines per second: 144.33 thousand.
+143000000
+current time: 987.1113126277924 de
+number of lines per second: 144.87 thousand.
+144000000
+current time: 990.2507643699646 de
+number of lines per second: 145.42 thousand.
+145000000
+current time: 993.4683966636658 de
+number of lines per second: 145.95 thousand.
+146000000
+current time: 996.7495748996735 de
+number of lines per second: 146.48 thousand.
+147000000
+current time: 999.8277041912079 de
+number of lines per second: 147.03 thousand.
+148000000
+current time: 1003.4260034561157 de
+number of lines per second: 147.49 thousand.
+149000000
+current time: 1010.6317303180695 de
+number of lines per second: 147.43 thousand.
+150000000
+current time: 1017.8991506099701 de
+number of lines per second: 147.36 thousand.
+151000000
+current time: 1025.2257747650146 de
+number of lines per second: 147.28 thousand.
+152000000
+current time: 1032.480845451355 de
+number of lines per second: 147.22 thousand.
+153000000
+current time: 1040.0416114330292 de
+number of lines per second: 147.11 thousand.
+154000000
+current time: 1047.0742423534393 de
+number of lines per second: 147.08 thousand.
+155000000
+current time: 1054.341195344925 de
+number of lines per second: 147.01 thousand.
+156000000
+current time: 1061.5514578819275 de
+number of lines per second: 146.95 thousand.
+157000000
+current time: 1068.8620195388794 de
+number of lines per second: 146.89 thousand.
+158000000
+current time: 1078.294949054718 de
+number of lines per second: 146.53 thousand.
+159000000
+current time: 1084.4953615665436 de
+number of lines per second: 146.61 thousand.
+160000000
+current time: 1087.822116136551 de
+number of lines per second: 147.08 thousand.
+161000000
+current time: 1091.0393526554108 de
+number of lines per second: 147.57 thousand.
+162000000
+current time: 1096.661601305008 de
+number of lines per second: 147.72 thousand.
+163000000
+current time: 1104.2175793647766 de
+number of lines per second: 147.62 thousand.
+164000000
+current time: 1107.8223412036896 de
+number of lines per second: 148.04 thousand.
+165000000
+current time: 1111.2347919940948 de
+number of lines per second: 148.48 thousand.
+166000000
+current time: 1114.3294105529785 de
+number of lines per second: 148.97 thousand.
+167000000
+current time: 1117.4698083400726 de
+number of lines per second: 149.44 thousand.
+168000000
+current time: 1120.7738559246063 de
+number of lines per second: 149.9 thousand.
+169000000
+current time: 1123.8629686832428 de
+number of lines per second: 150.37 thousand.
+170000000
+current time: 1126.832088470459 de
+number of lines per second: 150.87 thousand.
+171000000
+current time: 1129.8125581741333 de
+number of lines per second: 151.35 thousand.
+172000000
+current time: 1135.5839176177979 de
+number of lines per second: 151.46 thousand.
+173000000
+current time: 1138.754315853119 de
+number of lines per second: 151.92 thousand.
+174000000
+current time: 1144.875604391098 de
+number of lines per second: 151.98 thousand.
+175000000
+current time: 1152.2501153945923 de
+number of lines per second: 151.88 thousand.
+176000000
+current time: 1159.4358625411987 de
+number of lines per second: 151.8 thousand.
+177000000
+current time: 1166.755348443985 de
+number of lines per second: 151.7 thousand.
+178000000
+current time: 1173.9311919212341 de
+number of lines per second: 151.63 thousand.
+179000000
+current time: 1181.3002426624298 de
+number of lines per second: 151.53 thousand.
+180000000
+current time: 1186.5560674667358 de
+number of lines per second: 151.7 thousand.
+181000000
+current time: 1189.7513868808746 de
+number of lines per second: 152.13 thousand.
+182000000
+current time: 1192.9835228919983 de
+number of lines per second: 152.56 thousand.
+183000000
+current time: 1196.1588833332062 de
+number of lines per second: 152.99 thousand.
+184000000
+current time: 1199.4173266887665 de
+number of lines per second: 153.41 thousand.
+185000000
+current time: 1202.6201753616333 de
+number of lines per second: 153.83 thousand.
+186000000
+current time: 1205.7855417728424 de
+number of lines per second: 154.26 thousand.
+187000000
+current time: 1209.2435538768768 de
+number of lines per second: 154.64 thousand.
+188000000
+current time: 1213.8585753440857 de
+number of lines per second: 154.88 thousand.
+189000000
+current time: 1219.2860713005066 de
+number of lines per second: 155.01 thousand.
+190000000
+current time: 1226.3296437263489 de
+number of lines per second: 154.93 thousand.
+191000000
+current time: 1232.449331998825 de
+number of lines per second: 154.98 thousand.
+192000000
+current time: 1236.5507113933563 de
+number of lines per second: 155.27 thousand.
+193000000
+current time: 1243.479568719864 de
+number of lines per second: 155.21 thousand.
+194000000
+current time: 1250.9203343391418 de
+number of lines per second: 155.09 thousand.
+195000000
+current time: 1257.1126601696014 de
+number of lines per second: 155.12 thousand.
+Done with the dump.
++ Process Accountant. Function: label_potential_ccc_articles_with_links de is NOW RUN! Script: content_selection.py. After 0:29:20.596734.
+
+- Process Accountant: The function "label_potential_ccc_articles_with_links din" has not run yet. Do it! Now: 2021/05/11-10:23:51. Year Month Cycle: 2021-03
+Iterating the dump.
+Done with the dump.
++ Process Accountant. Function: label_potential_ccc_articles_with_links din is NOW RUN! Script: content_selection.py. After 0:00:00.101339.
+
+- Process Accountant: The function "label_potential_ccc_articles_with_links diq" has not run yet. Do it! Now: 2021/05/11-10:23:55. Year Month Cycle: 2021-03
+Iterating the dump.
+1000000
+current time: 6.346017837524414 diq
+number of lines per second: 157.58 thousand.
+2000000
+current time: 12.244989156723022 diq
+number of lines per second: 163.33 thousand.
+3000000
+current time: 17.801286697387695 diq
+number of lines per second: 168.53 thousand.
+4000000
+current time: 23.448755741119385 diq
+number of lines per second: 170.58 thousand.
+5000000
+current time: 29.202590227127075 diq
+number of lines per second: 171.22 thousand.
+6000000
+current time: 34.820239305496216 diq
+number of lines per second: 172.31 thousand.
+7000000
+current time: 40.53834319114685 diq
+number of lines per second: 172.68 thousand.
+8000000
+current time: 46.318291425704956 diq
+number of lines per second: 172.72 thousand.
+9000000
+current time: 52.17716932296753 diq
+number of lines per second: 172.49 thousand.
+Done with the dump.
++ Process Accountant. Function: label_potential_ccc_articles_with_links diq is NOW RUN! Script: content_selection.py. After 0:00:56.326272.
+
+- Process Accountant: The function "label_potential_ccc_articles_with_links dsb" has not run yet. Do it! Now: 2021/05/11-10:24:51. Year Month Cycle: 2021-03
+Iterating the dump.
+Done with the dump.
++ Process Accountant. Function: label_potential_ccc_articles_with_links dsb is NOW RUN! Script: content_selection.py. After 0:00:01.234106.
+
+- Process Accountant: The function "label_potential_ccc_articles_with_links dty" has not run yet. Do it! Now: 2021/05/11-10:24:53. Year Month Cycle: 2021-03
+Iterating the dump.
+Done with the dump.
++ Process Accountant. Function: label_potential_ccc_articles_with_links dty is NOW RUN! Script: content_selection.py. After 0:00:02.328799.
+
+- Process Accountant: The function "label_potential_ccc_articles_with_links dv" has not run yet. Do it! Now: 2021/05/11-10:24:55. Year Month Cycle: 2021-03
+Iterating the dump.
+Done with the dump.
++ Process Accountant. Function: label_potential_ccc_articles_with_links dv is NOW RUN! Script: content_selection.py. After 0:00:01.874874.
+
+- Process Accountant: The function "label_potential_ccc_articles_with_links dz" has not run yet. Do it! Now: 2021/05/11-10:24:57. Year Month Cycle: 2021-03
+Iterating the dump.
+Done with the dump.
++ Process Accountant. Function: label_potential_ccc_articles_with_links dz is NOW RUN! Script: content_selection.py. After 0:00:00.137275.
+
+- Process Accountant: The function "label_potential_ccc_articles_with_links ee" has not run yet. Do it! Now: 2021/05/11-10:24:57. Year Month Cycle: 2021-03
+Iterating the dump.
+Done with the dump.
++ Process Accountant. Function: label_potential_ccc_articles_with_links ee is NOW RUN! Script: content_selection.py. After 0:00:00.158205.
+
+- Process Accountant: The function "label_potential_ccc_articles_with_links el" has not run yet. Do it! Now: 2021/05/11-10:25:06. Year Month Cycle: 2021-03
+Iterating the dump.
+1000000
+current time: 6.809671401977539 el
+number of lines per second: 146.85 thousand.
+2000000
+current time: 14.994311809539795 el
+number of lines per second: 133.38 thousand.
+3000000
+current time: 21.42573094367981 el
+number of lines per second: 140.02 thousand.
+4000000
+current time: 29.986566305160522 el
+number of lines per second: 133.39 thousand.
+5000000
+current time: 36.4040744304657 el
+number of lines per second: 137.35 thousand.
+6000000
+current time: 42.850505113601685 el
+number of lines per second: 140.02 thousand.
+7000000
+current time: 49.31307911872864 el
+number of lines per second: 141.95 thousand.
+8000000
+current time: 55.811633586883545 el
+number of lines per second: 143.34 thousand.
+9000000
+current time: 62.23679494857788 el
+number of lines per second: 144.61 thousand.
+10000000
+current time: 68.7175817489624 el
+number of lines per second: 145.52 thousand.
+11000000
+current time: 74.51059150695801 el
+number of lines per second: 147.63 thousand.
+12000000
+current time: 79.87940669059753 el
+number of lines per second: 150.23 thousand.
+13000000
+current time: 83.65214991569519 el
+number of lines per second: 155.41 thousand.
+14000000
+current time: 88.16817045211792 el
+number of lines per second: 158.79 thousand.
+Done with the dump.
++ Process Accountant. Function: label_potential_ccc_articles_with_links el is NOW RUN! Script: content_selection.py. After 0:01:40.737900.
+
+- Process Accountant: The function "label_potential_ccc_articles_with_links eml" has not run yet. Do it! Now: 2021/05/11-10:26:48. Year Month Cycle: 2021-03
+Iterating the dump.
+1000000
+current time: 5.984523773193359 eml
+number of lines per second: 167.1 thousand.
+2000000
+current time: 11.84999394416809 eml
+number of lines per second: 168.78 thousand.
+Done with the dump.
++ Process Accountant. Function: label_potential_ccc_articles_with_links eml is NOW RUN! Script: content_selection.py. After 0:00:13.447557.
+
+- Process Accountant: The function "label_potential_ccc_articles_with_links en" has not run yet. Do it! Now: 2021/05/11-10:34:32. Year Month Cycle: 2021-03
+Iterating the dump.
+1000000
+current time: 7.448847532272339 en
+number of lines per second: 134.25 thousand.
+2000000
+current time: 15.141984701156616 en
+number of lines per second: 132.08 thousand.
+3000000
+current time: 22.024843215942383 en
+number of lines per second: 136.21 thousand.
+4000000
+current time: 30.494177103042603 en
+number of lines per second: 131.17 thousand.
+5000000
+current time: 37.6250581741333 en
+number of lines per second: 132.89 thousand.
+6000000
+current time: 44.89251780509949 en
+number of lines per second: 133.65 thousand.
+7000000
+current time: 52.591472864151 en
+number of lines per second: 133.1 thousand.
+8000000
+current time: 59.81838345527649 en
+number of lines per second: 133.74 thousand.
+9000000
+current time: 67.16415476799011 en
+number of lines per second: 134.0 thousand.
+10000000
+current time: 74.41347241401672 en
+number of lines per second: 134.38 thousand.
+11000000
+current time: 81.53188228607178 en
+number of lines per second: 134.92 thousand.
+12000000
+current time: 88.75136089324951 en
+number of lines per second: 135.21 thousand.
+13000000
+current time: 95.88201260566711 en
+number of lines per second: 135.58 thousand.
+14000000
+current time: 103.15201687812805 en
+number of lines per second: 135.72 thousand.
+15000000
+current time: 110.31216239929199 en
+number of lines per second: 135.98 thousand.
+16000000
+current time: 117.51199960708618 en
+number of lines per second: 136.16 thousand.
+17000000
+current time: 124.68950176239014 en
+number of lines per second: 136.34 thousand.
+18000000
+current time: 131.9296853542328 en
+number of lines per second: 136.44 thousand.
+19000000
+current time: 139.1524999141693 en
+number of lines per second: 136.54 thousand.
+20000000
+current time: 146.47301506996155 en
+number of lines per second: 136.54 thousand.
+21000000
+current time: 153.64531350135803 en
+number of lines per second: 136.68 thousand.
+22000000
+current time: 160.85302734375 en
+number of lines per second: 136.77 thousand.
+23000000
+current time: 168.03276562690735 en
+number of lines per second: 136.88 thousand.
+24000000
+current time: 175.25202441215515 en
+number of lines per second: 136.95 thousand.
+25000000
+current time: 182.38305473327637 en
+number of lines per second: 137.07 thousand.
+26000000
+current time: 189.58418774604797 en
+number of lines per second: 137.14 thousand.
+27000000
+current time: 196.77512383460999 en
+number of lines per second: 137.21 thousand.
+28000000
+current time: 203.9149820804596 en
+number of lines per second: 137.31 thousand.
+29000000
+current time: 211.05242204666138 en
+number of lines per second: 137.41 thousand.
+30000000
+current time: 218.2581479549408 en
+number of lines per second: 137.45 thousand.
+31000000
+current time: 225.37765455245972 en
+number of lines per second: 137.55 thousand.
+32000000
+current time: 232.5407485961914 en
+number of lines per second: 137.61 thousand.
+33000000
+current time: 239.73576045036316 en
+number of lines per second: 137.65 thousand.
+34000000
+current time: 246.8189079761505 en
+number of lines per second: 137.75 thousand.
+35000000
+current time: 253.9295208454132 en
+number of lines per second: 137.83 thousand.
+36000000
+current time: 260.93317103385925 en
+number of lines per second: 137.97 thousand.
+37000000
+current time: 268.0671536922455 en
+number of lines per second: 138.03 thousand.
+38000000
+current time: 275.1341361999512 en
+number of lines per second: 138.11 thousand.
+39000000
+current time: 282.2614963054657 en
+number of lines per second: 138.17 thousand.
+40000000
+current time: 289.3535339832306 en
+number of lines per second: 138.24 thousand.
+41000000
+current time: 296.3801803588867 en
+number of lines per second: 138.34 thousand.
+42000000
+current time: 303.42823100090027 en
+number of lines per second: 138.42 thousand.
+43000000
+current time: 310.49127078056335 en
+number of lines per second: 138.49 thousand.
+44000000
+current time: 317.506187915802 en
+number of lines per second: 138.58 thousand.
+45000000
+current time: 324.53898334503174 en
+number of lines per second: 138.66 thousand.
+46000000
+current time: 332.32806611061096 en
+number of lines per second: 138.42 thousand.
+47000000
+current time: 339.3695583343506 en
+number of lines per second: 138.49 thousand.
+48000000
+current time: 346.3996047973633 en
+number of lines per second: 138.57 thousand.
+49000000
+current time: 353.38093185424805 en
+number of lines per second: 138.66 thousand.
+50000000
+current time: 360.41271018981934 en
+number of lines per second: 138.73 thousand.
+51000000
+current time: 367.3565537929535 en
+number of lines per second: 138.83 thousand.
+52000000
+current time: 374.3237843513489 en
+number of lines per second: 138.92 thousand.
+53000000
+current time: 381.33280849456787 en
+number of lines per second: 138.99 thousand.
+54000000
+current time: 388.3980300426483 en
+number of lines per second: 139.03 thousand.
+55000000
+current time: 395.47567534446716 en
+number of lines per second: 139.07 thousand.
+56000000
+current time: 402.65062642097473 en
+number of lines per second: 139.08 thousand.
+57000000
+current time: 409.7331247329712 en
+number of lines per second: 139.11 thousand.
+58000000
+current time: 416.80824971199036 en
+number of lines per second: 139.15 thousand.
+59000000
+current time: 423.96408915519714 en
+number of lines per second: 139.16 thousand.
+60000000
+current time: 431.14315366744995 en
+number of lines per second: 139.16 thousand.
+61000000
+current time: 438.41907143592834 en
+number of lines per second: 139.14 thousand.
+62000000
+current time: 445.5354688167572 en
+number of lines per second: 139.16 thousand.
+63000000
+current time: 453.02828574180603 en
+number of lines per second: 139.06 thousand.
+64000000
+current time: 460.3350033760071 en
+number of lines per second: 139.03 thousand.
+65000000
+current time: 467.40612745285034 en
+number of lines per second: 139.07 thousand.
+66000000
+current time: 474.62542843818665 en
+number of lines per second: 139.06 thousand.
+67000000
+current time: 481.7737956047058 en
+number of lines per second: 139.07 thousand.
+68000000
+current time: 489.14125990867615 en
+number of lines per second: 139.02 thousand.
+69000000
+current time: 496.425400018692 en
+number of lines per second: 138.99 thousand.
+70000000
+current time: 503.8815190792084 en
+number of lines per second: 138.92 thousand.
+71000000
+current time: 511.12679743766785 en
+number of lines per second: 138.91 thousand.
+72000000
+current time: 518.3147404193878 en
+number of lines per second: 138.91 thousand.
+73000000
+current time: 525.5256731510162 en
+number of lines per second: 138.91 thousand.
+74000000
+current time: 532.6438236236572 en
+number of lines per second: 138.93 thousand.
+75000000
+current time: 539.8379724025726 en
+number of lines per second: 138.93 thousand.
+76000000
+current time: 547.0152213573456 en
+number of lines per second: 138.94 thousand.
+77000000
+current time: 554.3977415561676 en
+number of lines per second: 138.89 thousand.
+78000000
+current time: 561.7240550518036 en
+number of lines per second: 138.86 thousand.
+79000000
+current time: 568.9438152313232 en
+number of lines per second: 138.85 thousand.
+80000000
+current time: 576.1860063076019 en
+number of lines per second: 138.84 thousand.
+81000000
+current time: 583.5734114646912 en
+number of lines per second: 138.8 thousand.
+82000000
+current time: 590.7270939350128 en
+number of lines per second: 138.81 thousand.
+83000000
+current time: 597.9233152866364 en
+number of lines per second: 138.81 thousand.
+84000000
+current time: 605.1435914039612 en
+number of lines per second: 138.81 thousand.
+85000000
+current time: 612.265894651413 en
+number of lines per second: 138.83 thousand.
+86000000
+current time: 619.4615962505341 en
+number of lines per second: 138.83 thousand.
+87000000
+current time: 626.5451538562775 en
+number of lines per second: 138.86 thousand.
+88000000
+current time: 633.6111626625061 en
+number of lines per second: 138.89 thousand.
+89000000
+current time: 640.5687217712402 en
+number of lines per second: 138.94 thousand.
+90000000
+current time: 647.7362983226776 en
+number of lines per second: 138.95 thousand.
+91000000
+current time: 654.8025748729706 en
+number of lines per second: 138.97 thousand.
+92000000
+current time: 661.7818534374237 en
+number of lines per second: 139.02 thousand.
+93000000
+current time: 668.825537443161 en
+number of lines per second: 139.05 thousand.
+94000000
+current time: 675.988007068634 en
+number of lines per second: 139.06 thousand.
+95000000
+current time: 683.0981910228729 en
+number of lines per second: 139.07 thousand.
+96000000
+current time: 690.050822019577 en
+number of lines per second: 139.12 thousand.
+97000000
+current time: 697.0706770420074 en
+number of lines per second: 139.15 thousand.
+98000000
+current time: 704.1486885547638 en
+number of lines per second: 139.18 thousand.
+99000000
+current time: 710.8337240219116 en
+number of lines per second: 139.27 thousand.
+100000000
+current time: 717.7553007602692 en
+number of lines per second: 139.32 thousand.
+101000000
+current time: 724.8914291858673 en
+number of lines per second: 139.33 thousand.
+102000000
+current time: 731.9250421524048 en
+number of lines per second: 139.36 thousand.
+103000000
+current time: 739.0843739509583 en
+number of lines per second: 139.36 thousand.
+104000000
+current time: 746.1001493930817 en
+number of lines per second: 139.39 thousand.
+105000000
+current time: 753.1830394268036 en
+number of lines per second: 139.41 thousand.
+106000000
+current time: 760.3638679981232 en
+number of lines per second: 139.41 thousand.
+107000000
+current time: 767.5384457111359 en
+number of lines per second: 139.41 thousand.
+108000000
+current time: 774.6953389644623 en
+number of lines per second: 139.41 thousand.
+109000000
+current time: 781.7272610664368 en
+number of lines per second: 139.43 thousand.
+110000000
+current time: 788.8721158504486 en
+number of lines per second: 139.44 thousand.
+111000000
+current time: 795.9669678211212 en
+number of lines per second: 139.45 thousand.
+112000000
+current time: 803.1083931922913 en
+number of lines per second: 139.46 thousand.
+113000000
+current time: 810.26970744133 en
+number of lines per second: 139.46 thousand.
+114000000
+current time: 817.4298334121704 en
+number of lines per second: 139.46 thousand.
+115000000
+current time: 824.5860888957977 en
+number of lines per second: 139.46 thousand.
+116000000
+current time: 831.7170331478119 en
+number of lines per second: 139.47 thousand.
+117000000
+current time: 838.8719325065613 en
+number of lines per second: 139.47 thousand.
+118000000
+current time: 845.8442857265472 en
+number of lines per second: 139.51 thousand.
+119000000
+current time: 852.9579086303711 en
+number of lines per second: 139.51 thousand.
+120000000
+current time: 860.2030317783356 en
+number of lines per second: 139.5 thousand.
+121000000
+current time: 867.3270082473755 en
+number of lines per second: 139.51 thousand.
+122000000
+current time: 875.1775505542755 en
+number of lines per second: 139.4 thousand.
+123000000
+current time: 882.2592575550079 en
+number of lines per second: 139.41 thousand.
+124000000
+current time: 889.1944041252136 en
+number of lines per second: 139.45 thousand.
+125000000
+current time: 896.3054387569427 en
+number of lines per second: 139.46 thousand.
+126000000
+current time: 903.310807466507 en
+number of lines per second: 139.49 thousand.
+127000000
+current time: 910.2845137119293 en
+number of lines per second: 139.52 thousand.
+128000000
+current time: 916.9668836593628 en
+number of lines per second: 139.59 thousand.
+129000000
+current time: 923.9747567176819 en
+number of lines per second: 139.61 thousand.
+130000000
+current time: 931.0923137664795 en
+number of lines per second: 139.62 thousand.
+131000000
+current time: 938.0998120307922 en
+number of lines per second: 139.64 thousand.
+132000000
+current time: 944.9797065258026 en
+number of lines per second: 139.69 thousand.
+133000000
+current time: 951.9664332866669 en
+number of lines per second: 139.71 thousand.
+134000000
+current time: 959.4225080013275 en
+number of lines per second: 139.67 thousand.
+135000000
+current time: 966.4951064586639 en
+number of lines per second: 139.68 thousand.
+136000000
+current time: 973.5594160556793 en
+number of lines per second: 139.69 thousand.
+137000000
+current time: 980.6439445018768 en
+number of lines per second: 139.7 thousand.
+138000000
+current time: 987.708803653717 en
+number of lines per second: 139.72 thousand.
+139000000
+current time: 994.5832331180573 en
+number of lines per second: 139.76 thousand.
+140000000
+current time: 1001.6409075260162 en
+number of lines per second: 139.77 thousand.
+141000000
+current time: 1008.9959328174591 en
+number of lines per second: 139.74 thousand.
+142000000
+current time: 1016.0575513839722 en
+number of lines per second: 139.76 thousand.
+143000000
+current time: 1023.1085169315338 en
+number of lines per second: 139.77 thousand.
+144000000
+current time: 1030.0694847106934 en
+number of lines per second: 139.8 thousand.
+145000000
+current time: 1037.1312918663025 en
+number of lines per second: 139.81 thousand.
+146000000
+current time: 1044.3643221855164 en
+number of lines per second: 139.8 thousand.
+147000000
+current time: 1051.5506873130798 en
+number of lines per second: 139.79 thousand.
+148000000
+current time: 1058.6336386203766 en
+number of lines per second: 139.8 thousand.
+149000000
+current time: 1065.7301013469696 en
+number of lines per second: 139.81 thousand.
+150000000
+current time: 1072.862069606781 en
+number of lines per second: 139.81 thousand.
+151000000
+current time: 1080.1367614269257 en
+number of lines per second: 139.8 thousand.
+152000000
+current time: 1087.4194447994232 en
+number of lines per second: 139.78 thousand.
+153000000
+current time: 1094.5760951042175 en
+number of lines per second: 139.78 thousand.
+154000000
+current time: 1101.6454005241394 en
+number of lines per second: 139.79 thousand.
+155000000
+current time: 1108.7416994571686 en
+number of lines per second: 139.8 thousand.
+156000000
+current time: 1115.8461799621582 en
+number of lines per second: 139.8 thousand.
+157000000
+current time: 1122.9703023433685 en
+number of lines per second: 139.81 thousand.
+158000000
+current time: 1129.8993549346924 en
+number of lines per second: 139.84 thousand.
+159000000
+current time: 1136.9687938690186 en
+number of lines per second: 139.85 thousand.
+160000000
+current time: 1143.998343706131 en
+number of lines per second: 139.86 thousand.
+161000000
+current time: 1150.9603476524353 en
+number of lines per second: 139.88 thousand.
+162000000
+current time: 1158.0990748405457 en
+number of lines per second: 139.88 thousand.
+163000000
+current time: 1165.3410913944244 en
+number of lines per second: 139.87 thousand.
+164000000
+current time: 1173.0505607128143 en
+number of lines per second: 139.81 thousand.
+165000000
+current time: 1181.9144597053528 en
+number of lines per second: 139.6 thousand.
+166000000
+current time: 1190.8818893432617 en
+number of lines per second: 139.39 thousand.
+167000000
+current time: 1198.498217344284 en
+number of lines per second: 139.34 thousand.
+168000000
+current time: 1205.8605754375458 en
+number of lines per second: 139.32 thousand.
+169000000
+current time: 1212.9209101200104 en
+number of lines per second: 139.33 thousand.
+170000000
+current time: 1220.0980882644653 en
+number of lines per second: 139.33 thousand.
+171000000
+current time: 1227.3787415027618 en
+number of lines per second: 139.32 thousand.
+172000000
+current time: 1234.259178161621 en
+number of lines per second: 139.35 thousand.
+173000000
+current time: 1241.2292973995209 en
+number of lines per second: 139.38 thousand.
+174000000
+current time: 1248.183515071869 en
+number of lines per second: 139.4 thousand.
+175000000
+current time: 1255.334899187088 en
+number of lines per second: 139.41 thousand.
+176000000
+current time: 1262.4314658641815 en
+number of lines per second: 139.41 thousand.
+177000000
+current time: 1269.5008232593536 en
+number of lines per second: 139.42 thousand.
+178000000
+current time: 1276.703100681305 en
+number of lines per second: 139.42 thousand.
+179000000
+current time: 1283.8457038402557 en
+number of lines per second: 139.42 thousand.
+180000000
+current time: 1290.8504538536072 en
+number of lines per second: 139.44 thousand.
+181000000
+current time: 1298.1643199920654 en
+number of lines per second: 139.43 thousand.
+182000000
+current time: 1305.2632865905762 en
+number of lines per second: 139.44 thousand.
+183000000
+current time: 1312.4327204227448 en
+number of lines per second: 139.44 thousand.
+184000000
+current time: 1319.5671780109406 en
+number of lines per second: 139.44 thousand.
+185000000
+current time: 1326.634640455246 en
+number of lines per second: 139.45 thousand.
+186000000
+current time: 1333.6970527172089 en
+number of lines per second: 139.46 thousand.
+187000000
+current time: 1340.7494449615479 en
+number of lines per second: 139.47 thousand.
+188000000
+current time: 1347.779370546341 en
+number of lines per second: 139.49 thousand.
+189000000
+current time: 1354.884958744049 en
+number of lines per second: 139.5 thousand.
+190000000
+current time: 1361.9003269672394 en
+number of lines per second: 139.51 thousand.
+191000000
+current time: 1369.1265797615051 en
+number of lines per second: 139.5 thousand.
+192000000
+current time: 1376.3610796928406 en
+number of lines per second: 139.5 thousand.
+193000000
+current time: 1383.4675529003143 en
+number of lines per second: 139.5 thousand.
+194000000
+current time: 1390.1191577911377 en
+number of lines per second: 139.56 thousand.
+195000000
+current time: 1397.340095281601 en
+number of lines per second: 139.55 thousand.
+196000000
+current time: 1404.4563493728638 en
+number of lines per second: 139.56 thousand.
+197000000
+current time: 1411.3867270946503 en
+number of lines per second: 139.58 thousand.
+198000000
+current time: 1418.4590258598328 en
+number of lines per second: 139.59 thousand.
+199000000
+current time: 1425.5535280704498 en
+number of lines per second: 139.59 thousand.
+200000000
+current time: 1432.7444760799408 en
+number of lines per second: 139.59 thousand.
+201000000
+current time: 1439.7501611709595 en
+number of lines per second: 139.61 thousand.
+202000000
+current time: 1446.7388474941254 en
+number of lines per second: 139.62 thousand.
+203000000
+current time: 1453.8598124980927 en
+number of lines per second: 139.63 thousand.
+204000000
+current time: 1461.0006914138794 en
+number of lines per second: 139.63 thousand.
+205000000
+current time: 1468.0262715816498 en
+number of lines per second: 139.64 thousand.

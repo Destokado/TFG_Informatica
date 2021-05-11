@@ -1,0 +1,2 @@
+	Wiki	Title	Pageviews	Interwiki	Malayalam WD Label	WD Qitem
+0	[[:hi:|hi]]	[{{fullurl:hi:शकुंतला_(राजा_रवि_वर्मा)}} शकुंतला (राजा रवि वर्मा)]	9	2	[{{fullurl:ml:ശകുന്തള}} ശകുന്തള]	 [{{fullurl:wikidata:Q7487097}} Q7487097]

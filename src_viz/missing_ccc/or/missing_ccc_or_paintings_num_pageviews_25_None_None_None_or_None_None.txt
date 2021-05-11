@@ -1,0 +1,2 @@
+	Wiki	Title	Pageviews	Interwiki	Odia WD Label	WD Qitem
+0	[[:en:|en]]	[{{fullurl:en:Bharat_Mata_(Abanindranath)}} Bharat Mata (Abanindranath)]	236	3		 [{{fullurl:wikidata:Q4901133}} Q4901133]

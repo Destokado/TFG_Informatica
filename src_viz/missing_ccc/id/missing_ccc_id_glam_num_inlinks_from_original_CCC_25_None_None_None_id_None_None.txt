@@ -1,0 +1,3 @@
+	Wiki	Title	Pageviews	Interwiki	Inlinks CCC	Indonesian WD Label	WD Qitem
+0	[[:de:|de]]	[{{fullurl:de:Agung_Rai_Museum_of_Art}} Agung Rai Museum of Art]	1	1	1		 [{{fullurl:wikidata:Q398622}} Q398622]
+1	[[:de:|de]]	[{{fullurl:de:Nationalbibliothek_von_Osttimor}} Nationalbibliothek von Osttimor]	1	4	0		 [{{fullurl:wikidata:Q23693634}} Q23693634]

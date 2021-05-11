@@ -1,0 +1,5 @@
+	Wiki	Title	Pageviews	Interwiki	Sundanese WD Label	WD Qitem
+0	[[:id:|id]]	[{{fullurl:id:Manuk_Dadali}} Manuk Dadali]	323	0		 [{{fullurl:wikidata:Q19728847}} Q19728847]
+1	[[:id:|id]]	[{{fullurl:id:ST12}} ST12]	237	1		 [{{fullurl:wikidata:Q4261556}} Q4261556]
+2	[[:id:|id]]	[{{fullurl:id:Halo,_Halo_Bandung}} Halo, Halo Bandung]	166	2		 [{{fullurl:wikidata:Q19692241}} Q19692241]
+3	[[:id:|id]]	[{{fullurl:id:Musik_tegalan}} Musik tegalan]	11	0		 [{{fullurl:wikidata:Q19729536}} Q19729536]

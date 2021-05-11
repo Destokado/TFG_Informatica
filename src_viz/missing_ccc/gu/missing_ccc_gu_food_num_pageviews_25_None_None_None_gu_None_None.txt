@@ -1,0 +1,2 @@
+	Wiki	Title	Pageviews	Interwiki	Gujarati WD Label	WD Qitem
+0	[[:en:|en]]	[{{fullurl:en:Gujarati_kadhi}} Gujarati kadhi]	35	0		 [{{fullurl:wikidata:Q19891641}} Q19891641]

@@ -1,0 +1,6 @@
+	Wiki	Title	Pageviews	Interwiki	Indonesian WD Label	WD Qitem
+0	[[:ru:|ru]]	[{{fullurl:ru:Индонезийский_рок}} Индонезийский рок]	6	1		 [{{fullurl:wikidata:Q4200851}} Q4200851]
+1	[[:jv:|jv]]	[{{fullurl:jv:Gamelan_gadhon}} Gamelan gadhon]	0	1		 [{{fullurl:wikidata:Q5520004}} Q5520004]
+2	[[:hu:|hu]]	[{{fullurl:hu:Jasad}} Jasad]	0	1		 [{{fullurl:wikidata:Q18359057}} Q18359057]
+3	[[:jv:|jv]]	[{{fullurl:jv:Kempyang}} Kempyang]	0	0		 [{{fullurl:wikidata:Q20580988}} Q20580988]
+4	[[:ca:|ca]]	[{{fullurl:ca:Gamelan_selunding}} Gamelan selunding]	0	1		 [{{fullurl:wikidata:Q5520021}} Q5520021]

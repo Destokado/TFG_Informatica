@@ -1,0 +1,2 @@
+	Wiki	Title	Pageviews	Interwiki	Hindi WD Label	WD Qitem
+0	[[:ml:|ml]]	[{{fullurl:ml:വിളക്കേന്തിയ_വനിത}} വിളക്കേന്തിയ വനിത]	0	1		 [{{fullurl:wikidata:Q5572241}} Q5572241]

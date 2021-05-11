@@ -1,0 +1,2 @@
+	Wiki	Title	Pageviews	Interwiki	Sanskrit WD Label	WD Qitem
+0	[[:en:|en]]	[{{fullurl:en:Delhi-6_(soundtrack)}} Delhi-6 (soundtrack)]	73	0		 [{{fullurl:wikidata:Q5253726}} Q5253726]

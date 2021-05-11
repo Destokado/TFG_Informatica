@@ -1,0 +1,12 @@
+	Wiki	Title	Pageviews	Interwiki	Sanskrit WD Label	WD Qitem
+0	[[:en:|en]]	[{{fullurl:en:Delhi_Dynamos_FC}} Delhi Dynamos FC]	1018	21		 [{{fullurl:wikidata:Q16838244}} Q16838244]
+1	[[:en:|en]]	[{{fullurl:en:Delhi_cricket_team}} Delhi cricket team]	463	6		 [{{fullurl:wikidata:Q1381929}} Q1381929]
+2	[[:en:|en]]	[{{fullurl:en:Uttar_Pradesh_cricket_team}} Uttar Pradesh cricket team]	346	3		 [{{fullurl:wikidata:Q1427166}} Q1427166]
+3	[[:en:|en]]	[{{fullurl:en:Delhi_Giants}} Delhi Giants]	100	2		 [{{fullurl:wikidata:Q5253761}} Q5253761]
+4	[[:en:|en]]	[{{fullurl:en:Dabang_Delhi}} Dabang Delhi]	69	2		 [{{fullurl:wikidata:Q18111478}} Q18111478]
+5	[[:en:|en]]	[{{fullurl:en:Delhi_United_S.C.}} Delhi United S.C.]	35	0		 [{{fullurl:wikidata:Q5253829}} Q5253829]
+6	[[:en:|en]]	[{{fullurl:en:Garhwal_F.C.}} Garhwal F.C.]	29	0		 [{{fullurl:wikidata:Q16839913}} Q16839913]
+7	[[:en:|en]]	[{{fullurl:en:New_Delhi_Heroes_FC}} New Delhi Heroes FC]	15	1		 [{{fullurl:wikidata:Q1982515}} Q1982515]
+8	[[:en:|en]]	[{{fullurl:en:Delhi_Defenders}} Delhi Defenders]	13	0		 [{{fullurl:wikidata:Q5253747}} Q5253747]
+9	[[:en:|en]]	[{{fullurl:en:Simla_Youngs_F.C.}} Simla Youngs F.C.]	13	0		 [{{fullurl:wikidata:Q9181426}} Q9181426]
+11	[[:en:|en]]	[{{fullurl:en:Delhi_Smashers}} Delhi Smashers]	9	0		 [{{fullurl:wikidata:Q15293788}} Q15293788]

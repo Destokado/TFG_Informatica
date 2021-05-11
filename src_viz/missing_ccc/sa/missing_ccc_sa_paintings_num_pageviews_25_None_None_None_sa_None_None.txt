@@ -1,0 +1,3 @@
+	Wiki	Title	Pageviews	Interwiki	Sanskrit WD Label	WD Qitem
+0	[[:en:|en]]	[{{fullurl:en:Bani_Thani}} Bani Thani]	360	3		 [{{fullurl:wikidata:Q4855724}} Q4855724]
+1	[[:en:|en]]	[{{fullurl:en:Krishna_and_Radha_in_a_Pavilion}} Krishna and Radha in a Pavilion]	51	0		 [{{fullurl:wikidata:Q6437499}} Q6437499]

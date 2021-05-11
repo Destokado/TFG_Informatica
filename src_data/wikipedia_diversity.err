@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "wikipedia_diversity.py", line 1363, in <module>
+    
+  File "wikipedia_diversity.py", line 51, in main
+    print ('dump iterated')
+  File "wikipedia_diversity.py", line 1073, in insert_page_ids_page_titles_qitems_wikipedia_diversity_db
+    def store_religious_groups_wd_diversity_categories_db():
+  File "/srv/wcdo/src_data/wikilanguages_utils.py", line 1651, in verify_function_run
+    cursor.execute(query,(script_name, function_name, cycle_year_month, finish_time, duration))
+sqlite3.IntegrityError: UNIQUE constraint failed: function_account.script_name, function_account.function_name, function_account.year_month

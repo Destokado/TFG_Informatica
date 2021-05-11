@@ -1,0 +1,9 @@
+	Wiki	Title	Pageviews	Interwiki	Sindhi WD Label	WD Qitem
+0	[[:en:|en]]	[{{fullurl:en:Shravasti}} Shravasti]	314	25		 [{{fullurl:wikidata:Q2594448}} Q2594448]
+1	[[:hi:|hi]]	[{{fullurl:hi:बनी-ठनी}} बनी-ठनी]	145	3		 [{{fullurl:wikidata:Q4855724}} Q4855724]
+3	[[:en:|en]]	[{{fullurl:en:Krishna_and_Radha_in_a_Pavilion}} Krishna and Radha in a Pavilion]	51	0		 [{{fullurl:wikidata:Q6437499}} Q6437499]
+4	[[:en:|en]]	[{{fullurl:en:Three_Girls_(painting)}} Three Girls (painting)]	44	0		 [{{fullurl:wikidata:Q7797494}} Q7797494]
+5	[[:de:|de]]	[{{fullurl:de:Das_Begräbnis_der_Sardine}} Das Begräbnis der Sardine]	31	7		 [{{fullurl:wikidata:Q920041}} Q920041]
+7	[[:en:|en]]	[{{fullurl:en:Tomb_paintings_of_Sindh}} Tomb paintings of Sindh]	13	0		 [{{fullurl:wikidata:Q16978032}} Q16978032]
+8	[[:de:|de]]	[{{fullurl:de:Der_Schiffbruch_(Goya)}} Der Schiffbruch (Goya)]	9	0		 [{{fullurl:wikidata:Q20088067}} Q20088067]
+13	[[:pl:|pl]]	[{{fullurl:pl:Scena_w_szkole_(obraz_Goi)}} Scena w szkole (obraz Goi)]	0	2		 [{{fullurl:wikidata:Q5967125}} Q5967125]

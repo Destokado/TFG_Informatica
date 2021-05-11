@@ -1,0 +1,2 @@
+	Wiki	Title	Pageviews	Interwiki	Kannada WD Label	WD Qitem
+0	[[:en:|en]]	[{{fullurl:en:Kerala_mural_painting}} Kerala mural painting]	159	3		 [{{fullurl:wikidata:Q13479486}} Q13479486]
