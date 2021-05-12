@@ -1,32 +1,22 @@
 # -*- coding: utf-8 -*-
-
-# flash dash
-import flask
-from flask import Flask, request, render_template
-from flask import send_from_directory
 from dash import Dash
-import dash
+
 import dash_html_components as html
 import dash_core_components as dcc
 import dash_bootstrap_components as dbc
-import dash_table_experiments as dt
+
 from dash.dependencies import Input, Output, State
 # viz
-import plotly
-import chart_studio.plotly as py
-import plotly.figure_factory as ff
+
 # data
-import urllib
+
 from urllib.parse import urlparse, parse_qsl, urlencode
 import pandas as pd
 # databases
 import sqlite3
-import xlsxwriter
+
 # other
-import os
-import sys
-import logging
-from logging.handlers import RotatingFileHandler
+
 import datetime
 import time
 
