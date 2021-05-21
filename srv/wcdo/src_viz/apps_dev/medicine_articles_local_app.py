@@ -1,10 +1,11 @@
 # -*- coding: utf-8 -*-
+import json
+
 from dash import Dash
 
 import dash_html_components as html
 import dash_core_components as dcc
 import dash_bootstrap_components as dbc
-
 from dash.dependencies import Input, Output, State
 
 
@@ -49,16 +50,6 @@ def apply_default_value(params):
 
 
 
-def save_dict_to_file(dic):
-    f = open('databases/'+'dict.txt','w')
-    f.write(str(dic))
-    f.close()
-
-def load_dict_from_file():
-    f = open('databases/'+'dict.txt','r')
-    data=f.read()
-    f.close()
-    return eval(data)
 
 
 
@@ -68,45 +59,10 @@ def load_dict_from_file():
 #########################################################
 #########################################################
 
-databases_path = 'wcdo/databases'
+databases_path = 'wcdo/databases/'
 
-territories = wikilanguages_utils.load_wikipedia_languages_territories_mapping()
-languages = wikilanguages_utils.load_wiki_projects_information();
-
-wikilanguagecodes = languages.index.tolist()
-
-# wikipedialanguage_numberarticles = wikilanguages_utils.load_wikipedia_language_editions_numberofarticles(wikilanguagecodes,'production')
-# save_dict_to_file(wikipedialanguage_numberarticles) # using this is faster than querying the database for the number of articles in each table.
-
-wikipedialanguage_numberarticles = load_dict_from_file()
-for languagecode in wikilanguagecodes:
-   if languagecode not in wikipedialanguage_numberarticles: wikilanguagecodes.remove(languagecode)
-
-
-language_names = {}
-for languagecode in wikilanguagecodes:
-    lang_name = languages.loc[languagecode]['languagename']+' ('+languagecode+')'
-    language_names[lang_name] = languagecode
-
-
-closest_langs = wikilanguages_utils.obtain_closest_for_all_languages(wikipedialanguage_numberarticles, wikilanguagecodes, 4)
-
-country_names, regions, subregions = wikilanguages_utils.load_iso_3166_to_geographical_regions()
-
-country_names_inv = {v: k for k, v in country_names.items()}
-
-ISO31662_subdivisions_dict, subdivisions_ISO31662_dict = wikilanguages_utils.load_iso_31662_to_subdivisions()
-
-for i in (set(languages.index.tolist()) - set(list(wikipedialanguage_numberarticles.keys()))):
-    try:
-        languages.drop(i, inplace=True); territories.drop(i, inplace=True)
-        wikilanguagecodes.remove(i)
-    except: pass
-print (wikilanguagecodes)
-
-
-footbar = html.Div('')
-navbar = html.Div('')
+with open('wcdo/src_viz/apps_dev/langcode_mainPage_ID.json','r') as j:
+        wikilanguagecodes = json.load(j).keys()
 
 # # web
 title_addenda = ' - Wikipedia Diversity Observatory (WDO)'
@@ -125,9 +81,9 @@ external_stylesheets = ['https://wcdo.wmflabs.org/assets/bWLwgP.css']
 
 ### DASH APP ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### 
 #dash_app19 = Dash(__name__, server = app, url_base_pathname = webtype + '/search_ccc_articles/', external_stylesheets=external_stylesheets ,external_scripts=external_scripts)
-dash_app19 = Dash(url_base_pathname = '/lgbt+_articles/', external_stylesheets=external_stylesheets, suppress_callback_exceptions = True)
+dash_app19 = Dash(url_base_pathname = '/medicine_articles/', external_stylesheets=external_stylesheets, suppress_callback_exceptions = True)
 dash_app19.config['suppress_callback_exceptions']=True
-dash_app19.title = 'LGBT+ Articles'+title_addenda
+dash_app19.title = 'Medicine Articles'+title_addenda
 
 dash_app19.layout = html.Div([
     dcc.Location(id='url', refresh=False),
@@ -137,14 +93,11 @@ dash_app19.layout = html.Div([
 
 
 
-source_lang_dict = {}
-for languagecode in wikilanguagecodes:
-    lang_name = languages.loc[languagecode]['languagename']+' ('+languagecode+')'
-    source_lang_dict[lang_name] = languagecode
+source_lang_dict = wikilanguagecodes
 
 topic_dict={'All':'all','Keywords':'keywords','Geolocated':'geolocated','People':'people','Women':'women','Men':'men','Folk':'folk','Earth':'earth','Monuments and Buildings':'monuments_and_buildings','Music Creations and Organizations':'music_creations_and_organizations','Sports and Teams':'sport_and_teams','Food':'food','Paintings':'paintings','GLAM':'glam','Books':'books','Clothing and Fashion':'clothing_and_fashion','Industry':'industry','Not people':'not_people'}
 
-target_langs_dict = language_names
+target_langs_dict = wikilanguagecodes
 
 features_dict = {'Editors':'num_editors','Edits':'num_edits','Pageviews':'num_pageviews','Inlinks':'num_inlinks','References':'num_references','Bytes':'num_bytes','Outlinks':'num_outlinks','Interwiki':'num_interwiki','WDProperties':'num_wdproperty','Discussions':'num_discussions','Creation Date':'date_created','Inlinks from CCC':'num_inlinks_from_CCC','Outlinks to CCC':'num_outlinks_to_CCC','LGBT Indicator':'lgbt_topic'}
 
@@ -159,12 +112,12 @@ show_gaps_dict = {'No language gaps':'no-gaps','At least one gap':'one-gap-min',
 ## ----------------------------------------------------------------------------------------------------- ##
 
 
-text_default = '''In this page you can retrieve articles about LGBT+ from Wikipedia language editions, including biographies and all kinds of topics, and check its availability in a specific Wikipedia.'''     
+text_default = '''In this page you can retrieve articles about Medicine from Wikipedia language editions, including biographies and all kinds of topics, and check its availability in a specific Wikipedia.'''
 
 text_results = '''
-The following table shows the resulting list of articles about LGBT in the source language, and its availability in the target languages.
+The following table shows the resulting list of articles about Medicine in the source language, and its availability in the target languages.
 
-The Qitem column provides the id and a link to the Wikidata corresponding page. The column Title provides the title in the source language. The next columns (editors, edits, pageviews, interwiki, creation date) show the value for some features in the first source language. The column LGBT indicator tells the number of languages in which the algorithm identified this article as part of the LGBT culture. If the content is ordered by another feature, this is added as an extra column. The column Target Langs. provides links to the article version in each of the selected target languages. The last column shows the title in the first target language.
+The Qitem column provides the id and a link to the Wikidata corresponding page. The column Title provides the title in the source language. The next columns (editors, edits, pageviews, interwiki, creation date) show the value for some features in the first source language. The column Medicine indicator tells the number of languages in which the algorithm identified this article as part of Medicine ambit. If the content is ordered by another feature, this is added as an extra column. The column Target Langs. provides links to the article version in each of the selected target languages. The last column shows the title in the first target language.
 '''
 
 ## ----------------------------------------------------------------------------------------------------- ##
@@ -185,7 +138,7 @@ interface_row1 = html.Div([
         ]
     ),
     dbc.Tooltip(
-        html.P("Select the language editions from which you want to retrieve the LGBT articles they have in common. You can retrieve a single language if you want. The relevance features will be according to the first language.",
+        html.P("Select the language editions from which you want to retrieve the Medicine articles they have in common. You can retrieve a single language if you want. The relevance features will be according to the first language.",
         style={"width": "42rem", 'font-size': 12, 'text-align':'left', 'backgroundColor':'#F7FBFE','padding': '12px 12px 12px 12px'}
         ),
         target="tooltip-target-sourcelanguage",
@@ -265,7 +218,7 @@ interface_row2 = html.Div([
     ),
     dbc.Tooltip(
         html.P(
-            "Select a feature to sort the results (by default it uses the number of languages that consider this article to belongs to the LGBT culture).",
+            "Select a feature to sort the results (by default it uses the number of languages that consider this article belongs to the Medicine culture).",
         style={"width": "auto", 'font-size': 12, 'text-align':'left', 'backgroundColor':'#F7FBFE','padding': '12px 12px 12px 12px'}
         ),
         target="tooltip-target-orderby",
@@ -387,16 +340,16 @@ def dash_app19_build_layout(params):
 
         query += 'r.num_editors, r.num_edits, r.num_pageviews, r.num_interwiki, r.num_bytes, r.date_created, '
 
-        columns = ['num','qitem','page_title','num_editors','num_edits','num_pageviews','num_interwiki','num_bytes','date_created','lgbt_topic']
+        columns = ['num','qitem','page_title','num_editors','num_edits','num_pageviews','num_interwiki','num_bytes','date_created','monuments_and_buildings']
 
         if order_by in ['num_outlinks','num_inlinks','num_wdproperty','num_discussions','num_inlinks_from_CCC','num_outlinks_to_CCC','num_references']: 
             query += 'r.'+order_by+', '
             columns = columns + [order_by]
 
-        query += 'r.lgbt_topic '
+        query += 'r.monuments_and_buildings '
 
         query += ' FROM '+source_lang+'wiki r '
-        query += 'WHERE r.lgbt_topic > 0 '
+        query += 'WHERE r.monuments_and_buildings != null '
 
 
         if topic != "none" and topic != "None" and topic != "all":
@@ -444,14 +397,14 @@ def dash_app19_build_layout(params):
 
 
         df = df.head(limit)
-        mysql_con_read = wikilanguages_utils.establish_mysql_connection_read(source_lang); mysql_cur_read = mysql_con_read.cursor()
+        mysql_con_read = wikilanguages_utils.establish_mysql_connection_read(source_lang);
         df = wikilanguages_utils.get_interwikilinks_articles(source_lang, target_langs, df, mysql_con_read)
 
 
         df = df.fillna('')
 
         if order_by == "none" or order_by == "None":
-            df = df.sort_values(by='lgbt_topic', ascending=False)
+            df = df.sort_values(by='medicine_topic', ascending=False)
         else:
             df = df.sort_values(by=order_by, ascending=False)
 
@@ -465,7 +418,7 @@ def dash_app19_build_layout(params):
 
             layout = html.Div([
                 navbar,
-                html.H3('LGBT+ Articles', style={'textAlign':'center'}),
+                html.H3('Medicine Articles', style={'textAlign':'center'}),
                 html.Br(),
 
                 dcc.Markdown(
@@ -551,7 +504,7 @@ def dash_app19_build_layout(params):
                 html.H5('Results'),
                 #dcc.Markdown(results_text.replace('  ', '')),
                 html.Br(),
-                html.H6('There are not results. Unfortunately this list is empty for this language.'),
+                html.H6('There are no results. Unfortunately this list is empty for this language.'),
 
                 footbar,
 
@@ -683,8 +636,8 @@ def dash_app19_build_layout(params):
                 elif col == 'Qitem':
                     df_row.append(html.A( rows['Qitem'], href='https://www.wikidata.org/wiki/'+rows['Qitem'], target="_blank", style={'text-decoration':'none'}))
 
-                elif col == 'LGBT Indicator':
-                    df_row.append(rows['LGBT Indicator'])
+                elif col == 'Medicine Indicator':
+                    df_row.append(rows['Medicine Indicator'])
 
                 else:
                     df_row.append(rows[col])
@@ -707,8 +660,7 @@ def dash_app19_build_layout(params):
 
 
         # RESULTS
-        title = 'LGBT+ Articles'
-        df1 = pd.DataFrame(df_list)
+        title = 'Medcine Articles'
         dash_app19.title = title+title_addenda
 
         # LAYOUT
@@ -906,14 +858,14 @@ component_ids_app19 =  ['source_lang','target_langs','topic','order_by','show_ga
 @dash_app19.callback(Output('url', 'search'),
               inputs=[Input(i, 'value') for i in component_ids_app19])
 def update_url_state(*values):
-#    print (values)
+
 
     if not isinstance(values[1], str):
         values = values[0],','.join(values[1]),values[2],values[3],values[4],values[5]
 
     state = urlencode(dict(zip(component_ids_app19, values)))
     return '?'+state
-#    return f'?{state}'
+
 
 # callback update page layout
 @dash_app19.callback(Output('page-content', 'children'),

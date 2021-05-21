@@ -11,13 +11,12 @@ import sys
 import re
 import csv
 # databases
-import MySQLdb as mdb, MySQLdb.cursors as mdb_cursors
+#import MySQLdb as mdb
 import sqlite3
 # requests and others
 import requests
 # data
 import pandas as pd
-import colour
 
 
 databases_path = '/srv/wcdo/databases/'
