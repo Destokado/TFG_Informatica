@@ -36,10 +36,12 @@ def serve_layout():
         navbar,
         html.H3(title, style={'textAlign': 'center'}),
         dcc.Markdown('''
-        This page shows stastistics and graphs that illustrate the gender gap in Wikipedia language editions Main Page, the most viewed page. 
+        This page shows stastistics and graphs that illustrate the gender gap in Wikipedia language editions Main Page, 
+        the most viewed page. 
         For a detailed analysis on the evolution of gender gap over time or the pageviews women articles receive, 
         you can check [Diversity Over Time](http://wcdo.wmflabs.org/diversity_over_time) and
-         [Last Month Pageviews](https://wcdo.wmflabs.org/last_month_pageviews/).
+         [Last Month Pageviews](https://wcdo.wmflabs.org/last_month_pageviews/). <br>NOTE: If the gender count is 0 for 
+         a selected Wikipedia in a given period of time, it won't appear in the graph.
         '''),
         dcc.Markdown('''* **What is the gender gap in the Main Page of specific groups of Wikipedia language 
     editions?**'''.replace('  ', '')),
@@ -82,7 +84,12 @@ def serve_layout():
 
 app.layout = serve_layout  # This updates the layout on page load. NOTE THAT IT DOESNT NEED serve_layout(), JUST serve_layout
 
-
+def newLegend(fig, newNames):
+    for item in newNames:
+        for i, elem in enumerate(fig.data[0].labels):
+            if elem == item:
+                fig.data[0].labels[i] = newNames[item]
+    return(fig)
 ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ###
 
 #### CALLBACKS ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ###
@@ -129,22 +136,26 @@ def update_barchart(langlist, startdate, enddate):
     print('Data')
     print(data)
     df = pd.DataFrame.from_records(data, columns=['Language', 'Gender', 'Count', 'Total'])
-    df = df.replace(gender_dict)  # Change the name from QXXX to Genderlabel
+   # df = df.replace(gender_dict)  # Change the name from QXXX to Genderlabel
     df['Percentage'] = round((df['Count'] / df['Total']) * 100, 2)
     print('Dataframe')
     print(df)
 
-    newfig = px.bar(df, x='Percentage', y='Language', color='Gender', orientation='h', barmode='stack', text='Count',
+    fig = px.bar(df, x='Percentage', y='Language', color='Gender', orientation='h', barmode='stack', text='Count',
                     width=700)
     display_time = datetime.datetime.utcfromtimestamp(get_last_data_update()).strftime("%-d %B, %Y at %H:%M UTC")
-    newfig.layout.title = 'Last data update: ' + display_time
-    newfig.update_layout(
+    fig.layout.title = 'Last data update: ' + display_time
+    fig.update_layout(
         xaxis=dict(
             title_text="Gender %",
             ticktext=["0%", "20%", "40%", "60%", "80%", "100%"],
             tickvals=[0, 20, 40, 60, 80, 100],
-            tickmode="array"))
-    return newfig
+            tickmode="array"),
+        legend=dict(
+            legend_title_text='Gender of the biographies linked at the Home Page'
+        ))
+    newLegendFig = newLegend(fig = fig, newNames = gender_dict)
+    return newLegendFig
 
 # if __name__ == '__main__':
 # app.run_server(debug=True)

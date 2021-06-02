@@ -382,7 +382,7 @@ def dash_app19_build_layout(params):
         # # PREPARE THE DATA
         df = df.rename(columns=columns_dict)
         # print (df.head(100))
-
+        print('THis is the DF for the map of gaps : \n {}'.format(df))
         columns_ = []
         for x in columns:
             columns_.append(columns_dict[x])
@@ -501,17 +501,17 @@ def dash_app19_build_layout(params):
                     df_row.append(date)
 
                 elif col == 'GeoCoordinates':
-                 df_row.append(#GoogleMaps
+                 # GoogleMaps
+                 df_row.append(
                     html.A(rows['GeoCoordinates'], href='https://www.google.com/maps/search/' + rows['GeoCoordinates'],
                            target="_blank",
                            style={'text-decoration': 'none'}))
-                 #df_row.append(#OpenStreetMaps
+                 # OpenStreetMaps
+                 #df_row.append(
                  #   html.A(rows['GeoCoordinates'], href='https://nominatim.openstreetmap.org/ui/search.html?q=' + rows['GeoCoordinates'],
                  #          target="_blank",
                  #          style={'text-decoration': 'none'}))
 
-                #LAT,LON
-               # df_row.append(rows['GeoCoordinates'])
                 elif col == 'Target Langs.':
                     z=0
                     for i,lang in enumerate(target_langs):
@@ -748,36 +748,11 @@ def build_columns_and_query(columns, limit, order_by, source_lang, target_langs,
         query += 'r.' + order_by + ', '
         columns = columns + [order_by]
     columns = columns + ['target_langs']
-    # ADD title of each target lang
-    for lang in target_langs:
-        query += '{}wiki.page_title as {}title, '.format(lang,lang)
-        columns = columns+[lang+'title']
     query += 'r.geocoordinates '
-
     query += ' FROM ' + source_lang + 'wiki r '
-    # LEFT JOIN IF GAPS
-    if show_gaps == 'one-gap-min' or show_gaps == 'only-gaps':
-        for lang in target_langs:
-            query += 'LEFT JOIN {}wiki ON r.qitem ={}wiki.qitem '.format(lang, lang)
-    # Inner JOIN if NO GAPS
-    if(show_gaps == 'no-gaps'):
-        for lang in target_langs:
-            query += 'INNER JOIN {}wiki ON r.qitem ={}wiki.qitem '.format(lang, lang)
 
     # WHERE
     query += 'WHERE r.geocoordinates IS NOT NULL  '
-    if show_gaps == 'one-gap-min' or show_gaps == 'only-gaps':
-        query += 'AND( '
-
-        for i, lang in enumerate(target_langs):
-            if i > 0:  # First iteration we dont add the AND/OR clause
-                if (show_gaps == 'one-gap-min'):
-                    query += ' OR '
-                elif (show_gaps == 'only-gaps'):
-                    query += ' AND '
-            query += lang + '.qitem IS NULL '
-
-        query += ') '
 
     if topic != "none" and topic != "None" and topic != "all":
 
