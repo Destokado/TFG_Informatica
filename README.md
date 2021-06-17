@@ -1,11 +1,9 @@
-# TFG_Informatica
-TODO:
-Guardar en BDD els counters+percent de l'article de la HomePage de cada dia per a cada versió linguistica amb un timestamp.
-Córrer l'script cada 6 hores i que ho guardi en una BD.
-Crear APP de dash que utilitzi aquesta BD per visualitzar un stacked barchart per veure totes
-Extra: Triar una llengua i veure evolucio en el temps
-Extra Extra: Fer-ho per als projectes germans
+LICENSE CC-BY-SH 3.0
+
+This project is an extension of the Wkipedia Diversity observatory: https://wdo.wmcloud.org/
+The results of my work can be seen at: https://wdo-dev.wmcloud.org/
+
+The code I developed is under src_viz. The code from src_data is added for context and readability of the scripts.
+To see the full project code, you can visit https://github.com/marcmiquel/WDO
 
 
-Triga molt, per tant haurem de fer threading.
-Fer que cada thread corri una versió linguistica diferent, i anar iterant a mesura que van acabant amb el patró consumer/producer.
